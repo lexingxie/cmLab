@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+<div class="container">
+
+
+<div class="row">
+
+<h3>Welcome!</h3>
+<p></p>
+
+<p>
+The Computational Media Lab at the ANU focus on computational problems for understanding online media and their  interactions with and among humans. <br />
+We develop core methods in machine learning and optimization, and use them to formulate and solve problems in multimedia undestanding and online behavior analysis. 
+</p>
+
+<p>
+</p>
+
+<p>
+A summary of recent news items appears here. 
+
+<li> news 1</li>
+<li> news 2</li>
+</p>
+
+
+</div>
+
+    <div class="row">
+        <div class="col-md-9">
+        {{ range first 10 .Data.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-3">
+        {{ partial "menu.html" . }}
+        </div>
+    </div>
+
+    </p>
+    <h3>Thanks</h3>
+        Acknowledgement to funding agencies, collaboration, etc?
+    <p>
+
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}
