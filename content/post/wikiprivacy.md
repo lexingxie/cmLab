@@ -13,7 +13,7 @@ tags:
 ---
 
 This is a post describing a recent research results or paper or event related to the lab. 
-It should start with a one-sentence summary, newspaper style.
+See post_template.md for a structure template and expected content. 
 
 <!--more-->
 

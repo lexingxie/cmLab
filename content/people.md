@@ -13,8 +13,9 @@ tags:
 
 #### Researchers
 
+list of researchers, with a picture, link, and very brief profile 
 
-
+<!--
 <img class='inset left' src='/img/lexing-coast.jpg' alt='Lexing' height='50px' border='0px' />
 [**Lexing Xie**][lexing]: associate professor, ANU computer science; machine learning group at NICTA. <br />
 *Projects:* predicting popularity on social media; 
@@ -47,21 +48,25 @@ _Before the ANU:_ University of Western Australia <br />
 _Projects:_ popularity prediction in social media <br />
 _Before the ANU:_ Southeast University, China <br />
 
+-->
 
 #### Collaborators
 
+<!--
 * [Manuel Cebrian][manuel], NICTA
 * Pascal van Hentenryck, University of Michigan
 * Young Lee, NICTA
 * Cheng Soon Ong, NICTA
 * Scott Sanner, Oregon State University
+-->
 
 #### Alumni
 
+<!--
 <img class='inset left' src='/img/qianyu.jpg' title='Qianyu' alt='student' height='100px' border='0px' />
 **Qianyu Zhang**: Honor Student, currently at Google <br />
 _Projects:_ predicting words from pictures<br />
-
+-->
 
 [lexing]:http://users.cecs.anu.edu.au/~xlx
 [honglin]:http://yuhonglin.github.io

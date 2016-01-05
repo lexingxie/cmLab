@@ -1,15 +1,15 @@
 ---
-title: "A Research Post"
-description: "a summary of the topic goes here"
-date: "2016-01-01"
+title: "The Popularity Phases of YouTube Videos"
+description: "we found that "
+date: "2015-06-01"
 draft: false
 categories:
-  - "example"
-  - "hello"
+  - "research"
+  - "paper"
 tags:
-  - "example"
-  - "hugo"
-  - "blog"
+  - "social"
+  - "popularity"
+  - "prediction"
 ---
 
 This is a post describing a recent research results or paper or event related to the lab. 
