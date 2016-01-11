@@ -42,15 +42,30 @@ An increasing prediction accuracy involves loss of privacy.
 |<img src="/img/privacy_loss/gender-aggr-basic-features.png" width="240" Hspace="10"> | <img src="/img/privacy_loss/new-entry-vs-fixed.png" width="320"> | <img src="/img/privacy_loss/exited-users-education-undergrads.png" width="240" Hspace="10"> |
 |:-:|:-:|:-:|
 | Static behavior analysis correlates with gender: **males** tend to edit more the content of Wikipedia articles, while **females** seem to concentrate more on the social interaction. | Privacy Loss over time to the "online breadcrumbs" left behind by users (<span style="color:red">red line</span>) compared to the Privacy Loss due to information learned from other users (<span style="color:blue">blue line</span>). | Privacy Loss occurs even for retired editors, who have been active prior to 2008 (<span style="color:blue">blue period</span>), but stopped contributing afterwards. <!--(<span style="color:red">red period</span>)--> |
-
+ 
 Resources
 --------------------
 
 Marian-Andrei Rizoiu, Lexing Xie, Tiberio Caetano and Manuel Cebrian. **Evolution of Privacy Loss on Wikipedia**, in *Proceedings International Conference on Web Search and Data Mining* (WSDM '16), San Francisco, USA, 2016. 
 
-Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Paper PDF + SI](/documents/papers/WSDM_2016_wikipedia.pdf) &nbsp;&nbsp;&nbsp; Talk slides
+| | |
+|---|---|
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1512.03523.pdf) &nbsp;&nbsp;&nbsp; Talk slides|
+|Data:  | [User edit behavior](http://goo.gl/Tx5SoI) (82MB) &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) (495MB) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) |
+|Bibtex: | |
+``` 
+@inproceedings{Rizoiu2016, 
+    address = {San Francisco, CA, USA},
+    author = {Rizoiu, Marian-Andrei and Xie, Lexing and Caetano, Tiberio and Cebrian, Manuel},
+    booktitle = {International Conference on Web Search and Data Mining},
+    doi = {10.1145/2835776.2835798},
+    keywords = {de-anonymization, online privacy, temporal loss of privacy},
+    title = {{Evolution of Privacy Loss on Wikipedia}},
+    year = {2016}
+} 
+```
 
-Data:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [User edit behavior](http://goo.gl/Tx5SoI) &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A)
+
 
 <br />
 <br />
