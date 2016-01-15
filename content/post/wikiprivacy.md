@@ -6,6 +6,7 @@ draft: false
 categories:
  - "research"
  - "paper"
+ - "data"
 tags:
  - "social"
  - "privacy"
@@ -14,10 +15,10 @@ tags:
 
 <img style="float: left;" src="/img/privacy_loss/wiki-privacy-icon.png" width="100" height="77" Hspace="10" Vspace="5">
 The digital traces left behind by the users in the online environment reveal more about them than they might like.
-*Off-the-shelf* machine learning algorithms can be used to uncover hidden links between an user's past activity and her private traits -- like gender, education level or religious views --, even for retired users.
+As our recent WSDM'16 paper shows, machine learning algorithms can be used to uncover hidden links between an user's past activity and her private traits -- like gender, education level or religious views --, even for retired users.
 <!--more-->
 
-Summary of the problem
+The problem
 -------------------------
 
 The cumulative effect of collective online participation has an important and adverse impact on individual privacy.
@@ -30,7 +31,7 @@ Surprisingly, the prediction performance for users who stopped editing after a g
 The activities performed by new users seem to have contributed more to this effect than additional activities from existing (but still active) users.
 Insights from this work should help users, system designers, and policy makers understand and make long-term design choices in online content creation systems.
 
-Summary of key results 
+Sample results 
 --------------------
 
 **Privacy Loss** is evaluated as the capability to predict hidden personal traits, based on simple past recorded activity (i.e. number of page edits within a given interval).
@@ -70,7 +71,7 @@ Marian-Andrei Rizoiu, Lexing Xie, Tiberio Caetano and Manuel Cebrian. **Evolutio
 <br />
 
 
-People's reaction on Twitter 
+Discussions on Twitter 
 ---
 
 {{< tweet 676523093901377536 >}} 

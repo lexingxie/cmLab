@@ -9,20 +9,20 @@ Here are a few dot points for building and updating the site.
 
 2. Navigate to the website source section of the repository, i.e. './cmLab/'
 
-3. Type 'hugo -b https://artofcomputing.cecs.anu.edu.au' to compile the site. A set of static htmls will appear in './public', or './cmLab/public/'.
+3. Type 'hugo -b http://cm.cecs.anu.edu.au' to compile the site. A set of static htmls will appear in './public', or './cmLab/public/'.
 
 4. 'cp -R ./public/* /var/www/artofcomputing/' to update the web with the new version. 
 
 Note: 
 
-* **[TO BE UPDATED]** You can use the enclosed "update_site.sh" script to complete pulling changes from repo, compiling, and copying as an all-in-one package  -- as an alternative to steps 3 and 4 above. 
+* You can use the enclosed "update_site.sh" script to complete pulling changes from repo, compiling, and copying as an all-in-one package  -- as an alternative to steps 3 and 4 above. 
 
 * You can also use the '-d /some/destination/directory' option to hugo to send the generated html directly to another location (e.g., the public www directory, or ../rendered).
 
 
 To update the looks/templates of this site:
 
-1. The homepage sits under ./layouts/index.html -- it contains a few hugo macros, and otherwise are plain html. 
+1. The homepage sits under ./layouts/index.html -- it contains a few hugo macros, otherwise is plain html. 
 
 2. Each page, or post, are undert ./content/ and written as markdown files (with front matter metadata plus content). Look at the examples there to see how to add one. They will appear on the homepage in reverse chronological order. To add a new page, do "hugo new schedule.md" (it won't let you do this one since schedule.md already exist, use some other name); to add a new post, do "hugo new post/another_post.md".
 
