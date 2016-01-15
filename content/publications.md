@@ -9,3 +9,4 @@ tags:
 ---
 
 ### content to be populated
+<script src="http://bibbase.org/show?bib=http%3A%2F%2Frizoiu.eu%2Fmybib.bib&jsonp=1"></script> 
