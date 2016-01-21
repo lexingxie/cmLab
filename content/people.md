@@ -15,40 +15,123 @@ tags:
 
 list of researchers, with a picture, link, and very brief profile 
 
-<!--
-<img class='inset left' src='/img/lexing-coast.jpg' alt='Lexing' height='50px' border='0px' />
-[**Lexing Xie**][lexing]: associate professor, ANU computer science; machine learning group at NICTA. <br />
-*Projects:* predicting popularity on social media; 
-[visual memes on YouTube](http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html);
-[a network of picture tags](http://users.cecs.anu.edu.au/~xlx/proj/tagnet); 
-[mapping the macrosopic structure of the event web](http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595).
-<br />
-*Before the ANU:* IBM T J Watson Research Center <br />
 
-<img class='inset left' src='/img/dongwoo.png' title='Dongwoo' height='50px' border='0px' />
-[**Dongwoo Kim**][dongwoo]: Research Fellow, ANU Computer Science<br />
-_Interests:_ Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science
- <br />
-_Projects:_  <br />
-_Before the ANU:_ KAIST <br />
+<table>
+<!--    First, the table head with photos and names.-->
+    <thead>
+        <tr>
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/lexing-100.jpg' title='Lexing' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx"> <big><big> <b>Lexing Xie</b> </big></big></a> <br/><br/> associate professor, ANU computer science; <br/> MLRG @ Data61
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/dongwoo-100.png' title='Dondwoo' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science 
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/andrei-100.png' title='Andrei' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>ORG @ Data61 
+            <th/>
+         </tr>
+     </thead>
+     
+     <tr> 
+<!--     second row, projects-->
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                predicting popularity on social media; 
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>; 
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>; 
+                <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>. 
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science  
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                predicting popularity on social media; 
+                <a target="_blank" href="https://www.nicta.com.au/category/research/optimisation/projects/human-dynamics/">Humany Dynamics</a>
+        <td/>
+    </tr>
+     
+    <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> IBM T J Watson Research Center
+        <th/>
+        
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> KAIST
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+           <b>Before the ANU:</b> University Lumière, Lyon.
+        <td/>
+     </tr>
+ </table>
+ 
+ <br/><br/>
 
-<img class='inset left' src='/img/andrei.png' title='Andrei' height='100px' border='0px' />
-**Alexander Mathews**: PhD Student, ANU <br />
-_Projects:_ multimedia analysis, visual semantics. <br />
-_Before the ANU:_ University of Western Australia <br />
+<!--second row of photos-->
 
-<img class='inset left' src='/img/alex.png' title='Alex' alt='PhD student' height='50px' border='0px' />
+<table>
+<!--    First, the table head with photos and names.-->
+    <thead>
+        <tr>
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/alex.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Alexander Mathews</b> </big></big> <br/><br/> PhD Student, ANU computer science 
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/honglin.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+            <th/>
+         </tr>
+     </thead>
+     
+     <tr> 
+<!--     second row, projects-->
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                multimedia analysis, visual semantics. 
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                popularity prediction in social media
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+        <td/>
+    </tr>
+     
+    <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> University of Western Australia
+        <th/>
+        
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> Southeast University, China
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+        <td/>
+     </tr>
+ </table>
+ 
+ <br/><br/>
 
-**Alexander Mathews**: PhD Student, ANU <br />
-_Projects:_ multimedia analysis, visual semantics. <br />
-_Before the ANU:_ University of Western Australia <br />
 
-<img class='inset left' src='/img/honglin.png' title='Honglin' alt='PhD student' height='100px' border='0px' />
-[**Honglin Yu**][honglin]: PhD, ANU Computer Science<br />
-_Projects:_ popularity prediction in social media <br />
-_Before the ANU:_ Southeast University, China <br />
-
--->
 
 #### Collaborators
 
@@ -68,9 +151,6 @@ _Before the ANU:_ Southeast University, China <br />
 _Projects:_ predicting words from pictures<br />
 -->
 
-[lexing]:http://users.cecs.anu.edu.au/~xlx
-[honglin]:http://yuhonglin.github.io
-[dongwoo]:http://arongdari.github.io/
 [manuel]:http://web.media.mit.edu/~cebrian
 
 
