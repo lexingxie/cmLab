@@ -85,7 +85,7 @@ list of researchers, with a picture, link, and very brief profile
         <tr>
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/alex.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b>Alexander Mathews</b> </big></big> <br/><br/> PhD Student, ANU computer science 
+                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science 
             <th/>
             
             <th style="width:33%;vertical-align:top">
@@ -102,7 +102,8 @@ list of researchers, with a picture, link, and very brief profile
 <!--     second row, projects-->
         <td style="width:33%;vertical-align:top">
             <b>Projects:</b> 
-                multimedia analysis, visual semantics. 
+                understanding object naming; generating image captions;
+                multimedia analysis; visual semantics
         <td/>
         
         <td style="width:33%;vertical-align:top">
@@ -117,7 +118,7 @@ list of researchers, with a picture, link, and very brief profile
     <tr>
 <!--    Third row, before the ANU-->
         <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> University of Western Australia
+            <b>Before the ANU:</b> The University of Western Australia
         <th/>
         
         <td style="width:33%;vertical-align:top">

@@ -7,3 +7,5 @@ rm -rf public
 hugo -b http://cm.cecs.anu.edu.au
 
 cp -R public/* ~/cmlab
+chmod -R o+rx ~/cmlab/*
+
