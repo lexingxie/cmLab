@@ -46,7 +46,7 @@ An increasing prediction accuracy involves loss of privacy.
 Resources
 --------------------
 
-Marian-Andrei Rizoiu, Lexing Xie, Tiberio Caetano and Manuel Cebrian. **Evolution of Privacy Loss on Wikipedia**, in *Proceedings International Conference on Web Search and Data Mining* (WSDM '16), San Francisco, USA, 2016. 
+[Marian-Andrei Rizoiu](http://www.rizoiu.eu), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Tiberio Caetano](http://tiberiocaetano.com/) and [Manuel Cebrian](http://web.media.mit.edu/~cebrian/). **Evolution of Privacy Loss on Wikipedia**, in *Proceedings International Conference on Web Search and Data Mining* (WSDM '16), San Francisco, USA, 2016. 
 
 | | |
 |---|---|
