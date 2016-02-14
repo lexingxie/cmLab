@@ -88,18 +88,18 @@ Our work is done by a diverse group of researchers with different research backg
     <thead>
         <tr>
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/alex.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <img style="float: left;" class='inset left' src='/img/alex-100.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
                 <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
             <th/>
             
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/honglin.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+                <img style="float: left;" class='inset left' src='/img/smishra-100.png' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
             <th/>
             
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/smishra.jpg' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
+                <img style="float: left;" class='inset left' src='/img/anila-100.png' title='Anila' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science 
             <th/>
          </tr>
      </thead>
@@ -113,11 +113,13 @@ Our work is done by a diverse group of researchers with different research backg
         <td/>
         
         <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                popularity prediction in social media, topic modeling
         <td/>
 
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
-                popularity prediction in social media, topic modeling
+           <b>Projects:</b> 
+                ontology modelling and mapping, semantic query and reasoning
         <td/>
         
     </tr>
@@ -129,10 +131,11 @@ Our work is done by a diverse group of researchers with different research backg
         <th/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
         <td/>
 
         <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
+            <b>Before the ANU:</b> National University of Science and Technology, Pakistan.
         <td/>
      </tr>
  </table>
@@ -141,7 +144,7 @@ Our work is done by a diverse group of researchers with different research backg
 
 
 
-#### Collaborators
+<!--#### Collaborators-->
 
 <!--
 * [Manuel Cebrian][manuel], NICTA
@@ -152,6 +155,30 @@ Our work is done by a diverse group of researchers with different research backg
 -->
 
 #### Alumni
+
+<table>
+<!--    First, the table head with photos and names.-->
+    <thead>
+        <tr>
+          
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/honglin-100.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honor Student, currently at Google
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+<!--                <img style="float: left;" class='inset left' src='/img/smishra.jpg' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> -->
+<!--                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)-->
+            <th/>
+         </tr>
+     </thead>
+     
+ </table>
 
 <!--
 
