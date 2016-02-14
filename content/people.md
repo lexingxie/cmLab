@@ -98,6 +98,8 @@ Our work is done by a diverse group of researchers with different research backg
             <th/>
             
             <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/smishra.jpg' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
             <th/>
          </tr>
      </thead>
@@ -112,6 +114,12 @@ Our work is done by a diverse group of researchers with different research backg
         
         <td style="width:33%;vertical-align:top">
         <td/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                popularity prediction in social media, topic modeling
+        <td/>
+        
     </tr>
      
     <tr>
@@ -119,8 +127,12 @@ Our work is done by a diverse group of researchers with different research backg
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> The University of Western Australia
         <th/>
-        
+
         <td style="width:33%;vertical-align:top">
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
         <td/>
      </tr>
  </table>
