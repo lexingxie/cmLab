@@ -9,11 +9,11 @@ tags:
   - "cm"
 ---
 
+Our work is done by a diverse group of researchers with different research background, technical skills, and cultural perspectives. 
+
 <!--more-->
 
 #### Researchers
-
-list of researchers, with a picture, link, and very brief profile 
 
 
 <table>
@@ -22,12 +22,16 @@ list of researchers, with a picture, link, and very brief profile
         <tr>
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/lexing-100.jpg' title='Lexing' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx"> <big><big> <b>Lexing Xie</b> </big></big></a> <br/><br/> associate professor, ANU computer science; <br/> MLRG @ Data61
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx"> 
+                    <big><big> <b>Lexing Xie</b> </big></big></a> 
+                    <br/> 
+                    associate professor, ANU computer science; <br/> machine learning and optimization, NICTA
+                    <a href=https://twitter.com/lexing>@lexing</a>
             <th/>
             
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/dongwoo-100.png' title='Dondwoo' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science 
+                <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
             <th/>
             
             <th style="width:33%;vertical-align:top">
@@ -85,7 +89,7 @@ list of researchers, with a picture, link, and very brief profile
         <tr>
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/alex.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science 
+                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
             <th/>
             
             <th style="width:33%;vertical-align:top">
@@ -107,11 +111,6 @@ list of researchers, with a picture, link, and very brief profile
         <td/>
         
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
-                popularity prediction in social media
-        <td/>
-        
-        <td style="width:33%;vertical-align:top">
         <td/>
     </tr>
      
@@ -120,10 +119,6 @@ list of researchers, with a picture, link, and very brief profile
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> The University of Western Australia
         <th/>
-        
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> Southeast University, China
-        <td/>
         
         <td style="width:33%;vertical-align:top">
         <td/>
@@ -147,6 +142,12 @@ list of researchers, with a picture, link, and very brief profile
 #### Alumni
 
 <!--
+
+<th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/honglin.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+<th/>
+
 <img class='inset left' src='/img/qianyu.jpg' title='Qianyu' alt='student' height='100px' border='0px' />
 **Qianyu Zhang**: Honor Student, currently at Google <br />
 _Projects:_ predicting words from pictures<br />

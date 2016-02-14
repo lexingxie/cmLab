@@ -2,7 +2,7 @@
 title: "A Research Post"
 description: "a summary of the topic goes here"
 date: "2016-01-01"
-draft: false
+draft: true
 categories:
   - "example"
   - "hello"

@@ -1,11 +1,13 @@
 ---
-title: "The Popularity Phases of YouTube Videos"
+title: "The Lifecycle of a YouTube Video and Popularity Phases"
 description: "we found that "
 date: "2015-06-01"
-draft: false
+draft: true
 categories:
   - "research"
   - "paper"
+  - "data"
+  - "code"
 tags:
   - "social"
   - "popularity"
