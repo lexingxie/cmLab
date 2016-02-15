@@ -142,6 +142,55 @@ Our work is done by a diverse group of researchers with different research backg
  
  <br/><br/>
 
+<!--third row of photos-->
+
+<table>
+<!--    First, the table head with photos and names.-->
+    <thead>
+        <tr>
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/dawei-100.png' title='Dawei' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Dawei Chen</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+            <th/>
+            
+            <th style="width:33%;vertical-align:top">
+            <th/>
+         </tr>
+     </thead>
+     
+     <tr> 
+<!--     second row, projects-->
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b> 
+                recommender system with active learning
+        <td/>
+        
+        <td style="width:33%;vertical-align:top">
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+        <td/>
+    </tr>
+     
+    <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> ICT, CAS
+        <th/>
+
+        <td style="width:33%;vertical-align:top">
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+        <td/>
+     </tr>
+ </table>
+ 
+ <br/><br/>
+
 
 
 <!--#### Collaborators-->
