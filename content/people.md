@@ -180,18 +180,6 @@ Our work is done by a diverse group of researchers with different research backg
      
  </table>
 
-<!--
-
-<th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/honglin.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
-<th/>
-
-<img class='inset left' src='/img/qianyu.jpg' title='Qianyu' alt='student' height='100px' border='0px' />
-**Qianyu Zhang**: Honor Student, currently at Google <br />
-_Projects:_ predicting words from pictures<br />
--->
-
 [manuel]:http://web.media.mit.edu/~cebrian
 
 
