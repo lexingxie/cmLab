@@ -6,6 +6,7 @@ draft: false
 categories:
   - "research"
   - "paper"
+  - "data"
 tags:
   - "deeplearning"
   - "vision"

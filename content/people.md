@@ -9,7 +9,7 @@ tags:
   - "cm"
 ---
 
-Our work is done by a diverse group of researchers with different research background, technical skills, and cultural perspectives. 
+We are a diverse group in terms of research interests and background, technical skills, and cultural perspectives. 
 
 <!--more-->
 
@@ -193,15 +193,16 @@ Our work is done by a diverse group of researchers with different research backg
 
 
 
-<!--#### Collaborators-->
+#### Collaborators and Friends
 
-<!--
-* [Manuel Cebrian][manuel], NICTA
+* Cheng Soon Ong, NICTA/Data61
+* Young Lee, NICTA/Data61
 * Pascal van Hentenryck, University of Michigan
-* Young Lee, NICTA
-* Cheng Soon Ong, NICTA
 * Scott Sanner, Oregon State University
--->
+* [Manuel Cebrian][manuel], NICTA
+
+
+<br/><br/>
 
 #### Alumni
 
@@ -212,19 +213,33 @@ Our work is done by a diverse group of researchers with different research backg
           
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/honglin-100.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
             <th/>
             
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honor Student, currently at Google
+                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
             <th/>
             
             <th style="width:33%;vertical-align:top">
-<!--                <img style="float: left;" class='inset left' src='/img/smishra.jpg' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> -->
-<!--                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)-->
             <th/>
          </tr>
+             <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Dissertation</b>: Understanding the Popularity Evolution of Online Media - A Case Study on YouTube Videos <br />
+            <b>Currently</b>: Research Fellow, ANU College of Business and Economics
+        <th/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
+            <b>Currently</b>: Software Engineer, Google
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+            
+        <td/>
+     </tr>
      </thead>
      
  </table>
