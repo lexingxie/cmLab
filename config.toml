@@ -2,4 +2,4 @@ baseurl = "http://cm.cecs.anu.edu.au/"
 languageCode = "en-us"
 title = "Computational Media Lab"
 canonifyurls = true
-disqusShortname = "avalanchesiqi"
+disqusShortname = "computationalmedia"
