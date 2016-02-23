@@ -22,7 +22,7 @@ We analyzed some data available from microsoft academic graph, in order to quant
 
 ### Volumes of papers, reference and citations
 
-We first plot (left figure below) the number of WSDM papers per year from 2008 to 2015, a total of 531 entries recognized by the [Microsoft Academic Graph][mag] -- called *MAG* hereafter. We can see that the number of published papers rose during 2011-2013, and decreased in 2014 and 2015. ACM digital library shows that [WSDM 2011 has 83 technical papers](http://dl.acm.org/citation.cfm?id=1935826&CFID=521540047&CFTOKEN=67996696) and [WSDM 2015 accepted 39 technical papers](http://dl.acm.org/citation.cfm?id=2684822&CFID=521540047&CFTOKEN=67996696), while the number of ACM DL entries is 64. Showing that the number of entries in the dataset seems higher than the actual number of technical papers, possibly including tutorials, keynote abstracts, and others writeups. 
+We first plot (left figure below) the number of WSDM papers per year from 2008 to 2015, a total of 531 entries recognized by the [Microsoft Academic Graph](http://research.microsoft.com/en-us/projects/mag/) -- called *MAG* hereafter. We can see that the number of published papers rose during 2011-2013, and decreased in 2014 and 2015. ACM digital library shows that [WSDM 2011 has 83 technical papers](http://dl.acm.org/citation.cfm?id=1935826&CFID=521540047&CFTOKEN=67996696) and [WSDM 2015 accepted 39 technical papers](http://dl.acm.org/citation.cfm?id=2684822&CFID=521540047&CFTOKEN=67996696), while the number of ACM DL entries is 64. Showing that the number of entries in the dataset seems higher than the actual number of technical papers, possibly including tutorials, keynote abstracts, and others writeups. 
 
 On the right we plot the average number of references for WSDM papers published in each year (in red), and the number of citations received for WSDM papers published in each year (in blue). We can see that the average number of references (between 10 and 25) seem lower than that of a typical technical paper -- this is reasonable given the inclusion of talk abstracts and other shorter writeups. 
 
@@ -77,13 +77,3 @@ Here is a breakdown of citations by year. Besides showing that WSDM papers in th
 <img src="/img/citations/wsdm_citation_year.png">
 
 We note that the [data availalbe on Academic Search about WSDM](http://academic.research.microsoft.com/Conference/2413/wsdm-web-search-and-data-mining) can be noisy and incomplete. Any inaccuracy in data analysis and presentation are the responsibility of the author. The code and [ipython notebooks](https://github.com/lexingxie/academic-graph/blob/master/plot_citations.ipynb) used for slicing the MAG and plotting is [on github](https://github.com/lexingxie/academic-graph). 
-
-<!--
-![paper](/img/citations/wsdm_paper_cnt.png)
-
-![cite](/img/citations/wsdm_citation_cnt.png)
-
-![ref](/img/citations/wsdm_ref_cnt.png)
--->
-
-[mag]:http://research.microsoft.com/en-us/projects/mag/
