@@ -1,7 +1,7 @@
 ---
 date: "2016-02-22"
 title: "Eight Years of WSDM: Increasing Influence and Diversifying Heritage"
-description: "We analyzed some data from microsoft academic graph to quantify the scientific heritage and citation impact of this conference."
+description: "We analyze data from microsoft academic graph to quantify the citation and reference patterns of this conference."
 draft: false
 categories:
   - "research"
