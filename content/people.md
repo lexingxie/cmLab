@@ -197,9 +197,11 @@ We are a diverse group in terms of research interests and background, technical 
 
 * Cheng Soon Ong, NICTA/Data61
 * Young Lee, NICTA/Data61
+* [Manuel Cebrian][manuel], NICTA/Data61
+* Xuming He, NICTA/Data61
 * Pascal van Hentenryck, University of Michigan
 * Scott Sanner, Oregon State University
-* [Manuel Cebrian][manuel], NICTA
+
 
 
 <br/><br/>
