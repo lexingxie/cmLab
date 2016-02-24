@@ -195,12 +195,12 @@ We are a diverse group in terms of research interests and background, technical 
 
 #### Collaborators and Friends
 
-* Cheng Soon Ong, NICTA/Data61
+* [Cheng Soon Ong](http://www.ong-home.my), NICTA/Data61
 * Young Lee, NICTA/Data61
-* [Manuel Cebrian][manuel], NICTA/Data61
+* [Manuel Cebrian][manuel], NICTA/Dataw61
 * Xuming He, NICTA/Data61
-* Pascal van Hentenryck, University of Michigan
-* Scott Sanner, Oregon State University
+* [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
+* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), Oregon State University
 
 
 
@@ -224,6 +224,8 @@ We are a diverse group in terms of research interests and background, technical 
             <th/>
             
             <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO1AAAAJDMwN2VmYmFhLThiZGEtNDBhYy1iOGEwLThkOTc0NGMzMTkyNw.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <big><big> <b>Yanxiang Wang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
             <th/>
          </tr>
              <tr>
@@ -239,7 +241,8 @@ We are a diverse group in terms of research interests and background, technical 
         <td/>
 
         <td style="width:33%;vertical-align:top">
-            
+            <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
+            <b>Currently</b>: Developer at Lonely Planet, StartMyGig
         <td/>
      </tr>
      </thead>

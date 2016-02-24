@@ -1,6 +1,6 @@
 ---
 title: "Evolution of Privacy Loss in Wikipedia"
-description: "your online traces tell who you are"
+description: "your online traces reveals who you are, more so over time"
 date: "2016-01-08"
 draft: false
 categories:

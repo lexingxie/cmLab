@@ -43,7 +43,7 @@ Lastly, we profile the references made in WSDM papers, a total of 11,334 entries
 We profile the 710 known venues that cite WSDM papers. 
 The directed graph below shows the top 25 venues by the number of citations made -- with papers from the WWW conference citing WSDM papers 399 times, SIGIR a close second with 391 citations, followed by WDSM itself, KDD, and CIKM. Further down the list was a number of journals, e.g. *Information Processing and Management*, *Expert Systems With Applications*, similar conferences in data mining (ICDM), web (WI) and social media (ICWSM).
 
-<img width=300 src="/img/citations/citeG.png">
+<img width=360 src="/img/citations/citeG.png">
 
 The heatmap below shows the citation patterns over different years (of WSDM paper that are being cited) for the top 50 venues. We can see a more diverse set of venues that were influenced by WSDM, from library sciences, database, AI, NLP and machine learning. 
 
@@ -61,7 +61,7 @@ The breakdown of reference venues by year is informative. It seems that WSDM pap
 
 The entry about "Clinical Orthopaedics and Related Research" is quite curious, possible data error?
 
-<img width=300 src="/img/citations/refG.png">
+<img width=360 src="/img/citations/refG.png">
 
 <img style="float: left;" width=820 src="/img/citations/wsdm_ref_venue_matrix.png">
 
