@@ -13,6 +13,8 @@ tags:
  - "online"
 ---
 
+##### posted by _Marian-Andrei Rizoiu_ <br />
+
 <img style="float: left;" src="/img/privacy_loss/wiki-privacy-icon.png" width="100" height="77" Hspace="10" Vspace="5">
 The digital traces left behind by the users in the online environment reveal more about them than they might like.
 As our recent WSDM'16 paper shows, machine learning algorithms can be used to uncover hidden links between an user's past activity and her private traits -- like gender, education level or religious views --, even for retired users.
@@ -50,7 +52,7 @@ Resources
 
 | | |
 |---|---|
-|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1512.03523.pdf) &nbsp;&nbsp;&nbsp; Talk slides|
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1512.03523.pdf) &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf) &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)|
 |Data:  | [User edit behavior](http://goo.gl/Tx5SoI) (82MB) &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) (495MB) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) |
 |Bibtex: | |
 ``` 
