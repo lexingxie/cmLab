@@ -18,6 +18,11 @@ tags:
 
 ### News archive
 
+* 2016-03 Lexing is elected as an IEEE CAS [Distinguished Lecturer](http://ieee-cas.org/2016-2017-distinguished-lecturer-roster) 2016-2017.
+
+* 2016-03 Andrei is featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
+
+* 2016-02 Our post on [citation patterns](http://cm.cecs.anu.edu.au/post/citation_analysis) fot featured at the [MSR Research News for WSDM'16](/img/wsdm_researchnews.png).
 
 <li>2016-02 The 2016 edition of "<a href="https://artofcomputing.cecs.anu.edu.au">The Art of Computing</a>" just started!</li>
 
