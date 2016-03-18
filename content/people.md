@@ -36,7 +36,7 @@ We are a diverse group in terms of research interests and background, technical 
             
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/andrei-100.png' title='Andrei' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>ORG @ Data61 
+                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>Data61 
             <th/>
          </tr>
      </thead>
@@ -89,7 +89,7 @@ We are a diverse group in terms of research interests and background, technical 
         <tr>
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/alex-100.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
+                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
             <th/>
             
             <th style="width:33%;vertical-align:top">
@@ -197,7 +197,7 @@ We are a diverse group in terms of research interests and background, technical 
 
 * [Cheng Soon Ong](http://www.ong-home.my), NICTA/Data61
 * Young Lee, NICTA/Data61
-* [Manuel Cebrian][manuel], NICTA/Dataw61
+* [Manuel Cebrian][manuel], NICTA/Data61
 * Xuming He, NICTA/Data61
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), Oregon State University
