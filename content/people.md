@@ -9,7 +9,7 @@ tags:
   - "cm"
 ---
 
-Our work is done by a diverse group of researchers with different research background, technical skills, and cultural perspectives. 
+We are a diverse group in terms of research interests and background, technical skills, and cultural perspectives.
 
 <!--more-->
 
@@ -21,64 +21,64 @@ Our work is done by a diverse group of researchers with different research backg
     <thead>
         <tr>
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/lexing-100.jpg' title='Lexing' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx"> 
-                    <big><big> <b>Lexing Xie</b> </big></big></a> 
-                    <br/> 
+                <img style="float: left;" class='inset left' src='/img/lexing-100.jpg' title='Lexing' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
+                    <big><big> <b>Lexing Xie</b> </big></big></a>
+                    <br/>
                     associate professor, ANU computer science; <br/> machine learning and optimization, NICTA
                     <a href=https://twitter.com/lexing>@lexing</a>
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/dongwoo-100.png' title='Dondwoo' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <img style="float: left;" class='inset left' src='/img/dongwoo-100.png' title='Dondwoo' height='100px' width='100px' Hspace="10" Vspace="0" />
                 <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/andrei-100.png' title='Andrei' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>ORG @ Data61 
+                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>Data61
             <th/>
          </tr>
      </thead>
-     
-     <tr> 
+
+     <tr>
 <!--     second row, projects-->
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
-                predicting popularity on social media; 
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>; 
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>; 
-                <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>. 
+            <b>Projects:</b>
+                predicting popularity on social media;
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>;
+                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>;
+                <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>.
         <td/>
-        
+
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
+            <b>Projects:</b>
                 Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science  
         <td/>
-        
+
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
-                predicting popularity on social media; 
+            <b>Projects:</b>
+                predicting popularity on social media;
                 <a target="_blank" href="https://www.nicta.com.au/category/research/optimisation/projects/human-dynamics/">Humany Dynamics</a>
         <td/>
     </tr>
-     
+
     <tr>
 <!--    Third row, before the ANU-->
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> IBM T J Watson Research Center
         <th/>
-        
+
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> KAIST
         <td/>
-        
+
         <td style="width:33%;vertical-align:top">
            <b>Before the ANU:</b> University Lumière, Lyon.
         <td/>
      </tr>
  </table>
- 
+
  <br/><br/>
 
 <!--second row of photos-->
@@ -88,42 +88,42 @@ Our work is done by a diverse group of researchers with different research backg
     <thead>
         <tr>
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/alex-100.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
+                <img style="float: left;" class='inset left' src='/img/alex-100.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/smishra-100.png' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <img style="float: left;" class='inset left' src='/img/smishra-100.png' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" />
                 <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/anila-100.png' title='Anila' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science 
+                <img style="float: left;" class='inset left' src='/img/anila-100.png' title='Anila' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
             <th/>
          </tr>
      </thead>
-     
-     <tr> 
+
+     <tr>
 <!--     second row, projects-->
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
+            <b>Projects:</b>
                 understanding object naming; generating image captions;
                 multimedia analysis; visual semantics
         <td/>
-        
+
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
+            <b>Projects:</b>
                 popularity prediction in social media, topic modeling
         <td/>
 
         <td style="width:33%;vertical-align:top">
-           <b>Projects:</b> 
+           <b>Projects:</b>
                 ontology modelling and mapping, semantic query and reasoning
         <td/>
-        
+
     </tr>
-     
+
     <tr>
 <!--    Third row, before the ANU-->
         <td style="width:33%;vertical-align:top">
@@ -139,7 +139,7 @@ Our work is done by a diverse group of researchers with different research backg
         <td/>
      </tr>
  </table>
- 
+
  <br/><br/>
 
 <!--third row of photos-->
@@ -149,32 +149,37 @@ Our work is done by a diverse group of researchers with different research backg
     <thead>
         <tr>
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/dawei-100.png' title='Dawei' height='100px' width='100px' Hspace="10" Vspace="0" /> 
+                <img style="float: left;" class='inset left' src='/img/dawei-100.png' title='Dawei' height='100px' width='100px' Hspace="10" Vspace="0" />
                 <big><big> <b>Dawei Chen</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/ssedhain-100.png' title='Suvash' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
             <th/>
          </tr>
      </thead>
-     
-     <tr> 
+
+     <tr>
 <!--     second row, projects-->
         <td style="width:33%;vertical-align:top">
-            <b>Projects:</b> 
+            <b>Projects:</b>
                 recommender system with active learning
         <td/>
-        
+
         <td style="width:33%;vertical-align:top">
+          <b>Projects:</b>
+              social recommendation; large scale recommender systems;
+              cold-start recommendation.
         <td/>
 
         <td style="width:33%;vertical-align:top">
         <td/>
     </tr>
-     
+
     <tr>
 <!--    Third row, before the ANU-->
         <td style="width:33%;vertical-align:top">
@@ -182,26 +187,31 @@ Our work is done by a diverse group of researchers with different research backg
         <th/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
+
         <td/>
 
         <td style="width:33%;vertical-align:top">
         <td/>
      </tr>
  </table>
- 
+
  <br/><br/>
 
 
 
-<!--#### Collaborators-->
+#### Collaborators and Friends
 
-<!--
-* [Manuel Cebrian][manuel], NICTA
-* Pascal van Hentenryck, University of Michigan
-* Young Lee, NICTA
-* Cheng Soon Ong, NICTA
-* Scott Sanner, Oregon State University
--->
+* [Cheng Soon Ong](http://www.ong-home.my), NICTA/Data61
+* Young Lee, NICTA/Data61
+* [Manuel Cebrian][manuel], NICTA/Data61
+* Xuming He, NICTA/Data61
+* [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
+* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), Oregon State University
+
+
+
+<br/><br/>
 
 #### Alumni
 
@@ -209,38 +219,41 @@ Our work is done by a diverse group of researchers with different research backg
 <!--    First, the table head with photos and names.-->
     <thead>
         <tr>
-          
+
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/honglin-100.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
+                <img style="float: left;" class='inset left' src='/img/honglin-100.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honor Student, currently at Google
+                <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
             <th/>
-            
+
             <th style="width:33%;vertical-align:top">
-<!--                <img style="float: left;" class='inset left' src='/img/smishra.jpg' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" /> -->
-<!--                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)-->
+                <img style="float: left;" class='inset left' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO1AAAAJDMwN2VmYmFhLThiZGEtNDBhYy1iOGEwLThkOTc0NGMzMTkyNw.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Yanxiang Wang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
             <th/>
          </tr>
+             <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Dissertation</b>: Understanding the Popularity Evolution of Online Media - A Case Study on YouTube Videos <br />
+            <b>Currently</b>: Research Fellow, ANU College of Business and Economics
+        <th/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
+            <b>Currently</b>: Software Engineer, Google
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
+            <b>Currently</b>: Developer at Lonely Planet, StartMyGig
+        <td/>
+     </tr>
      </thead>
-     
+
  </table>
 
-<!--
-
-<th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/honglin.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" /> 
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science 
-<th/>
-
-<img class='inset left' src='/img/qianyu.jpg' title='Qianyu' alt='student' height='100px' border='0px' />
-**Qianyu Zhang**: Honor Student, currently at Google <br />
-_Projects:_ predicting words from pictures<br />
--->
-
 [manuel]:http://web.media.mit.edu/~cebrian
-
-
