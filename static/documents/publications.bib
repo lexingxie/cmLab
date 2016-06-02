@@ -15,76 +15,84 @@
 }
 
 @inproceedings{mathews2016senticap,
-  title={SentiCap: Generating Image Descriptions with Sentiments},
+  title={{SentiCap: Generating Image Descriptions with Sentiments}},
   author={Mathews, Alexander and Xie, Lexing and He, Xuming},
   booktitle={Thirtieth {AAAI} Conference on Artificial Intelligence ({AAAI-16})},
   url_Abstract={http://arxiv.org/abs/1510.01431},
-  url_Paper={http://arxiv.org/pdf/1510.01431v2},
+  url_Paper={http://arxiv.org/pdf/1510.01431v2.pdf},
+  url_Slides={http://cm.cecs.anu.edu.au/documents/senticap_slides.pdf},
   address = {Phoenix, Arizona USA},
   year={2016}, 
-  abstract={The recent progress on image recognition and language modeling is making automatic description of image content a reality. However, stylized, non-factual aspects of the written description are missing from the current systems. One such style is descriptions with emotions, which is commonplace in everyday communication, and influences decision-making and interpersonal relationships. We design a system to describe an image with emotions, and present a model that automatically generates captions with positive or negative sentiments. We propose a novel switching recurrent neural network with word-level regularization, which is able to produce emotional image captions using only 2000+ training sentences containing sentiments. We evaluate the captions with different automatic and crowd-sourcing metrics. Our model compares favourably in common quality metrics for image captioning. In 84.6% of cases the generated positive captions were judged as being at least as descriptive as the factual captions. Of these positive captions 88% were confirmed by the crowd-sourced workers as having the appropriate sentiment.},
+  abstract={The recent progress on image recognition and language modeling is making automatic description of image content a reality. However, stylized, non-factual aspects of the written description are missing from the current systems. One such style is descriptions with emotions, which is commonplace in everyday communication, and influences decision-making and interpersonal relationships. We design a system to describe an image with emotions, and present a model that automatically generates captions with positive or negative sentiments. We propose a novel switching recurrent neural network with word-level regularization, which is able to produce emotional image captions using only 2000+ training sentences containing sentiments. We evaluate the captions with different automatic and crowd-sourcing metrics. Our model compares favourably in common quality metrics for image captioning. In 84.6\% of cases the generated positive captions were judged as being at least as descriptive as the factual captions. Of these positive captions 88\% were confirmed by the crowd-sourced workers as having the appropriate sentiment.},
 }
 
 
 @inproceedings{mathews2015captioning,
-    title={Captioning Images Using Different Styles},
+    title={{Captioning Images Using Different Styles}},
     author={Mathews, Alexander Patrick},
-    booktitle={Proceedings of the 23rd Annual ACM Conference on Multimedia Conference (Doctoral Symposium)},
+    booktitle={Proceedings of the 23rd Annual {ACM} Conference on Multimedia Conference (Doctoral Symposium)},
     pages={665--668},
     year={2015},
     organization={ACM},
+    abstract={I develop techniques that can be used to incorporate stylistic objectives into existing image captioning systems. Style is generally a very tricky concept to define, thus I concentrate on two specific components of style. First I develop a technique for predicting how people will name visual objects. I demonstrate that this technique could be used to generate captions with human like naming conventions. Full details are available in a recent publication. Second I outline a system for generating sentences which express a strong positive or negative sentiment. Finally I present two possible future directions which are aimed at modelling style more generally. These are learning to imitate an individuals captioning style and generating a diverse set of captions for a single image.},
+    url_Paper={http://cm.cecs.anu.edu.au/documents/mathews2015captioning.pdf}
 }
 
 @inproceedings{yu2015lifecyle,
-    title={The Lifecyle of a Youtube Video: Phases, Content and Popularity},
+    title={{The Lifecyle of a Youtube Video: Phases, Content and Popularity}},
     author={Yu, Honglin and Xie, Lexing and Sanner, Scott},
-    booktitle={Ninth International AAAI Conference on Web and Social Media},
+    booktitle={Ninth International {AAAI} Conference on Web and Social Media},
     pages={10pp},
     year={2015},
     abstract={This paper proposes a new representation to explain and predict popularity evolution in social media. Recent work on social networks has led to insights about the popularity of a digital item. For example, both the content and the network matters, and gaining early popularity is critical. However, these observations did not paint a full picture of popularity evolution; some open questions include: what kind of popularity trends exist among different types of videos, and will an unpopular video become popular? To this end, we propose a novel phase representation that extends the well-known endogenous growth and exogenous shock model (Crane and Sornette 2008). We further propose efficient algorithms to simultaneously estimate and segment power-law shaped phases from historical popularity data. With the extracted phases, we found that videos go through not one, but multiple stages of popularity increase or decrease over many months. On a dataset containing the 2-year history of over 172,000 YouTube videos, we observe that phases are directly related to content type and popularity change, e.g., nearly 3/4 of the top 5\% popular videos have 3 or more phases, more than 60\% news videos are dominated by one long power-law decay, and 75\% of videos that made a significant jump to become the most popular videos have been in increasing phases. Finally, we leverage this phase representation to predict future viewcount gain and found that using phase information reduces the average prediction error over the state-of-the-art for videos of all phase shapes.}, 
-    url_Paper={http://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/view/10537/10537},
+    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf},
     url_Slides = {http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-slides.pdf}, 
     url_Presentation_Page = {https://github.com/yuhonglin/ytphasedata}
 }
 
-
 @article{chen2015differential,
-    title={Differential topic models},
+    title={{Differential Topic Models}},
     author={Chen, Changyou and Buntine, Wray and Ding, Nan and Xie, Lexing and Du, Lan},
-    journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+    journal={{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
     volume={37},
     number={2},
     pages={230--242},
     year={2015},
     doi={10.1109/TPAMI.2014.2313127}, 
-    publisher={IEEE}
+    publisher={IEEE},
+    abstract={In applications we may want to compare different document collections: they could have shared content but also different and unique aspects in particular collections. This task has been called comparative text mining or cross-collection modeling. We present a differential topic model for this application that models both topic differences and similarities. For this we use hierarchical Bayesian nonparametric models. Moreover, we found it was important to properly model power-law phenomena in topic-word distributions and thus we used the full Pitman-Yor process rather than just a Dirichlet process. Furthermore, we propose the transformed Pitman-Yor process (TPYP) to incorporate prior knowledge such as vocabulary variations in different collections into the model. To deal with the non-conjugate issue between model prior and likelihood in the TPYP, we thus propose an efficient sampling algorithm using a data augmentation technique based on the multinomial theorem. Experimental results show the model discovers interesting aspects of different collections. We also show the proposed MCMC based algorithm achieves a dramatically reduced test perplexity compared to some existing topic models. Finally, we show our model outperforms the state-of-the-art for document classification/ideology prediction on a number of text collections.},
+    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/diffTM_PAMI.pdf}    
 }
 
 @inproceedings{mathews2015choosing,
-    title={Choosing Basic-Level Concept Names using Visual and Language Context},
+    title={{Choosing Basic-Level Concept Names using Visual and Language Context}},
     author={Mathews, Alexander and Xie, Lexing and He, Xuming},
     booktitle={Applications of Computer Vision (WACV), 2015 IEEE Winter Conference on},
     pages={595--602},
     year={2015},
-    organization={IEEE}
+    organization={IEEE},
+    abstract={We study basic-level categories for describing visual concepts, and empirically observe context-dependant basic level names across thousands of concepts. We propose methods for predicting basic-level names using a series of classification and ranking tasks, producing the first large scale catalogue of basic-level names for hundreds of thousands of images depicting thousands of visual concepts. We also demonstrate the usefulness of our method with a picture-to-word task, showing strong improvement over recent work by Ordonez et al, by modeling of both visual and language context. Our study suggests that a model for naming visual concepts is an important part of any automatic image/video captioning and visual story-telling system.},
+    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/wacv2015.pdf}    
 }
 
 @article{wangmodeling,
     author={Xiaohui Wang and Jia Jia and Jie Tang and Boya Wu and Lianhong Cai and Lexing Xie}, 
     journal={Affective Computing, IEEE Transactions on}, 
-    title={Modeling Emotion Influence in Image Social Networks}, 
+    title={{Modeling Emotion Influence in Image Social Networks}}, 
     year={2015}, 
     volume={6}, 
     number={3}, 
     pages={286-297}, 
     doi={10.1109/TAFFC.2015.2400917}, 
     ISSN={1949-3045}, 
-    month={July}
+    month={July},
+    abstract={We study emotion influence in large image social networks. We focus on users’ emotions reflected by images that they have uploaded and social influence that plays a role in changing users’ emotions. We first verify the existence of emotion influence in the image networks, and then propose a probabilistic factor graph based emotion influence model to answer the questions of "who influences whom". Employing a real network from Flickr as the basis in our empirical study, we evaluate the effectiveness of different factors in the proposed model with in-depth data analysis. The learned influence is fundamental for social network analysis and can be applied to many applications. We consider using the influence to help predict users’ emotions and our experiments can significantly improve the prediction accuracy (3.0\%-26.2\%) over several alternative methods such as Naive Bayesian, SVM (Support Vector Machine) or traditional Graph Model. We further examine the behavior of the emotion influence model, and find that more social interactions correlate with higher emotion influence between two users, and the influence of negative emotions is stronger than positive ones.},
+    url_Paper={https://www.computer.org/csdl/trans/ta/preprint/07035025.pdf}
 }
 
 @inproceedings{Yu:2014:TYV:2647868.2655037,
  author = {Yu, Honglin and Xie, Lexing and Sanner, Scott},
- title = {Twitter-driven YouTube Views: Beyond Individual Influencers},
+ title = {{Twitter-driven YouTube Views: Beyond Individual Influencers}},
  booktitle = {Proceedings of the 22Nd ACM International Conference on Multimedia},
  series = {MM '14},
  year = {2014},
@@ -98,11 +106,13 @@
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {popularity prediction, social media, twitter, youtube},
+ abstract={This paper proposes a novel method to predict increases in YouTube viewcount driven from the Twitter social network. Specifically, we aim to predict two types of viewcount increases: a sudden increase in viewcount (named as Jump), and the viewcount shortly after the upload of a new video (named as Early). Experiments on hundreds of thousands of videos and millions of tweets show that Twitter-derived features alone can predict whether a video will be in the top 5\% for Early popularity with 0.7 Precision@100. Furthermore, our results reveal that while individual influence is indeed important for predicting how Twitter drives YouTube views, it is a diversity of interest from the most active to the least active Twitter users mentioning a video (measured by the variation in their total activity) that is most informative for both Jump and Early prediction. In summary, by going beyond features that quantify individual influence and additionally leveraging collective features of activity variation, we are able to obtain an effective cross-network predictor of Twitter-driven YouTube views.},
+ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf}
 } 
 
 @inproceedings{Sedhain:2014:SCF:2645710.2645772,
  author = {Sedhain, Suvash and Sanner, Scott and Braziunas, Darius and Xie, Lexing and Christensen, Jordan},
- title = {Social Collaborative Filtering for Cold-start Recommendations},
+ title = {{Social Collaborative Filtering for Cold-start Recommendations}},
  booktitle = {Proceedings of the 8th ACM Conference on Recommender Systems},
  series = {RecSys '14},
  year = {2014},
@@ -116,12 +126,14 @@
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {cold-start problem, recommender systems},
+ abstract={We examine the cold-start recommendation task in an online retail setting for users who have not yet purchased (or interacted in a meaningful way with) any available items but who have granted access to limited side information, such as basic demographic data (gender, age, location) or social network information (Facebook friends or page likes). We formalize neighborhood-based methods for cold-start collaborative filtering in a generalized matrix algebra framework that does not require purchase data for target users when their side information is available. In real-data experiments with 30,000 users who purchased 80,000+ books and had 9,000,000+ Facebook friends and 6,000,000+ page likes, we show that using Facebook page likes for cold-start recommendation yields up to a 3-fold improvement in mean average precision (mAP) and up to 6-fold improvements in Precision@k and Recall@k compared to most-popular-item, demographic, and Facebook friend cold-start recommenders. These results demonstrate the substantial predictive power of social network content, and its significant utility in a challenging problem - recommendation for cold-start users.},
+ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/recsys14.pdf}
 } 
 
 @ARTICLE{xie04mmhard, 
 author={Lexing Xie and Shamma, D.A. and Snoek, C.}, 
 journal={MultiMedia, IEEE}, 
-title={Content is Dead ... Long Live Content: The New Age of Multimedia-Hard Problems}, 
+title={{Content is Dead ... Long Live Content: The New Age of Multimedia-Hard Problems}}, 
 year={2014}, 
 volume={21}, 
 number={1}, 
@@ -135,7 +147,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
 
 @article{Wang:2014:BCM:2656131.2611388,
  author = {Wang, Zhiyu and Cui, Peng and Xie, Lexing and Zhu, Wenwu and Rui, Yong and Yang, Shiqiang},
- title = {Bilateral Correspondence Model for Words-and-Pictures Association in Multimedia-Rich Microblogs},
+ title = {{Bilateral Correspondence Model for Words-and-Pictures Association in Multimedia-Rich Microblogs}},
  journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
  issue_date = {June 2014},
  volume = {10},
@@ -152,12 +164,14 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {Social media, image analysis, topic models},
+ abstract={Nowadays, the amount of multimedia contents in microblogs is growing significantly. More than 20\% of microblogs link to a picture or video in certain large systems. The rich semantics in microblogs provides an opportunity to endow images with higher-level semantics beyond object labels. However, this raises new challenges for understanding the association between multimodal multimedia contents in multimedia-rich microblogs. Disobeying the fundamental assumptions of traditional annotation, tagging, and retrieval systems, pictures and words in multimedia-rich microblogs are loosely associated and a correspondence between pictures and words cannot be established. To address the aforementioned challenges, we present the first study analyzing and modeling the associations between multimodal contents in microblog streams, aiming to discover multimodal topics from microblogs by establishing correspondences between pictures and words in microblogs. We first use a data-driven approach to analyze the new characteristics of the words, pictures, and their association types in microblogs. We then propose a novel generative model called the Bilateral Correspondence Latent Dirichlet Allocation (BC-LDA) model. Our BC-LDA model can assign flexible associations between pictures and words and is able to not only allow picture-word co-occurrence with bilateral directions, but also single modal association. This flexible association can best fit the data distribution, so that the model can discover various types of joint topics and generate pictures and words with the topics accordingly. We evaluate this model extensively on a large-scale real multimedia-rich microblogs dataset. We demonstrate the advantages of the proposed model in several application scenarios, including image tagging, text illustration, and topic discovery. The experimental results demonstrate that our proposed model can significantly and consistently outperform traditional approaches.},
+ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/tomm-bclda.pdf}
 } 
 
 
 @article{Liu:2014:SAI:2665935.2645643,
  author = {Liu, Yong-Jin and Ma, Cui-Xia and Fu, Qiufang and Fu, Xiaolan and Qin, Sheng-Feng and Xie, Lexing},
- title = {A Sketch-Based Approach for Interactive Organization of Video Clips},
+ title = {{A Sketch-Based Approach for Interactive Organization of Video Clips}},
  journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
  issue_date = {August 2014},
  volume = {11},
@@ -174,11 +188,13 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {Sketching interface, context-aware recommendation, sketch annotation, video organization},
+ abstract={With the rapid growth of video resources, techniques for efficient organization of video clips are becoming appealing in the multimedia domain. In this article, a sketch-based approach is proposed to intuitively organize video clips by: (1) enhancing their narrations using sketch annotations and (2) structurizing the organization process by gesture-based free-form sketching on touch devices. There are two main contributions of this work. The first is a sketch graph, a novel representation for the narrative structure of video clips to facilitate content organization. The second is a method to perform context-aware sketch recommendation scalable to large video collections, enabling common users to easily organize sketch annotations. A prototype system integrating the proposed approach was evaluated on the basis of five different aspects concerning its performance and usability. Two sketch searching experiments showed that the proposed context-aware sketch recommendation outperforms, in terms of accuracy and scalability, two state-of-the-art sketch searching methods. Moreover, a user study showed that the sketch graph is consistently preferred over traditional representations such as keywords and keyframes. The second user study showed that the proposed approach is applicable in those scenarios where the video annotator and organizer were the same person. The third user study showed that, for video content organization, using sketch graph users took on average 1/3 less time than using a mass-market tool Movie Maker and took on average 1/4 less time than using a state-of-the-art sketch alternative. These results demonstrated that the proposed sketch graph approach is a promising video organization tool.},
+ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TOMM14-sketch.pdf}
 } 
 
 @inproceedings{Xie:2013:PTW:2502081.2502113,
  author = {Xie, Lexing and He, Xuming},
- title = {Picture Tags and World Knowledge: Learning Tag Relations from Visual Semantic Sources},
+ title = {{Picture Tags and World Knowledge: Learning Tag Relations from Visual Semantic Sources}},
  booktitle = {Proceedings of the 21st ACM International Conference on Multimedia},
  series = {MM '13},
  year = {2013},
@@ -200,7 +216,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
 
 @inproceedings{Sedhain:2013:SAF:2512938.2512947,
  author = {Sedhain, Suvash and Sanner, Scott and Xie, Lexing and Kidd, Riley and Tran, Khoi-Nguyen and Christen, Peter},
- title = {Social Affinity Filtering: Recommendation Through Fine-grained Analysis of User Interactions and Activities},
+ title = {{Social Affinity Filtering: Recommendation Through Fine-grained Analysis of User Interactions and Activities}},
  booktitle = {Proceedings of the First ACM Conference on Online Social Networks},
  series = {COSN '13},
  year = {2013},
@@ -214,14 +230,286 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  publisher = {ACM},
  address = {New York, NY, USA},
  keywords = {collaborative filtering, recommender systems, social networks},
+ abstract={Content recommendation in social networks poses the complex problem of learning user preferences from a rich and complex set of interactions (e.g., likes, comments and tags for posts, photos and videos) and activities (e.g., favourites, group memberships, interests). While many social collaborative filtering approaches learn from aggregate statistics over this social information, we show that only a small subset of user interactions and activities are actually useful for social recommendation, hence learning which of these are most informative is of critical importance. To this end, we define a novel social collaborative filtering approach termed social affinity filtering (SAF). On a preference dataset of Facebook users and their interactions with 37,000+ friends collected over a four month period, SAF learns which fine-grained interactions and activities are informative and outperforms state-of-the-art (social) collaborative filtering methods by over 6\% in prediction accuracy; SAF also exhibits strong cold-start performance. In addition, we analyse various aspects of fine-grained social features and show (among many insights) that interactions on video content are more informative than other modalities (e.g., photos), the most informative activity groups tend to have small memberships, and features corresponding to “long-tailed” content (e.g., music and books) can be much more predictive than those with fewer choices (e.g., interests and sports). In summary, this work demonstrates the substantial predictive power of fine-grained social features and the novel method of SAF to leverage them for state-of-the-art social recommendation.},
+ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/COSN2013.pdf}
 } 
 
 @article{41769,
-title = {Tracking Large-Scale Video Remix in Real-World Events},
-author  = {Lexing Xie and Apostol Natsev and Xuming He and John R. Kender and Matthew L. Hill and John R. Smith},
+title = {{Tracking Large-Scale Video Remix in Real-World Events}},
+author = {Lexing Xie and Apostol Natsev and Xuming He and John R. Kender and Matthew L. Hill and John R. Smith},
 year  = 2013,
 journal = {IEEE Transactions on Multimedia},
 pages = {1244-1254},
 volume  = {15, no. 6}, 
 doi={10.1109/TMM.2013.2264929},
+abstract={Content sharing networks, such as YouTube, contain traces of both explicit online interactions (such as likes, comments, or subscriptions), as well as latent interactions (such as quoting, or remixing, parts of a video). We propose visual memes, or frequently re-posted short video segments, for detecting and monitoring such latent video interactions at scale. Visual memes are extracted by scalable detection algorithms that we develop, with high accuracy. We further augment visual memes with text, via a statistical model of latent topics. We model content interactions on YouTube with visual memes, defining several measures of influence and building predictive models for meme popularity. Experiments are carried out with over 2 million video shots from more than 40,000 videos on two prominent news events in 2009: the election in Iran and the swine flu epidemic. In these two events, a high percentage of videos contain remixed content, and it is apparent that traditional news media and citizen journalists have different roles in disseminating remixed content. We perform two quantitative evaluations for annotating visual memes and predicting their popularity. The proposed joint statistical model of visual memes and words outperforms an alternative concurrence model, with an average error of 2\% for predicting meme volume and 17\% for predicting meme lifespan.},
+url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TMM-youtube.pdf}
+}
+
+@inproceedings{butt2013activeraul,
+  title={{ActiveRaUL: A Web Form-based User Interface to Create and Maintain RDF Data}},
+  author={Butt, Anila Sahar and Haller, Armin and Liu, Shepherd and Xie, Lexing},
+  booktitle={Proceedings of the 2013th International Conference on Posters \& Demonstrations Track-Volume 1035},
+  pages={117--120},
+  year={2013},
+  organization={CEUR-WS. org},
+  abstract={With the advent of Linked Data the amount of automatically generated machine-readable data on the Web, often obtained by means of mapping relational data to RDF, has risen significantly. However, manually created, quality-assured and crowd-sourced data based on ontologies is not available in the quantities that would realise the full potential of the semantic Web. One of the barriers for semantic Web novices to create machine-readable data, is the lack of easy-to-use Web publishing tools that separate the schema modelling from the data creation. In this demonstration we present ActiveRaUL, a Web service that supports the automatic generation of Web formbased user interfaces from any input ontology. The resulting Web forms are unique in supporting users, inexperienced in semantic Web technologies, to create and maintain RDF data modelled according to an ontology. We report on a use case based on the Sensor Network Ontology that supports the viability of our approach.},
+  url_Paper={http://ceur-ws.org/Vol-1035/iswc2013_demo_30.pdf}
+}
+
+@inproceedings{mehrotra2013improving,
+  title={{Improving LDA Topic Models for Microblogs via Tweet Pooling and Automatic Labeling}},
+  author={Mehrotra, Rishabh and Sanner, Scott and Buntine, Wray and Xie, Lexing},
+  booktitle={Proceedings of the 36th international ACM SIGIR conference on Research and development in information retrieval},
+  pages={889--892},
+  year={2013},
+  organization={ACM},
+  abstract={Twitter, or the world of 140 characters poses serious challenges to the efficacy of topic models on short, messy text. While topic models such as Latent Dirichlet Allocation (LDA) have a long history of successful application to news articles and academic abstracts, they are often less coherent when applied to microblog content like Twitter. In this paper, we investigate methods to improve topics learned from Twitter content without modifying the basic machinery of LDA; we achieve this through various pooling schemes that aggregate tweets in a data preprocessing step for LDA. We empirically establish that a novel method of tweet pooling by hashtags leads to a vast improvement in a variety of measures for topic coherence across three diverse Twitter datasets in comparison to an unmodified LDA baseline and a variety of pooling schemes. An additional contribution of automatic hashtag labeling further improves on the hashtag pooling results for a subset of metrics. Overall, these two novel schemes lead to significantly improved LDA topic models on Twitter content.},
+  url_Paper={http://users.rsise.anu.edu.au/~ssanner/Papers/sigir13.pdf}
+}
+
+@article{wu2013scalable,
+  title={{Scalable Mobile Video Retrieval with Sparse Projection Learning and Pseudo Label Mining}},
+  author={Wu, Guan-Long and Kuo, Yin-Hsi and Chiu, Tzu-Hsuan and Hsu, Winston H and Xie, Lexing},
+  journal={MultiMedia, IEEE},
+  volume={20},
+  number={3},
+  pages={47--57},
+  year={2013},
+  publisher={IEEE},
+  abstract={Retrieving relevant videos from a large corpus on mobile devices is a vital challenge. This article addresses two key issues for mobile search on user-generated videos. The first is the lack of good relevance measurement for learning semantically rich representations, due to the unconstrained nature of online videos. The second is the limited resources on mobile devices, stringent bandwidth, and delay requirement between the device and video server. The authors propose a knowledge-embedded sparse projection learning approach. To alleviate the need for expensive annotation in hash learning, they investigate varying approaches for pseudo label mining, where explicit semantic analysis leverages Wikipedia. In addition, they propose a novel sparse projection method to address the efficiency challenge by learning a discriminative compact representation that drastically reduces transmission costs. With less than 10 percent nonzero elements in the projection matrix, it also reduces computational and storage costs. The experimental results on 100,000 videos show that the proposed algorithm yields performance competitive with the prior state-of-the-art hashing methods, which are not applicable for mobiles and solely rely on costly manual annotations. The average query time for 100,000 videos was only 0.592 seconds.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/wu13scalable.pdf}
+}
+
+@article{liang2013optimal,
+  title={{Optimal-Scaling-Factor Assignment for Patch-wise Image Retargeting}},
+  author={Liang, Yun and Liu, Yong-Jin and Luo, Xiao-Nan and Xie, Lexing and Fu, Xiaolan},
+  journal={Computer Graphics and Applications, IEEE},
+  volume={33},
+  number={5},
+  pages={68--78},
+  year={2013},
+  publisher={IEEE},
+  abstract={Image retargeting adjusts images to arbitrary sizes such that they can be viewed on different displays. Content-aware image retargeting has been receiving increased attention. In particular, researchers have improved a patch-wise scaling method for image retargeting at the object level. The scaling partitions the image into rectangular patches of adaptive sizes, which are comparable to the sizes of the salient objects in the image. This partitioning is based on a visual-saliency map; accordingly, the method labels the patches as important or unimportant. Then, the method scales the important patches as uniformly as possible and stretches or squeezes the unimportant patches to fit the target size. A patch-based image-similarity measure finds the optimal set of scaling factors. In experiments, the improved method performed well for three image types: lines and edges, foreground objects, and geometric structures.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/CGA-2013.pdf}
+}
+
+@article{ji2013learning,
+  title={{Learning to Distribute Vocabulary Indexing for Scalable Visual Search}},
+  author={Ji, Rongrong and Duan, Ling-Yu and Chen, Jie and Xie, Lexing and Yao, Hongxun and Gao, Wen},
+  journal={Multimedia, IEEE Transactions on},
+  volume={15},
+  number={1},
+  pages={153--166},
+  year={2013},
+  publisher={IEEE},
+  abstract={In recent years, there is an ever-increasing research focus on Bag-of-Words based near duplicate visual search paradigm with inverted indexing. One fundamental yet unexploited challenge is how to maintain the large indexing structures within a single server subject to its memory constraint, which is extremely hard to scale up to millions or even billions of images. In this paper, we propose to parallelize the near duplicate visual search architecture to index millions of images over multiple servers, including the distribution of both visual vocabulary and the corresponding indexing structure. We optimize the distribution of vocabulary indexing from a machine learning perspective, which provides a “memory light” search paradigm that leverages the computational power across multiple servers to reduce the search latency. Especially, our solution addresses two essential issues: “What to distribute” and “How to distribute”. “What to distribute” is addressed by a “lossy” vocabulary Boosting, which discards both frequent and indiscriminating words prior to distribution. “How to distribute” is addressed by learning an optimal distribution function, which maximizes the uniformity of assigning the words of a given query to multiple servers. We validate the distributed vocabulary indexing scheme in a real world location search system over 10 million landmark images. Comparing to the state-of-the-art alternatives of single-server search (5), (6), (16) and distributed search (23), our scheme has yielded a significant gain of about 200\% speedup at comparable precision by distributing only 5\% words. We also report excellent robustness even when partial servers crash.},
+  url_Paper={http://cm.cecs.anu.edu.au/documents/ji2013learning.pdf}
+}
+
+@inproceedings{wang2012social,
+  title={{Social Event Detection with Interaction Graph Modeling}},
+  author={Wang, Yanxiang and Sundaram, Hari and Xie, Lexing},
+  booktitle={Proceedings of the 20th ACM international conference on Multimedia},
+  pages={865--868},
+  year={2012},
+  organization={ACM},
+  abstract={This paper focuses on detecting social, physical-world events from photos posted on social media sites. The problem is important: cheap media capture devices have significantly increased the number of photos shared on these sites. The main contribution of this paper is to incorporate online social interaction features in the detection of physical events. We believe that online social interaction reflect important signals among the participants on the "social affinity" of two photos, thereby helping event detection. We compute social affinity via a random-walk on a social interaction graph to determine similarity between two photos on the graph. We train a support vector machine classifier to combine the social affinity between photos and photo-centric metadata including time, location, tags and description. Incremental clustering is then used to group photos to event clusters. We have very good results on two large scale real-world datasets: Upcoming and MediaEval. We show an improvement between 0.06-0.10 in F1 on these datasets.},
+  url_Paper={http://arxiv.org/pdf/1208.2547v1.pdf}
+}
+
+@article{sundaram2012multimedia,
+  title={{Multimedia Semantics: Interactions between Content and Community}},
+  author={Sundaram, Hari and Xie, Lexing and De Choudhury, Munmun and Lin, Yu-Ru and Natsev, Apostol},
+  journal={Proceedings of the IEEE},
+  volume={100},
+  number={9},
+  pages={2737--2758},
+  year={2012},
+  publisher={IEEE},
+  abstract={This paper reviews the state of the art and some emerging issues in research areas related to pattern analysis and monitoring of web-based social communities. This research area is important for several reasons. First, the presence of near-ubiquitous low-cost computing and communication technologies has enabled people to access and share information at an unprecedented scale. The scale of the data necessitates new research for making sense of such content. Furthermore, popular websites with sophisticated media sharing and notification features allow users to stay in touch with friends and loved ones; these sites also help to form explicit and implicit social groups. These social groups are an important source of information to organize and to manage multimedia data. In this article, we study how media-rich social networks provide additional insight into familiar multimedia research problems, including tagging and video ranking. In particular, we advance the idea that the contextual and social aspects of media are as important for successful multimedia applications as is the media content. We examine the inter-relationship between content and social context through the prism of three key questions. First, how do we extract the context in which social interactions occur? Second, does social interaction provide value to the media object? Finally, how do social media facilitate the repurposing of shared content and engender cultural memes? We present three case studies to examine these questions in detail. In the first case study, we show how to discover structure latent in the social media data, and use the discovered structure to organize Flickr photo streams. In the second case study, we discuss how to determine the interestingness of conversations—and of participants—around videos uploaded to YouTube. Finally, we show how the analysis of visual content, in particular tracing of content remixes, can help us understand the relationship among YouTube p- rticipants. For each case, we present an overview of recent work and review the state of the art. We also discuss two emerging issues related to the analysis of social networks—robust data sampling and scalable data analysis.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/pieee-2012.pdf}
+}
+
+@article{kavanaugh2012social,
+  title={{Social Media Use by Government: From the Routine to The Critical}},
+  author={Kavanaugh, Andrea L and Fox, Edward A and Sheetz, Steven D and Yang, Seungwon and Li, Lin Tzy and Shoemaker, Donald J and Natsev, Apostol and Xie, Lexing},
+  journal={Government Information Quarterly},
+  volume={29},
+  number={4},
+  pages={480--491},
+  year={2012},
+  publisher={Elsevier},
+  abstract={Social media and online services with user-generated content (e.g., Twitter, Facebook, Flickr, YouTube) have made a staggering amount of information (and misinformation) available. Government officials seek to leverage these resources to improve services and communication with citizens. Significant potential exists to identify issues in real time, so emergency managers can monitor and respond to issues concerning public safety. Yet, the sheer volume of social data streams generates substantial noise that must be filtered in order to detect meaningful patterns and trends. Important events can then be identified as spikes in activity, while event meaning and consequences can be deciphered by tracking changes in content and public sentiment. This paper presents findings from a exploratory study we conducted between June and December 2010 with government officials in Arlington, VA (and the greater National Capitol Region around Washington, D.C.), with the broad goal of understanding social media use by government officials as well as community organizations, businesses, and the public at large. A key objective was also to understand social media use specifically for managing crisis situations from the routine (e.g., traffic, weather crises) to the critical (e.g., earthquakes, floods).},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/GIQ2012.pdf}
+}
+
+@inproceedings{kim2012event,
+  title={{Event Diffusion Patterns in Social Media}},
+  author={Kim, Minkyoung and Xie, Lexing and Christen, Peter and others},
+  booktitle={ICWSM},
+  year={2012},
+  abstract={This study focuses on real-world events and their reflections on the continuous stream of online discussions. Studying event diffusion on social media is important, as this will tell us how a significant event (such as a natural disaster) spreads and evolves interacting with other events, and who has helped spreading the event. Tracking an ever-changing list of often unanticipated events is difficult, and most prior work has focused on specific event derivatives such as quotes or user-generated tags. In this paper, we propose a method for identifying real-world events on social media, and present observations about event diffusion patterns across diverse media types such as news, blogs, and social networking sites. We first construct an event registry based on the Wikipedia portal of global news events, and we represent each real-world event with entities that embody the 5W1H (e.g., organization, person name, place) used in news coverage. We then label each web document with the list of identified events based on entity similarity between them. We analyze the ICWSM’11 Spinn3r dataset containing over 60 million English documents. We observe surprising connections among the 161 events it covers, and that over half (55\%) of users only link to a small fraction of prolific users (4\%), a notable departure from the balanced traditional bow-tie model of web content.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/icwsm12-event.pdf}
+}
+
+@inproceedings{xie2012media,
+  title={{Media Lifecycle and Content Analysis in Social Media Communities}},
+  author={Xie, Lexing and Sundaram, Hari},
+  booktitle={Multimedia and Expo (ICME), 2012 IEEE International Conference on},
+  pages={55--60},
+  year={2012},
+  organization={IEEE},
+  abstract={This paper examines the role of content analysis in media-rich online communities. We highlight changes in the multimedia generation and consumption process that has occurred the past decade, and discuss several new angles this has brought to multimedia analysis research. We first examine the content production, dissemination and consumption patterns in the recent social media studies literature. We then propose an updated conceptual summary of media lifecycle from a previous research column (6) by Chang. We present an update list of impact criteria and challenge areas for multimedia content analysis. Among the three criteria, two are existing but with new problems and solutions, one is new as a results of the communitydriven content lifecycle. We present three case studies that addresses the impact criteria, and conclude with an outlook for emerging problems.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/icme2012.pdf}
+}
+
+@inproceedings{noel2012new,
+  title={{New Objective Functions for Social Collaborative Filtering}},
+  author={Noel, Joseph and Sanner, Scott and Tran, Khoi-Nguyen and Christen, Peter and Xie, Lexing and Bonilla, Edwin V and Abbasnejad, Ehsan and Della Penna, Nicolas},
+  booktitle={Proceedings of the 21st international conference on World Wide Web},
+  pages={859--868},
+  year={2012},
+  organization={ACM},
+  abstract={This paper examines the problem of social collaborative filtering (CF) to recommend items of interest to users in a social network setting. Unlike standard CF algorithms using relatively simple user and item features, recommendation in social networks poses the more complex problem of learning user preferences from a rich and complex set of user profile and interaction information. Many existing social CF methods have extended traditional CF matrix factorization, but have overlooked important aspects germane to the social setting. We propose a unified framework for social CF matrix factorization by introducing novel objective functions for training. Our new objective functions have three key features that address main drawbacks of existing approaches: (a) we fully exploit feature-based user similarity, (b) we permit direct learning of user-to-user information diffusion, and (c) we leverage co-preference (dis)agreement between two users to learn restricted areas of common interest. We evaluate these new social CF objectives, comparing them to each other and to a variety of (social) CF baselines, and analyze user behavior on live user trials in a custom-developed Facebook App involving data collected over five months from over 100 App users and their 37,000+ friends.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/www12.pdf}
+}
+
+@article{tan2011imagehive,
+  title={{ImageHive: Interactive Content-aware Image Summarization}},
+  author={Tan, Li and Song, Yangqiu and Liu, Shixia and Xie, Lexing},
+  journal={IEEE computer graphics and applications},
+  number={1},
+  pages={46--55},
+  year={2011},
+  publisher={IEEE},
+  abstract={ImageHive communicates information about an image collection by generating a summary image that preserves the relationships between images and avoids occluding their salient parts. It uses a constrained graph-layout algorithm first, to preserve image similarities and keep important parts visible, and then a constrained Voronoi tessellation algorithm to locally refine the layout and tile the image plane.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/imagehive-cga.pdf}
+}
+
+@article{merler2012semantic,
+  title={{Semantic Model Vectors for Complex Video Event Recognition}},
+  author={Merler, Michele and Huang, Bert and Xie, Lexing and Hua, Gang and Natsev, Apostol},
+  journal={Multimedia, IEEE Transactions on},
+  volume={14},
+  number={1},
+  pages={88--101},
+  year={2012},
+  publisher={IEEE},
+  abstract={We propose semantic model vectors, an intermediate level semantic representation, as a basis for modeling and detecting complex events in unconstrained real-world videos, such as those from YouTube. The semantic model vectors are extracted using a set of discriminative semantic classifiers, each being an ensemble of SVM models trained from thousands of labeled web images, for a total of 280 generic concepts. Our study reveals that the proposed semantic model vectors representation outperforms-and is complementary to-other low-level visual descriptors for video event modeling. We hence present an end-to-end video event detection system, which combines semantic model vectors with other static or dynamic visual descriptors, extracted at the frame, segment, or full clip level. We perform a comprehensive empirical study on the 2010 TRECVID Multimedia Event Detection task (http://www.nist.gov/itl/iad/mig/med10.cfm), which validates the semantic model vectors representation not only as the best individual descriptor, outperforming state-of-the-art global and local static features as well as spatio-temporal HOG and HOF descriptors, but also as the most compact. We also study early and late feature fusion across the various approaches, leading to a 15\% performance boost and an overall system performance of 0.46 mean average precision. In order to promote further research in this direction, we made our semantic model vectors for the TRECVID MED 2010 set publicly available for the community to use (http://www1.cs.columbia.edu/~mmerler/SMV.html).},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TMM-smv.pdf}
+}
+
+@article{lin2011scent,
+  title={{SCENT: Scalable Compressed Monitoring of Evolving Multirelational Social Networks}},
+  author={Lin, Yu-Ru and Candan, K Sel{\c{c}}cuk and Sundaram, Hari and Xie, Lexing},
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+  volume={7},
+  number={1},
+  pages={29},
+  year={2011},
+  publisher={ACM},
+  abstract={We propose SCENT, an innovative, scalable spectral analysis framework for internet scale monitoring of multirelational social media data, encoded in the form of tensor streams. In particular, a significant challenge is to detect key changes in the social media data, which could reflect important events in the real world, sufficiently quickly. Social media data have three challenging characteristics. First, data sizes are enormous; recent technological advances allow hundreds of millions of users to create and share content within online social networks. Second, social data are often multifaceted (i.e., have many dimensions of potential interest, from the textual content to user metadata). Finally, the data is dynamic; structural changes can occur at multiple time scales and be localized to a subset of users. Consequently, a framework for extracting useful information from social media data needs to scale with data volume, and also with the number and diversity of the facets of the data. In SCENT, we focus on the computational cost of structural change detection in tensor streams. We extend compressed sensing (CS) to tensor data. We show that, through the use of randomized tensor ensembles, SCENT is able to encode the observed tensor streams in the form of compact descriptors. We show that the descriptors allow very fast detection of significant spectral changes in the tensor stream, which also reduce data collection, storage, and processing costs. Experiments over synthetic and real data show that SCENT is faster (17.7x--159x for change detection) and more accurate (above 0.9 F-score) than baseline methods.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/lin2011scent.pdf}
+}
+
+@inproceedings{xie2011visual,
+  title={{Visual Memes in Social Media: Tracking Real-world News in Youtube Videos}},
+  author={Xie, Lexing and Natsev, Apostol and Kender, John R and Hill, Matthew and Smith, John R},
+  booktitle={Proceedings of the 19th ACM international conference on Multimedia},
+  pages={53--62},
+  year={2011},
+  organization={ACM},
+  abstract={We propose visual memes, or frequently reposted short video segments, for tracking large-scale video remix in social media. Visual memes are extracted by novel and highly scalable detection algorithms that we develop, with over 96\% precision and 80\% recall. We monitor real-world events on YouTube, and we model interactions using a graph model over memes, with people and content as nodes and meme postings as links. This allows us to define several measures of influence. These abstractions, using more than two million video shots from several large-scale event datasets, enable us to quantify and efficiently extract several important observations: over half of the videos contain re-mixed content, which appears rapidly; video view counts, particularly high ones, are poorly correlated with the virality of content; the influence of traditional news media versus citizen journalists varies from event to event; iconic single images of an event are easily extracted; and content that will have long lifespan can be predicted within a day after it first appears. Visual memes can be applied to a number of social media scenarios: brand monitoring, social buzz tracking, ranking content and users, among others.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/acmmm11-meme.pdf}
+}
+
+@inproceedings{dong2011detect,
+  title={{Detect Irregularly Shaped Spatio-temporal Clusters for Decision Support (BEST PAPER AWARD)}},
+  author={Dong, Weishan and Zhang, Xin and Jiang, Zhongbo and Sun, Wei and Xie, Lexing and Hampapur, Arun},
+  booktitle={Service Operations, Logistics, and Informatics (SOLI), 2011 IEEE International Conference on},
+  pages={231--236},
+  year={2011},
+  organization={IEEE},
+  abstract={Many real-world applications call for the use of detecting unusual clusters (abnormal phenomena or significant change) from spatio-temporal data for decision support, e.g., in disease surveillance systems and crime monitoring systems. More accurate detection can offer stronger decision support to enable more effective early warning and efficient resource allocation. Many spatial/spatio-temporal clustering approaches have been designed to detect significantly unusual clusters for decision support. In this paper, we focus on more accurately detecting irregularly shaped unusual clusters for point processes and propose a novel approach named EvoGridStatistic. The original problem is mathematically converted to an optimization problem and solved by estimation of distribution algorithm (EDA), which is a powerful global optimization tool. We also propose a prospective spatio-temporal cluster detection approach for surveillance purposes, named EvoGridStatistic-Pro. Experiments verify the effectiveness and efficiency of EvoGridStatistic-Pro over previous approaches. The scalability of our approach is also significantly better than previous ones, which enables EvoGridStatistic-Pro to apply to very large data sets in real-world application systems.},
+  url_Paper={http://cm.cecs.anu.edu.au/documents/dong2011detect.pdf}
+}
+
+@article{kavanaugh2012social,
+  title={{Social Media Use by Government: From the Routine to The Critical}},
+  author={Kavanaugh, Andrea L and Fox, Edward A and Sheetz, Steven D and Yang, Seungwon and Li, Lin Tzy and Shoemaker, Donald J and Natsev, Apostol and Xie, Lexing},
+  journal={Government Information Quarterly},
+  volume={29},
+  number={4},
+  pages={480--491},
+  year={2012},
+  publisher={Elsevier},
+  abstract={Social media (i.e., Twitter, Facebook, Flickr, YouTube) and other services with user-generated content have made a staggering amount of information (and misinformation) available. Government officials seek to leverage these resources to improve services and communication with citizens. Yet, the sheer volume of social data streams generates substantial noise that must be filtered. Nonetheless, potential exists to identify issues in real time, such that emergency management can monitor and respond to issues concerning public safety. By detecting meaningful patterns and trends in the stream of messages and information flow, events can be identified as spikes in activity, while meaning can be deciphered through changes in content. This paper presents findings from a pilot study we conducted between June and December 2010 with government officials in Arlington, Virginia (and the greater National Capitol Region around Washington, DC) with a view to understanding the use of social media by government officials as well as community organizations, businesses and the public. We are especially interested in understanding social media use in crisis situations (whether severe or fairly common, such as traffic or weather crises).},
+  url_Paper={http://www.ctrnet.net/sites/default/files/dgo.2011.Paper\%20Final.pdf}
+}
+
+@inproceedings{xie2011tracking,
+  title={{Tracking Visual Memes in Rich-Media Social Communities}},
+  author={Xie, Lexing and Natsev, Apostol and Kender, John R and Hill, Matthew L and Smith, John R and others},
+  booktitle={ICWSM},
+  year={2011},
+  abstract={We propose tools and methods to track visual memes on community-centric rich-media repositories, such as YouTube. Visual memes refer to frequently reposted short video segments. Our method can be used to monitor the reflections of real-world events in rich media, including images and videos. We first design a large-scale event-based social video collection system to continuously monitor events that unfold in real-time. We design a scalable detection algorithms that can detect visual memes with over 96\% precision and 80\% recall. Visual memes are used for various analysis such as tracking the fraction of original content, extracting the iconic picture of an event, inferring influential users in the community, and so on. We present example observations on several real-world video collections from YouTube, containing up to 1.2 million video shots, including a compact taxonomy of authors into “traditional news media”, “citizen buzz leaders”, and “mavens”.},
+  url_Paper={http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2789/3216}
+}
+
+@article{hampapur2011analytics,
+  title={{Analytics-driven Asset Management}},
+  author={A Hampapur, H Cao, A Davenport, WS Dong, D Fenhagen, RS Feris, G Goldszmidt, ZB Jiang, J Kalagnanam, T Kumar, H Li, X Liu, S Mahatma, S Pankanti, D Pelleg, W Sun, M Taylor, CH Tian, S Wasserkrug, L Xie, M Lodhi, C Kiely, K Butturff, L Desjardins},
+  journal={IBM Journal of Research and Development},
+  volume={55},
+  number={1.2},
+  pages={13--1},
+  year={2011},
+  publisher={IBM},
+  abstract={Asset-intensive businesses across industries rely on physical assets to deliver services to their customers, and effective asset management is critical to the businesses. Today, businesses may make use of enterprise asset-management (EAM) solutions for many asset-related processes, ranging from the core asset-management functions to maintenance, inventory, contracts, warranties, procurement, and customer-service management. While EAM solutions have transformed the operational aspects of asset management through data capture and process automation, the decision-making process with respect to assets still heavily relies on institutional knowledge and anecdotal insights. Analytics-driven asset management is an approach that makes use of advanced analytics and optimization technologies to transform the vast amounts of data from asset management, metering, and sensor systems into actionable insight, foresight, and prescriptions that can guide decisions involving strategic and tactical assets, as well as customer and business models.},
+  url_Paper={http://dl.acm.org/citation.cfm?id=2001054}
+}
+
+@inproceedings{xie2010probabilistic,
+  title={{Probabilistic Visual Concept Trees}},
+  author={Xie, Lexing and Yan, Rong and Te{\v{s}}i{\'c}, Jelena and Natsev, Apostol and Smith, John R},
+  booktitle={Proceedings of the 18th ACM international conference on Multimedia},
+  pages={867--870},
+  year={2010},
+  organization={ACM},
+  abstract={This paper presents probabilistic visual concept trees, a model for large visual semantic taxonomy structures and its use in visual concept detection. Organizing visual semantic knowledge systematically is one of the key challenges towards large-scale concept detection, and one that is complementary to optimizing visual classification for individual concepts. Semantic concepts have traditionally been treated as isolated nodes, a densely-connected web, or a tree. Our analysis shows that none of these models are sufficient in modeling the typical relationships on a real-world visual taxonomy, and these relationships belong to three broad categories -- semantic, appearance and statistics. We propose probabilistic visual concept trees for modeling a taxonomy forest with observation uncertainty. As a Bayesian network with parameter constraints, this model is flexible enough to account for the key assumptions in all three types of taxonomy relations, yet it is robust enough to accommodate expansion or deletion in a taxonomy. Our evaluation results on a large web image dataset show that the classification accuracy has considerably improved upon baselines without, or with only a subset of concept relationships.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/visualtree-acmmm10.pdf}
+}
+
+@inproceedings{kender2010video,
+  title={{Video Genetics: a Case Study from Youtube}},
+  author={Kender, John R and Hill, Matthew L and Natsev, Apostol Paul and Smith, John R and Xie, Lexing},
+  booktitle={Proceedings of the 18th ACM international conference on Multimedia},
+  pages={1253--1258},
+  year={2010},
+  organization={ACM},
+  abstract={We explore in a single but large case study how videos within YouTube, competing for view counts, are like organisms within an ecology, competing for survival. We develop this analogy, whose core idea shows that short video clips, best detected across videos as near-duplicate keyframes, behave similarly to genes. We report work in progress, on a dataset of 5.4K videos with 210K keyframes on a single topic, which traces sequences, not bags, of “near-dups” over time, both within videos and across them. We demonstrate their utility to: cleanse responses to queries contaminated by over-eager YouTube query expansion; separate videos temporally according to their responses to external events; track the evolution and lifespan of continuing video “stories”; automatically locate video summaries already present within a video ecology; quickly verify video copying via a direct application of the Smith Waterman algorithm used in genetics—which also provides useful feedback for tuning the near-dup detection and clustering process; and quickly classify videos via a kind of Lempel-Ziv encoding into the categories of news, monologue, dialogue, and slideshow. We demonstrate a number of novel visualizations of this large dataset, including a direct use of the Matlab black-body “hot” false-color map, together with the GraphViz package, to display the gene-like inheritance of viral properties of keyframes. We further speculate that, as with genes, there are “functional roles” for semantic categories of clips, and, as with species, there are differings rates of “genetic drift” for each video genre.}, 
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/videogenetics-acmmm10.pdf}
+}
+
+@inproceedings{xie2010accuracy,
+  title={{The Accuracy and Value of Machine-generated Image Tags: Design and User Evaluation of an End-to-end Image Tagging System}},
+  author={Xie, Lexing and Natsev, Apostol and Hill, Matthew and Smith, John R and Phillips, Alex},
+  booktitle={Proceedings of the ACM International Conference on Image and Video Retrieval},
+  pages={58--65},
+  year={2010},
+  organization={ACM},
+  abstract={Automated image tagging is a problem of great interest, due to the proliferation of photo sharing services. Researchers have achieved considerable advances in understanding motivations and usage of tags, recognizing relevant tags from image content, and leveraging community input to recommend more tags. In this work we address several important issues in building an end-to-end image tagging application, including tagging vocabulary design, taxonomy-based tag refinement, classifier score calibration for effective tag ranking, and selection of valuable tags, rather than just accurate ones. We surveyed users to quantify tag utility and error tolerance, and use this data in both calibrating scores from automatic classifiers and in taxonomy based tag expansion. We also compute the relative importance among tags based on user input and statistics from Flickr. We present an end-to-end system evaluated on thousands of user-contributed photos using 60 popular tags. We can issue four tags per image with over 80\% accuracy, up from 50\% baseline performance, and we confirm through a comparative user study that value-ranked tags are preferable to accuracy-ranked tags.},
+  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/civr2010.pdf}
+}
+
+@article{de2010does,
+  title={{How does The Data Sampling Strategy Impact the Discovery of Information Diffusion in Social Media?}},
+  author={De Choudhury, Munmun and Lin, Yu-Ru and Sundaram, Hari and Candan, K Selcuk and Xie, Lexing and Kelliher, Aisling and others},
+  journal={ICWSM},
+  volume={10},
+  pages={34--41},
+  year={2010},
+  abstract={Platforms such as Twitter have provided researchers with ample opportunities to analytically study social phenomena. There are however, significant computational challenges due to the enormous rate of production of new information: researchers are therefore, often forced to analyze a judiciously selected “sample” of the data. Like other social media phenomena, information diffusion is a social process–it is affected by user context, and topic, in addition to the graph topology. This paper studies the impact of different attribute and topology based sampling strategies on the discovery of an important social media phenomena–information diffusion. We examine several widely-adopted sampling methods that select nodes based on attribute (random, location, and activity) and topology (forest fire) as well as study the impact of attribute based seed selection on topology based sampling. Then we develop a series of metrics for evaluating the quality of the sample, based on user activity (e.g. volume, number of seeds), topological (e.g. reach, spread) and temporal characteristics (e.g. rate). We additionally correlate the diffusion volume metric with two external variables–search and news trends. Our experiments reveal that for small sample sizes (30\%), a sample that incorporates both topology and user context (e.g. location, activity) can improve on naive methods by a significant margin of ~15-20\%.},
+  url_Paper={http://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/view/1521/1832}
 }
