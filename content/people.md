@@ -159,6 +159,8 @@ We are a diverse group in terms of research interests and background, technical 
             <th/>
 
             <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/siqi-100.png' title='Siqi' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
             <th/>
          </tr>
      </thead>
@@ -177,6 +179,8 @@ We are a diverse group in terms of research interests and background, technical 
         <td/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Projects:</b>
+                social media popularity prediction
         <td/>
     </tr>
 
@@ -188,10 +192,10 @@ We are a diverse group in terms of research interests and background, technical 
 
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
-
         <td/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> The University of Melbourne
         <td/>
      </tr>
  </table>
