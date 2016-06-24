@@ -64,7 +64,7 @@ Here are some other pictures from the climbing. <br>
 	<center>
 	<img src="/img/kosciuszko/top-pa.jpg"  width="800"/>
     <figcaption>
-        </span><span style="color: #f92672">Scenic view from the top of the mountain.</span>
+        </span><span style="color: #f92672">Panoramic view from the top of the mountain.</span>
     </figcaption>
 	</center>
 </figure>
