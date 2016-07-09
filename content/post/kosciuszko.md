@@ -1,6 +1,6 @@
 ---
 title: "Group Activity: Climbing Mt. Kosciuszko"
-description: "Lab members visited the top of Australia, Mt. Kosciuszko, for climbing."
+description: "We climbed to the top of Australia -- Mt. Kosciuszko, braving strong gust and below-freezing windchill！"
 date: "2016-04-02"
 draft: false
 categories:

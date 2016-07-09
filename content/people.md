@@ -211,8 +211,7 @@ We are a diverse group in terms of research interests and background, technical 
 * [Manuel Cebrian][manuel], NICTA/Data61
 * Xuming He, NICTA/Data61
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), Oregon State University
-
+* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
 
 
 <br/><br/>
@@ -231,12 +230,12 @@ We are a diverse group in terms of research interests and background, technical 
 
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
+                <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
             <th/>
 
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO1AAAAJDMwN2VmYmFhLThiZGEtNDBhYy1iOGEwLThkOTc0NGMzMTkyNw.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Yanxiang Wang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
+                <img style="float: left;" class='inset left' src='/img/people/yanxiang.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
             <th/>
          </tr>
              <tr>
