@@ -1,0 +1,13 @@
+
+
+{     
+	"cnt_paper": "Overall paper stats. (left) number of papers published in each year; (right) the average number of references made and the average number of citations received for papers published in each year." , 
+	"cnt_ref" : "Overall reference stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.", 
+	"cnt_citation" : "Overall citation stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.", 
+	"venue_bar" : "Incoming vs outgoing citations to the top-K venues (this bar graph presents information from the half-circle differently). (blue) The number of references going to a given conference or journal; (red) The number of citations coming from a given conference or journal. The x-axis is sorted by the ratio of incoming vs outgoing citations to the conference, highest on the right.", 
+	"graph" : "Summary of incoming vs outgoing citations to the top-K venues. Node colors: ratio of citations (outgoing ideas, red) vs references (incoming ideas, blue). Node sizes: amount of total citation+references in either direction. Thickness of blue edges are scaled by the number of references going to a given venue; thickness of red edges are scaled by the number of citations coming from a given venue. Nodes are sorted left-to-right by the ratio of incoming vs outgoing citations to this conference.", 
+	"venue_ref" : "Heatmap of references over time, broken down by publication year (horizontal axis) and reference venue (vertical axis).", 
+	"venue_citation" : "Heatmap of citations over time, broken down by publication year (horizontal axis) and citing venue (vertical axis).", 
+	"box_ref": "Box plot of reference age in years (y-axis, lower is older), broken down by the year paper in this venue is published (x-axis).", 
+	"year_ref": "Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis)."
+}
