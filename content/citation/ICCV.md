@@ -1,7 +1,7 @@
 ---
-title: "CVPR - Computer Vision and Pattern Recognition (1982-2015)"
+title: "ICCV - International Conference on Computer Vision (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-07-10 23:43:17.468802"
+date: "2016-07-11 00:11:26.926171"
 categories:
   - "data"
   - "visualization"
@@ -11,14 +11,14 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/CVPR/CVPR_mini_graph.png" height="160" hspace="15" vspace="10" alt="CVPR: summary of top 34 venues">
-### Overall stats:
+<img style="float:left;" src="/img/citation/ICCV/ICCV_mini_graph.png" height="160" hspace="15" vspace="10" alt="ICCV: summary of top 32 venues">
+### Stats:
 
-* 28 years of publication 1982--2015, 10083 papers total
-* 116745 references total, average 11.58 per paper
-	* 1835 reference venues, 78.0% in top 25 
-* 228843 citations total, average 22.7 per paper
-	* 2578 citations venues, 68.0% in top 25 
+* 20 years of publication 1987--2015, 5368 papers total
+* 55028 references total, average 10.25 per paper
+	* 1536 reference venues, 77.0% in top 25 
+* 107197 citations total, average 19.97 per paper
+	* 2121 citations venues, 69.0% in top 25 
  
 
 
@@ -32,32 +32,32 @@ The half-wheel on the left is a snapshot of the top venues that cites and cited 
 
 **Note**: This page visualizes reference and citation patterns of one conference, generated from templates. For a written overview of the visualization series, and background about problem, motivation and methods please see the [overview page](/post/citation_vis). 
 ### Plots of citation data
-<a href=/img/citation/CVPR/CVPR_cnt_paper.png><img width=900 src="/img/citation/CVPR/CVPR_cnt_paper.png"></a>
+<a href=/img/citation/ICCV/ICCV_cnt_paper.png><img width=900 src="/img/citation/ICCV/ICCV_cnt_paper.png"></a>
 Fig 1. Overall paper stats. (left) number of papers published in each year; (right) the average number of references made and the average number of citations received for papers published in each year.
 
-<a href=/img/citation/CVPR/CVPR_cnt_ref.png><img width=900 src="/img/citation/CVPR/CVPR_cnt_ref.png"></a>
+<a href=/img/citation/ICCV/ICCV_cnt_ref.png><img width=900 src="/img/citation/ICCV/ICCV_cnt_ref.png"></a>
 Fig 2. Overall reference stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
-<a href=/img/citation/CVPR/CVPR_cnt_citation.png><img width=900 src="/img/citation/CVPR/CVPR_cnt_citation.png"></a>
+<a href=/img/citation/ICCV/ICCV_cnt_citation.png><img width=900 src="/img/citation/ICCV/ICCV_cnt_citation.png"></a>
 Fig 3. Overall citation stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
-<a href=/img/citation/CVPR/CVPR_graph.png><img width=900 src="/img/citation/CVPR/CVPR_graph.png"></a>
+<a href=/img/citation/ICCV/ICCV_graph.png><img width=900 src="/img/citation/ICCV/ICCV_graph.png"></a>
 <img align=center width=675 src="/img/citation/color_bar.png">
 
 Fig 4. Summary of incoming vs outgoing citations to the top-K venues. Node colors: ratio of citations (outgoing ideas, red) vs references (incoming ideas, blue). Node sizes: amount of total citation+references in either direction. Thickness of blue edges are scaled by the number of references going to a given venue; thickness of red edges are scaled by the number of citations coming from a given venue. Nodes are sorted left-to-right by the ratio of incoming vs outgoing citations to this conference.
 
-<a href=/img/citation/CVPR/CVPR_venue_bar.png><img width=900 src="/img/citation/CVPR/CVPR_venue_bar.png"></a>
+<a href=/img/citation/ICCV/ICCV_venue_bar.png><img width=900 src="/img/citation/ICCV/ICCV_venue_bar.png"></a>
 Fig 5. Incoming vs outgoing citations to the top-K venues (this bar graph presents information from the half-circle differently). (blue) The number of references going to a given conference or journal; (red) The number of citations coming from a given conference or journal. The x-axis is sorted by the ratio of incoming vs outgoing citations to the conference, highest on the right.
 
-<a href=/img/citation/CVPR/CVPR_venue_ref.png><img width=900 src="/img/citation/CVPR/CVPR_venue_ref.png"></a>
+<a href=/img/citation/ICCV/ICCV_venue_ref.png><img width=900 src="/img/citation/ICCV/ICCV_venue_ref.png"></a>
 Fig 6. Heatmap of references over time, broken down by publication year (horizontal axis) and reference venue (vertical axis).
 
-<a href=/img/citation/CVPR/CVPR_venue_citation.png><img width=900 src="/img/citation/CVPR/CVPR_venue_citation.png"></a>
+<a href=/img/citation/ICCV/ICCV_venue_citation.png><img width=900 src="/img/citation/ICCV/ICCV_venue_citation.png"></a>
 Fig 7. Heatmap of citations over time, broken down by publication year (horizontal axis) and citing venue (vertical axis).
 
-<a href=/img/citation/CVPR/CVPR_box_ref.png><img width=900 src="/img/citation/CVPR/CVPR_box_ref.png"></a>
+<a href=/img/citation/ICCV/ICCV_box_ref.png><img width=900 src="/img/citation/ICCV/ICCV_box_ref.png"></a>
 Fig 8. Box plot of reference age in years (y-axis, lower is older), broken down by the year paper in this venue is published (x-axis).
 
-<a href=/img/citation/CVPR/CVPR_year_ref.png><img width=900 src="/img/citation/CVPR/CVPR_year_ref.png"></a>
+<a href=/img/citation/ICCV/ICCV_year_ref.png><img width=900 src="/img/citation/ICCV/ICCV_year_ref.png"></a>
 Fig 9. Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis).
 
