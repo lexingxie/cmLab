@@ -21,7 +21,9 @@ This paper contain a series of visualizations on the citation records made by, a
 <a href=/citation/WSDM><img width=260 src="/img/citation/WSDM/WSDM_mini_graph.png"></a>
 
 <!--more-->
-The colored half-wheels above summarizes the overall amount of citation between a conference in question (gray node in the center) and the top 25 other conferences or journals that cites or are cited by this venue. The thickness of the edges denote the amount of citations in either direction; the blue edges denote references, or incoming information flow for this conference; the red edges denote citations, or outgoing infomration flow. The node colors are shaded and sorted by the ratio of incoming vs outgoing information flow -- the node corresponding to the conference itself is white, due to equal in/out citations and with usually thick edges. Left to right: NIPS in machine learning, PLDI on programming language systems, and WSDM on web search and data mining. Click on individual conferences below for details. 
+The colored half-wheels above summarizes the overall amount of citation between a conference in question (gray node in the center) and the top 25 other conferences or journals that cites or are cited by this venue. The thickness of the edges denote the amount of citations in either direction; the blue edges denote references, or incoming information flow for this conference; the red edges denote citations, or outgoing infomration flow. The node colors are shaded and sorted by the ratio of incoming vs outgoing information flow -- the node corresponding to the conference itself is white, due to equal in/out citations and with usually thick edges. 
+
+Left to right above: NIPS in machine learning, PLDI on programming language systems, and WSDM on web search and data mining. Click on individual conferences above or below for details. 
 
 ### Why is this worth looking at
 
@@ -43,11 +45,11 @@ The analysis was mostly conducted over late 2015 and the first half of 2016. The
 
 ### So what?
 
-* *A few picture may be worth a thousand words*. I hope this gives useful insights for your conference, get some about a new conference, or it may be useful to help you present the profile and impact of a conference. 
+* *A few picture may be worth a thousand words*. I hope this gives useful insights for your conference, get to know a new conference, or it may be useful to help you present the profile and impact of a conference. 
 * *Could this become an alternative impact metric*? Maybe. There are many metrics, some are widely used, such as [this](http://wokinfo.com/essays/impact-factor), [this](http://www.mapequation.org/), or [these](https://scholar.google.com/citations?view_op=top_venues) No metric is perfect, and having another view could certainly be useful. 
 * *A low-dimentional similarity space of venues*, or this could lead to 'another map of science'. 
 
-Happy to hear feedback, ideas -- let me know! 
+Happy to hear feedback or ideas -- leave a comment below, or let me know! 
 
 <!--
 * local dimensionality of a conference (specialization of the conference), AI conference high? e.g. ICML, CP, ICAPS
@@ -59,6 +61,7 @@ Happy to hear feedback, ideas -- let me know!
 
 You can either browse through [a list of all conferences](/tags/citation/), or navigate using the conference list grouped by topical area below. 
 
+<a id="ml"></a>
 #### Machine learning
 
 <table width=800>
@@ -82,6 +85,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </table>
 
 
+<a id="nlp"></a>
 #### Natural Language processing
 
 <table width=800>
@@ -112,6 +116,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="web"></a>
 #### Web, media, social, information retrieval and data mining
 
 <table width=800>
@@ -182,6 +187,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </table>
 
 
+<a id="hci"></a>
 #### Human Computer Interaction
 
 <table width=800>
@@ -230,6 +236,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="ai"></a>
 #### Artificial Intelligence
 
 <table width=800>
@@ -245,6 +252,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="db"></a>
 #### Databases
 
 <table width=800>
@@ -279,6 +287,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </table>
 
 
+<a id="net"></a>
 #### Communications and networks
 
 <table width=800>
@@ -307,6 +316,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="pl"></a>
 #### Programming language and software
 
 <table width=800>
@@ -336,9 +346,31 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="cv"></a>
+#### Computer vision
 
+<table width=800>
+<tr>
+	
+<td>
+<a href=/citation/CVPR>
+	CVPR - Computer Vision and Pattern Recognition (1982 - 2015)
+ <img align=center width=250 src="/img/citation/CVPR/CVPR_mini_graph.png">
+<a>
+</td>
 
+</tr>
+</table>
 
+<a id="bio"></a>
+#### Bioinformatics and computational biology 
+TODO: RECOMB, ISMB and PSB
+
+<a id="theory"></a>
 #### CS Theory
-SODA, STOC and FOCS
+TODO: SODA, STOC and FOCS
 
+### Backmatters
+
+* Material on this page and associated detail pages are licenced under [BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+* This is a work in progress. I'm certainly happy to hear comments, and if you use it in some way.  
