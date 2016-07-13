@@ -1,7 +1,7 @@
 ---
-title: "FOCS - Foundations of Computer Science (1961-2015)"
+title: "ICASSP - International Conference on Acoustics, Speech, and Signal Processing (1976-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-07-13 17:36:59.850306"
+date: "2016-07-13 17:26:53.089745"
 categories:
   - "data"
   - "visualization"
@@ -11,14 +11,14 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/FOCS/FOCS_mini_graph.png" height="160" hspace="15" vspace="10" alt="FOCS: summary of top 35 venues">
+<img style="float:left;" src="/img/citation/ICASSP/ICASSP_mini_graph.png" height="160" hspace="15" vspace="10" alt="ICASSP: summary of top 33 venues">
 ### Stats:
 
-* 40 years of publication 1961--2015, 4150 papers total
-* 23931 references total, average 5.77 per paper
-	* 884 reference venues, 68.0% in top 25 
-* 67125 citations total, average 16.17 per paper
-	* 2008 citations venues, 57.0% in top 25 
+* 40 years of publication 1976--2015, 37518 papers total
+* 100522 references total, average 2.68 per paper
+	* 2288 reference venues, 67.0% in top 25 
+* 166233 citations total, average 4.43 per paper
+	* 2875 citations venues, 67.0% in top 25 
  
 
 
@@ -32,32 +32,32 @@ The half-wheel on the left is a snapshot of the top venues that cites and cited 
 
 **Note**: This page visualizes reference and citation patterns of one conference, generated from templates. For a written overview of the visualization series, and background about problem, motivation and methods please see the [overview page](/post/citation_vis). 
 ### Plots of citation data
-<a href=/img/citation/FOCS/FOCS_cnt_paper.png><img width=900 src="/img/citation/FOCS/FOCS_cnt_paper.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_cnt_paper.png><img width=900 src="/img/citation/ICASSP/ICASSP_cnt_paper.png"></a>
 Fig 1. Overall paper stats. (left) number of papers published in each year; (right) the average number of references made and the average number of citations received for papers published in each year.
 
-<a href=/img/citation/FOCS/FOCS_cnt_ref.png><img width=900 src="/img/citation/FOCS/FOCS_cnt_ref.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_cnt_ref.png><img width=900 src="/img/citation/ICASSP/ICASSP_cnt_ref.png"></a>
 Fig 2. Overall reference stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
-<a href=/img/citation/FOCS/FOCS_cnt_citation.png><img width=900 src="/img/citation/FOCS/FOCS_cnt_citation.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_cnt_citation.png><img width=900 src="/img/citation/ICASSP/ICASSP_cnt_citation.png"></a>
 Fig 3. Overall citation stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
-<a href=/img/citation/FOCS/FOCS_graph.png><img width=900 src="/img/citation/FOCS/FOCS_graph.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_graph.png><img width=900 src="/img/citation/ICASSP/ICASSP_graph.png"></a>
 <img align=center width=675 src="/img/citation/color_bar.png">
 
 Fig 4. Summary of incoming vs outgoing citations to the top-K venues. Node colors: ratio of citations (outgoing ideas, red) vs references (incoming ideas, blue). Node sizes: amount of total citation+references in either direction. Thickness of blue edges are scaled by the number of references going to a given venue; thickness of red edges are scaled by the number of citations coming from a given venue. Nodes are sorted left-to-right by the ratio of incoming vs outgoing citations to this conference.
 
-<a href=/img/citation/FOCS/FOCS_venue_bar.png><img width=900 src="/img/citation/FOCS/FOCS_venue_bar.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_venue_bar.png><img width=900 src="/img/citation/ICASSP/ICASSP_venue_bar.png"></a>
 Fig 5. Incoming vs outgoing citations to the top-K venues (this bar graph presents information from the half-circle differently). (blue) The number of references going to a given conference or journal; (red) The number of citations coming from a given conference or journal. The x-axis is sorted by the ratio of incoming vs outgoing citations to the conference, highest on the right.
 
-<a href=/img/citation/FOCS/FOCS_venue_ref.png><img width=900 src="/img/citation/FOCS/FOCS_venue_ref.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_venue_ref.png><img width=900 src="/img/citation/ICASSP/ICASSP_venue_ref.png"></a>
 Fig 6. Heatmap of references over time, broken down by publication year (horizontal axis) and reference venue (vertical axis).
 
-<a href=/img/citation/FOCS/FOCS_venue_citation.png><img width=900 src="/img/citation/FOCS/FOCS_venue_citation.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_venue_citation.png><img width=900 src="/img/citation/ICASSP/ICASSP_venue_citation.png"></a>
 Fig 7. Heatmap of citations over time, broken down by publication year (horizontal axis) and citing venue (vertical axis).
 
-<a href=/img/citation/FOCS/FOCS_box_ref.png><img width=900 src="/img/citation/FOCS/FOCS_box_ref.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_box_ref.png><img width=900 src="/img/citation/ICASSP/ICASSP_box_ref.png"></a>
 Fig 8. Box plot of reference age in years (y-axis, lower is older), broken down by the year paper in this venue is published (x-axis).
 
-<a href=/img/citation/FOCS/FOCS_year_ref.png><img width=900 src="/img/citation/FOCS/FOCS_year_ref.png"></a>
+<a href=/img/citation/ICASSP/ICASSP_year_ref.png><img width=900 src="/img/citation/ICASSP/ICASSP_year_ref.png"></a>
 Fig 9. Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis).
 
