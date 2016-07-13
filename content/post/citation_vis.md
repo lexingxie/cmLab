@@ -41,7 +41,7 @@ The analysis was mostly conducted over late 2015 and the first half of 2016. The
 
 * Statistics on the plot are based on counting citations individually, it could be skewed by one or a few highly cited paper(s), especially for small venues. 
 * The paper counts (and hence citation and references per paper) include not just technical papers but also other items such as demos, abstracts for keynote talks, this may skew the average statistics of the reference and citation counts.  
-* Where is _conference X_? The list of conferences and their grouping is arbitrary based on the biased and limited knowledge of the author, drop me a line or leave a comment if you'd like to see one or more particular conference lsted. 
+* Where is _conference X_? The list of conferences and their grouping is arbitrary based on the biased and limited knowledge of the author, drop me a line or leave a comment if you'd like to see one or more particular conference included. 
 
 ### So what?
 
@@ -195,14 +195,14 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 
 <td>
 <a href=/citation/CHI>
-	CHI - Human Factors in Computing Systems 
+	CHI - Human Factors in Computing Systems (1982 - 2015)
  <img align=center width=250 src="/img/citation/CHI/CHI_mini_graph.png">
 <a>
 </td>
 
 <td>
 <a href=/citation/UIST>
-	UIST - User Interface Software and Technology 
+	UIST - User Interface Software and Technology (1991 - 2015)
  <img align=center width=250 src="/img/citation/UIST/UIST_mini_graph.png">
 <a>
 </td>
@@ -210,7 +210,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 
 <td>
 <a href=/citation/IUI>
-	IUI - Intelligent User Interfaces 
+	IUI - Intelligent User Interfaces (1991 - 2015)
  <img align=center width=250 src="/img/citation/IUI/IUI_mini_graph.png">
 <a>
 </td>
@@ -220,7 +220,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 
 <td>
 <a href=/citation/CSCW>
-	CSCW - Conference on Computer Supported Cooperative Work 
+	CSCW - Conference on Computer Supported Cooperative Work (1986 - 2015)
  <img align=center width=250 src="/img/citation/CSCW/CSCW_mini_graph.png">
 <a>
 </td>
@@ -244,8 +244,15 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 	
 <td>
 <a href=/citation/IJCAI>
-	IJCAI - International Joint Conference on Artificial Intelligence 
+	IJCAI - International Joint Conference on Artificial Intelligence (1969 - 2015)
  <img align=center width=250 src="/img/citation/IJCAI/IJCAI_mini_graph.png">
+<a>
+</td>
+
+<td>
+<a href=/citation/ICAPS>
+	ICAPS - International Conference on Automated Planning and Scheduling (2003-2014) 
+ <img align=center width=250 src="/img/citation/ICAPS/ICAPS_mini_graph.png">
 <a>
 </td>
 
@@ -405,11 +412,21 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+<a id="sp"></a>
+#### Signal, speech, and music processing
+
+<table width=800>
+<tr>
+</tr>
+</table>
+
 <a id="theory"></a>
-#### CS Theory
+#### CS theory
 TODO: SODA, STOC and FOCS
 
 ### Backmatters
+
+* Thanks go to Richard Nock for inspiring discussions.
 
 * Material on this page and associated detail pages are licenced under [BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 * This is a work in progress. I'm certainly happy to hear comments, and if you use it in some way.  
