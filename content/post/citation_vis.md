@@ -23,7 +23,7 @@ This paper contain a series of visualizations on the citation records made by, a
 <!--more-->
 The colored half-wheels above summarizes the overall amount of citation between a conference in question (gray node in the center) and the top 25 other conferences or journals that cites or are cited by this venue. The thickness of the edges denote the amount of citations in either direction; the blue edges denote references, or incoming information flow for this conference; the red edges denote citations, or outgoing infomration flow. The node colors are shaded and sorted by the ratio of incoming vs outgoing information flow -- the node corresponding to the conference itself is white, due to equal in/out citations and with usually thick edges. 
 
-Left to right above: NIPS in machine learning, PLDI on programming language systems, and WSDM on web search and data mining. Click on individual conferences above or below for details. 
+Left to right above: NIPS in machine learning, PLDI on programming language design and implementation, and WSDM on web search and data mining. Click on individual conferences above or below for details. 
 
 ### Why is this worth looking at
 
@@ -42,6 +42,7 @@ The analysis was mostly conducted over late 2015 and the first half of 2016. The
 * Statistics on the plot are based on counting citations individually, it could be skewed by one or a few highly cited paper(s), especially for small venues. 
 * The paper counts (and hence citation and references per paper) include not just technical papers but also other items such as demos, abstracts for keynote talks, this may skew the average statistics of the reference and citation counts.  
 * Where is _conference X_? The list of conferences and their grouping is arbitrary based on the biased and limited knowledge of the author, drop me a line or leave a comment if you'd like to see one or more particular conference included. 
+* Why there is conference X but not Y? There is still some data or software bug encountered by some conferences, I aim to add them as bug fixes go along. 
 
 ### So what?
 
@@ -228,7 +229,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 
 <td>
 <a href=/citation/ICMI>
-	ICMI - International Conference on Multimodal Interfaces 
+	ICMI - International Conference on Multimodal Interfaces (1998 - 2014)
  <img align=center width=250 src="/img/citation/ICMI/ICMI_mini_graph.png">
 <a>
 </td>
@@ -237,7 +238,7 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </table>
 
 <a id="ai"></a>
-#### Artificial Intelligence
+#### AI, robotics, planning
 
 <table width=800>
 <tr>
@@ -250,9 +251,38 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </td>
 
 <td>
+<a href=/citation/IROS>
+	IROS - Intelligent RObots and Systems (1988-2015) 
+ <img align=center width=250 src="/img/citation/IROS/IROS_mini_graph.png">
+<a>
+</td>
+
+<td>
 <a href=/citation/ICAPS>
 	ICAPS - International Conference on Automated Planning and Scheduling (2003-2014) 
  <img align=center width=250 src="/img/citation/ICAPS/ICAPS_mini_graph.png">
+<a>
+</td>
+
+</tr>
+</table>
+
+<a id="theory"></a>
+#### CS theory
+<table width=800>
+<tr>
+
+<td>
+<a href=/citation/STOC>
+	STOC - Symposium on the Theory of Computing (1969-2015) 
+ <img align=center width=250 src="/img/citation/STOC/STOC_mini_graph.png">
+<a>
+</td>
+
+<td>
+<a href=/citation/FOCS>
+	FOCS - Foundations of Computer Science (1961-2015) 
+ <img align=center width=250 src="/img/citation/FOCS/FOCS_mini_graph.png">
 <a>
 </td>
 
@@ -301,21 +331,21 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 <tr>
 <td>
 <a href=/citation/SIGCOMM>
-	SIGCOMM - ACM Special Interest Group on Data Communication 
+	SIGCOMM - ACM Special Interest Group on Data Communication (1969 - 2015)
  <img align=center width=250 src="/img/citation/SIGCOMM/SIGCOMM_mini_graph.png">
 <a>
 </td>
 
 <td>
 <a href=/citation/SIGMETRICS>
-	SIGMETRICS - Measurement and Modeling of Computer Systems 
+	SIGMETRICS - Measurement and Modeling of Computer Systems (1972 - 2015)
  <img align=center width=250 src="/img/citation/SIGMETRICS/SIGMETRICS_mini_graph.png">
 <a>
 </td>
 
 <td>
 <a href=/citation/IMC>
-	IMC - Internet Measurement Conference 
+	IMC - Internet Measurement Conference (1990 - 2015)
  <img align=center width=250 src="/img/citation/IMC/IMC_mini_graph.png">
 <a>
 </td>
@@ -413,20 +443,34 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </table>
 
 <a id="sp"></a>
-#### Signal, speech, and music processing
+#### Signal and speech processing
 
 <table width=800>
 <tr>
+	<td>
+	<a href=/citation/ICASSP>
+		ICASSP - International Conference on Acoustics, Speech, and Signal Processing (1976-2015) 
+	 <img align=center width=250 src="/img/citation/ICASSP/ICASSP_mini_graph.png">
+	<a>
+	</td>
+
+	<td>
+	<a href=/citation/INTERSPEECH>
+		INTERSPEECH - Conference of the International Speech Communication Association (1988-2016) 
+	 <img align=center width=250 src="/img/citation/INTERSPEECH/INTERSPEECH_mini_graph.png">
+	<a>
+	</td>
 </tr>
 </table>
 
-<a id="theory"></a>
-#### CS theory
-TODO: SODA, STOC and FOCS
+<!-- conferences w data or code bugs
+	(data gen) AAAI, COLT(0), RSS(?)
+	(vis code) SODA, ISMIR, UAI, ICRA
+	 ax = sns.heatmap(cite_pubyear_count.loc[1975:2016], linewidths=.5, annot=True, fmt=".0f")
+-->
 
-### Backmatters
+### Backmatter
 
-* Thanks go to Richard Nock for inspiring discussions.
-
-* Material on this page and associated detail pages are licenced under [BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+* Material on this page and associated detail pages are licenced under creative commons *Attribution-NonCommercial 4.0 International* license: [BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 * This is a work in progress. I'm certainly happy to hear comments, and if you use it in some way.  
+* Thanks go to Richard Nock for inspiring discussions.
