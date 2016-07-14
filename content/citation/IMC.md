@@ -1,7 +1,7 @@
 ---
-title: "IMC - Internet Measurement Conference (1990 - 2015)"
+title: "IMC - Internet Measurement Conference (1990-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-06-16 11:38:29.896835"
+date: "2016-07-14 21:45:19.442193"
 categories:
   - "data"
   - "visualization"
@@ -11,8 +11,10 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/IMC/IMC_mini_graph.png" height="160" hspace="15" vspace="10" alt="IMC: summary of top 34 venues">
-### Stats:
+<div style="float:left; position: relative; width:320px; height:200px">  <a href=#fig4><img style="float:left;" src="/img/citation/IMC/IMC_mini_graph.png" width="320" style="position: relative; top: 0; left: 0;" alt="IMC: summary of top 34 venues"></a>
+  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 160px; left: 30px;"/>
+</div>
+### Overall stats:
 
 * 15 years of publication 1990--2015, 972 papers total
 * 8517 references total, average 8.76 per paper
@@ -22,14 +24,16 @@ tags:
  
 
 
-The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below).
+This is a detail page for one conferenece, go here for [an overview of citation patterns](/post/citation_vis). 
 
-The plots on the rest of this page roughly breaks down into three types. 
+The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The plots on the rest of this page roughly breaks down into four types. 
 
 * Figure 1 - Figure 3 contains basic stats of papers, references and citations over its lifetime. 
 * Figure 4 and 5 summarizes the incoming and outgoing citations over all years, sorted by the ratio of incoming over outgoing citations (left to right).
 * Figure 5 and 6 breaks down the incoming and outgoing citations by year of the conference paper. 
 * Figure 7 and 8 breaks down the outgoing references by the year they were cited in this conference. For most conferences we can see a 'google scholar' effect that more older papers gets cited in recent years, likely due to the ease of finding them. 
+
+**Note**: This page visualizes reference and citation patterns of one conference, generated from templates. For a written overview of the visualization series, and background about problem, motivation and methods please see the [overview page](/post/citation_vis). 
 ### Plots of citation data
 <a href=/img/citation/IMC/IMC_cnt_paper.png><img width=900 src="/img/citation/IMC/IMC_cnt_paper.png"></a>
 Fig 1. Overall paper stats. (left) number of papers published in each year; (right) the average number of references made and the average number of citations received for papers published in each year.
@@ -55,7 +59,7 @@ Fig 6. Heatmap of references over time, broken down by publication year (horizon
 Fig 7. Heatmap of citations over time, broken down by publication year (horizontal axis) and citing venue (vertical axis).
 
 <a href=/img/citation/IMC/IMC_box_ref.png><img width=900 src="/img/citation/IMC/IMC_box_ref.png"></a>
-Fig 8. Box plot of reference publication years, grouped by broken down by the year paper in this venue is published (x-axis).
+Fig 8. Box plot of reference age in years (y-axis, lower is older), broken down by the year paper in this venue is published (x-axis).
 
 <a href=/img/citation/IMC/IMC_year_ref.png><img width=900 src="/img/citation/IMC/IMC_year_ref.png"></a>
 Fig 9. Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis).

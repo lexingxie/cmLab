@@ -1,5 +1,5 @@
 ---
-date: "2016-07-08"
+date: "2016-07-12"
 title: "Visualizing Citation Patterns of Computer Science Conferences"
 description: "We plot the citation flow among different subfields in computer science, using data from microsoft academic graph."
 
@@ -361,23 +361,24 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 <table width=800>
 <tr>
 
-<td>
+
+<td width=33%>
 <a href=/citation/PLDI>
-	PLDI - Programming Language Design and Implementation 
+	PLDI - Programming Language Design and Implementation (1987-2015)
  <img align=center width=250 src="/img/citation/PLDI/PLDI_mini_graph.png">
 <a>
 </td>
 
-<td>
+<td width=33%>
 <a href=/citation/OOPSLA>
-	OOPSLA - Conference on Object-Oriented Programming Systems, Languages, and Applications 
+	OOPSLA - Conference on Object-Oriented Programming Systems, Languages, and Applications (1987-2015)
  <img align=center width=250 src="/img/citation/OOPSLA/OOPSLA_mini_graph.png">
 <a>
 </td>
 
-<td>
+<td width=33%>
 <a href=/citation/ICSE>
-	ICSE - International Conference on Software Engineering 
+	ICSE - International Conference on Software Engineering (1976-2015)
  <img align=center width=250 src="/img/citation/ICSE/ICSE_mini_graph.png">
 <a>
 </td>
@@ -400,14 +401,14 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 
 <td>
 <a href=/citation/ICCV>
-	ICCV - ICCV - International Conference on Computer Vision (1987-2015) 
+	ICCV - International Conference on Computer Vision (1987-2015) 
  <img align=center width=250 src="/img/citation/ICCV/ICCV_mini_graph.png">
 <a>
 </td>
 
 <td>
 <a href=/citation/ECCV>
-	ECCV - ECCV - European Conference on Computer Vision (1990-2015) 
+	ECCV - European Conference on Computer Vision (1990-2015) 
  <img align=center width=250 src="/img/citation/ECCV/ECCV_mini_graph.png">
 <a>
 </td>

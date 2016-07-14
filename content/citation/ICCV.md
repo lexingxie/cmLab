@@ -1,7 +1,7 @@
 ---
 title: "ICCV - International Conference on Computer Vision (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-07-11 00:11:26.926171"
+date: "2016-07-14 21:28:02.710833"
 categories:
   - "data"
   - "visualization"
@@ -11,8 +11,10 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/ICCV/ICCV_mini_graph.png" height="160" hspace="15" vspace="10" alt="ICCV: summary of top 32 venues">
-### Stats:
+<div style="float:left; position: relative; width:320px; height:200px">  <a href=#fig4><img style="float:left;" src="/img/citation/ICCV/ICCV_mini_graph.png" width="320" style="position: relative; top: 0; left: 0;" alt="ICCV: summary of top 32 venues"></a>
+  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 160px; left: 30px;"/>
+</div>
+### Overall stats:
 
 * 20 years of publication 1987--2015, 5368 papers total
 * 55028 references total, average 10.25 per paper
@@ -22,6 +24,7 @@ tags:
  
 
 
+This is a detail page for one conferenece, go here for [an overview of citation patterns](/post/citation_vis). 
 
 The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The plots on the rest of this page roughly breaks down into four types. 
 
