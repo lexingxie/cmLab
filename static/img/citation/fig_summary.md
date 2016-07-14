@@ -1,4 +1,5 @@
 
+This is a detail page for one conferenece, go here for [an overview of citation patterns](/post/citation_vis). 
 
 The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The plots on the rest of this page roughly breaks down into four types. 
 

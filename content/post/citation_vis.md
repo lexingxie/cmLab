@@ -21,6 +21,8 @@ This paper contain a series of visualizations on the citation records made by, a
 <a href=/citation/WSDM><img width=260 src="/img/citation/WSDM/WSDM_mini_graph.png"></a>
 
 <!--more-->
+<img width=257 src="/img/citation/mini_bar.png">
+
 The colored half-wheels above summarizes the overall amount of citation between a conference in question (gray node in the center) and the top 25 other conferences or journals that cites or are cited by this venue. The thickness of the edges denote the amount of citations in either direction; the blue edges denote references, or incoming information flow for this conference; the red edges denote citations, or outgoing infomration flow. The node colors are shaded and sorted by the ratio of incoming vs outgoing information flow -- the node corresponding to the conference itself is white, due to equal in/out citations and with usually thick edges. 
 
 Left to right above: NIPS in machine learning, PLDI on programming language design and implementation, and WSDM on web search and data mining. Click on individual conferences above or below for details. 

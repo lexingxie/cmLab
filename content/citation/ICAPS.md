@@ -11,7 +11,12 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/ICAPS/ICAPS_mini_graph.png" height="160" hspace="15" vspace="10" alt="ICAPS: summary of top 39 venues">
+<div style="float:left; position: relative; width:320px; height:200px">
+  <a href=#fig4><img src="/img/citation/ICAPS/ICAPS_mini_graph.png" style="position: relative; top: 0; left: 0;" width="320"/></a>
+  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 160px; left: 30px;"/>
+</div>
+
+
 ### Stats:
 
 * 12 years of publication 2003--2014, 273 papers total
@@ -19,7 +24,6 @@ tags:
 	* 252 reference venues, 82.0% in top 25 
 * 1248 citations total, average 4.57 per paper
 	* 171 citations venues, 83.0% in top 25 
- 
 
 
 
@@ -38,7 +42,7 @@ Fig 1. Overall paper stats. (left) number of papers published in each year; (rig
 <a href=/img/citation/ICAPS/ICAPS_cnt_ref.png><img width=900 src="/img/citation/ICAPS/ICAPS_cnt_ref.png"></a>
 Fig 2. Overall reference stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
-<a href=/img/citation/ICAPS/ICAPS_cnt_citation.png><img width=900 src="/img/citation/ICAPS/ICAPS_cnt_citation.png"></a>
+<a id=fig4 href=/img/citation/ICAPS/ICAPS_cnt_citation.png><img width=900 src="/img/citation/ICAPS/ICAPS_cnt_citation.png"></a>
 Fig 3. Overall citation stats. (left) the number of total references made by papers published in each year, broken down by known and unkonwn venues; (right) the number of distinct venues referenced by papers published in each year.
 
 <a href=/img/citation/ICAPS/ICAPS_graph.png><img width=900 src="/img/citation/ICAPS/ICAPS_graph.png"></a>

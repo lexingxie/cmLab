@@ -1,7 +1,7 @@
 ---
 title: "NAACL - North American Chapter of the Association for Computational Linguistics (1991-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-06-24 13:24:23.626205"
+date: "2016-07-14 21:20:15.756266"
 categories:
   - "data"
   - "visualization"
@@ -11,7 +11,9 @@ tags:
   - "graph"
 ---
 
-<img style="float:left;" src="/img/citation/NAACL/NAACL_mini_graph.png" height="160" hspace="15" vspace="10" alt="NAACL: summary of top 33 venues">
+<div style="float:left; position: relative; width:320px; height:200px">  <a href=#fig4><img style="float:left;" src="/img/citation/NAACL/NAACL_mini_graph.png" width="320" style="position: relative; top: 0; left: 0;" alt="NAACL: summary of top 33 venues"></a>
+  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 160px; left: 30px;"/>
+</div>
 ### Overall stats:
 
 * 17 years of publication 1991--2015, 2159 papers total
@@ -22,6 +24,7 @@ tags:
  
 
 
+This is a detail page for one conferenece, go here for [an overview of citation patterns](/post/citation_vis). 
 
 The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The plots on the rest of this page roughly breaks down into four types. 
 
