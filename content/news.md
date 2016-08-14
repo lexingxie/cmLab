@@ -26,6 +26,10 @@ tags:
 
 ### News archive
 
+* 2016-06 Lexing and Andrei presented at the [AOFSR Trust and Influence Program annual review](https://community.apan.org/wg/afosr/w/researchareas/16810.2016-trust-and-influence-program-review/) in Washington DC. 
+
+* 2016-05 Lexing and Dongwoo visited the [machine learning group](http://www.infotech.monash.edu.au/research/about/flagships/machine-learning/) of Monash University in Melbourne, and each gave a talk.
+
 * 2016-03 Lexing is elected as an IEEE CAS [Distinguished Lecturer](http://ieee-cas.org/2016-2017-distinguished-lecturer-roster) 2016-2017.
 
 * 2016-03 Andrei is featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
