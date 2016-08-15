@@ -16,7 +16,7 @@ tags:
 
 <img src="/img/hawkes/hip.png" height="180"><br>
 
-We given a brief overview to a new method for computing expected event rate in unit time for point processes. This is important for estimating interval-censored Hawkes processes -- or when the volume of events, and not individual event times are known.
+We give a brief overview to a new method for computing expected event rate in unit time for point processes. This is important for estimating interval-censored Hawkes processes -- or when the volume of events, and not individual event times are known.
 
 <!--more-->
 
