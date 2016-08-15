@@ -1,6 +1,6 @@
 ---
-title: "The Lifecycle of a YouTube Video and Popularity Phases"
-description: "we found that "
+title: "The Lifecycle of a YouTube Video is Described in Popularity Phases"
+description: "We found that more than 80% videos online go through more than one rising or falling phases of daily attention over time. This can be used to describe how viral videos become popular, and help predict how many views will be gained in the future."
 date: "2015-06-01"
 draft: true
 categories:
@@ -44,4 +44,4 @@ e.g. caption for a A cute fluffy dog.
 Resources
 --------------------
 
-This section include pointers to the data and/or code release, papers, supplemental, and demos. 
+Media coverage: [ANU Reporter](http://reporter.anu.edu.au/how-viral-video-star-born) and [NCI News](http://nci.org.au/2015/09/30/predicting-popularity/) both ran an article about 
