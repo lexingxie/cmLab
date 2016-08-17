@@ -9,5 +9,8 @@
 	"venue_ref" : "Heatmap of references over time, broken down by publication year (horizontal axis) and reference venue (vertical axis).", 
 	"venue_citation" : "Heatmap of citations over time, broken down by publication year (horizontal axis) and citing venue (vertical axis).", 
 	"box_ref": "Box plot of reference age in years (y-axis, lower is older), broken down by the year paper in this venue is published (x-axis).", 
-	"year_ref": "Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis)."
+	"year_ref": "Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis).", 
+	"citation_survival": "Fraction of papers that are cited at least once more than X years after they are published, with a linear regression overlay.", 
+	"year_citation": "Heatmap of the number of papers cited in each year, broken down by year published (horizontal) and year cited (vertical).", 
+	"year_frac": "Heatmap of the faction of papers in a given publication years still cited in each subseuqent year, broken down by year published (horizontal) and year cited (vertical)."
 }

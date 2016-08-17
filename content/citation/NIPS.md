@@ -1,7 +1,7 @@
 ---
 title: "NIPS - Neural Information Processing Systems (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-07-14 21:17:42.704124"
+date: "2016-08-17 11:47:34.730739"
 categories:
   - "data"
   - "visualization"
@@ -11,8 +11,9 @@ tags:
   - "graph"
 ---
 
-<div style="float:left; position: relative; width:320px; height:200px">  <a href=#fig4><img style="float:left;" src="/img/citation/NIPS/NIPS_mini_graph.png" width="320" style="position: relative; top: 0; left: 0;" alt="NIPS: summary of top 37 venues"></a>
-  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 160px; left: 30px;"/>
+<div style="float:left; position: relative; width:800px; height:280px">  <a href=#fig4><img style="float:left;" src="/img/citation/NIPS/NIPS_graph.png" width="480" style="position: relative; top: 0; left: 0;" alt="NIPS: summary of top 37 venues"></a>
+  <img src="/img/citation/mini_bar.png" style="position: absolute; top: 220px; left: 90px;"/>
+  <a href=#fig10><img style="float:left;" src="/img/citation/NIPS/NIPS_citation_survival.png" width="280" style="position: relative; top: 0; left: 0;"></a>
 </div>
 ### Stats:
 
@@ -21,20 +22,25 @@ tags:
 	* 1498 reference venues, 64.0% in top 25 
 * 131082 citations total, average 20.22 per paper
 	* 3275 citations venues, 57.0% in top 25 
+	* citation survival rates: 0yr 0.83; 10yr 0.60; 20yr 0.32 
  
 
 
-This is a detail page for one conferenece, go here for [an overview of citation patterns](/post/citation_vis). 
 
-The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The plots on the rest of this page roughly breaks down into four types. 
+The half-wheel on the left is a snapshot of the top venues that cites and cited by this venue (details in Figure 4 below). The survival graph on the right contains the fraction of papers cited at least X years after being published (details in Figure 10 below).
+
+The plots on the rest of this page roughly breaks down into the following types. 
 
 * Figure 1 - Figure 3 contains basic stats of papers, references and citations over its lifetime. 
 * Figure 4 and 5 summarizes the incoming and outgoing citations over all years, sorted by the ratio of incoming over outgoing citations (left to right).
 * Figure 5 and 6 breaks down the incoming and outgoing citations by year of the conference paper. 
-* Figure 7 and 8 breaks down the outgoing references by the year they were cited in this conference. For most conferences we can see a 'google scholar' effect that more older papers gets cited in recent years, likely due to the ease of finding them. 
+* Figure 7 and 8 breaks down the outgoing references by the year they were cited in this conference. For most conferences we can see a 'google scholar' effect that older papers gets cited more (and from more venues) in recent years, likely due to the ease of finding them. 
+* Figure 9-11 explores the question "how many papers are still cited at least after X years", and what fraction of papers are not cited at all.
 
-**Note**: This page visualizes reference and citation patterns of one conference, generated from templates. For a written overview of the visualization series, and background about problem, motivation and methods please see the [overview page](/post/citation_vis). 
-### Plots of citation data
+**Note**: This page visualizes reference and citation patterns of one conference, generated from templates. For a written overview of the visualization series, and background about problem, motivation and methods please see the [overview page](/post/citation_vis). Also of interest are [the overview page for citation flow](/post/citation_flow) or [the overview page for citation survival rates](/post/citation_survival).
+
+**Larger version of any figure** can be obtained by clicking the figure. 
+
 <a id=fig1 href=/img/citation/NIPS/NIPS_cnt_paper.png><img width=900 src="/img/citation/NIPS/NIPS_cnt_paper.png"></a>
 Fig 1. Overall paper stats. (left) number of papers published in each year; (right) the average number of references made and the average number of citations received for papers published in each year.
 
@@ -63,4 +69,13 @@ Fig 8. Box plot of reference age in years (y-axis, lower is older), broken down 
 
 <a id=fig9 href=/img/citation/NIPS/NIPS_year_ref.png><img width=900 src="/img/citation/NIPS/NIPS_year_ref.png"></a>
 Fig 9. Heatmap of references, broken down by the year paper in this venue is published (horizontal axis) and by the publication year of the reference (vertical axis).
+
+<a id=fig10 href=/img/citation/NIPS/NIPS_citation_survival.png><img src="/img/citation/NIPS/NIPS_citation_survival.png"></a><br />
+Fig 10. Fraction of papers that are cited at least once more than X years after they are published, with a linear regression overlay.
+
+<a id=fig11 href=/img/citation/NIPS/NIPS_year_citation.png><img width=900 src="/img/citation/NIPS/NIPS_year_citation.png"></a>
+Fig 11. Heatmap of the number of papers cited in each year, broken down by year published (horizontal) and year cited (vertical).
+
+<a id=fig12 href=/img/citation/NIPS/NIPS_year_frac.png><img width=900 src="/img/citation/NIPS/NIPS_year_frac.png"></a>
+Fig 12. Heatmap of the faction of papers in a given publication years still cited in each subseuqent year, broken down by year published (horizontal) and year cited (vertical).
 
