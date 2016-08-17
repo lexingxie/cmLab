@@ -8,7 +8,7 @@ categories:
  - "paper"
  - "data"
 tags:
- - "social"
+ - "social media"
  - "privacy"
  - "online"
 ---

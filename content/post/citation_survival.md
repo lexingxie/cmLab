@@ -7,17 +7,17 @@ categories:
   - "research"
   - "visualization"
 tags:
-  - "social"
+  - "social media"
   - "datasci"
   - "graph"
 ---
 
 ##### *posted by* Lexing Xie
 
-<a href=/citation/ACL/#fig10><img width=200 src="/img/citation/ACL/ACL_citation_survival.png"></a>
-<a href=/citation/PLDI/#fig10><img width=200 src="/img/citation/PLDI/PLDI_citation_survival.png"></a>
-<a href=/citation/ISMB/#fig10><img width=200 src="/img/citation/ISMB/ISMB_citation_survival.png"></a>
-<a href=/citation/SIGGRAPH/#fig10><img width=200 src="/img/citation/SIGGRAPH/SIGGRAPH_citation_survival.png"></a>
+<a href=/citation/ACL><img width=200 src="/img/citation/ACL/ACL_citation_survival.png"></a>
+<a href=/citation/PLDI><img width=200 src="/img/citation/PLDI/PLDI_citation_survival.png"></a>
+<a href=/citation/ISMB><img width=200 src="/img/citation/ISMB/ISMB_citation_survival.png"></a>
+<a href=/citation/SIGGRAPH><img width=200 src="/img/citation/SIGGRAPH/SIGGRAPH_citation_survival.png"></a>
 <!--more-->
 
 This is the overview page for the citation survival rate of many computer science conferences, using data from microsoft academic graph. For a general discussion of data process, and why we are doing this, see the [overview blog post](/post/citation_vis). For other visualizations on this dataset, see the [citation flow summary page](/post/citation_flow), or details about individual conferences below. 

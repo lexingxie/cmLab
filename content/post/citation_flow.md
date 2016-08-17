@@ -8,7 +8,7 @@ categories:
   - "research"
   - "visualization"
 tags:
-  - "social"
+  - "social media"
   - "datasci"
   - "graph"
 ---
