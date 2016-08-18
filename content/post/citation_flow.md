@@ -20,14 +20,12 @@ tags:
 <!--more-->
 <img src="/img/citation/mini_bar.png">
 
-This is the overview page for the incoming/outgoing citation flow of many computer science conferences, using data from microsoft academic graph. For a general discussion of data process, and why we are doing this, see the [overview blog post](/post/citation_vis). For other visualizations on this dataset, see the [citation survival summary page](/post/citation_survival), or details about individual conferences below. 
+This is the overview page for the incoming/outgoing citation flow of many computer science conferences, using data from microsoft academic graph. For a general discussion of why, what and how, see the [overview blog post](/post/citation_vis). For other visualizations on this dataset, see the [citation survival summary page](/post/citation_survival), or links for individual conferences below. 
 
 The colored half-wheels above summarizes the overall amount of citation between a conference in question (gray node in the center) and the top 25 other conferences or journals that cites or are cited by this venue. The thickness of the edges denote the amount of citations in either direction; the blue edges denote references, or incoming information flow for this conference; the red edges denote citations, or outgoing infomration flow. The node colors are shaded and sorted by the ratio of incoming vs outgoing information flow -- the node corresponding to the conference itself is white, due to equal in/out citations and with usually thick edges. 
 
 Left to right: NIPS in machine learning, PLDI on programming language design and implementation, and WSDM on web search and data mining. Click on individual conferences above or below for details. 
 
-
-### Show me the plots
 
 You can either browse through [a list of all conferences](/tags/citation/), or navigate using the conference list grouped by topical area below. 
 
