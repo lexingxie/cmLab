@@ -1,7 +1,7 @@
 ---
 title: "IROS - Intelligent RObots and Systems (1988-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:53:47.763105"
+date: "2016-08-26 12:14:49.783652"
 categories:
   - "data"
   - "visualization"
