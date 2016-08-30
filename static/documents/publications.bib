@@ -1,3 +1,18 @@
+@inproceedings{Mishra2016,
+    title = {{Feature Driven and Point Process Approaches for Popularity Prediction}},
+    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.}
+    author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
+    booktitle = {Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management},
+    series = {CIKM '16},
+    address = {Indianapolis, IN, USA},
+    doi = {10.1145/2983323.2983812},
+    keywords = {social media; self-exciting point process; information diffusion; cascade prediction},
+    year = {2016},
+    url_Abstract={https://arxiv.org/abs/1608.04862},
+    url_Paper = {https://arxiv.org/abs/1608.04862v2.pdf},
+    url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/}
+}
+
 @inproceedings{Rizoiu2016,
     abstract = {The cumulative effect of collective participation online has an important and adverse impact on individual privacy. As an online system evolves over time, new digital traces of individual behavior may uncover previously hidden statistical links between an individual’s past actions and her private traits. Furthermore, this de-anonymization trend may not be observable when analyzing short or medium time-span snapshots of data. To quantify this effect, we analyze the evolution of individual privacy loss by studying the 13-year long edit history of Wikipedia, including more than 117,523 different users performing 188,805,088 edits. We trace each Wikipedia’s contributor using apparently harmless features, such as the number of edits performed on predefined broad categories in a given time period (e.g. Mathematics, Culture or Nature). We show that even at this unspecific level of identification, it is possible to use off-the-shelf machine learning algorithms to uncover usually undisclosed private traits, such as gender, religion or education. We provide empirical evidence that the prediction accuracy for almost all private traits consistently improves over time. Moreover, we observe that the system also shows improved prediction for users who participated in the system during “safe” periods — periods where a given individual’s private traits could not be — showing that de-anonymization threats are hard to foresee as online systems evolve. Insights from this work should help users, system designers, and policy makers understand and debate the design and long-term effects of online content creation systems.},
     address = {San Francisco, CA, USA},
@@ -9,7 +24,7 @@
     title = {{Evolution of Privacy Loss on Wikipedia}},
     year = {2016},
     %url_Slides = {talks/gau-hum-1830.ppt}, % use this to distribute the slides of the presentation
-    %url_Link = {http://my.repo.com/awesome.paper.pdf} % use this to distribute the link to your paper (e.g. journal entry) 
+    %url_Link = {http://my.repo.com/awesome.paper.pdf} % use this to distribute the link to your paper (e.g. journal entry)
     url_Paper = {http://arxiv.org/pdf/1512.03523.pdf}, % use this to distribute the link ot the paper. It can be either a http:// link or a local link relative to the bib file (somthing like publications/paper.pdf)
     url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/wikiprivacy/}
 }
@@ -22,7 +37,7 @@
   url_Paper={http://arxiv.org/pdf/1510.01431v2.pdf},
   url_Slides={http://cm.cecs.anu.edu.au/documents/senticap_slides.pdf},
   address = {Phoenix, Arizona USA},
-  year={2016}, 
+  year={2016},
   abstract={The recent progress on image recognition and language modeling is making automatic description of image content a reality. However, stylized, non-factual aspects of the written description are missing from the current systems. One such style is descriptions with emotions, which is commonplace in everyday communication, and influences decision-making and interpersonal relationships. We design a system to describe an image with emotions, and present a model that automatically generates captions with positive or negative sentiments. We propose a novel switching recurrent neural network with word-level regularization, which is able to produce emotional image captions using only 2000+ training sentences containing sentiments. We evaluate the captions with different automatic and crowd-sourcing metrics. Our model compares favourably in common quality metrics for image captioning. In 84.6\% of cases the generated positive captions were judged as being at least as descriptive as the factual captions. Of these positive captions 88\% were confirmed by the crowd-sourced workers as having the appropriate sentiment.},
 }
 
@@ -44,9 +59,9 @@
     booktitle={Ninth International {AAAI} Conference on Web and Social Media},
     pages={10pp},
     year={2015},
-    abstract={This paper proposes a new representation to explain and predict popularity evolution in social media. Recent work on social networks has led to insights about the popularity of a digital item. For example, both the content and the network matters, and gaining early popularity is critical. However, these observations did not paint a full picture of popularity evolution; some open questions include: what kind of popularity trends exist among different types of videos, and will an unpopular video become popular? To this end, we propose a novel phase representation that extends the well-known endogenous growth and exogenous shock model (Crane and Sornette 2008). We further propose efficient algorithms to simultaneously estimate and segment power-law shaped phases from historical popularity data. With the extracted phases, we found that videos go through not one, but multiple stages of popularity increase or decrease over many months. On a dataset containing the 2-year history of over 172,000 YouTube videos, we observe that phases are directly related to content type and popularity change, e.g., nearly 3/4 of the top 5\% popular videos have 3 or more phases, more than 60\% news videos are dominated by one long power-law decay, and 75\% of videos that made a significant jump to become the most popular videos have been in increasing phases. Finally, we leverage this phase representation to predict future viewcount gain and found that using phase information reduces the average prediction error over the state-of-the-art for videos of all phase shapes.}, 
+    abstract={This paper proposes a new representation to explain and predict popularity evolution in social media. Recent work on social networks has led to insights about the popularity of a digital item. For example, both the content and the network matters, and gaining early popularity is critical. However, these observations did not paint a full picture of popularity evolution; some open questions include: what kind of popularity trends exist among different types of videos, and will an unpopular video become popular? To this end, we propose a novel phase representation that extends the well-known endogenous growth and exogenous shock model (Crane and Sornette 2008). We further propose efficient algorithms to simultaneously estimate and segment power-law shaped phases from historical popularity data. With the extracted phases, we found that videos go through not one, but multiple stages of popularity increase or decrease over many months. On a dataset containing the 2-year history of over 172,000 YouTube videos, we observe that phases are directly related to content type and popularity change, e.g., nearly 3/4 of the top 5\% popular videos have 3 or more phases, more than 60\% news videos are dominated by one long power-law decay, and 75\% of videos that made a significant jump to become the most popular videos have been in increasing phases. Finally, we leverage this phase representation to predict future viewcount gain and found that using phase information reduces the average prediction error over the state-of-the-art for videos of all phase shapes.},
     url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf},
-    url_Slides = {http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-slides.pdf}, 
+    url_Slides = {http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-slides.pdf},
     url_Presentation_Page = {https://github.com/yuhonglin/ytphasedata}
 }
 
@@ -58,10 +73,10 @@
     number={2},
     pages={230--242},
     year={2015},
-    doi={10.1109/TPAMI.2014.2313127}, 
+    doi={10.1109/TPAMI.2014.2313127},
     publisher={IEEE},
     abstract={In applications we may want to compare different document collections: they could have shared content but also different and unique aspects in particular collections. This task has been called comparative text mining or cross-collection modeling. We present a differential topic model for this application that models both topic differences and similarities. For this we use hierarchical Bayesian nonparametric models. Moreover, we found it was important to properly model power-law phenomena in topic-word distributions and thus we used the full Pitman-Yor process rather than just a Dirichlet process. Furthermore, we propose the transformed Pitman-Yor process (TPYP) to incorporate prior knowledge such as vocabulary variations in different collections into the model. To deal with the non-conjugate issue between model prior and likelihood in the TPYP, we thus propose an efficient sampling algorithm using a data augmentation technique based on the multinomial theorem. Experimental results show the model discovers interesting aspects of different collections. We also show the proposed MCMC based algorithm achieves a dramatically reduced test perplexity compared to some existing topic models. Finally, we show our model outperforms the state-of-the-art for document classification/ideology prediction on a number of text collections.},
-    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/diffTM_PAMI.pdf}    
+    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/diffTM_PAMI.pdf}
 }
 
 @inproceedings{mathews2015choosing,
@@ -72,19 +87,19 @@
     year={2015},
     organization={IEEE},
     abstract={We study basic-level categories for describing visual concepts, and empirically observe context-dependant basic level names across thousands of concepts. We propose methods for predicting basic-level names using a series of classification and ranking tasks, producing the first large scale catalogue of basic-level names for hundreds of thousands of images depicting thousands of visual concepts. We also demonstrate the usefulness of our method with a picture-to-word task, showing strong improvement over recent work by Ordonez et al, by modeling of both visual and language context. Our study suggests that a model for naming visual concepts is an important part of any automatic image/video captioning and visual story-telling system.},
-    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/wacv2015.pdf}    
+    url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/wacv2015.pdf}
 }
 
 @article{wangmodeling,
-    author={Xiaohui Wang and Jia Jia and Jie Tang and Boya Wu and Lianhong Cai and Lexing Xie}, 
-    journal={Affective Computing, IEEE Transactions on}, 
-    title={{Modeling Emotion Influence in Image Social Networks}}, 
-    year={2015}, 
-    volume={6}, 
-    number={3}, 
-    pages={286-297}, 
-    doi={10.1109/TAFFC.2015.2400917}, 
-    ISSN={1949-3045}, 
+    author={Xiaohui Wang and Jia Jia and Jie Tang and Boya Wu and Lianhong Cai and Lexing Xie},
+    journal={Affective Computing, IEEE Transactions on},
+    title={{Modeling Emotion Influence in Image Social Networks}},
+    year={2015},
+    volume={6},
+    number={3},
+    pages={286-297},
+    doi={10.1109/TAFFC.2015.2400917},
+    ISSN={1949-3045},
     month={July},
     abstract={We study emotion influence in large image social networks. We focus on users’ emotions reflected by images that they have uploaded and social influence that plays a role in changing users’ emotions. We first verify the existence of emotion influence in the image networks, and then propose a probabilistic factor graph based emotion influence model to answer the questions of "who influences whom". Employing a real network from Flickr as the basis in our empirical study, we evaluate the effectiveness of different factors in the proposed model with in-depth data analysis. The learned influence is fundamental for social network analysis and can be applied to many applications. We consider using the influence to help predict users’ emotions and our experiments can significantly improve the prediction accuracy (3.0\%-26.2\%) over several alternative methods such as Naive Bayesian, SVM (Support Vector Machine) or traditional Graph Model. We further examine the behavior of the emotion influence model, and find that more social interactions correlate with higher emotion influence between two users, and the influence of negative emotions is stronger than positive ones.},
     url_Paper={https://www.computer.org/csdl/trans/ta/preprint/07035025.pdf}
@@ -108,7 +123,7 @@
  keywords = {popularity prediction, social media, twitter, youtube},
  abstract={This paper proposes a novel method to predict increases in YouTube viewcount driven from the Twitter social network. Specifically, we aim to predict two types of viewcount increases: a sudden increase in viewcount (named as Jump), and the viewcount shortly after the upload of a new video (named as Early). Experiments on hundreds of thousands of videos and millions of tweets show that Twitter-derived features alone can predict whether a video will be in the top 5\% for Early popularity with 0.7 Precision@100. Furthermore, our results reveal that while individual influence is indeed important for predicting how Twitter drives YouTube views, it is a diversity of interest from the most active to the least active Twitter users mentioning a video (measured by the variation in their total activity) that is most informative for both Jump and Early prediction. In summary, by going beyond features that quantify individual influence and additionally leveraging collective features of activity variation, we are able to obtain an effective cross-network predictor of Twitter-driven YouTube views.},
  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf}
-} 
+}
 
 @inproceedings{Sedhain:2014:SCF:2645710.2645772,
  author = {Sedhain, Suvash and Sanner, Scott and Braziunas, Darius and Xie, Lexing and Christensen, Jordan},
@@ -128,19 +143,19 @@
  keywords = {cold-start problem, recommender systems},
  abstract={We examine the cold-start recommendation task in an online retail setting for users who have not yet purchased (or interacted in a meaningful way with) any available items but who have granted access to limited side information, such as basic demographic data (gender, age, location) or social network information (Facebook friends or page likes). We formalize neighborhood-based methods for cold-start collaborative filtering in a generalized matrix algebra framework that does not require purchase data for target users when their side information is available. In real-data experiments with 30,000 users who purchased 80,000+ books and had 9,000,000+ Facebook friends and 6,000,000+ page likes, we show that using Facebook page likes for cold-start recommendation yields up to a 3-fold improvement in mean average precision (mAP) and up to 6-fold improvements in Precision@k and Recall@k compared to most-popular-item, demographic, and Facebook friend cold-start recommenders. These results demonstrate the substantial predictive power of social network content, and its significant utility in a challenging problem - recommendation for cold-start users.},
  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/recsys14.pdf}
-} 
+}
 
-@ARTICLE{xie04mmhard, 
-author={Lexing Xie and Shamma, D.A. and Snoek, C.}, 
-journal={MultiMedia, IEEE}, 
-title={{Content is Dead ... Long Live Content: The New Age of Multimedia-Hard Problems}}, 
-year={2014}, 
-volume={21}, 
-number={1}, 
-pages={4-8}, 
-abstract={Using the ACM Multimedia 2012 panel on metadata as a jumping-off point, the authors investigate whether content can continue to play a dominant role in multimedia research in the age of social, local, and mobile media. In this article, they propose that the community now must face the challenge of characterizing the level of difficulty of multimedia problems to establish a better understanding of where content analysis needs further improvement. They also suggest a classification method that defines problem complexity in the context of human-assisted computation.}, 
-doi={10.1109/MMUL.2014.5}, 
-ISSN={1070-986X}, 
+@ARTICLE{xie04mmhard,
+author={Lexing Xie and Shamma, D.A. and Snoek, C.},
+journal={MultiMedia, IEEE},
+title={{Content is Dead ... Long Live Content: The New Age of Multimedia-Hard Problems}},
+year={2014},
+volume={21},
+number={1},
+pages={4-8},
+abstract={Using the ACM Multimedia 2012 panel on metadata as a jumping-off point, the authors investigate whether content can continue to play a dominant role in multimedia research in the age of social, local, and mobile media. In this article, they propose that the community now must face the challenge of characterizing the level of difficulty of multimedia problems to establish a better understanding of where content analysis needs further improvement. They also suggest a classification method that defines problem complexity in the context of human-assisted computation.},
+doi={10.1109/MMUL.2014.5},
+ISSN={1070-986X},
 month={Jan},
 url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
 }
@@ -166,7 +181,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  keywords = {Social media, image analysis, topic models},
  abstract={Nowadays, the amount of multimedia contents in microblogs is growing significantly. More than 20\% of microblogs link to a picture or video in certain large systems. The rich semantics in microblogs provides an opportunity to endow images with higher-level semantics beyond object labels. However, this raises new challenges for understanding the association between multimodal multimedia contents in multimedia-rich microblogs. Disobeying the fundamental assumptions of traditional annotation, tagging, and retrieval systems, pictures and words in multimedia-rich microblogs are loosely associated and a correspondence between pictures and words cannot be established. To address the aforementioned challenges, we present the first study analyzing and modeling the associations between multimodal contents in microblog streams, aiming to discover multimodal topics from microblogs by establishing correspondences between pictures and words in microblogs. We first use a data-driven approach to analyze the new characteristics of the words, pictures, and their association types in microblogs. We then propose a novel generative model called the Bilateral Correspondence Latent Dirichlet Allocation (BC-LDA) model. Our BC-LDA model can assign flexible associations between pictures and words and is able to not only allow picture-word co-occurrence with bilateral directions, but also single modal association. This flexible association can best fit the data distribution, so that the model can discover various types of joint topics and generate pictures and words with the topics accordingly. We evaluate this model extensively on a large-scale real multimedia-rich microblogs dataset. We demonstrate the advantages of the proposed model in several application scenarios, including image tagging, text illustration, and topic discovery. The experimental results demonstrate that our proposed model can significantly and consistently outperform traditional approaches.},
  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/tomm-bclda.pdf}
-} 
+}
 
 
 @article{Liu:2014:SAI:2665935.2645643,
@@ -190,7 +205,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  keywords = {Sketching interface, context-aware recommendation, sketch annotation, video organization},
  abstract={With the rapid growth of video resources, techniques for efficient organization of video clips are becoming appealing in the multimedia domain. In this article, a sketch-based approach is proposed to intuitively organize video clips by: (1) enhancing their narrations using sketch annotations and (2) structurizing the organization process by gesture-based free-form sketching on touch devices. There are two main contributions of this work. The first is a sketch graph, a novel representation for the narrative structure of video clips to facilitate content organization. The second is a method to perform context-aware sketch recommendation scalable to large video collections, enabling common users to easily organize sketch annotations. A prototype system integrating the proposed approach was evaluated on the basis of five different aspects concerning its performance and usability. Two sketch searching experiments showed that the proposed context-aware sketch recommendation outperforms, in terms of accuracy and scalability, two state-of-the-art sketch searching methods. Moreover, a user study showed that the sketch graph is consistently preferred over traditional representations such as keywords and keyframes. The second user study showed that the proposed approach is applicable in those scenarios where the video annotator and organizer were the same person. The third user study showed that, for video content organization, using sketch graph users took on average 1/3 less time than using a mass-market tool Movie Maker and took on average 1/4 less time than using a state-of-the-art sketch alternative. These results demonstrated that the proposed sketch graph approach is a promising video organization tool.},
  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TOMM14-sketch.pdf}
-} 
+}
 
 @inproceedings{Xie:2013:PTW:2502081.2502113,
  author = {Xie, Lexing and He, Xuming},
@@ -212,7 +227,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  url_Paper={http://cecs.anu.edu.au/~xlx/papers/mm2013-xie.pdf},
  url_Slides={http://cecs.anu.edu.au/~xlx/proj/tagnet/mm2013-tagnet.pdf},
  url_page={http://users.cecs.anu.edu.au/~xlx/proj/tagnet/}
-} 
+}
 
 @inproceedings{Sedhain:2013:SAF:2512938.2512947,
  author = {Sedhain, Suvash and Sanner, Scott and Xie, Lexing and Kidd, Riley and Tran, Khoi-Nguyen and Christen, Peter},
@@ -232,7 +247,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/mmhard_2014.pdf},
  keywords = {collaborative filtering, recommender systems, social networks},
  abstract={Content recommendation in social networks poses the complex problem of learning user preferences from a rich and complex set of interactions (e.g., likes, comments and tags for posts, photos and videos) and activities (e.g., favourites, group memberships, interests). While many social collaborative filtering approaches learn from aggregate statistics over this social information, we show that only a small subset of user interactions and activities are actually useful for social recommendation, hence learning which of these are most informative is of critical importance. To this end, we define a novel social collaborative filtering approach termed social affinity filtering (SAF). On a preference dataset of Facebook users and their interactions with 37,000+ friends collected over a four month period, SAF learns which fine-grained interactions and activities are informative and outperforms state-of-the-art (social) collaborative filtering methods by over 6\% in prediction accuracy; SAF also exhibits strong cold-start performance. In addition, we analyse various aspects of fine-grained social features and show (among many insights) that interactions on video content are more informative than other modalities (e.g., photos), the most informative activity groups tend to have small memberships, and features corresponding to “long-tailed” content (e.g., music and books) can be much more predictive than those with fewer choices (e.g., interests and sports). In summary, this work demonstrates the substantial predictive power of fine-grained social features and the novel method of SAF to leverage them for state-of-the-art social recommendation.},
  url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/COSN2013.pdf}
-} 
+}
 
 @article{41769,
 title = {{Tracking Large-Scale Video Remix in Real-World Events}},
@@ -240,7 +255,7 @@ author = {Lexing Xie and Apostol Natsev and Xuming He and John R. Kender and Mat
 year  = 2013,
 journal = {IEEE Transactions on Multimedia},
 pages = {1244-1254},
-volume  = {15, no. 6}, 
+volume  = {15, no. 6},
 doi={10.1109/TMM.2013.2264929},
 abstract={Content sharing networks, such as YouTube, contain traces of both explicit online interactions (such as likes, comments, or subscriptions), as well as latent interactions (such as quoting, or remixing, parts of a video). We propose visual memes, or frequently re-posted short video segments, for detecting and monitoring such latent video interactions at scale. Visual memes are extracted by scalable detection algorithms that we develop, with high accuracy. We further augment visual memes with text, via a statistical model of latent topics. We model content interactions on YouTube with visual memes, defining several measures of influence and building predictive models for meme popularity. Experiments are carried out with over 2 million video shots from more than 40,000 videos on two prominent news events in 2009: the election in Iran and the swine flu epidemic. In these two events, a high percentage of videos contain remixed content, and it is apparent that traditional news media and citizen journalists have different roles in disseminating remixed content. We perform two quantitative evaluations for annotating visual memes and predicting their popularity. The proposed joint statistical model of visual memes and words outperforms an alternative concurrence model, with an average error of 2\% for predicting meme volume and 17\% for predicting meme lifespan.},
 url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TMM-youtube.pdf}
@@ -488,7 +503,7 @@ url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/TMM-youtube.pdf}
   pages={1253--1258},
   year={2010},
   organization={ACM},
-  abstract={We explore in a single but large case study how videos within YouTube, competing for view counts, are like organisms within an ecology, competing for survival. We develop this analogy, whose core idea shows that short video clips, best detected across videos as near-duplicate keyframes, behave similarly to genes. We report work in progress, on a dataset of 5.4K videos with 210K keyframes on a single topic, which traces sequences, not bags, of “near-dups” over time, both within videos and across them. We demonstrate their utility to: cleanse responses to queries contaminated by over-eager YouTube query expansion; separate videos temporally according to their responses to external events; track the evolution and lifespan of continuing video “stories”; automatically locate video summaries already present within a video ecology; quickly verify video copying via a direct application of the Smith Waterman algorithm used in genetics—which also provides useful feedback for tuning the near-dup detection and clustering process; and quickly classify videos via a kind of Lempel-Ziv encoding into the categories of news, monologue, dialogue, and slideshow. We demonstrate a number of novel visualizations of this large dataset, including a direct use of the Matlab black-body “hot” false-color map, together with the GraphViz package, to display the gene-like inheritance of viral properties of keyframes. We further speculate that, as with genes, there are “functional roles” for semantic categories of clips, and, as with species, there are differings rates of “genetic drift” for each video genre.}, 
+  abstract={We explore in a single but large case study how videos within YouTube, competing for view counts, are like organisms within an ecology, competing for survival. We develop this analogy, whose core idea shows that short video clips, best detected across videos as near-duplicate keyframes, behave similarly to genes. We report work in progress, on a dataset of 5.4K videos with 210K keyframes on a single topic, which traces sequences, not bags, of “near-dups” over time, both within videos and across them. We demonstrate their utility to: cleanse responses to queries contaminated by over-eager YouTube query expansion; separate videos temporally according to their responses to external events; track the evolution and lifespan of continuing video “stories”; automatically locate video summaries already present within a video ecology; quickly verify video copying via a direct application of the Smith Waterman algorithm used in genetics—which also provides useful feedback for tuning the near-dup detection and clustering process; and quickly classify videos via a kind of Lempel-Ziv encoding into the categories of news, monologue, dialogue, and slideshow. We demonstrate a number of novel visualizations of this large dataset, including a direct use of the Matlab black-body “hot” false-color map, together with the GraphViz package, to display the gene-like inheritance of viral properties of keyframes. We further speculate that, as with genes, there are “functional roles” for semantic categories of clips, and, as with species, there are differings rates of “genetic drift” for each video genre.},
   url_Paper={http://users.cecs.anu.edu.au/~xlx/papers/videogenetics-acmmm10.pdf}
 }
 
