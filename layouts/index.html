@@ -14,13 +14,14 @@
         </p>
 
         <p>
+        You may be interested in sampling the recent blog posts below, look at our <a href=/research>research summary</a>, <a href=/publications>publications</a>, <a href=/post>all past posts</a>, or navigate by categories and tags, such as: <a class="label label-default" href=/tags/social-media/>social media</a> <a class="label label-default" href=/tags/deeplearning/>deep learning</a> <a class="label label-default" href=/categories/visualization/>visualization</a> <a class="label label-default" href=/tags/stochastic-process/>stochastic process</a>  <a class="label label-default" href=/tags/popularity/>popularity</a> <a class="label label-default" href=/tags/privacy/>privacy</a> <a class="label label-default" href=/categories/data/>data</a> <a class="label label-default" href=/tags/language/>language</a> <a class="label label-default" href=/tags/vision/>vision</a>.
         </p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-9">
-        {{ range first 10 .Data.Pages }}
+        {{ range first 12 .Data.Pages }}
             {{ .Render "summary" }}
         {{ end }}
         </div>

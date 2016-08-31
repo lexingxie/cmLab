@@ -159,6 +159,8 @@ We are a diverse group in terms of research interests and background, technical 
             <th/>
 
             <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/siqi-100.png' title='Siqi' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
             <th/>
          </tr>
      </thead>
@@ -177,6 +179,8 @@ We are a diverse group in terms of research interests and background, technical 
         <td/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Projects:</b>
+                social media popularity prediction
         <td/>
     </tr>
 
@@ -188,10 +192,10 @@ We are a diverse group in terms of research interests and background, technical 
 
         <td style="width:33%;vertical-align:top">
             <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
-
         <td/>
 
         <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> The University of Melbourne
         <td/>
      </tr>
  </table>
@@ -207,8 +211,7 @@ We are a diverse group in terms of research interests and background, technical 
 * [Manuel Cebrian][manuel], NICTA/Data61
 * Xuming He, NICTA/Data61
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), Oregon State University
-
+* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
 
 
 <br/><br/>
@@ -227,12 +230,12 @@ We are a diverse group in terms of research interests and background, technical 
 
             <th style="width:33%;vertical-align:top">
                 <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Qianyu Zhang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
+                <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
             <th/>
 
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO1AAAAJDMwN2VmYmFhLThiZGEtNDBhYy1iOGEwLThkOTc0NGMzMTkyNw.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Yanxiang Wang</b> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
+                <img style="float: left;" class='inset left' src='/img/people/yanxiang.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
             <th/>
          </tr>
              <tr>
