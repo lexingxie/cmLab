@@ -18,43 +18,56 @@ tags:
 ##### posted by _Swapnil Mishra_ <br />
 
 <img style="float: left;" src="/img/fdhawkes/spock-dead-cascade.png" width="100" height="77" Hspace="10" Vspace="5">
-Predicting popularity as number of retweets a tweet will get is an important and difficult task. It's unclear which approaches, settings and features works best. Our current CIKM'16 paper bridges this gap by comparing across feature driven and point process approaches under both regression and classification settings.
+Predicting popularity as number of retweets a tweet will get is an important and difficult task. It's unclear which approaches, settings and features works best. Our current CIKM '16 paper bridges this gap by comparing across feature driven and point process approaches under both regression and classification settings.
 <!--more-->
 
 The problem
 -------------------------
 
-The cumulative effect of collective online participation has an important and adverse impact on individual privacy.
-As an online system evolves over time, new digital traces of individual behavior may uncover previously hidden statistical links between an individual's past actions and her private traits.
-To quantify this effect, we analyze the evolution of individual privacy loss by studying the edit history of Wikipedia over 13 years, including more than 117,523 different users performing 188,805,088 edits.
-We trace each Wikipedia's contributor using apparently harmless features, such as the number of edits performed on predefined broad categories in a given time period (e.g. Mathematics, Culture or Nature).
-We show that even at this unspecific level of behavior description, it is possible to use off-the-shelf machine learning algorithms to uncover usually undisclosed personal traits, such as gender, religion or education.
-We provide empirical evidence that the prediction accuracy for almost all private traits consistently improves over time.
-Surprisingly, the prediction performance for users who stopped editing after a given time still improves.
-The activities performed by new users seem to have contributed more to this effect than additional activities from existing (but still active) users.
-Insights from this work should help users, system designers, and policy makers understand and make long-term design choices in online content creation systems.
+Predicting popularity on social media has gathered a lot of attention, as it helps both content users and producers to cope with information overload. A lot has been done in this space from predicting whether a cascade will double it's size, whether an item will have 10 million views or total number of views/retweets a particular post will gather. People have gone from trying a variety of features learned from a full network data (hard to get barring some) to using stochastic processes to model the event time data. But it's still unclear which features generalizes over different settings, whether two different class of approaches be compared on same dataset. Also a lot of this work is done on proprietary data so it becomes hard to replicate or generalize over a new setup.
+
+Our Solution
+-------------------------
+In our work, we address these challenges in context of predicting final size of a retweet cascades as follows:
+* We build a generative model with _Hawkes Process_, which has a predictive layer on top, using model parameters as features,  to make final size prediction. The properties modeled into the generative model are: inherent quality of the tweet, social influence of users and the length of "social memory".
+* We develop a state of the art feature driven approach, where features can be computed on data containing solely the message content and basic user profiles. Hence these features can be computed very easily on any social dataset.
+* We further combine both models to create a new hybrid model, which shows superior results.
+* We use all three models to do both regression (actual number of retweets) and classification (whether a cascade will double it's current size) task.
+* Finally we release a public dataset that can be used for benchmarking both feature driven and generative models.
+
+We conclude from our observations that hence further popularity prediction studies should compare the results across both class (predictive and generative) of methods in both regression and classification tasks.
 
 Sample results
 --------------------
 
-**Privacy Loss** is evaluated as the capability to predict hidden personal traits, based on simple past recorded activity (i.e. number of page edits within a given interval).
-An increasing prediction accuracy involves loss of privacy.
-
+**Absolute Relative Error(ARE)** is evaluated as the ratio of difference between predicted size and real size to the real size of a cascade. For regression task lower the ARE better is the performance.
 <!--Table of 3 columns, corresponding to the 3 figures.-->
 
-|<img src="/img/privacy_loss/gender-aggr-basic-features.png" width="240" Hspace="10"> | <img src="/img/privacy_loss/new-entry-vs-fixed.png" width="320"> | <img src="/img/privacy_loss/exited-users-education-undergrads.png" width="240" Hspace="10"> |
-|:-:|:-:|:-:|
-| Static behavior analysis correlates with gender: **males** tend to edit more the content of Wikipedia articles, while **females** seem to concentrate more on the social interaction. | Privacy Loss over time to the "online breadcrumbs" left behind by users (<span style="color:red">red line</span>) compared to the Privacy Loss due to information learned from other users (<span style="color:blue">blue line</span>). | Privacy Loss occurs even for retired editors, who have been active prior to 2008 (<span style="color:blue">blue period</span>), but stopped contributing afterwards. <!--(<span style="color:red">red period</span>)--> |
+<img src="/img/fdhawkes/news-10min-hybrid.png" width="300" Hspace="10"> <img src="/img/fdhawkes/news-1hr-hybrid.png" width="300"> 
+Distribution of ARE on the News dataset, split in time for July, for Seismic, Feature-Driven(FD), Hawkes and Hybrid, after observing 10 minutes (left) and 1 hour (right). The (<span style="color:red">red line</span>) and the numeric annotations denote median value. Feature-Driven, Hawkes and Hybrid reduce median ARE by atleast 200%.
+
+The results for classification task is presented in [table](#acc) below. Accuracy (standard deviation) when predicting whether a cascade will double its size or not after reaching 25 tweets and 50 tweets. The generative-based classifier HawkesC(classification version of Hawkes models) improves substantially over the baseline of random guess, however Feature-Driven has the best prediction accuracy.
+
+| Approach<a id="acc"></a>       | 25 tweets   | 50 tweets   |
+|----------------|-------------|-------------|
+| Random Guess   | 0.52        | 0.53        |
+| HawkesC        | 0.66(0.013) | 0.70(0.009) |
+| Feature-Driven | 0.79(0.009) | 0.81(0.011) |
+| Hybrid         | 0.79(0.008) | 0.82(0.013) |
+
+
+
+
 
 Resources
 --------------------
 
-[Marian-Andrei Rizoiu](http://www.rizoiu.eu), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Tiberio Caetano](http://tiberiocaetano.com/) and [Manuel Cebrian](http://web.media.mit.edu/~cebrian/). **Evolution of Privacy Loss on Wikipedia**, in *Proceedings International Conference on Web Search and Data Mining* (WSDM '16), San Francisco, USA, 2016.
+[Swapnil Mishra](), [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Feature Driven and Point Process Approaches for Popularity Prediction}**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
 
 | | |
 |---|---|
-|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1512.03523.pdf) &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf) &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)|
-|Data:  | [User edit behavior](http://goo.gl/Tx5SoI) (82MB) &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) (495MB) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) |
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/abs/1608.04862v2.pdf)
+|Data:  | [NEWS Data](https://git.io/v6rIN)|
 |Bibtex: | |
 ```
 @inproceedings{Mishra2016,
