@@ -71,10 +71,3 @@ Resources
 
 <br />
 <br />
-
-
-Discussions on Twitter 
----
-
-{{< tweet 676523093901377536 >}} 
-{{< tweet 679390543105888256 >}} 
