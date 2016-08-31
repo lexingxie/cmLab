@@ -3,7 +3,7 @@ title: "Feature Driven and Point Process Approaches for
 Popularity Prediction"
 description: "Predicting number of retweets a tweets will get with easy to construct features and Hawkes Process"
 date: "2016-08-31"
-draft: true
+draft: false
 categories:
  - "research"
  - "paper"
@@ -17,7 +17,7 @@ tags:
 
 ##### posted by _Swapnil Mishra_ <br />
 
-<img style="float: left;" src="/img/fdhawkes/spock-dead-cascade.png" width="100" height="77" Hspace="10" Vspace="5">
+<img src="/img/fdhawkes/spock-dead-cascade.png" height="250" width="400"> <br>
 Predicting popularity as number of retweets a tweet will get is an important and difficult task. It's unclear which approaches, settings and features works best. Our current CIKM '16 paper bridges this gap by comparing across feature driven and point process approaches under both regression and classification settings.
 <!--more-->
 
@@ -29,6 +29,7 @@ Predicting popularity on social media has gathered a lot of attention, as it hel
 Our Solution
 -------------------------
 In our work, we address these challenges in context of predicting final size of a retweet cascades as follows:
+
 * We build a generative model with _Hawkes Process_, which has a predictive layer on top, using model parameters as features,  to make final size prediction. The properties modeled into the generative model are: inherent quality of the tweet, social influence of users and the length of "social memory".
 * We develop a state of the art feature driven approach, where features can be computed on data containing solely the message content and basic user profiles. Hence these features can be computed very easily on any social dataset.
 * We further combine both models to create a new hybrid model, which shows superior results.
@@ -43,16 +44,16 @@ Sample results
 **Absolute Relative Error(ARE)** is evaluated as the ratio of difference between predicted size and real size to the real size of a cascade. For regression task lower the ARE better is the performance.
 <!--Table of 3 columns, corresponding to the 3 figures.-->
 
-<img src="/img/fdhawkes/news-10min-hybrid.png" width="300" Hspace="10"> <img src="/img/fdhawkes/news-1hr-hybrid.png" width="300"> 
+<img src="/img/fdhawkes/news-10min-hybrid.png" width="300" Hspace="10"> <img src="/img/fdhawkes/news-1hr-hybrid.png" width="300">
 Distribution of ARE on the News dataset, split in time for July, for Seismic, Feature-Driven(FD), Hawkes and Hybrid, after observing 10 minutes (left) and 1 hour (right). The (<span style="color:red">red line</span>) and the numeric annotations denote median value. Feature-Driven, Hawkes and Hybrid reduce median ARE by atleast 200%.
 
 The results for classification task is presented in [table](#acc) below. Accuracy (standard deviation) when predicting whether a cascade will double its size or not after reaching 25 tweets and 50 tweets. The generative-based classifier HawkesC(classification version of Hawkes models) improves substantially over the baseline of random guess, however Feature-Driven has the best prediction accuracy.
 
 | Approach<a id="acc"></a>       | 25 tweets   | 50 tweets   |
-|----------------|-------------|-------------|
+|:----------------|:-------------|:-------------|
 | Random Guess   | 0.52        | 0.53        |
-| HawkesC        | 0.66(0.013) | 0.70(0.009) |
-| Feature-Driven | 0.79(0.009) | 0.81(0.011) |
+| HawkesC        | 0.66(0.013) &nbsp; | 0.70(0.009) |
+| Feature-Driven &nbsp;| 0.79(0.009) | 0.81(0.011) |
 | Hybrid         | 0.79(0.008) | 0.82(0.013) |
 
 
@@ -62,7 +63,7 @@ The results for classification task is presented in [table](#acc) below. Accurac
 Resources
 --------------------
 
-[Swapnil Mishra](), [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Feature Driven and Point Process Approaches for Popularity Prediction}**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
+[Swapnil Mishra](http://cm.cecs.anu.edu.au/people), [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Feature Driven and Point Process Approaches for Popularity Prediction}**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
 
 | | |
 |---|---|
@@ -77,11 +78,7 @@ Resources
     series = {CIKM '16},
     address = {Indianapolis, IN, USA},
     doi = {10.1145/2983323.2983812},
-    keywords = {social media; self-exciting point process; information diffusion; cascade prediction},
-    year = {2016},
-    url_Abstract={https://arxiv.org/abs/1608.04862},
-    url_Paper = {https://arxiv.org/abs/1608.04862v2.pdf},
-    url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/}
+    year = {2016}
 }
 ```
 
