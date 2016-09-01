@@ -1,8 +1,8 @@
 @inproceedings{Mishra2016,
     title = {{Feature Driven and Point Process Approaches for Popularity Prediction}},
-    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.}
+    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.},
     author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
-    booktitle = {Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management},
+    booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
     series = {CIKM '16},
     address = {Indianapolis, IN, USA},
     doi = {10.1145/2983323.2983812},
@@ -12,6 +12,39 @@
     url_Paper = {https://arxiv.org/abs/1608.04862v2.pdf},
     url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/}
 }
+
+
+@inproceedings{kim2016,
+    title = {{Probabilistic Knowledge Graph Construction: Compositional and Incremental Approaches}},
+    author = {Kim, Dongwoo and Xie, Lexing and Ong, Cheng Soon},
+    booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
+    series = {CIKM '16},
+    address = {Indianapolis, IN, USA},
+    doi = {10.1145/2983323.2983677},
+    keywords = {Knowledge graph, active learning, Thompson sampling},
+    year = {2016},
+    url_Abstract={http://arxiv.org/abs/1608.05921},
+    url_Paper = {http://arxiv.org/pdf/1608.05921v1.pdf},
+    url_Presentation_Page = {},
+    abstract = {Knowledge graph construction consists of two tasks: extracting information from external resources (knowledge population) and inferring missing information through a statistical analysis on the extracted information (knowledge completion). In many cases, insufficient external resources in the knowledge population hinder the subsequent statistical inference. The gap between these two processes can be reduced by an incremental population approach. We propose a new probabilistic knowledge graph factorisation method that benefits from the path structure of existing knowledge (e.g. syllogism) and enables a common modelling approach to be used for both incremental population and knowledge completion tasks. More specifically, the probabilistic formulation allows us to develop an incremental population algorithm that trades off exploitation-exploration. Experiments on three benchmark datasets show that the balanced exploitation-exploration helps the incremental population, and the additional path structure helps to predict missing information in knowledge completion.}
+}
+
+
+@inproceedings{chen2016,
+    title = {{Learning Points and Routes to Recommend Trajectories}},
+    author = {Chen, Dawei and Ong, Cheng Soon and Xie, Lexing},
+    booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
+    series = {CIKM '16},
+    address = {Indianapolis, IN, USA},
+    doi = {10.1145/2983323.2983672},
+    keywords = {Trajectory recommendation; learning to rank; planning},
+    year = {2016},
+    url_Abstract={http://arxiv.org/abs/1608.07051},
+    url_Paper = {http://arxiv.org/pdf/1608.07051v1.pdf},
+    url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/trajrec_cikm16/},
+    abstract = {The problem of recommending tours to travellers is an important and broadly studied area. Suggested solutions include various approaches of points-of-interest (POI) recommendation and route planning. We consider the task of recommending a sequence of POIs, that simultaneously uses information about POIs and routes. Our approach unifies the treatment of various sources of information by representing them as features in machine learning algorithms, enabling us to learn from past behaviour. Information about POIs are used to learn a POI ranking model that accounts for the start and end points of tours. Data about previous trajectories are used for learning transition patterns between POIs that enable us to recommend probable routes. In addition, a probabilistic model is proposed to combine the results of POI ranking and the POI to POI transitions. We propose a new F1 score on pairs of POIs that capture the order of visits. Empirical results show that our approach improves on recent methods, and demonstrate that combining points and routes enables better trajectory recommendations.}
+}
+
 
 @inproceedings{Rizoiu2016,
     abstract = {The cumulative effect of collective participation online has an important and adverse impact on individual privacy. As an online system evolves over time, new digital traces of individual behavior may uncover previously hidden statistical links between an individual’s past actions and her private traits. Furthermore, this de-anonymization trend may not be observable when analyzing short or medium time-span snapshots of data. To quantify this effect, we analyze the evolution of individual privacy loss by studying the 13-year long edit history of Wikipedia, including more than 117,523 different users performing 188,805,088 edits. We trace each Wikipedia’s contributor using apparently harmless features, such as the number of edits performed on predefined broad categories in a given time period (e.g. Mathematics, Culture or Nature). We show that even at this unspecific level of identification, it is possible to use off-the-shelf machine learning algorithms to uncover usually undisclosed private traits, such as gender, religion or education. We provide empirical evidence that the prediction accuracy for almost all private traits consistently improves over time. Moreover, we observe that the system also shows improved prediction for users who participated in the system during “safe” periods — periods where a given individual’s private traits could not be — showing that de-anonymization threats are hard to foresee as online systems evolve. Insights from this work should help users, system designers, and policy makers understand and debate the design and long-term effects of online content creation systems.},

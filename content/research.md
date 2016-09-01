@@ -38,7 +38,7 @@ Knowledge graphs have become powerful sources for web search, but an equivalent 
 ### Structured Prediction and Planning for Trajectories
 <img style="float:left;" src="/img/proj_icons/trajectory_problems.png" width="200" hspace="15" vspace="10"> 
 Data modeling over space and time is an important problem for machine learning, statistics and many application areas. Within the work on recommending travel trajectories, two desired qualities are still missing from the current solutions. The first is principled method to jointly learn point ranking, a prediction problem, and optimise for route creation, a planning problem. The second is a unified way to incorporate various features such as location, time, distance, user profile, social interactions, as they tend to get specialised and separate treatments. We propose a solution to address these two challenges.
-**Papers**: coming soon
+**Papers**: [CIKM'16](http://arxiv.org/pdf/1608.07051v1.pdf)
 
 ---------- 
 
