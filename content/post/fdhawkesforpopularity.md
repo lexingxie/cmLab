@@ -1,7 +1,6 @@
 ---
-title: "Feature Driven and Point Process Approaches for
-Popularity Prediction"
-description: "Predicting number of retweets a tweets will get with easy to construct features and Hawkes Process"
+title: "Feature Driven and Point Process Approaches for Popularity Prediction"
+description: "We pbridge the gap between problem settings and approaches for predicting the size of a retweeting cascade."
 date: "2016-08-31"
 draft: false
 categories:
@@ -11,13 +10,12 @@ categories:
 tags:
  - "social media"
  - "popularity"
- - "point processes"
- - "features"
+ - "stochastic process"
 ---
 
 ##### posted by _Swapnil Mishra_ <br />
 
-<img src="/img/fdhawkes/spock-dead-cascade.png" height="250" width="400"> <br>
+<img src="/img/fdhawkes/spock-dead-cascade.png" height="220" width="400"> <br>
 Predicting popularity as number of retweets a tweet will get is an important and difficult task. It's unclear which approaches, settings and features works best. Our current CIKM '16 paper bridges this gap by comparing across feature driven and point process approaches under both regression and classification settings.
 <!--more-->
 
@@ -42,9 +40,10 @@ Sample results
 --------------------
 
 **Absolute Relative Error(ARE)** is evaluated as the ratio of difference between predicted size and real size to the real size of a cascade. For regression task lower the ARE better is the performance.
+
 <!--Table of 3 columns, corresponding to the 3 figures.-->
 
-<img src="/img/fdhawkes/news-10min-hybrid.png" width="300" Hspace="10"> <img src="/img/fdhawkes/news-1hr-hybrid.png" width="300">
+<img src="/img/fdhawkes/news-10min-hybrid.png" width="300" Hspace="10"> <img src="/img/fdhawkes/news-1hr-hybrid.png" width="300"> <br />
 Distribution of ARE on the News dataset, split in time for July, for Seismic, Feature-Driven(FD), Hawkes and Hybrid, after observing 10 minutes (left) and 1 hour (right). The (<span style="color:red">red line</span>) and the numeric annotations denote median value. Feature-Driven, Hawkes and Hybrid reduce median ARE by atleast 200%.
 
 The results for classification task is presented in [table](#acc) below. Accuracy (standard deviation) when predicting whether a cascade will double its size or not after reaching 25 tweets and 50 tweets. The generative-based classifier HawkesC(classification version of Hawkes models) improves substantially over the baseline of random guess, however Feature-Driven has the best prediction accuracy.
