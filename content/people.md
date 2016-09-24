@@ -204,14 +204,15 @@ We are a diverse group in terms of research interests and background, technical 
 
 
 
-#### Collaborators and Friends
+#### Current collaborators
 
-* [Cheng Soon Ong](http://www.ong-home.my), NICTA/Data61
-* Young Lee, NICTA/Data61
-* [Manuel Cebrian][manuel], NICTA/Data61
-* Xuming He, NICTA/Data61
-* [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
+* [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
+* [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
+* Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
+* Xuming He, NICTA/Data61
+* [Manuel Cebrian][manuel], Data61, CSIRO
+* [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 
 
 <br/><br/>

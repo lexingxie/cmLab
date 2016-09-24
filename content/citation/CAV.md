@@ -1,7 +1,7 @@
 ---
 title: "CAV - Computer Aided Verification (1989-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:10:14.542224"
+date: "2016-09-24 21:56:16.456932"
 categories:
   - "data"
   - "visualization"
