@@ -48,7 +48,9 @@ Resources
 --------------------
 [Dawei Chen](http://cm.cecs.anu.edu.au/people), [Cheng Soon Ong](http://ong-home.my/) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **[Learning Points and Routes to Recommend Trajectories](http://arxiv.org/pdf/1608.07051v1.pdf)**, in *Proceedings of the 25th ACM International Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
 
-[Code + Data](https://bitbucket.org/d-chen/tour-cikm16)
+[Paper](http://arxiv.org/pdf/1608.07051v1.pdf) |
+[Code + Data](https://bitbucket.org/d-chen/tour-cikm16) |
+[Poster](http://cm.cecs.anu.edu.au/documents/chen_cikm16_poster.pdf)
 
 Bibtex:
 ```
