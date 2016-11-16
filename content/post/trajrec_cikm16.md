@@ -1,6 +1,6 @@
 ---
 title: "Learning Points and Routes to Recommend Trajectories"
-description: "Recommending tours to travellers by ranking points-of-interest (POI) and route planning"
+description: "We present a novel approach to jointly rank points-of-interest and plan routes"
 date: "2016-08-31"
 draft: false
 categories:
@@ -11,13 +11,15 @@ tags:
  - "recommendation"
  - "ranking"
  - "planning"
+ - "stuctured prediction"
 ---
 
-##### posted by _Dawei Chen_ <br />
+##### posted by _Dawei Chen_ 
 
-<img src="/img/trajrec/threeflavours.png" height="200"> <br>
+<img src="/img/trajrec/threeflavours.png" height="150"> <br>
 The problem of recommending tours to travellers is an important and broadly studied area. We consider the task of recommending a sequence of points-of-interest (POI), that simultaneously uses information about POIs and routes. 
 
+<!--more-->
 
 The problem
 -------------------------
