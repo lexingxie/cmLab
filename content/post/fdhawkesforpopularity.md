@@ -66,7 +66,7 @@ Resources
 
 | | |
 |---|---|
-|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/abs/1608.04862v2.pdf)
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1608.04862v2.pdf) [Presentation](http://cm.cecs.anu.edu.au/documents/smishra_cikm16_presentation.pdf)
 |Data:  | [NEWS Data](https://git.io/v6rIN)|
 |Bibtex: | |
 ```
