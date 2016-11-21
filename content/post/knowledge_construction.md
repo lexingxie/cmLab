@@ -1,6 +1,6 @@
 ---
-title: "Probabilistic Knowledge Graph Construction: Compositional and Incremental Approaches"
-description: "We propose a new probabilistic knowledge base factorisation method that benefits from the path structure of existing knowledge"
+title: "Probabilistic Knowledge Graph Construction"
+description: "We propose a new probabilistic knowledge base factorisation that benefits from the path structure of existing knowledge."
 date: "2016-08-31"
 draft: false
 categories:
@@ -15,8 +15,10 @@ tags:
 
 ##### posted by _Dongwoo Kim_ <br />
 
-Predicting popularity as number of retweets a tweet will get is an important and difficult task. It's unclear which approaches, settings and features works best. Our current CIKM '16 paper bridges this gap by comparing across feature driven and point process approaches under both regression and classification settings.
+Relational knowledge graphs formalise our understanding about the world and help us reason and infer in a wide range of tasks. The construction of a knowledge graph is an active research area with many important and challenging research questions. Throughout this research, we address some important problems in the knowledge graph construction and propose novel statistical relational models to solve the problems.
+
 <!--more-->
+
 
 The problem
 -------------------------
@@ -35,32 +37,14 @@ In our work, we address these challenges as follows:
 
 Sample results
 --------------------
+<img src="/img/knowledge_construction/embedding_umls.jpg" height="180"><br>
 
-Example of path prediction from UMLS data. We predict top 5 entities in compositional triples starting from entity _Mental-or-Behavioral (MB) Dysfunction_ followed by two relations _Affects_ and _Produces_. Correct entities are **bolded**.
-(a) Triple prediction: (MB Dysfunction, Affects, -)
-
-|Model |Top 1 |Top 2 |Top 3 |Top 4 |Top 5|
-|:----------------|:-------------|:-------------|:-------------|:-------------|:-------------|
-|PNORMAL |**Invertebrate** |**Reptile** |**Archaeon** |**Bird** |**Phy.-Function**|
-|PLOGIT| **Cell-Function** |**Disease-or-Syndrome**|**Cell-or-Molecular-Dysf.**|**Exp.-Model-of-Disease**|**Mental-Process**|
-|PCOMP-MUL| **Archaeon**| **Fish**| **Fungus**| **Invertebrate**| **Human**|
-|PCOMP-ADD| **Path.-Function**| **Bird**| **Cell-or-Molecular-Dysf.**|Drug-Delivery-Device|Congenital-Abnormality|
-
-(b) Length-2 path prediction: (MB Dysfunction, Affects, Produces, -)
-
-|Model| Top 1| Top 2| Top 3| Top 4| Top 5|
-|:----------------|:-------------|:-------------|:-------------|:-------------|:-------------|
-|PNORMAL| Clinical-Drug| Sign-or-Symptom| Org.-Attribute| Drug-Delivery-Device|Clinical-Attr.|
-|PLOGIT| Amphibian| Gov.-or-Reg.-Activity|Food | Biologic-Func.| Classication|
-|PCOMP-MUL| **Enzyme**| **Body-Substance**| **Biogenic-Amine**| Carbohydrate| **Immunologic-Factor**|
-|PCOMP-ADD| **Immunologic-Factor**|**Body-Substance**| Molecular-Biology-Research-Technique|Clinical-Drug| Chemical-Viewed-Structurally|
-
-Both compositional and non-compositional models predict triples well. For length-2 path prediction, only the compositional models can capture correct entities on top 5.
+Embedding learned entities of the UMLS dataset into a two-dimensional space through the spectral clustering. Entities with the same type are represented by the same color. The entities with the same type are located closer to each other with PCOMP-MUL (a compositional model) than PNORMAL (a non-compositional model).
 
 Resources
 --------------------
 
-[Dongwoo Kim](http://arongdari.github.io), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Cheng Soon Ong](http://www.ong-home.my/) **Probabilistic Knowledge Graph Construction: Compositional and Incremental Approaches**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
+[Dongwoo Kim](http://arongdari.github.io), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Cheng Soon Ong](http://www.ong-home.my/), **Probabilistic Knowledge Graph Construction: Compositional and Incremental Approaches**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
 
 | | |
 |---|---|
