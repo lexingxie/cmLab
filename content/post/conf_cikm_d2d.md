@@ -2,7 +2,7 @@
 title: "Conference Talks in October and November 2016"
 description: "We gave presentations at ACM CIKM and the D2D CRC Annual Conference."
 date: "2016-11-15"
-draft: true
+draft: false
 categories:
   - "news"
   - "group-activity"
@@ -19,14 +19,14 @@ Our work received some pulicity in the "fall" conference season internationally 
 
 ## CIKM 2016 in Indianapolis 
 
-The 25th ACM International Conference on Conference on Information and Knowledge Management (CIKM ‘16) took place in Indianapolis 25-29 October. Swapnil and Lexing attended the conference. 
+The 25th ACM International Conference on Conference on Information and Knowledge Management (CIKM ‘16) took place in Indianapolis 25-29 October. Swapnil and Lexing attended the conference, and presented three of our papers.  
 
 <img style="float: left;" src="/img/conf/cikm_swapnil.png" height="135" Hspace="5">
 <img style="float: left;" src="/img/conf/cikm_posters.jpg" height="135" Hspace="5">
 
 Left: Swapnil talks confidently about bridging two camps in the problem and method space in popularity prediction, with [Feature Driven and Point Process Approaches](/post/fdhawkesforpopularity). <br />
 Right: Swapnil and Lexing standing in front of two posters. The one [on the left](/documents/chen_cikm16_poster.pdf) is on [Learning Points and Routes to Recommend Trajectories](/post/trajrec_cikm16/), where we propose novel approaches to learn the objective fucntion for traveling salesman problems. The one [on the right](/documents/kim_cikm2016_poster.pdf) is on [Probabilistic Knowledge Graph Construction](/post/knowledge_construction/), where we model the compositional structure and incremental learning of a knowlege tensor in a probabilistic framework. 
-We are representing co-authors Dawei, Dongwoo and Cheng, who could not make to the conference. 
+We are representing co-authors Dawei, Dongwoo and Cheng, who could not make to this conference. 
 
 
 ## Data to Decision Annual Conference
