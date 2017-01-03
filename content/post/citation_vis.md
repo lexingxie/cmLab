@@ -10,6 +10,7 @@ tags:
   - "social media"
   - "datasci"
   - "graph"
+  - "citations"
 ---
 
 ##### *posted by* Lexing Xie
