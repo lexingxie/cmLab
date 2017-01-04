@@ -2,7 +2,7 @@
 title: "Inverting a Random Walk - Problem Settings"
 description: "We discuss three approaches for graph inversion from steady state distribution of random walks. This first post compares the problem settings."
 date: "2017-01-03"
-draft: true
+draft: false
 categories:
   - "research"
   - "stochastic process"
