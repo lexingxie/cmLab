@@ -10,11 +10,11 @@ tags:
   - "activity"
 ---
 
-##### posted by _Siqi Wu_, with edits by _Lexing Xie_<br />
+##### posted by _Siqi Wu_, with edits from _Lexing Xie_<br />
 
 Australia has great weather for the ourdoors, no matter it's winter or summer -- that's what we did!
 
-<!-- more -->
+<!--more-->
 
 ### Hiking in Wombeyan Caves
 
