@@ -28,7 +28,7 @@ Left photo: Hiking in Mares Forest Creek walking track. Right photo: At the exit
 
 <p />
 
-We saw cave structures both magnificant and delicate (below left: Marbles in Wombeyan caves, force of water drops in thousands of years). We did an appropriate share of rock-scaling (below middle). And just before the end of the hike, we had an unique opportunity to watch two iconic Australian marsupials, and capture them in the same picture -- (below right) the kangaroo and the wombat! 
+We saw cave structures both magnificant and delicate (below left: Marbles in Wombeyan caves, force of water drops in thousands of years). We did an appropriate share of rock-scaling (below middle). And just before the end of the hike, we had a unique opportunity to watch two iconic Australian marsupials, and capture them in the same picture -- (below right) the [kangaroo](https://en.wikipedia.org/wiki/Kangaroo) and the [wombat](https://en.wikipedia.org/wiki/Wombat)! 
 
 <img style="float: left;" src="/img/cave_and_cherry/cave_sight.jpg" height=220  hspace=5>| <img style="float: left;" src="/img/cave_and_cherry/cave_hike.jpg" height=220  hspace=5>| <img style="float: left;" src="/img/cave_and_cherry/wombat_and_roo.jpg" height=220  hspace=5>
 --- | --- | ---

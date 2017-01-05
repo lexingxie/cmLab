@@ -14,7 +14,7 @@ tags:
 
 ##### posted by _Lexing Xie_
 
-Markov chains and random walk on graphs are long-standing subjects in applied math and related disciplines. Given a markov chain / transition matrix / graph, properties of the random walk such as steady state distribution, mixing time and so on . It seems that only in recent years the inverse problem has started gaining interest -- that is, given _some measurements_ after random walk on a graph, infer _some version_ of the graph. This blog post compares three related but different problem settings in recent literature from `(Kumar15)`, `(Mackay15)` and `(Xie13)`. 
+Markov chains and random walk on graphs are long-standing subjects in applied math and related disciplines. Given a markov chain / transition matrix / graph, properties of the random walk such as steady state distribution, mixing time are well-studied. Only in recent years, however, the inverse problem has started gaining interest -- that is, given _some measurements_ after random walk on a graph, infer _some version_ of the graph. This blog post compares three related but different problem settings in recent literature from `(Kumar15)`, `(Mackay15)` and `(Xie13)`. 
 
 <!--more-->
 
