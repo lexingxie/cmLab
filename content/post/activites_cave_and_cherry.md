@@ -1,44 +1,53 @@
 ---
-title: "Group Activities in the 2nd of 2016"
-description: "We explored Australian caves and picked cherries!"
-date: "2017-01-05"
+title: "Wombeyan Caves and National Cherry Festival"
+description: "We explored Australian caves and picked cherries in the second half of 2016."
+date: "2016-12-15"
 draft: false
 categories:
   - "group-activity"
+  - "news"
 tags:
   - "activity"
 ---
 
-##### posted by _Siqi Wu_<br />
+##### posted by _Siqi Wu_, with edits by _Lexing Xie_<br />
+
+Australia has great weather for the ourdoors, no matter it's winter or summer -- that's what we did!
+
+<!-- more -->
+
+### Hiking in Wombeyan Caves
+
+On 20 August 2016, we did a short group hike in [Wombeyan Caves](http://www.nationalparks.nsw.gov.au/visit-a-park/parks/Wombeyan-Karst-Conservation-Reserve) as part of the [Data61](https://www.data61.csiro.au/) [Machine Learning group](https://www.nicta.com.au/category/machine-learning/) retreat. Wombeyan Caves are a Karst system formed between 400 and 430 million years ago. The magnificent marbles are delicate to light therefore only a handful of them are opened for visiting. And we had to walk down steep stairs, go through wet rocky trail under a mere light, believe me it's challenging! After that we hiked Mares Forest Creek walking track, which led us to a creek in limestrone cayon. 
+
+Left photo: Hiking in Mares Forest Creek walking track. Right photo: At the exit of Figtree Cave.<br />
 
 
-## Hiking in Wombeyan Caves
+<img style="float: left;" src="/img/cave_and_cherry/cave_group1.jpg" height=200 hspace=5 >  | <img style="float: left;" src="/img/cave_and_cherry/cave_group2.jpg" height=200 hspace=5> | 
+--- | --- | --- 
 
-Before Data61 Machine Learning retreat, group members took a tour in [Wombeyan Caves](http://www.nationalparks.nsw.gov.au/visit-a-park/parks/Wombeyan-Karst-Conservation-Reserve) and hiked Australian bush. Wombeyan Caves are formed between 400 and 430 million years ago. Those magnificent marbles are delicate to light therefore only a handful of them are opened for visiting. And we had to walk down steep stairs, go through wet rocky trail under a mere light, believe me it's challenging! After that we hiked Mares Forest Creek walking track, which lead us to the riverside.
+<p />
 
-<img style="float: left;" src="/img/cave_and_cherry/cave_sight.jpg" width="32%">
-<img style="float: left;" src="/img/cave_and_cherry/cave_hike.jpg" width="32%" Hspace="1%">
-<img style="float: left;" src="/img/cave_and_cherry/cherry_cherry.jpg" width="32%">
+We saw cave structures both magnificant and delicate (below left: Marbles in Wombeyan caves, force of water drops in thousands of years). We did an appropriate share of rock-scaling (below middle). And just before the end of the hike, we had an unique opportunity to watch two iconic Australian marsupials, and capture them in the same picture -- (below right) the kangaroo and the wombat! 
 
-Left: Marbles in Wombeyan caves, force of water drops in thousands of years.<br />
-Middle: Hike in iconic Australian bush, wild country side.<br />
-Right: Our handpicked cherry.<br />
+<img style="float: left;" src="/img/cave_and_cherry/cave_sight.jpg" height=220  hspace=5>| <img style="float: left;" src="/img/cave_and_cherry/cave_hike.jpg" height=220  hspace=5>| <img style="float: left;" src="/img/cave_and_cherry/wombat_and_roo.jpg" height=220  hspace=5>
+--- | --- | ---
 
-
-## Cherry-picking in Young<br />
-
-We took the advantage of warm December and headed to [Young](http://www.visithilltopsregion.com.au/Visit-Young/Whats-On/National-Cherry-Festival), as known as "cherry capital of Australia" for delicious cherries. Young holds National Cherry Festival on the first weekend in December and this year is 67th! The orchard is quite popular on weekends in cherry-picking season. We had to squeeze in the transfer truck, stood in the truck freight was an "unique" experiment but the cherries made it worthy. Then we stopped at the street parade and watched cherry pie eating championships. Admittedly finishing 2 cherry pies within one minute is a remarkable effort, maybe we should vote a group member to compete next year.
+<p />
 
 
-More pictures from those 2 trips.<br />
 
-<img src="/img/cave_and_cherry/cave_group1.jpg" width="99%" Hspace="3" Vspace="3">    | <img src="/img/cave_and_cherry/cave_group2.jpg" width="99%" Hspace="3" Vspace="3">
---------|--------
-<img src="/img/cave_and_cherry/cherry_picking.jpg" width="99%" Hspace="3" Vspace="3"> | <img src="/img/cave_and_cherry/cherry_young.jpg" width="99%" Hspace="3" Vspace="3">
+### Visiting the National Cherry Capital
 
-Top left: Hiking in Mares Forest Creek walking track.<br />
-Top right: At the exit of Figtree Cave.<br />
-Bottom left: Enjoy picking and eating cherry in orchard.<br />
-Bottom right: At National Cherry Festival.<br />
+On 3 Dec 2016 we took the advantage of warm December and headed to [Young NSW](http://www.visithilltopsregion.com.au/Visit-Young/Whats-On/National-Cherry-Festival), known as "cherry capital of Australia" for delicious cherries. Young holds National Cherry Festival on the first weekend in December and this year is the 67th! The orchard is quite popular on weekends in cherry-picking season. Our ride in a squeezed freight truck was an unique balancing excercise. The weather was properly scorching that day but the cherries made it worthy. The group stopped at the street parade and watched cherry pie eating championships. Admittedly finishing 2 cherry pies within one minute is a remarkable effort, we are seriously planning to send a group member to compete next year.
+
+Left photo: Picking and eating cherry in the orchard, taking a break from the heat. Middle: At the National Cherry Festival. Right: A bucket of cherries. <br />
+
+
+<img src="/img/cave_and_cherry/cherry_picking.jpg" height=200  hspace=5> | <img src="/img/cave_and_cherry/cherry_young.jpg" height=200  hspace=5> | <img style="float: left;" src="/img/cave_and_cherry/cherry_cherry.jpg" height=200  hspace=5>
+--- | --- | ---
+
+
+<p />
 
 Look forward to more fun trips with the team in 2017!
