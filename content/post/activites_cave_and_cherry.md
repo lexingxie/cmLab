@@ -1,6 +1,6 @@
 ---
 title: "Wombeyan Caves and National Cherry Festival"
-description: "We explored Australian caves and picked cherries in the second half of 2016."
+description: "We explore Australian caves and cherries in the second half of 2016."
 date: "2016-12-15"
 draft: false
 categories:
@@ -12,13 +12,13 @@ tags:
 
 ##### posted by _Siqi Wu_, with edits from _Lexing Xie_<br />
 
-Australia has great weather for the ourdoors, no matter it's winter or summer -- that's what we did!
+Australia has great weather for the ourdoors, no matter it's winter or summer -- that's what we did, and here's photo proof. 
 
 <!--more-->
 
 ### Hiking in Wombeyan Caves
 
-On 20 August 2016, we did a short group hike in [Wombeyan Caves](http://www.nationalparks.nsw.gov.au/visit-a-park/parks/Wombeyan-Karst-Conservation-Reserve) as part of the [Data61](https://www.data61.csiro.au/) [Machine Learning group](https://www.nicta.com.au/category/machine-learning/) retreat. Wombeyan Caves are a Karst system formed between 400 and 430 million years ago. The magnificent marbles are delicate to light therefore only a handful of them are opened for visiting. And we had to walk down steep stairs, go through wet rocky trail under a mere light, believe me it's challenging! After that we hiked Mares Forest Creek walking track, which led us to a creek in limestrone cayon. 
+On 20 August 2016, we did a short group hike in [Wombeyan Caves](http://www.nationalparks.nsw.gov.au/visit-a-park/parks/Wombeyan-Karst-Conservation-Reserve) as part of the [Data61](https://www.data61.csiro.au/) [Machine Learning group](https://www.nicta.com.au/category/machine-learning/) retreat. Wombeyan Caves are part of a Karst system formed between 400 and 430 million years ago. The magnificent marbles are delicate to light therefore only a handful of them are opened for visiting. And we had to walk down steep stairs, go through wet rocky trail under a mere light, believe me it's challenging! After that we hiked Mares Forest Creek walking track, which led us to a creek in limestone cayon. 
 
 Left photo: Hiking in Mares Forest Creek walking track. Right photo: At the exit of Figtree Cave.<br />
 

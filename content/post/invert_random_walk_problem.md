@@ -90,10 +90,10 @@ We now compare the three different formulations for inverting the random walk.
 
 	Given PPR/RWR matrix $P$, find transition matrix $W$ and restart parameter $\alpha$, such that:
 
-	* $PPR (W, \alpha) \rightarrow P$
+	* $PPR (G, \alpha) \rightarrow P$
 
 	_Discussions_: 
-	There are not one, but $n$ "steady" state vectors to consider now. This problem is no longer under-determined. This is useful when there're pair-wise statistics. It is not too difficult to show (although I did not have space to fit it into the paper at the time) that the solution $W$ is unique, details in the next post. 
+	There are not one, but $n$ "steady" state vectors to consider now. This problem is no longer under-determined. This is useful when there're pair-wise statistics. It is not too difficult to show (although I did not have space to fit it into the paper at the time) that the solution is unique up to normalization, details in the next post. 
 
 * **Other sensible formulations?** 
 
