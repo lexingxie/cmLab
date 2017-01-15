@@ -200,6 +200,64 @@ We are a diverse group in terms of research interests and background, technical 
      </tr>
  </table>
 
+<br/><br/>
+
+<!--fourth row of photos-->
+
+<table>
+<!--    First, the table head with photos and names.-->
+    <thead>
+        <tr>
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/minjeong.png' title='Minjeong' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>MinjeongShin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/> 
+            <th/>
+
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/male_icon.png' title='Rui' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b>Rui Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;  
+            <th/>
+
+            <th style="width:33%;vertical-align:top">
+                <img style="float: left;" class='inset left' src='/img/male_icon.png' title='' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
+                
+            <th/>
+         </tr>
+     </thead>
+
+     <tr>
+<!--     second row, projects-->
+        <td style="width:33%;vertical-align:top">
+            <b>Projects:</b>
+                multimedia knowledge graphs, interactive ranking systems. 
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+          <b>Projects:</b>
+              popularity in social media, stochastic processes, <i>deep</i> learning.
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+        <td/>
+    </tr>
+
+    <tr>
+<!--    Third row, before the ANU-->
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> LG Electronics; KAIST
+        <th/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Before the ANU:</b> Shanghai Jiaotong University
+        <td/>
+
+        <td style="width:33%;vertical-align:top">
+            <b>Currently:</b> PhD student, AIFB @ KIT; visiting scholar, ANU
+        <td/>
+     </tr>
+ </table>
+
  <br/><br/>
 
 
