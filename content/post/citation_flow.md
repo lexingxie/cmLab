@@ -11,6 +11,7 @@ tags:
   - "social media"
   - "datasci"
   - "graph"
+  - "citations"
 ---
 
 <a href=/citation/NIPS><img width=260 src="/img/citation/NIPS/NIPS_mini_graph.png" alt="citation summary - NIPS"></a>

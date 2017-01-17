@@ -34,7 +34,12 @@ Resources
 --------------------
 
 The paper is published in AAAI 2016
-SentiCap: Generating Image Descriptions with Sentiments, by Alex Mathews, Lexing Xie, Xuming He. [http://arxiv.org/abs/1510.01431](http://arxiv.org/abs/1510.01431)
+_SentiCap: Generating Image Descriptions with Sentiments_, by Alex Mathews, Lexing Xie, Xuming He. [http://arxiv.org/abs/1510.01431](http://arxiv.org/abs/1510.01431)
 
-Supplemental can be found here: <a href="http://users.cecs.anu.edu.au/~u4534172/papers/senticap_suppliment.pdf">pdf</a><br>
-The list of Adjective Noun Pairs (ANPs) can be found here: <a href="http://users.cecs.anu.edu.au/~u4534172/data/Senticap/anp_list.txt">txt</a>
+<!-- Supplemental can be found here: <a href="http://users.cecs.anu.edu.au/~u4534172/papers/senticap_suppliment.pdf">pdf</a><br>
+-->
+
+* A combined PDF of the paper and supplemental material is [here](https://arxiv.org/pdf/1510.01431.pdf).
+* Example results: sentences with [positive sentiment](http://users.cecs.anu.edu.au/~u4534172/senticap_results_pos.html) and [negative sentiment](http://users.cecs.anu.edu.au/~u4534172/senticap_results_neg.html). 
+* The SentiCap dataset collected from Amazon mTurk is [here](http://users.cecs.anu.edu.au/~u4534172/data/Senticap/senticap_dataset.zip). 
+* The list of Adjective Noun Pairs (ANPs) is <a href="http://users.cecs.anu.edu.au/~u4534172/data/Senticap/anp_list.txt">here</a>

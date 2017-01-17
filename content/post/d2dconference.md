@@ -2,7 +2,7 @@
 title: "D2D CRC Annual Conference 2016"
 description: "We gave presentations at the D2D CRC Annual Conference"
 date: "2016-11-15"
-draft: false
+draft: true
 categories:
   - "news"
   - "group-activity"
