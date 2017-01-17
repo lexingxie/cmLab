@@ -209,8 +209,8 @@ We are a diverse group in terms of research interests and background, technical 
     <thead>
         <tr>
             <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/minjeong.png' title='Minjeong' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>MinjeongShin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/> 
+                <img style="float: left;" class='inset left' src='/img/minjeong-100.png' title='Minjeong' height='100px' width='100px' Hspace="10" Vspace="0" />
+                <big><big> <b><a href="https://berebere86.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/> 
             <th/>
 
             <th style="width:33%;vertical-align:top">
