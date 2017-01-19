@@ -5,28 +5,25 @@
 
     <div class="row">
         <div class="col-md-9">
-        <h3>Welcome!</h3>
-        <p></p>
+            <h2 class="page-header">
+                Welcome!
+            </h2>
 
-        <p>
-        The Computational Media Lab at the ANU focus on computational problems for understanding online media and their interactions with and among humans. 
-        We develop core methods in machine learning and optimization, and use them to formulate and solve problems in multimedia undestanding and online behavior analysis. 
-        </p>
+            <p>
+            The Computational Media Lab at the ANU focus on computational problems for understanding online media and their interactions with and among humans.
+            We develop core methods in machine learning and optimization, and use them to formulate and solve problems in multimedia undestanding and online behavior analysis.
+            </p>
 
-        <p>
-        You may be interested in sampling the recent blog posts below, look at our <a href=/research>research summary</a>, <a href=/publications>publications</a>, <a href=/post>all past posts</a>, or navigate by categories and tags. <br /> 
-        <small>Problems:</small> <a class="label label-default" href=/tags/social-media/>social media</a> <a class="label label-default" href=/tags/popularity/>popularity</a> <a class="label label-default" href=/tags/privacy/>privacy</a> <a class="label label-default" href=/tags/language/>language</a> <a class="label label-default" href=/tags/vision/>vision</a> <a class="label label-default" href=/tags/citations/>citations</a> <br/>
-        <small>Methods:</small> <a class="label label-default" href=/tags/deeplearning/>deep learning</a> <a class="label label-default" href=/tags/stochastic-process/>stochastic process</a> <a class="label label-default" href=/categories/visualization/>visualization</a>  <br />  
-        <small>Meta:</small> <a class="label label-default" href=/categories/research/>research</a><a class="label label-default" href=/categories/data/>data</a> <a class="label label-default" href=/tags/datasci/>datasci</a> <a class="label label-default" href=/categories/news/>news</a> <a class="label label-default" href=/categories/group-activity/>group-activity</a> 
-        </p>
-        </div>
-    </div>
+            <p>
+            You may be interested in sampling the recent blog posts below, look at our <a href=/research>research summary</a>, <a href=/publications>publications</a>, <a href=/post>all past posts</a>, or navigate by categories and tags. <br />
+            </p>
+            <hr>
 
-    <div class="row">
-        <div class="col-md-9">
-        {{ range first 12 .Data.Pages }}
-            {{ .Render "summary" }}
-        {{ end }}
+            <!-- Blog Summary -->
+            {{ range first 12 .Data.Pages }}
+                {{ .Render "summary" }}
+            {{ end }}
+
         </div>
 
         <!-- Sidebar -->
@@ -35,15 +32,14 @@
         </div>
     </div>
 
-    </p>
     <div class="row">
         <div class="col-md-9">
-        <h3>Thanks</h3>
+            <h3>Thanks</h3>
             Our work has been supported by <a href=https://www.nicta.com.au/>NICTA/Data61</a>, <a href=http://www.arc.gov.au/>The Australian Research Coucil</a>, <a href=https://twitter.com/AFOSR>AFOSR - Airforce Office of Scientific Research</a>, <a href=http://www.industry.gov.au/Pages/default.aspx>Australia Deparment of Industry, Innovation and Science</a>, <a href=http://www.d2dcrc.com.au>Data to Decision CRC</a>. 
-        <p>
         </div>
     </div>
 
 {{ partial "footer.copyright.html" . }}
 </div>
 {{ partial "footer.html" . }}
+
