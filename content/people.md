@@ -15,253 +15,186 @@ We are a diverse group in terms of research interests and background, technical 
 
 #### Researchers
 
-
-<table>
-<!--    First, the table head with photos and names.-->
-    <thead>
-        <tr>
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/lexing-100.jpg' title='Lexing' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
-                    <big><big> <b>Lexing Xie</b> </big></big></a>
-                    <br/>
-                    associate professor, ANU computer science; <br/> machine learning and optimization, NICTA
-                    <a href=https://twitter.com/lexing>@lexing</a>
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/dongwoo-100.png' title='Dondwoo' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/andrei-100.png' title='Andrei' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>Data61
-            <th/>
-         </tr>
-     </thead>
-
-     <tr>
-<!--     second row, projects-->
-        <td style="width:33%;vertical-align:top">
+<!-- first row -->
+<div class="row">
+    <!-- Lexing Xie -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/lexing-100.jpg' title='Lexing' />
+            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
+            <big><big> <b>Lexing Xie</b> </big></big></a>
+            <br/>
+            associate professor, ANU computer science; <br/> machine learning and optimization, NICTA
+            <a href=https://twitter.com/lexing>@lexing</a>
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
-                predicting popularity on social media;
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>;
-                <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>;
-                <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>.
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+            predicting popularity on social media;
+            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>;
+            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>;
+            <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>.
+            <br>
+            <b>Before the ANU:</b> IBM T J Watson Research Center
+        </div>
+    </div>
+    <!-- Dongwoo Kim -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/dongwoo-100.png' title='Dongwoo' />
+            <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science  
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+            <br>
+            <b>Before the ANU:</b> KAIST
+        </div>
+    </div>
+    <!-- Marian-Andrei Rizoiu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/andrei-100.png' title='Andrei' />
+            <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>Data61
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 predicting popularity on social media;
                 <a target="_blank" href="https://www.nicta.com.au/category/research/optimisation/projects/human-dynamics/">Humany Dynamics</a>
-        <td/>
-    </tr>
+            <br>
+            <b>Before the ANU:</b> University Lumière, Lyon.
+        </div>
+    </div>
+</div>
 
-    <tr>
-<!--    Third row, before the ANU-->
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> IBM T J Watson Research Center
-        <th/>
-
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> KAIST
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
-           <b>Before the ANU:</b> University Lumière, Lyon.
-        <td/>
-     </tr>
- </table>
-
- <br/><br/>
-
-<!--second row of photos-->
-
-<table>
-<!--    First, the table head with photos and names.-->
-    <thead>
-        <tr>
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/alex-100.png' title='Alex' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/smishra-100.png' title='Swapnil' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/anila-100.png' title='Anila' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
-            <th/>
-         </tr>
-     </thead>
-
-     <tr>
-<!--     second row, projects-->
-        <td style="width:33%;vertical-align:top">
+<!-- second row -->
+<div class="row">
+    <!-- Alexander Mathews -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alex-100.png' title='Alex' />
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 understanding object naming; generating image captions;
                 multimedia analysis; visual semantics
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+            <br>
+            <b>Before the ANU:</b> The University of Western Australia
+        </div>
+    </div>
+    <!-- Swapnil Mishra -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/smishra-100.png' title='Swapnil' />
+            <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 popularity prediction in social media, topic modeling
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
-           <b>Projects:</b>
-                ontology modelling and mapping, semantic query and reasoning
-        <td/>
-
-    </tr>
-
-    <tr>
-<!--    Third row, before the ANU-->
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> The University of Western Australia
-        <th/>
-
-        <td style="width:33%;vertical-align:top">
+            <br>
             <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+        </div>
+    </div>
+    <!-- Anila Sahar Butt -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/anila-100.png' title='Anila' />
+            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                ontology modelling and mapping, semantic query and reasoning
+            <br>
             <b>Before the ANU:</b> National University of Science and Technology, Pakistan.
-        <td/>
-     </tr>
- </table>
+       </div>
+    </div>
+</div>
 
- <br/><br/>
-
-<!--third row of photos-->
-
-<table>
-<!--    First, the table head with photos and names.-->
-    <thead>
-        <tr>
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/dawei-100.png' title='Dawei' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Dawei Chen</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/ssedhain-100.png' title='Suvash' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/siqi-100.png' title='Siqi' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-            <th/>
-         </tr>
-     </thead>
-
-     <tr>
-<!--     second row, projects-->
-        <td style="width:33%;vertical-align:top">
+<!-- third row -->
+<div class="row">
+    <!-- Dawei Chen -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/dawei-100.png' title='Dawei' />
+            <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 recommender system with active learning
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
-          <b>Projects:</b>
-              social recommendation; large scale recommender systems;
-              cold-start recommendation.
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+            <br>
+            <b>Before the ANU:</b> ICT, CAS
+        </div>
+    </div>
+    <!-- Suvash Sedhain -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/ssedhain-100.png' title='Suvash' />
+            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                social recommendation; large scale recommender systems;
+                cold-start recommendation.
+            <br>
+            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
+        </div>
+    </div>
+    <!-- Siqi Wu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/siqi-100.png' title='Siqi'  />
+            <big><big> <b>Siqi Wu</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 social media popularity prediction
-        <td/>
-    </tr>
-
-    <tr>
-<!--    Third row, before the ANU-->
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> ICT, CAS
-        <th/>
-
-        <td style="width:33%;vertical-align:top">
-            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+            <br>
             <b>Before the ANU:</b> The University of Melbourne
-        <td/>
-     </tr>
- </table>
+        </div>
+    </div>
+</div>
 
-<br/><br/>
-
-<!--fourth row of photos-->
-
-<table>
-<!--    First, the table head with photos and names.-->
-    <thead>
-        <tr>
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/minjeong-100.png' title='Minjeong' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b><a href="https://berebere86.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/> 
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/male_icon.png' title='Rui' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b>Rui Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;  
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/male_icon.png' title='' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
-                
-            <th/>
-         </tr>
-     </thead>
-
-     <tr>
-<!--     second row, projects-->
-        <td style="width:33%;vertical-align:top">
+<!-- fourth row -->
+<div class="row">
+    <!-- Minjeong Shin -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/minjeong-100.png' title='Minjeong' />
+            <big><big> <b><a href="https://berebere86.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/>
+        </div>
+        <div class="people-info">
             <b>Projects:</b>
                 multimedia knowledge graphs, interactive ranking systems. 
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
-          <b>Projects:</b>
-              popularity in social media, stochastic processes, <i>deep</i> learning.
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
-        <td/>
-    </tr>
-
-    <tr>
-<!--    Third row, before the ANU-->
-        <td style="width:33%;vertical-align:top">
+            <br>
             <b>Before the ANU:</b> LG Electronics; KAIST
-        <th/>
-
-        <td style="width:33%;vertical-align:top">
+        </div>
+    </div>
+    <!-- Rui Zhang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/male_icon.png' title='Rui' />
+            <big><big> <b>Rui Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                popularity in social media, stochastic processes, <i>deep</i> learning.
+            <br>
             <b>Before the ANU:</b> Shanghai Jiaotong University
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+        </div>
+    </div>
+    <!-- Aditya Mogadala -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/male_icon.png' title='' />
+            <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
+        </div>
+        <div class="people-info">
             <b>Currently:</b> PhD student, AIFB @ KIT; visiting scholar, ANU
-        <td/>
-     </tr>
- </table>
+        </div>
+    </div>
+</div>
 
- <br/><br/>
-
-
-
+<hr>
 #### Current collaborators
 
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
@@ -273,49 +206,44 @@ We are a diverse group in terms of research interests and background, technical 
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 
 
-<br/><br/>
-
+<hr>
 #### Alumni
 
-<table>
-<!--    First, the table head with photos and names.-->
-    <thead>
-        <tr>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/honglin-100.png' title='Honglin' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/qianyu-100.png' title='Qianyu' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
-            <th/>
-
-            <th style="width:33%;vertical-align:top">
-                <img style="float: left;" class='inset left' src='/img/people/yanxiang.jpg' title='yangxiang' height='100px' width='100px' Hspace="10" Vspace="0" />
-                <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
-            <th/>
-         </tr>
-             <tr>
-<!--    Third row, before the ANU-->
-        <td style="width:33%;vertical-align:top">
+<div class="row">
+    <!-- Honglin Yu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/honglin-100.png' title='Honglin' />
+            <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
+        </div>
+        <div class="people-info">
             <b>Dissertation</b>: Understanding the Popularity Evolution of Online Media - A Case Study on YouTube Videos <br />
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
-        <th/>
-
-        <td style="width:33%;vertical-align:top">
+        </div>
+    </div>
+    <!-- Qianyu Zhang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qianyu-100.png' title='Qianyu' />
+            <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
+        </div>
+        <div class="people-info">
             <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
             <b>Currently</b>: Software Engineer, Google
-        <td/>
-
-        <td style="width:33%;vertical-align:top">
+        </div>
+    </div>
+    <!-- Yanxiang Wang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/people/yanxiang.jpg' title='yangxiang' />
+            <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
+        </div>
+        <div class="people-info">
             <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
             <b>Currently</b>: Developer at Lonely Planet, StartMyGig
-        <td/>
-     </tr>
-     </thead>
+        </div>
+    </div>
+</div>
 
- </table>
 
 [manuel]:http://web.media.mit.edu/~cebrian

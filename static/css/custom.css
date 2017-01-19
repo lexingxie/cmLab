@@ -5,3 +5,49 @@ body {
 footer {
     margin: 50px 0;
 }
+
+img {
+    max-width: 100%; /* for responsive image size */
+}
+
+.page-header {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.li-menu > li {
+    margin-bottom: 8px;
+}
+
+.panel-title {
+    font-weight: 600;
+    color: #337ab7;
+}
+
+.people-profile {
+    font-size: 12px;
+    height: 115px;
+}
+.people-profile > img {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    padding: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.people-info {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.content {
+    padding: 5px;
+}
+.content > h1,
+.content > h2,
+.content > h3,
+.content > h4 {
+    font-weight: 500;
+}

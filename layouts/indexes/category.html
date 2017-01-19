@@ -4,14 +4,14 @@
 <div class="container">
     <div class="row">
         <div class="col-md-9">
-            <div class="well well-sm">
+            <h3 class="page-header">
                 <strong>Items in category <code>{{ .Title | lower }}</code></strong>
-                <ul class="list-unstyled">
-                    {{ range .Data.Pages }}
-                        {{ .Render "li" }}
-                    {{ end}}
-                </ul>
-            </div>
+            </h3>
+            <ul class="list-unstyled">
+                {{ range .Data.Pages }}
+                    {{ .Render "li" }}
+                {{ end}}
+            </ul>
         </div>
 
         <!-- Sidebar -->
