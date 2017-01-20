@@ -12,12 +12,14 @@ tags:
 
 * 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia] (https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
-<img style="float: left;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
+<img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
+
 * 2016-03 Andrei is featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
 
 * 2016-03 Microsoft Academic Graph [featured](http://research.microsoft.com/en-us/projects/mag/) our analysis of the citation patterns of the WSDM conference. 
 
-<img style="float: left;" src="/img/anu-reporter-team.jpg" width="200" Hspace="10" Vspace="5">
+<img style="float: left; margin-right: 30px;" src="/img/anu-reporter-team.jpg" width="200" Hspace="10" Vspace="5">
+
 * 2015-09 Measuring and predicting social media popularity, covered by [ANU Reporter](http://reporter.anu.edu.au/how-viral-video-star-born) and [NCI News](http://nci.org.au/2015/09/30/predicting-popularity). Photo by Stuart Hay.
 
 * 2014-12 ANU News ["Getting emotional about image search"](http://www.anu.edu.au/news/all-news/getting-emotional-about-image-search) describes Qianyu Zhang's Honor thesis research. 
