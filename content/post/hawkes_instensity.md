@@ -61,12 +61,30 @@ On the more technical end, we also hope the method outlined above will come in h
 
 ### Resources
 
-#### Preprint
-**Linking endogenous and exogenous popularity processes in social media**, by 
-Marian-Andrei Rizoiu, Lexing Xie, Scott Sanner, Manuel Cebrian, Honglin Yu, Pascal Van Hentenryck, [http://arxiv.org/abs/1602.06033](http://arxiv.org/abs/1602.06033)
+<!--#### Preprint-->
+<!--**Linking endogenous and exogenous popularity processes in social media**, by -->
+<!--Marian-Andrei Rizoiu, Lexing Xie, Scott Sanner, Manuel Cebrian, Honglin Yu, Pascal Van Hentenryck, [http://arxiv.org/abs/1602.06033](http://arxiv.org/abs/1602.06033)-->
 
-#### Data and code
-Forthcoming. 
+<!--#### Data and code-->
+<!--Forthcoming. -->
+
+[Marian-Andrei Rizoiu](http://www.rizoiu.eu), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Scott Sanner](http://d3m.mie.utoronto.ca/), [Manuel Cebrian](http://web.media.mit.edu/~cebrian/), Honglin You and [Pascal Van Hentenryck](https://pascalvanhentenryck.engin.umich.edu/). **Expecting to be HIP: Hawkes Intensity Processes for Social Media Popularity**, in *Proceedings International Conference on World Wide Web* (WWW '17), Perth, Australia, 2017. 
+
+| | |
+|---|---|
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1602.06033.pdf) <!-- &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf) &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)--> |
+|Data:  | [ACTIVE Dataset](http://users.cecs.anu.edu.au/~u5673898/documents/research/resources/active-dataset.json.bz2) (22MB) <!-- &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) (495MB) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) --> |
+|Bibtex: | |
+``` 
+@inproceedings{Rizoiu2017,
+    address = {Perth, Australia},
+    author = {Rizoiu, Marian-Andrei and Xie, Lexing and Sanner, Scott and Cebrian, Manuel and Yu, Honglin and {Van Hentenryck}, Pascal},
+    booktitle = {World Wide Web 2017, International Conference on},
+    pages = {1--9},
+    title = {{Expecting to be HIP: Hawkes Intensity Processes for Social Media Popularity}},
+    year = {2017}
+}
+```
 
 #### References
 

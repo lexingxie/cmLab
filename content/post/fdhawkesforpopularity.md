@@ -62,22 +62,28 @@ The results for classification task is presented in [table](#acc) below. Accurac
 Resources
 --------------------
 
-[Swapnil Mishra](http://cm.cecs.anu.edu.au/people), [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Feature Driven and Point Process Approaches for Popularity Prediction}**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
+[Swapnil Mishra](http://cm.cecs.anu.edu.au/people), [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Feature Driven and Point Process Approaches for Popularity Prediction**, in *Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management* (CIKM '16), Indianapolis, IN, USA.
 
 | | |
 |---|---|
-|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1608.04862v2.pdf) [Presentation](http://cm.cecs.anu.edu.au/documents/smishra_cikm16_presentation.pdf)
-|Data:  | [NEWS Data](https://git.io/v6rIN)|
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1608.04862v2.pdf)  &nbsp;&nbsp;&nbsp; [Presentation](http://cm.cecs.anu.edu.au/documents/smishra_cikm16_presentation.pdf) |
+|Data:  | [NEWS Dataset](https://git.io/v6rIN)|
 |Bibtex: | |
 ```
 @inproceedings{Mishra2016,
     title = {{Feature Driven and Point Process Approaches for Popularity Prediction}},
     author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
-    booktitle = {Proceedings of the 25th ACM International Conference on Conference on Information and Knowledge Management},
+    booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
     series = {CIKM '16},
     address = {Indianapolis, IN, USA},
     doi = {10.1145/2983323.2983812},
     year = {2016}
+    isbn = {978-1-4503-4073-1},
+    pages = {1069--1078},
+    numpages = {10},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {cascade prediction, information diffusion, self-exciting point process, social media}
 }
 ```
 
