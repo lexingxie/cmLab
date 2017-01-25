@@ -1,7 +1,7 @@
 ---
 title: "Expecting to be HIP"
 description: "This post outlines techniques for computing the expected event rate for Hawkes processes, or the so-called Hawkes Intensity Process (HIP)."
-date: "2016-08-16"
+date: "2017-01-16"
 draft: false
 categories:
   - "research"
@@ -73,7 +73,7 @@ On the more technical end, we also hope the method outlined above will come in h
 | | |
 |---|---|
 |Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1602.06033.pdf) <!-- &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf) &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)--> |
-|Data:  | [ACTIVE Dataset](http://users.cecs.anu.edu.au/~u5673898/documents/research/resources/active-dataset.json.bz2) (22MB) <!-- &nbsp;&nbsp;&nbsp; [Wikisample (1%)](http://goo.gl/T47UVj) (495MB) &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) --> |
+|Data:  | [ACTIVE Dataset](http://users.cecs.anu.edu.au/~u5673898/documents/research/resources/active-dataset.json.bz2) (22MB)  |
 |Bibtex: | |
 ``` 
 @inproceedings{Rizoiu2017,
