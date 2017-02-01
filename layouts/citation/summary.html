@@ -1,9 +1,12 @@
-<div class="well">
-    <h4>
-        <a href="{{ .Permalink }}">{{ .Title }}</a> <small class="pull-right">Posted on {{ .Date.Format "Jan 2, 2006" }}</small><br>
-        <small>{{ .Description }}</small>
-    </h4>
-    <hr>
-    <p>{{ .Summary }}</p>
-    <a class="btn btn-primary btn-xs" href="{{ .Permalink }}">Read More <span class="fa fa-angle-double-right"></span></a>
+<div class="panel panel-default">
+    <div class="panel-heading">
+	    <h4>
+            <a class="panel-title" href="{{ .Permalink }}">{{ .Title }}</a><span class="pull-right"><small><i class="glyphicon glyphicon-time"></i> Posted on {{ .Date.Format "Jan 2, 2006" }}</small></span>
+        </h4>
+        <p class="text-muted">{{ .Description }}</p>
+    </div>
+    <div class="panel-body">
+        <p>{{ .Summary }}</p>
+        <a class="btn-sm btn-default pull-right" href="{{ .Permalink }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
 </div>
