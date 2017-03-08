@@ -196,17 +196,17 @@ We are a diverse group in terms of research interests and background, technical 
 
 <!-- fifth -->
 <div class="row">
-    <!-- Umanga -->
+    <!-- Umanga Bista -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/umanga-100.png' title='Umanga' />
-            <big><big> <b>Umanga Bista</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning
+            <big><big> <b>Umanga Bista</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> Machine Learning
         </div>
         <div class="people-info">
             <b>Projects:</b>
                 Knowledge Graphs
             <br>
-            <b>Before the ANU:</b> Logpoint Nepal, Institute of Engineering (Tribhuvan University, Nepal)
+            <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
 </div>
