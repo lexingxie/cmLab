@@ -1,7 +1,7 @@
 ---
 title: "PLDI - Programming Language Design and Implementation (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:29:19.842395"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

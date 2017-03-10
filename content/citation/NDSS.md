@@ -1,7 +1,7 @@
 ---
 title: "NDSS - Network and Distributed System Security Symposium (1995-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:58:23.112469"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

@@ -1,7 +1,7 @@
 ---
 title: "ISMB - Intelligent Systems in Molecular Biology (1993-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:36:24.076525"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

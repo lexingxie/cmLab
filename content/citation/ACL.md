@@ -1,7 +1,7 @@
 ---
 title: "ACL - Meeting of the Association for Computational Linguistics (1979-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:49:27.349110"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

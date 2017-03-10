@@ -1,7 +1,7 @@
 ---
 title: "UAI - Uncertainty in Artificial Intelligence (1985-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:59:48.438789"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

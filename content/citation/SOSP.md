@@ -1,7 +1,7 @@
 ---
 title: "SOSP - Symposium on Operating Systems Principles (1967-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:11:47.498690"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

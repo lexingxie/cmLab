@@ -1,7 +1,7 @@
 ---
 title: "UIST - User Interface Software and Technology (1991-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:01:34.440535"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

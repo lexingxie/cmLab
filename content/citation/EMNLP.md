@@ -1,7 +1,7 @@
 ---
 title: "EMNLP - Empirical Methods in Natural Language Processing (2000-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:49:55.097605"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

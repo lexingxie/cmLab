@@ -1,7 +1,7 @@
 ---
 title: "ICS - International Conference on Supercomputing (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:36:33.921706"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

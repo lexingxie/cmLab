@@ -1,7 +1,7 @@
 ---
 title: "CoNEXT - Conference on Emerging Network Experiment and Technology (2005-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:56:33.164221"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

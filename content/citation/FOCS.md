@@ -1,7 +1,7 @@
 ---
 title: "FOCS - Foundations of Computer Science (1961-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:38:31.055405"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

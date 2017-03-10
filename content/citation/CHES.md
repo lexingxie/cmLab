@@ -1,7 +1,7 @@
 ---
 title: "CHES - Cryptographic Hardware and Embedded Systems (1999-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:45:35.408189"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

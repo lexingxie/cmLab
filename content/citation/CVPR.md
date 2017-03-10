@@ -1,7 +1,7 @@
 ---
 title: "CVPR - Computer Vision and Pattern Recognition (1982-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:24:41.987302"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

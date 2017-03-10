@@ -1,7 +1,7 @@
 ---
 title: "CRYPTO - International Cryptology Conference (1982-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:45:07.156550"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

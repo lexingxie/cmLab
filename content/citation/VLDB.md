@@ -1,7 +1,7 @@
 ---
 title: "VLDB - Very Large Data Bases (1975-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:03:58.881331"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

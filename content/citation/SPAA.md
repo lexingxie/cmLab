@@ -1,7 +1,7 @@
 ---
 title: "SPAA - ACM Symposium on Parallel Algorithms and Architectures (1989-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:59:25.337081"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

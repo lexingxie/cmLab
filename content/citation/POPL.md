@@ -1,7 +1,7 @@
 ---
 title: "POPL - Symposium on Principles of Programming Languages (1973-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:12:34.144147"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

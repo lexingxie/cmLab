@@ -1,7 +1,7 @@
 ---
 title: "EUROCRYPT - Theory and Application of Cryptographic Techniques (1982-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:44:28.628493"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

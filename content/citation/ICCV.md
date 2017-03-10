@@ -1,7 +1,7 @@
 ---
 title: "ICCV - International Conference on Computer Vision (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:24:10.802068"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

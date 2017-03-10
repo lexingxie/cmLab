@@ -1,7 +1,7 @@
 ---
 title: "NAACL - North American Chapter of the Association for Computational Linguistics (1991-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:50:21.103742"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

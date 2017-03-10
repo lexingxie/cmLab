@@ -1,7 +1,7 @@
 ---
 title: "SIGCOMM - ACM Special Interest Group on Data Communication (1969-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:31:14.723004"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

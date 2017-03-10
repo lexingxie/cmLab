@@ -1,7 +1,7 @@
 ---
 title: "ICRA - International Conference on Robotics and Automation (1975-2016)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:54:22.045646"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

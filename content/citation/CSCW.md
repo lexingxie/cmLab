@@ -1,7 +1,7 @@
 ---
 title: "CSCW - Conference on Computer Supported Cooperative Work (1986-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:02:02.253741"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

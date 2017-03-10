@@ -1,7 +1,7 @@
 ---
 title: "SenSys - International Conference on Embedded Networked Sensor Systems (1993-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:37:52.994016"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"
