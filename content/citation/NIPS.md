@@ -1,7 +1,7 @@
 ---
 title: "NIPS - Neural Information Processing Systems (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:47:34.730739"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

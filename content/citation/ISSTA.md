@@ -1,7 +1,7 @@
 ---
 title: "ISSTA - International Symposium on Software Testing and Analysis (1991-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:58:00.199926"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

@@ -1,7 +1,7 @@
 ---
 title: "ASE - Automated Software Engineering (1991-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:13:07.658873"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

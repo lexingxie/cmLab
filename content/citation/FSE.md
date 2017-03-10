@@ -1,7 +1,7 @@
 ---
 title: "FSE - Foundations of Software Engineering (1993-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:13:44.297495"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

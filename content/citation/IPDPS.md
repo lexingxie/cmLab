@@ -1,7 +1,7 @@
 ---
 title: "IPDPS - International Parallel and Distributed Processing Symposium (1990-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:57:38.157259"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

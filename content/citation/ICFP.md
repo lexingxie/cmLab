@@ -1,7 +1,7 @@
 ---
 title: "ICFP - International Conference on Functional Programming (1980-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-25 22:07:38.594961"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

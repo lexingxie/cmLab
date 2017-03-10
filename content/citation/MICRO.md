@@ -1,7 +1,7 @@
 ---
 title: "MICRO - International Symposium on Microarchitecture (1972-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:43:10.021175"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

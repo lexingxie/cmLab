@@ -1,7 +1,7 @@
 ---
 title: "OSDI - Operating Systems Design and Implementation (1994-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:09:38.157193"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

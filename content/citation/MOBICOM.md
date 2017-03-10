@@ -1,7 +1,7 @@
 ---
 title: "MOBICOM - ACM/IEEE International Conference on Mobile Computing and Networking (1995-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:37:04.806006"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

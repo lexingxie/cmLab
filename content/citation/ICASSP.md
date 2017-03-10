@@ -1,7 +1,7 @@
 ---
 title: "ICASSP - International Conference on Acoustics, Speech, and Signal Processing (1976-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:55:14.996704"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

@@ -1,7 +1,7 @@
 ---
 title: "EuroSys - European Conference on Computer Systems (2006-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:38:24.984213"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

@@ -1,7 +1,7 @@
 ---
 title: "ISIT - International Symposium on Information Theory (1973-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:56:00.433450"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"
