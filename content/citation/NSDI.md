@@ -1,7 +1,7 @@
 ---
 title: "NSDI - Networked Systems Design and Implementation (2004-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:44:02.794215"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

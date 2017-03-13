@@ -1,7 +1,7 @@
 ---
 title: "HPCA - High-Performance Computer Architecture (1995-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:56:52.411765"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

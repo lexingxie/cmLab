@@ -1,7 +1,7 @@
 ---
 title: "SAS - Static Analysis Symposium (1994-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-25 22:08:30.094119"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

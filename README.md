@@ -9,13 +9,11 @@ Here are a few dot points for building and updating the site.
 
 2. Navigate to the website source section of the repository, i.e. './cmLab/'
 
-3. Type 'hugo -b http://cm.cecs.anu.edu.au' to compile the site. A set of static htmls will appear in './public', or './cmLab/public/'.
-
-4. 'cp -R ./public/* /var/www/artofcomputing/' to update the web with the new version. 
+3. *Local Preview* type "hugo server watch" .. make sure there's no complaints, and then view under (usually) http://localhost:1313
 
 Note: 
 
-* You can use the enclosed "update_site.sh" script to complete pulling changes from repo, compiling, and copying as an all-in-one package  -- as an alternative to steps 3 and 4 above. 
+* Production: use the enclosed "update_site.sh" script to complete pulling changes from repo, compiling, and copying as an all-in-one package. 
 
 * You can also use the '-d /some/destination/directory' option to hugo to send the generated html directly to another location (e.g., the public www directory, or ../rendered).
 

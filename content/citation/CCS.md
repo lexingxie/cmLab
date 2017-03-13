@@ -1,7 +1,7 @@
 ---
 title: "CCS - Computer and Communications Security (1993-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:35:34.300460"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

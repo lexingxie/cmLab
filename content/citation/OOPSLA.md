@@ -1,7 +1,7 @@
 ---
 title: "OOPSLA - Conference on Object-Oriented Programming Systems, Languages, and Applications (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:29:54.109183"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

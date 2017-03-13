@@ -1,7 +1,7 @@
 ---
 title: "INTERSPEECH - Conference of the International Speech Communication Association (1988-2016)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:55:37.999340"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

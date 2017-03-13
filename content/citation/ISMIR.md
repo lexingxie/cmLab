@@ -1,7 +1,7 @@
 ---
 title: "ISMIR - International Symposium/Conference on Music Information Retrieval (2000-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:14:31.860084"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

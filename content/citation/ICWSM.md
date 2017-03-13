@@ -1,7 +1,7 @@
 ---
 title: "ICWSM - International Conference on Weblogs and Social Media (2007-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:26:03.349390"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

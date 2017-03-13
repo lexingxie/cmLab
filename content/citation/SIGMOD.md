@@ -1,7 +1,7 @@
 ---
 title: "SIGMOD - International Conference on Management of Data (1970-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:03:22.213886"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

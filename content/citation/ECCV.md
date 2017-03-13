@@ -1,7 +1,7 @@
 ---
 title: "ECCV - European Conference on Computer Vision (1990-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:23:44.518994"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

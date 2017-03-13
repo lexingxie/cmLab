@@ -1,7 +1,7 @@
 ---
 title: "ICAPS - International Conference on Automated Planning and Scheduling (2003-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 10:54:38.320681"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

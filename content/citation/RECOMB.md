@@ -1,7 +1,7 @@
 ---
 title: "RECOMB - Research in Computational Molecular Biology (1996-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:35:45.419729"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

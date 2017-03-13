@@ -1,7 +1,7 @@
 ---
 title: "PPoPP - ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (1990-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:59:01.141889"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

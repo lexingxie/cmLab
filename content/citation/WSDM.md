@@ -1,7 +1,7 @@
 ---
 title: "WSDM - Web Search and Data Mining (2008-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:13:13.197823"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

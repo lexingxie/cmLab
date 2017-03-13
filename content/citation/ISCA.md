@@ -1,7 +1,7 @@
 ---
 title: "ISCA - International Symposium on Computer Architecture (1973-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:42:29.648231"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

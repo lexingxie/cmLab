@@ -1,7 +1,7 @@
 ---
 title: "HPDC - High Performance Distributed Computing (1992-2014)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-24 21:57:12.800617"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

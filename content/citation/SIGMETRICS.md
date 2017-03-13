@@ -1,7 +1,7 @@
 ---
 title: "SIGMETRICS - Measurement and Modeling of Computer Systems (1972-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:31:57.788917"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

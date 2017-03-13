@@ -1,7 +1,7 @@
 ---
 title: "MobiSys - International Conference on Mobile Systems, Applications, and Services (2003-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-26 12:37:27.843288"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

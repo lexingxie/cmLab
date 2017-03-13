@@ -1,7 +1,7 @@
 ---
 title: "ECOOP - European Conference on Object-Oriented Programming (1987-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-09-25 22:08:10.399773"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

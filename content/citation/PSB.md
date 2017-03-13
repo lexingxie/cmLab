@@ -1,7 +1,7 @@
 ---
 title: "PSB - Pacific Symposium on Biocomputing (1995-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2016-08-17 11:36:59.074414"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"
