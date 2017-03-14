@@ -95,23 +95,6 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
         </div>
     </div>
-    <!-- Anila Sahar Butt -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/anila-100.png' title='Anila' />
-            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                ontology modelling and mapping, semantic query and reasoning
-            <br>
-            <b>Before the ANU:</b> National University of Science and Technology, Pakistan.
-       </div>
-    </div>
-</div>
-
-<!-- third row -->
-<div class="row">
     <!-- Dawei Chen -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -125,20 +108,10 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> ICT, CAS
         </div>
     </div>
-    <!-- Suvash Sedhain -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/ssedhain-100.png' title='Suvash' />
-            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                social recommendation; large scale recommender systems;
-                cold-start recommendation.
-            <br>
-            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
-        </div>
-    </div>
+</div>
+
+<!-- third row -->
+<div class="row">
     <!-- Siqi Wu -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -152,10 +125,19 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> The University of Melbourne
         </div>
     </div>
-</div>
-
-<!-- fourth row -->
-<div class="row">
+    <!-- Umanga Bista -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/umanga-100.png' title='Umanga' />
+            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> Machine Learning
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Picturing Knowledge
+            <br>
+            <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
+        </div>
+    </div>
     <!-- Minjeong Shin -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -169,6 +151,10 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
     </div>
+</div>
+
+<!-- fourth row -->
+<div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -196,19 +182,7 @@ We are a diverse group in terms of research interests and background, technical 
 
 <!-- fifth -->
 <div class="row">
-    <!-- Umanga Bista -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/umanga-100.png' title='Umanga' />
-            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> Machine Learning
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Picturing Knowledge
-            <br>
-            <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
-        </div>
-    </div>
+
 </div>
 
 <hr>
@@ -225,8 +199,34 @@ We are a diverse group in terms of research interests and background, technical 
 
 <hr>
 #### Alumni
-
 <div class="row">
+    <!-- Anila Sahar Butt -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/anila-100.png' title='Anila' />
+            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                ontology modelling and mapping, semantic query and reasoning
+            <br>
+            <b>Before the ANU:</b> National University of Science and Technology, Pakistan.
+       </div>
+    </div>
+    <!-- Suvash Sedhain -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/ssedhain-100.png' title='Suvash' />
+            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                social recommendation; large scale recommender systems;
+                cold-start recommendation.
+            <br>
+            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
+        </div>
+    </div>
     <!-- Honglin Yu -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -238,6 +238,9 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
+</div>    
+<div class="row">
+
     <!-- Qianyu Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -261,6 +264,7 @@ We are a diverse group in terms of research interests and background, technical 
         </div>
     </div>
 </div>
+
 
 
 [manuel]:http://web.media.mit.edu/~cebrian
