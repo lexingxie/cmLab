@@ -178,6 +178,19 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Currently:</b> PhD student, AIFB @ KIT; visiting scholar, ANU
         </div>
     </div>
+    <!-- Quyu Kong -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qykong-100.jpg' title='' />
+            <big><big> <b>Aditya Mogadala</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Analysing information diffusions in a large scale social network.
+            <br>
+            <b>Before the ANU:</b> Zhejiang University
+        </div>
+    </div>
 </div>
 
 <!-- fifth -->
@@ -238,7 +251,7 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
-</div>    
+</div>
 <div class="row">
 
     <!-- Qianyu Zhang -->
