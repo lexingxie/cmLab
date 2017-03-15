@@ -182,7 +182,7 @@ We are a diverse group in terms of research interests and background, technical 
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/qykong-100.jpg' title='' />
-            <big><big> <b>Aditya Mogadala</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+            <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
