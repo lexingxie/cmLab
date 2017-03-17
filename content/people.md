@@ -191,6 +191,19 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
+     <!-- Yifei Zhang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/yifei-100.jpg' title='' />
+            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Quantifing user influence in retweet cascade.
+            <br>
+            <b>Before the ANU:</b> Zhengzhou University
+        </div>
+    </div>
 </div>
 
 <!-- fifth -->
