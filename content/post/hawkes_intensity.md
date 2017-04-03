@@ -72,8 +72,8 @@ On the more technical end, we also hope the method outlined above will come in h
 
 | | |
 |---|---|
-|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1602.06033.pdf) <!-- &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf) &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)--> |
-|Data:  | [ACTIVE Dataset](http://rebrand.ly/active-dataset) (22MB) |
+|Download: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Paper PDF + SI](http://arxiv.org/pdf/1602.06033.pdf) &nbsp;&nbsp;&nbsp; [Talk slides](http://rizoiu.eu/documents/research/presentations/RIZOIU_WWW-2017_slides.pdf) <!-- &nbsp;&nbsp;&nbsp; [Poster](http://rizoiu.eu/documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf)--> |
+|Data:  | [ACTIVE Dataset and source code](https://github.com/andrei-rizoiu/hip-popularity) &nbsp;&nbsp;&nbsp; [Interactive visualization system](https://github.com/andrei-rizoiu/hip-popularity#hip-visualization-system) <!-- &nbsp;&nbsp;&nbsp; [Wikicomplete](http://goo.gl/2iLH7A) (3.6GB) --> |
 |Bibtex: | |
 ``` 
 @inproceedings{Rizoiu2017,
