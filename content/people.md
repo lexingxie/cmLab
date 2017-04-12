@@ -171,7 +171,7 @@ We are a diverse group in terms of research interests and background, technical 
     <!-- Aditya Mogadala -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/male_icon.png' title='' />
+            <img src='/img/rsz_adi.jpg' title='' />
             <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
         </div>
         <div class="people-info">
