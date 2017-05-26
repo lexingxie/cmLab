@@ -10,7 +10,7 @@ tags:
 
 ### Media coverage 
 
-* 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia] (https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
+* 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia] (https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
 <img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
 

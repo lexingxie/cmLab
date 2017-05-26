@@ -18,12 +18,13 @@ Our research is broadly concerned with automated undertanding of rich media, esp
 Individual preferences is relatively well understood (e.g. the netflix prize), but the aggregate attention, or popularity, is not. We bridge this gap by explaining the dynamics of attention, and connecting models for the user and the network.  We measure the longitudinal popularity change of YouTube videos over several years. We propose novel time series descriptions that correlate with popularity. We design new stochastic point process models to describe the ongoing interaction of external promotion and popularity evolution. 
 Our project answers one of the core problems in computational social science. The results can be used to understand grass-root movements and organized online campaigns, predict crowd behavior under realistic social settings, identify potential hits in the digital media landscape. 
 
-Papers: [CIKM'16](https://arxiv.org/abs/1608.04862), [arXiv'16](http://arxiv.org/abs/1602.06033), [ICWSM'15](http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf), [ACM MM'14](http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf), 
+Papers: [ICWSM'17](http://arxiv.org/abs/1703.01012), [WWW'17](http://arxiv.org/abs/1602.06033), [CIKM'16](https://arxiv.org/abs/1608.04862), [ICWSM'15](http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf), [ACM MM'14](http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf), 
 
 Posts: 
 
+* [Expecting to be HIP](/post/expecting_to_be_HIP/), <small>May 24, 2017</small>
+* [Event intensity in Hawkes Intensity Processes](/post/hawkes_instensity/), <small>January 16, 2017</small>
 * [Feature Driven and Point Process Approaches for Popularity Prediction](/post/fdhawkesforpopularity/), <small>August 31, 2016</small>
-* [Expecting to be HIP](/post/hawkes_instensity/), <small>August 16, 2016</small>
 
 ### Generating Stylized Descriptions of Images
 <img style="float:left;" src="/img/proj_icons/intro_example_senticap.png" width="200" hspace="15" vspace="10"> 

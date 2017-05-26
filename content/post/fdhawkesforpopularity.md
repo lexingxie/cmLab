@@ -1,6 +1,6 @@
 ---
 title: "Feature Driven and Point Process Approaches for Popularity Prediction"
-description: "We pbridge the gap between problem settings and approaches for predicting the size of a retweeting cascade."
+description: "We bridge the gap between problem settings and approaches for predicting the size of a retweeting cascade."
 date: "2016-08-31"
 draft: false
 categories:
