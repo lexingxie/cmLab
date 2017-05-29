@@ -20,7 +20,7 @@ tags:
 It is common knowledge that it is almost impossible to predict what will become viral in the online environment.
 Perceptual biases and the competition for the limited available human attention make online popularity appear as almost random.
 But **can we predict what could become viral given enough attention?**
-As our recent WWW'17 paper shows, we can use theoretical models to explain observed popularity dynamics and to predict which items have the potential of becoming viral.
+As our recent WWW'17 paper shows, we can use theoretical models to explain observed popularity dynamics and to predict which items have the highest potential of becoming viral.
 
 <!--more-->
 
