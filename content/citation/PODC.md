@@ -1,7 +1,7 @@
 ---
 title: "PODC - Principles of Distributed Computing (1982-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2017-06-05 22:59:12.512754"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"

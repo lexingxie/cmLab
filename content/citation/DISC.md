@@ -1,7 +1,7 @@
 ---
 title: "DISC - International Symposium on Distributed Computing (1998-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2017-06-05 22:59:38.460700"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"
