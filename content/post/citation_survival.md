@@ -474,6 +474,29 @@ You can either browse through [a list of all conferences](/tags/citation/), or n
 </tr>
 </table>
 
+#### Distributed computing
+<a id='disc'></a>
+<table width=800>
+<tr>
+
+<td>
+<a href=/citation/PODC>
+	PODC - Principles of Distributed Computing (1982-2015) 
+ <img align=center width=250 src="/img/citation/PODC/PODC_survival.png">
+<a>
+</td>
+
+<td>
+<a href=/citation/DISC>
+	DISC - International Symposium on Distributed Computing (1998-2015) 
+ <img align=center width=250 src="/img/citation/DISC/DISC_survival.png">
+<a>
+</td>
+
+</tr>
+</table>
+
+
 #### Cryptography and systems
 
 <a id='crypto'></a>
