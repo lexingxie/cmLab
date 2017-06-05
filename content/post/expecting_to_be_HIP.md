@@ -1,8 +1,8 @@
 ---
-title: "Expecting to be HIP! Could this go viral?"
+title: "Expecting to be HIP (II) -- Could this video go viral?"
 description: "identifying the potentially next blockbuster"
 date: "2017-05-29"
-draft: false
+draft: true
 categories:
   - "research"
   - "paper"
@@ -85,12 +85,6 @@ If you want to try out on your own data, we have released [code and tutorials fo
 
 ### Resources
 
-<!--#### Preprint-->
-<!--**Linking endogenous and exogenous popularity processes in social media**, by -->
-<!--Marian-Andrei Rizoiu, Lexing Xie, Scott Sanner, Manuel Cebrian, Honglin Yu, Pascal Van Hentenryck, [http://arxiv.org/abs/1602.06033](http://arxiv.org/abs/1602.06033)-->
-
-<!--#### Data and code-->
-<!--Forthcoming. -->
 
 [Marian-Andrei Rizoiu](http://www.rizoiu.eu), [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/), [Scott Sanner](http://d3m.mie.utoronto.ca/), [Manuel Cebrian](http://web.media.mit.edu/~cebrian/), Honglin Yu and [Pascal Van Hentenryck](https://pascalvanhentenryck.engin.umich.edu/). **Expecting to be HIP: Hawkes Intensity Processes for Social Media Popularity**, in *Proceedings International Conference on World Wide Web* (WWW '17), pp. 735-744, Perth, Australia, 2017. 
 
