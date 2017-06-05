@@ -1,8 +1,8 @@
 ---
-title: "Boosting popularity in the online environment through promotions"
+title: "Expecting to be HIP (III) -- Examining the role of promotions"
 description: "how much promotion is required? and why should one constantly promote?"
 date: "2017-05-30"
-draft: false
+draft: true
 categories:
   - "research"
   - "paper"

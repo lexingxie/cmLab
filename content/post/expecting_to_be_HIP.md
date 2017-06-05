@@ -14,8 +14,12 @@ tags:
 
 ##### posted by _Marian-Andrei Rizoiu_ <br />
 
-<!--<img style="float: left;" src="/img/expecting_to_be_HIP/expecting_to_be_hip_icon.png" width="180" Hspace="10" Vspace="5">-->
-<img style="float: left;" src="/img/expecting_to_be_HIP/hatted_hip_hippo.png" width="150" Hspace="10" Vspace="5">
+
+<img style="float: left;" src="/img/expecting_to_be_HIP/expecting_to_be_hip_icon.png" width="180" Hspace="10" Vspace="5">
+<!--
+  LX: as discussed, use an illustrative icon, not the mascot
+  <img style="float: left;" src="/img/expecting_to_be_HIP/hatted_hip_hippo.png" width="150" Hspace="10" Vspace="5">
+-->
 
 It is common knowledge that it is almost impossible to predict what will become viral in the online environment.
 Perceptual biases and the competition for the limited available human attention make online popularity appear as almost random.
