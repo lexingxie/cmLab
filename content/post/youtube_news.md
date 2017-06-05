@@ -18,7 +18,7 @@ The era of information explosion brought a democratization in information consum
 Regular users not only consume information, but they digest, mutate and produce new information which gets passed on to other users.
 In this post, we focus on analyzing the impact of these emergent sources of information versus traditional media, in the context of politics.
 More precisely, we study how YouTube videos posted by two **traditional news sources** (_BBC news/UK_, _ABC news/USA_)
-and two emergent **online news sources** (_The Alex Jones Channel_, _The Young Turks_) are viewed around the time of the US political elections of 2016.
+and two **emergent online news sources** (_The Alex Jones Channel_, _The Young Turks_) are viewed around the time of the US political elections of 2016.
 
 <!--In the era of information explosion, we are witnessing tremendous amounts of information being generated every day.
 The format in which this information is presented ranges from text to audio, image and ultimately, video.
@@ -55,7 +55,7 @@ We observe that videos posted by political entertainment channels consistently r
 
 ### A close look on election day
 
-We also notice that _ABC news/USA_ received very high traffic on the 2016 US election day, thus we take a close look to see how real time major event influences online traffic.
+We also notice that the channel _ABC news/USA_ has received very high traffic on the 2016 US election day, thus we take a closer look to see how real time major events influence online traffic.
 
 <img src="/img/youtube_news/news_election_day.png" height=450>
 
@@ -67,13 +67,12 @@ This reveals that when it comes to being informed about hard facts, the public s
 
 Corroborated with Figure 1, we also notice that _ABC news/USA_ achieve this instantaneous gain of public attention at the expense of others.
 _The Alex Jones Channel_ lost significant amount of attentions on that day, especially in terms of shares.
-This matches with previous research that online media are for competing limited attention (`Weng13`).
-Another intuition is that YouTube live seems a promising format for broadcasting news.
-They have been widely adopted and shown the capability to draw numerous traffic.
+This matches with previous research that online media items compete for the limited amount of available human attention (`Weng13`).
+Another intuition is that YouTube live seems to be a promising format for broadcasting news, which has already been widely adopted and has shown the capability to draw traffic.
 
 ### Conclusion
 
-To conclude, we have found that traditional news source and political entertainment media aim at different functionality.
+To conclude, we have found that traditional news source and political entertainment media serve different functions.
 The former focus on delivering authentic news content, while the later are more subjective with the purpose to entertain, engage, or persuade.
 In other words, when I am looking for first-hand news, I want the source to be canonical.
 But when I am digging into some concrete facts, show me something fun!
