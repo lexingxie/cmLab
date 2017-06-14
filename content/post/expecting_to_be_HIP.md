@@ -1,7 +1,7 @@
 ---
 title: "Expecting to be HIP (II) -- Could this video go viral?"
-description: "identifying the potentially next blockbuster"
-date: "2017-05-29"
+description: "supplying the missing link between popularity and promotions"
+date: "2017-06-11"
 draft: true
 categories:
   - "research"
@@ -12,21 +12,28 @@ tags:
   - "social media"
 ---
 
-##### posted by _Marian-Andrei Rizoiu_ <br />
+##### posted by _Marian-Andrei Rizoiu_ , edited by _Lexing Xie_ <br />
 
 
-<img style="float: left;" src="/img/expecting_to_be_HIP/expecting_to_be_hip_icon.png" width="180" Hspace="10" Vspace="5">
 <!--
   LX: as discussed, use an illustrative icon, not the mascot
   <img style="float: left;" src="/img/expecting_to_be_HIP/hatted_hip_hippo.png" width="150" Hspace="10" Vspace="5">
 -->
 
+<!--LX revise wordy opening 
 It is common knowledge that it is almost impossible to predict what will become viral in the online environment.
 Perceptual biases and the competition for the limited available human attention make online popularity appear as almost random.
-But **can we predict what could become viral given enough attention?**
-As our recent WWW'17 paper shows, we can use theoretical models to explain observed popularity dynamics and to predict which items have the highest potential of becoming viral.
+But ****
+-->
+One major gap in understanding social media is to precisely quantify the relationship between the popularity of an online item and the external promotions it receives. Our recent WWW'17 paper supplies the missing link. 
+ We use [a mathematical model](/post/hawkes_intensity/) to describe the continuous interaction between external promotions (e.g. tweets about a video) and popularity dynamics (e.g. daily views). This in turn answers several practical questions: 
+
+* Can we explain the complex multi-phased popularity dynamics widely seen online?
+* Can one predict what could become viral?
+* Can one predict what *would not* become viral even if heavily promoted?
 
 <!--more-->
+This post is the second of a series on modeling social media popularity using the [Hawkes Intensity Process](https://arxiv.org/abs/1602.06033). ["Expecting to be HIP (I)"](/post/hawkes_intensity/) presents a technical overview to a new method for computing expected event rate in unit time for point processes. ["Expecting to be HIP (III)"](/post/promotability/) further quantifies the effects and interpretations of promotion. 
 
 ### Why popularity?
 
