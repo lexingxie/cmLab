@@ -2,7 +2,7 @@
 title: "Expecting to be HIP (II) -- Could this video go viral?"
 description: "supplying the missing link between popularity and promotions"
 date: "2017-06-11"
-draft: true
+draft: false
 categories:
   - "research"
   - "paper"
