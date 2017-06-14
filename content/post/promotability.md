@@ -1,7 +1,7 @@
 ---
 title: "Expecting to be HIP (III) -- Examining the role of promotions"
 description: "How much promotion is required, and why should one constantly promote?"
-date: "2017-05-30"
+date: "2017-06-12"
 draft: false
 categories:
   - "research"
@@ -26,6 +26,9 @@ Our ICWSM'17 paper applies the recent [HIP popularity modeling](/post/expecting_
 * Why is constant promotion desirable?
 
 <!--more-->
+
+This post is the third of a series on modeling social media popularity using the [Hawkes Intensity Process](https://arxiv.org/abs/1602.06033). ["Expecting to be HIP (I)"](/post/hawkes_intensity/) presents a technical overview to a new method for computing expected event rate in unit time for point processes. ["Expecting to be HIP (II)"](/post/expecting_to_be_HIP/) gives an overview of results and interpretations on a large YouTube video dataset. 
+
 
 #### Popularity under promotion
 
@@ -99,19 +102,12 @@ and the video stays longer in the public attention, thus generating more views.
 The **black line** in Fig.3 shows a typical popularity pattern for Youtube videos: the daily viewcount has an initial peak, followed by a steady decay.
 The <span style="color:red">**red line**</span> shows the popularity of the same item, constantly promoted every day with 5 promotions.
 By contrasting the promoted and the unpromoted relaxation, we see that the daily views in the promoted system have a slower decrease and converge to a non-zero value – the
-evenly promoted system appears to posses a longer "social memory".
+evenly promoted system appears to posses a longer "social memory". More precisely, this corresponds to a memory parameter with slower decay, as detailed in Section 6.2 of [the paper](https://arxiv.org/pdf/1703.01012.pdf). 
 <!-- LX:paragraph above needs to change w updated bottom graphic -->
 
 If you would like more detail, read [this paper](https://arxiv.org/pdf/1703.01012.pdf), [the predecessor paper](http://arxiv.org/pdf/1602.06033.pdf), or play with [the demo](https://github.com/andrei-rizoiu/hip-popularity)!
 
 ### Resources
-
-<!--#### Preprint-->
-<!--**Linking endogenous and exogenous popularity processes in social media**, by -->
-<!--Marian-Andrei Rizoiu, Lexing Xie, Scott Sanner, Manuel Cebrian, Honglin Yu, Pascal Van Hentenryck, [http://arxiv.org/abs/1602.06033](http://arxiv.org/abs/1602.06033)-->
-
-<!--#### Data and code-->
-<!--Forthcoming. -->
 
 [Marian-Andrei Rizoiu](http://www.rizoiu.eu) and [Lexing Xie](http://users.cecs.anu.edu.au/~xlx/). **Online Popularity under Promotion: Viral Potential, Forecasting, and the Economics of Time**, in *Proceedings of the 11th International AAAI Conference on Web and Social Media (ICWSM’17)*, p. 10, Montréal, Canada, 2017. 
 

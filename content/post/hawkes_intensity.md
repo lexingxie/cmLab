@@ -16,10 +16,10 @@ tags:
 
 <img src="/img/hawkes/hip.png" height="180"><br>
 
-This post is the first of a series on modeling social media popularity using the [Hawkes Intensity Process](https://arxiv.org/abs/1602.06033). 
-This post contain a rather technical overview to a new method for computing expected event rate in unit time for point processes. Such a technique is important for estimating interval-censored Hawkes processes -- or when the volume of events, and not individual event times are known.
-The second post in ["Expecting to be HIP (II)"](/post/expecting_to_be_HIP/) gives 
+This post is the first of a series on modeling social media popularity using the [Hawkes Intensity Process](https://arxiv.org/abs/1602.06033). ["Expecting to be HIP (II)"](/post/expecting_to_be_HIP/) gives an overview of results and interpretations on a large YouTube video dataset. ["Expecting to be HIP (III)"](/post/promotability/) further quantifies the effects and interpretations of promotion. 
+
 <!--more-->
+This first episode contain a rather technical overview to a new method for computing expected event rate in unit time for point processes. Understanding this is _not_ a prerequisite for reading the subsequent posts. Such a technique is used for estimating interval-censored Hawkes processes -- or when the volume of events, and not individual event times are known.
 
 ### What is this about
 
