@@ -1,4 +1,7 @@
-# How to use *arco* and *braun*
+# A brief guide to the local computing environment 
+
+## Rule #1
+Be considerate to others who share the same computing environment. 
 
 ## Basics
 
@@ -19,20 +22,21 @@ There are two computing servers (i.e. `arco` and `braun`) in our group, basic in
 
 ## Shared Storage
 
-There are SSDs installed in both `arco` and `braun`, you are not recommend to use them due to their small capacities (except source code), instead, large datasets are recommended to be stored in the following shared storage:
+There are SSDs installed in both `arco` and `braun` as /home or /, you are not recommend to use them due to their small capacities (except source code), instead, large datasets are recommended to be stored in the following shared storage:
 
-- /data: ?
+- /data: (doesn't exist)
+- /data1: (doesn't exist)
+- /data2: 22 TB, hosted on NFS server `zion`, automatically mirrored nightly 
+- /data3: 11 TB, hosted on NFS server `zion`, automatically mirrored nightly 
+- /data4: 22 TB, hosted on NFS server `zion`, automatic back-up NOT YET UP
+- /localdata: ~ 8.2 TB hosted on `arco`, ~ 7.3 TB hosted on `braun`, NO BACKUP
 
+## Software 
 
-- /data1: ?
-- /data2: ? TB, hosted on NFS server `zion`, automatic back-up?
-- /data3: ? TB, hosted on NFS server `zion`, automatic back-up?
-- /data4: ~20 TB, hosted on NFS server `zion`, automatic back-up?
-- /localdata: ~ 8.2 TB hosted on `arco`, ~ 7.3 TB hosted on `braun`, NO automatic back-up?
+You can install software in /localdata using [Linuxbrew](http://linuxbrew.sh/) (no root permission required).
+For system-wide software (e.g. GPU drivers), voice on #compute-power and sudoers will help install. 
 
 For Python users, it is recommended that you get your own [Anaconda](https://www.continuum.io/anaconda-overview) or [Miniconda](https://conda.io/miniconda.html) distribution and install it in /localdata. 
-
-You can also install software in /localdata using [Linuxbrew](http://linuxbrew.sh/) (no root permission required).
 
 ## Usage
 
@@ -54,9 +58,11 @@ After connecting to VPN, arco/braun are accessible by IP from your laptop, but n
 ### Nectar and NCI
 If your computing requirements are beyond the capabilities of both `arco` and `braun`, you may consider using [NCI](http://nci.org.au/) or [NECTAR](https://nectar.org.au/).
 
-You can register as a new user of NCI by following instructions [here](http://nci.org.au/access/user-registration/register-new-user/) using your ANU email address and connect it with project **v89**. There is also [a nice user guide](https://opus.nci.org.au/display/Help/Raijin+User+Guide). 
+* NCI is a high-performance computing cluster, we have cpu hour quota (typically tens of thousands per quarter) for data- and cpu- intensive parrallel jobs. 
+  You can register as a new user of NCI by following instructions [here](http://nci.org.au/access/user-registration/register-new-user/) using your ANU email address and connect it with project **v89**. There is also [a nice user guide](https://opus.nci.org.au/display/Help/Raijin+User+Guide). 
 
-**How to register NECTAR?** 
+* NECTAR research cloud hosts virtual machines.  
+  We have an allocation of several dozen VMs, there's usually a few free at any given time. These are for long-running jobs, or jobs needing dedicated environment. You can first login with your ANU credentials at https://dashboard.rc.nectar.org.au/auth/login/?next=/, then ask to be added to the group project. 
 
 ### Helpful shortcuts for fast accessing arco/braun
 1. Passwordless ssh: Generate ssh key (if it doesn't exists inside your `~/.ssh/`) using command `ssh-keygen -t rsa` and copy the content of `~/.ssh/id_rsa.pub` to file `~/.ssh/authorized_keys` of braun/arco. Then you will be able to ssh without password.
