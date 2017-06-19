@@ -1,6 +1,6 @@
-## How to use *arco* and *braun*
+# How to use *arco* and *braun*
 
-### Basics
+## Basics
 
 There are two computing servers (i.e. *arco* and *braun*) in our group, basic information about them are:
 
@@ -17,7 +17,7 @@ There are two computing servers (i.e. *arco* and *braun*) in our group, basic in
   - Storage: See [Shared Storage](#Shared-Storage) 
   - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
 
-### Shared Storage
+## Shared Storage
 
 There are SSDs installed in both *arco* and *braun*, you are not recommend to use them due to their small capacities (except source code), instead, large datasets are recommended to be stored in the following shared storage:
 
@@ -32,7 +32,7 @@ There are SSDs installed in both *arco* and *braun*, you are not recommend to us
 
 For Python users, it is recommended that you get your own [Anaconda](https://www.continuum.io/anaconda-overview) or [Miniconda](https://conda.io/miniconda.html) distribution and install it in /localdata. 
 
-### Usage
+## Usage
 
 Both servers can be accessed by their hostnames (i.e. *arco* and *braun*) if you are connected to the ANU network, otherwise, you have to access them through [ssh tunnel](https://en.wikipedia.org/wiki/Tunneling_protocol#Secure_Shell_tunneling) via two CECS servers: 
 
@@ -41,10 +41,36 @@ Both servers can be accessed by their hostnames (i.e. *arco* and *braun*) if you
 
 You can access them using your ANU id and password, a nice tutorial on setting up ssh tunnel is available [here](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html), you may also want to [login without typing password](http://www.linuxproblem.org/art_9.html). 
 
-### Misc
+## Usage from VPN
 
+If you want to access computational resources of CECS from your network outside CECS, you can request ans ask for VPN access. To request VPN access, [follow these instructions](https://cecs.anu.edu.au/staff/cecs-it-group/cecs-vpn).
+
+After connecting to VPN, arco/braun are accessible by IP from your laptop, but not with hostname, i.e. with `braun` or `arco`. If you want to access from hostname, keep them in your `/etc/hosts` file.
+
+## Misc
+
+### Nectar and NCI
 If your computing requirements are beyond the capabilities of both *arco* and *braun*, you may consider using [NCI](http://nci.org.au/) or [NECTAR](https://nectar.org.au/).
 
 You can register as a new user of NCI by following instructions [here](http://nci.org.au/access/user-registration/register-new-user/) using your ANU email address and connect it with project **v89**. There is also [a nice user guide](https://opus.nci.org.au/display/Help/Raijin+User+Guide). 
 
 **How to register NECTAR?** 
+
+### Helpful shortcuts for fast accessing arco/braun
+1. Passwordless ssh: Generate ssh key (if it doesn't exists inside your `~/.ssh/`) using command `ssh-keygen -t rsa` and copy the content of `~/.ssh/id_rsa.pub` to file `~/.ssh/authorized_keys` of braun/arco. Then you will be able to ssh without password.
+2. ssh without username: Normally, when you ssh, you use command `ssh u1234567@braun`, but if you want to fast ssh with just `ssh braun` (without username), put these in your `~/.ssh/config`:
+```
+Host braun
+ User u1234567
+Host arco
+ User u1234567
+```
+3. ssh via cpu1/cpu2: You can do a two step ssh to arco/braun by first doing ssh to cpu1/cpu2 servers from outside network, and then doing ssh to arco/braun. You can combine this two step method to a single command by using follwing function. Add this function to `~/.bash_profile` in your laptop/external computer.
+```
+export ANU_ID=u1234567
+function sshq() {
+     echo "connecting via proxy cpu$2"
+     ssh -t $ANU_ID@cpu$2.cecs.anu.edu.au ssh -t $1 # ${@:3}
+}
+```
+After you add these lines to your `~/.bash_profile`, you can do `sshq braun 1` to ssh via cpu1 or `sshq arco 2` to ssh via cpu2 to the arco/braun.
