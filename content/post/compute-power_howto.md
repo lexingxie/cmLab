@@ -82,3 +82,16 @@ function sshq() {
 }
 ```
 After you add these lines to your `~/.bash_profile`, you can do `sshq braun 1` to ssh via cpu1 or `sshq arco 2` to ssh via cpu2 to the arco/braun.
+
+### Using iPython notebook remotely
+
+(adapted from instructions here
+http://wisdomthroughknowledge.blogspot.com.au/2012/07/accessing-ipython-notebook-remotely.html)
+
+* on arco: `ipython notebook --no-browser --port=7100`
+* on local machine: `ssh -N -f -L localhost:8071:localhost:7100 u1234567@arco.cecs.anu.edu.au`
+
+* use "ps aux | grep ssh” to find and kill zombie ssh sessions
+
+
+
