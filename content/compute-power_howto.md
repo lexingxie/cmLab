@@ -41,11 +41,17 @@ There are a few types of storage space available:
 
 ## Code hosting and release
 
-We use github, bitbucket, or ANU gitlab. We now release all our public code via a organisation github account, [cmlab](https://github.com/computationalmedia).
+We use github, bitbucket, or ANU gitlab. 
+
+For better publicity and visibility, we will release all our public code via an organisation github account, [cmlab](https://github.com/computationalmedia).
 
   - send your github username/useremail to swapnil
   - accept the inivation and join as public member(this won't affect your github account in any way)
-  - fork a new repository to release code and add your collaborators to it.
+
+For future releases:
+
+  - create a new repository under the "organization" 
+  - add your collaborators to it and start pushing code/data 
 
 ## Software 
 
