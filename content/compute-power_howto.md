@@ -1,4 +1,4 @@
-# A brief guide to the local computing environment 
+# CM Lab Guide to Computing
 
 ## Rule #1
 Be considerate to others who share the same computing environment. 
@@ -20,16 +20,30 @@ There are two computing servers (i.e. `arco` and `braun`) in our group, basic in
   - Storage: See [Shared Storage](#Shared-Storage) 
   - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
 
-## Shared Storage
+## Disk space
 
-There are SSDs installed in both `arco` and `braun` as /home or /, you are not recommend to use them due to their small capacities (except source code), instead, large datasets are recommended to be stored in the following shared storage:
+There are a few types of storage space available:
 
-- /data: (doesn't exist)
-- /data1: (doesn't exist)
-- /data2: 22 TB, hosted on NFS server `zion`, automatically mirrored nightly 
-- /data3: 11 TB, hosted on NFS server `zion`, automatically mirrored nightly 
-- /data4: 22 TB, hosted on NFS server `zion`, automatic back-up NOT YET UP
-- /localdata: ~ 8.2 TB hosted on `arco`, ~ 7.3 TB hosted on `braun`, NO BACKUP
+* There are SSDs installed in both `arco` and `braun` as /home or /, you are not recommend to use them due to their small capacities (except source code). 
+
+* Static, backed up storage. These are intended for datasets and other persistent storage. Such as results to reproduce one of your papers, or critical processed data that will be very expensive to regenerate. Because of the mirrored backup and RAID redundancy, they are more expensive to obtain and maintain -- at a price of about 2.5TB per each TB we can use. 
+  
+  - /data: (doesn't exist)
+  - /data1: (doesn't exist)
+  - /data2: 22 TB, hosted on NFS server `zion`, automatically mirrored nightly 
+  - /data3: 11 TB, hosted on NFS server `zion`, automatically mirrored nightly 
+  - /data4: 22 TB, hosted on NFS server `zion`, automatic back-up NOT YET UP
+
+* Local scratch space. These should host experiment dumps, temporary storage, and others. 
+  - /localdata: ~ 8.2 TB hosted on `arco`, ~ 7.3 TB hosted on `braun`, NO BACKUP
+
+* NCI storage -- there are ~17TB available on /gdata/, see below for instructions.
+
+## Code hosting and release
+
+We use github, bitbucket, or ANU gitlab. 
+
+@swapnil - a few lines of github group account, and how it's intended to be used here?
 
 ## Software 
 
@@ -47,7 +61,7 @@ Both servers can be accessed by their hostnames (i.e. `arco` and `braun`) if you
 
 You can access them using your ANU id and password, a nice tutorial on setting up ssh tunnel is available [here](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html), you may also want to [login without typing password](http://www.linuxproblem.org/art_9.html). 
 
-## Usage from VPN
+### Usage from VPN
 
 If you want to access computational resources of CECS from your network outside CECS, you can request ans ask for VPN access. To request VPN access, [follow these instructions](https://cecs.anu.edu.au/staff/cecs-it-group/cecs-vpn).
 
