@@ -96,6 +96,7 @@ Host arco
  User u1234567
 ```
 3. ssh via cpu1/cpu2: You can do a two step ssh to arco/braun by first doing ssh to cpu1/cpu2 servers from outside network, and then doing ssh to arco/braun. You can combine this two step method to a single command by using follwing function. Add this function to `~/.bash_profile` in your laptop/external computer.
+
 ```
 export ANU_ID=u1234567
 function sshq() {
@@ -103,6 +104,7 @@ function sshq() {
      ssh -t $ANU_ID@cpu$2.cecs.anu.edu.au ssh -t $1 # ${@:3}
 }
 ```
+
 After you add these lines to your `~/.bash_profile`, you can do `sshq braun 1` to ssh via cpu1 or `sshq arco 2` to ssh via cpu2 to the arco/braun.
 
 ### Using iPython notebook remotely
