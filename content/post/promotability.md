@@ -125,6 +125,4 @@ If you would like more detail, read [this paper](https://arxiv.org/pdf/1703.0101
     title = {Online Popularity under Promotion: Viral Potential, Forecasting, and the Economics of Time},
     year = {2017}
 }
-
-
 ```

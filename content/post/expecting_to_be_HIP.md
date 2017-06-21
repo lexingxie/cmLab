@@ -15,10 +15,8 @@ tags:
 ##### posted by _Marian-Andrei Rizoiu_ , edited by _Lexing Xie_ <br />
 
 
-<!--
-  LX: as discussed, use an illustrative icon, not the mascot
-  <img style="float: left;" src="/img/expecting_to_be_HIP/hatted_hip_hippo.png" width="150" Hspace="10" Vspace="5">
--->
+<img style="float: left;" src="/img/expecting_to_be_HIP/endo_exo_map.png" width="200" Hspace="10" Vspace="5">
+<!--<img style="float: left;" src="/img/expecting_to_be_HIP/teaser2.png" width="150" Hspace="10" Vspace="5">-->
 
 <!--LX revise wordy opening 
 It is common knowledge that it is almost impossible to predict what will become viral in the online environment.
@@ -44,23 +42,32 @@ Popularity captures people's attention, it is directly linked to political outco
 However, predicting what will become popular is notoriously difficult, given a series of social phenomena that we are just starting to understand (such as perceptual biases, the limited amount of available human attention or randomly occurring external events which direct the human attention towards certain items).
 Better understanding of popularity and its dynamics over time is at the heart of understanding contemporary political and civil events, from grassroots movements such as Arab Springs and the Occupy movement, to actively promoting issues such as climate change and global public health.
 
-### Modeling popularity with HIP
+<!--<figure style="float: right;" >-->
+<!--  <img src="/img/expecting_to_be_HIP/modeling_pop_HIP.png" width="250" Hspace="15" Vspace="10">-->
+<!--  <figcaption>Fig.1: Modeling popularity with HIP</figcaption>-->
+<!--</figure> -->
 
-<figure style="float: right;" >
-  <img src="/img/expecting_to_be_HIP/modeling_pop_HIP.png" width="250" Hspace="15" Vspace="10">
-  <figcaption>Fig.1: Modeling popularity with HIP</figcaption>
+<figure style="float: right; display: table; width: 1px;">
+    <!-- MAR: note that I need to set "max-width" for figs to counteract the global CSS. -->
+    <img src="/img/expecting_to_be_HIP/fit2.png" width="270" Hspace="15" Vspace="10" style="display: table-row; max-width: 270px;" >
+    <figcaption> </figcaption>
+  
+    <img src="/img/expecting_to_be_HIP/fit1.png" width="250" Hspace="15" Vspace="10" style="display: table-row; float: right;" >
+    <figcaption style="display: table-row;">Fig.1: The popularity series of two videos, explained by HIP: <a href="https://www.youtube.com/watch?v=bUORBT9iFKc">bUORBT9iFKc</a> is a music video and <a href="https://www.youtube.com/watch?v=WKJoBeeSWhc">WKJoBeeSWhc</a> is a news video.</figcaption>
 </figure> 
+
+
+### Modeling popularity with HIP
 
 While it may turn out impossible to accurately predict what will be highly popular in the future (in other words, **what will become viral**), we can already do the next best thing: we can identify what has the potential of becoming viral given enough attention by precisely quantifying the relationship between the popularity of an online item and the external promotions it receives. 
 Our work recently presented at WWW'17 supplies the missing link between exogenous inputs from public social media platforms, such as Twitter, and endogenous responses within the content platform, such as YouTube. 
 We developed a novel mathematical model HIP (short for Hawkes Intensity Processes), which can explain the complex popularity history of each video according to its type of content, network of diffusion, and sensitivity to promotion. 
-HIP is based on a novel method for computing the expected event rate in unit time for point processes, called the Hawkes intensity and which was already detailed in one of our [previous posts](/post/hawkes_intensity/).
-As shown in Fig.1, HIP is capable of explaining complex popularity dynamics by constructing a tight fit between observed popularity (<span style="color:green">green curve</span>) and the fitted popularity (<span style="color:blue">blue curve</span>), given the series of exogenous inputs (<span style="color:red">red curve</span>).
-
+HIP is based on a novel method for computing the expected event rate in unit time for point processes, called the Hawkes intensity and which was already detailed in the post ["Expecting to be HIP (I)"](/post/hawkes_intensity/).
+As shown in Fig.1, HIP is capable of explaining complex popularity dynamics by constructing a tight fit between observed popularity (black dashed curve) and the fitted popularity (<span style="color:blue">blue curve</span>), given the series of exogenous inputs (<span style="color:red">red curve</span>).
 
 ### Identifying potentially viral items
 
-<figure style="float: right;">
+<figure style="float: left;">
     <img src="/img/expecting_to_be_HIP/endo_exo_map.png" width="300" Hspace="15" Vspace="10">
     <figcaption>Fig.2: The endo-exo map.</figcaption>
   
