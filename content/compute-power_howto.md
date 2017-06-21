@@ -85,6 +85,7 @@ If your computing requirements are beyond the capabilities of both `arco` and `b
 
 * NECTAR research cloud hosts virtual machines.  
   We have an allocation of several dozen VMs, there's usually a few free at any given time. These are for long-running jobs, or jobs needing dedicated environment. You can first login with your ANU credentials at https://dashboard.rc.nectar.org.au/auth/login/?next=/, then ask to be added to the group project. 
+  If the resource requirement is small enough, then just use a test instance -- 2CPU VM, every user gets that automatically for free.
 
 ### Helpful shortcuts for fast accessing arco/braun
 1. Passwordless ssh: Generate ssh key (if it doesn't exists inside your `~/.ssh/`) using command `ssh-keygen -t rsa` and copy the content of `~/.ssh/id_rsa.pub` to file `~/.ssh/authorized_keys` of braun/arco. Then you will be able to ssh without password.
