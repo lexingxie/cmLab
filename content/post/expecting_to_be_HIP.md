@@ -65,28 +65,38 @@ We developed a novel mathematical model HIP (short for Hawkes Intensity Processe
 HIP is based on a novel method for computing the expected event rate in unit time for point processes, called the Hawkes intensity and which was already detailed in the post ["Expecting to be HIP (I)"](/post/hawkes_intensity/).
 As shown in Fig.1, HIP is capable of explaining complex popularity dynamics by constructing a tight fit between observed popularity (black dashed curve) and the fitted popularity (<span style="color:blue">blue curve</span>), given the series of exogenous inputs (<span style="color:red">red curve</span>).
 
-### Identifying potentially viral items
+### Explaining popularity dynamics
 
-<figure style="float: left;">
-    <img src="/img/expecting_to_be_HIP/endo_exo_map.png" width="300" Hspace="15" Vspace="10">
-    <figcaption>Fig.2: The endo-exo map.</figcaption>
-  
-    <img src="/img/expecting_to_be_HIP/potentially_viral_video.png" width="300" Hspace="15" Vspace="10">
-    <figcaption>Fig.3: A potentially viral video, which went viral.</figcaption>
+<figure style="float: left; display: table; width: 1px;">
+<!--    <img src="/img/expecting_to_be_HIP/endo_exo_map.png" width="300" Hspace="15" Vspace="10">-->
+<!--    <figcaption>Fig.2: The endo-exo map.</figcaption>-->
+    
+    <img src="/img/expecting_to_be_HIP/colormaps-film_animation.png" width="500" Hspace="15" Vspace="10" style="display: table-row; max-width: 450px;" >
+    <figcaption style="display: table-row;"></figcaption>
+    
+    <img src="/img/expecting_to_be_HIP/colormaps-Gaming.png" width="500" Hspace="15" Vspace="10" style="display: table-row; float: right;" >
+    <figcaption style="display: table-row;">Fig.2: Density plot for all (left) vs the most popular 5% (right) Gaming videos. Popular Film & Animation videos tend to
+have a higher exogenous sensitivity, while those for Gaming have mainly a higher endogenous response.</figcaption>
 </figure> 
 
-Our model supplies a prototypical description of videos, called an endo-exo map. 
+Our model supplies a prototypical description of videos, called the *endo-exo map*. 
 This map explains popularity as the result of an extrinsic factor – the amount of promotions from the outside world that the video receives, acting upon two intrinsic factors – and inherent virality on the X axis, and sensitivity to promotion on the Y axis.
-Fig.2 shows a collection of videos projected on the endo-exo map: each disc is a video, the diameter of the disc is proportional to videos popularity, and the color intensity of the disc is proportional to the amount of promotion each video has received.
-The map allows to analyze videos comparatively: the more a video is to the right, the higher its inherent virality; the more a video is to the top, the higher its sensitivity to external promotions.
-This relation can be visually observed in Fig.2: videos with more privileged positions on the map acquire higher popularities (larger discs) with less external promotion (lighter colors).
+Fig.2 compares the plots for the videos in two Youtube categories: Film & Animation (top row) and Gaming (bottom row).
+The left graphic show, for each category, the density plot of all the videos, while the right plot shows the density plot of the top 5% most popular videos in each of these two categories. 
+Visibly, while most popular videos in Film & Animation are described by higher exogenous sensitivity (shifting upwards), the most popular Gaming videos have higher endogenous response – their density mass is shifted to the right of the endo-exo map.
 
-**How to use the endo-exo map?**
+
+**Identifying potentially viral items?**
 The endo-exo map can be used when deciding between which videos to promote in an advertisement context.
 Furthermore, it can be used to identify a particular class of videos: those that **have a high potential to become viral, but are yet to do so**.
 Fig.3 shows an example of such a potentially viral video, which received virtually no attention during its first three months of live, only go viral during the forth month.
 When studying the fitted HIP parameters for this video, we observe that HIP deemed it as highly viral, by studying its popularity dynamics during the first three months (shown in the inset - before going viral).
+<figure style="float: right;">
+    <img src="/img/expecting_to_be_HIP/potentially_viral_video.png" width="300" Hspace="15" Vspace="10">
+    <figcaption>Fig.3: A potentially viral video, which went viral.</figcaption>
+</figure>
 Potentially viral videos are expected to be found in the top-right corner of the endo-exo map, the area in which lies videos most likely to respond best to external promotion.
+
 
 ### Try it yourself
 
@@ -94,12 +104,16 @@ We built an interactive visualizer for HIP, applied to Youtube videos.
 It allows you to create your own video collections, by adding your favorite videos, visualizing them on the endo-exo map, alonside with the observed and fitted popularity series and video metadata.
 Or simply explore one of the default visualizations, including TED videos and VEVO artists. 
 
+The endo-exo map in the visualizer shows videos individually: each disc is a video, the diameter of the disc is proportional to videos popularity, and the color intensity of the disc is proportional to the amount of promotion each video has received.
+The map allows to analyze videos comparatively: the more a video is to the right, the higher its inherent virality; the more a video is to the top, the higher its sensitivity to external promotions.
+This relation can be visually observed in the "Example fits" visualization of the demo (also shown in the thumbnail below): videos with more privileged positions on the map acquire higher popularities (larger discs) with less external promotion (lighter colors).
+
 If you want to try out on your own data, we have released [code and tutorials for fitting HIP](https://github.com/andrei-rizoiu/hip-popularity) and explaining popularity dynamics.
 
 [<figure>
     <figcaption>(access the visualizer by clicking on the thumbnail below)</figcaption>
     <img src="/img/expecting_to_be_HIP/demo-screenshot.png"> 
-</figure>](http://130.56.253.177/)
+</figure>](http://hipdemo.ml/)
 
 ### Resources
 
