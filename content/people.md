@@ -9,7 +9,7 @@ tags:
   - "cm"
 ---
 
-We are a diverse group in terms of research interests and background, technical skills, and cultural perspectives.
+We are a diverse group in terms of research interests, background, technical skills, and cultural perspectives.
 
 <!--more-->
 
@@ -168,16 +168,6 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
-    <!-- Aditya Mogadala -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/rsz_adi.jpg' title='' />
-            <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
-        </div>
-        <div class="people-info">
-            <b>Currently:</b> PhD student, AIFB @ KIT; visiting scholar, ANU
-        </div>
-    </div>
     <!-- Quyu Kong -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -212,13 +202,15 @@ We are a diverse group in terms of research interests and background, technical 
 </div>
 
 <hr>
-#### Current collaborators
+#### Current and recent collaborators
 
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
+* [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+* [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
 * Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
-* Xuming He, NICTA/Data61
+* Xuming He, Shanghai Tech
 * [Manuel Cebrian][manuel], Data61, CSIRO
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 
@@ -226,33 +218,45 @@ We are a diverse group in terms of research interests and background, technical 
 <hr>
 #### Alumni
 <div class="row">
+    <!-- Aditya Mogadala -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/rsz_adi.jpg' title='' />
+            <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
+        </div>
+        <div class="people-info">
+            <b>Currently:</b> PhD student, AIFB @ KIT
+        </div>
+    </div>
     <!-- Anila Sahar Butt -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/anila-100.png' title='Anila' />
-            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD Student, ANU Computer Science
+            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016
         </div>
         <div class="people-info">
-            <b>Projects:</b>
-                ontology modelling and mapping, semantic query and reasoning
+            <b>Thesis:</b>
+                Ontology Ranking: Finding the Right Ontologies on the Web
             <br>
-            <b>Before the ANU:</b> National University of Science and Technology, Pakistan.
+            <b>Currently:</b> CSIRO, Canberra 
        </div>
     </div>
     <!-- Suvash Sedhain -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/ssedhain-100.png' title='Suvash' />
-            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA
         </div>
         <div class="people-info">
-            <b>Projects:</b>
-                social recommendation; large scale recommender systems;
-                cold-start recommendation.
+            <b>Thesis:</b>
+                A Unified Approach to Collaborative Filtering via Linear Models and Beyond
             <br>
-            <b>Before the ANU:</b> Institute of Engineering, Tribhuvan University, Kathmandu, Nepal
+            <b>Currently:</b> TabCorp, Sydney
         </div>
     </div>
+   
+</div>
+<div class="row">
     <!-- Honglin Yu -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -264,14 +268,11 @@ We are a diverse group in terms of research interests and background, technical 
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
-</div>
-<div class="row">
-
     <!-- Qianyu Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/qianyu-100.png' title='Qianyu' />
-            <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2014
+            <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014
         </div>
         <div class="people-info">
             <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
@@ -282,7 +283,7 @@ We are a diverse group in terms of research interests and background, technical 
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/people/yanxiang.jpg' title='yangxiang' />
-            <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honors, ANU Computer Science, 2012
+            <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
         </div>
         <div class="people-info">
             <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
