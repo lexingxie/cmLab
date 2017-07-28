@@ -194,24 +194,24 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Zhengzhou University
         </div>
     </div>
-    <!-- Liyao Tang -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/Liyao-100.png' title='Rui' />
-            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honour Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Road Recognition on High Resolution Satellite Image
-            <br>
-            <b>Before the ANU:</b> Beijing Institute of Technology
-        </div>
-    </div>
+    
 </div>
 
 <!-- fifth-->
 <div class="row">
-
+<!-- Liyao Tang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/Liyao-100.png' title='liyao' />
+            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honour Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Profiling Geographical Features from Satellite Images
+            <br>
+            <b>Before the ANU:</b> Beijing Institute of Technology
+        </div>
+    </div>
 </div>
 
 <hr>
