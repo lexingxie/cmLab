@@ -281,6 +281,19 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
+</div>
+<div class="row">    
+    <!-- Yicong Du -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/yicong_200.png' title='Yicong' />
+            <big><big> <a href=https://www.linkedin.com/in/yicong-du-a50b98122/><b>Yicong Du</b></a> </big></big> <br/><br/> Honours, ANU Engineering, 2017
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Learning Mixtures of Phylogenetic Trees<br />
+            <b>Currently</b>: MS student, Carnegie Mellon University
+        </div>
+    </div>
     <!-- Qianyu Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
