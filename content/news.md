@@ -28,6 +28,18 @@ tags:
 
 ### News archive
 
+* 2017-11 We are awarded a project by the <a href=https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/181>ARC discovery scheme</a> to promote "Fairness in Online Attention".
+
+* 2017-10 Lexing won the <a href=http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio>Chris Wallace Award for Outstanding Research</a>.
+
+* 2017-09 Minjeong won the 2017 Woman in Data Science Award by Data to Decisions CRC. <a href=/img/minjeong_award_small.png>See her on stage</a> at <a href=http://www.d2dcrc.com.au/>D2D CRC</a> conference.
+
+* 2017-07 Conferences and talks: Andrei at <a href=http://www.icwsm.org/2017/program/program/>ICWSM</a> in May; Lexing gave <a href=http://ewh.ieee.org/r10/singapore/cas/talks.html#talk5_2017>a distinguished lecture at NTU Singapore</a>; Lexing at <a href=https://community.apan.org/wg/afosr/w/researchareas/19423/2017-trust-and-influence-program-review/>AFOSR Trust and Influence Program Review</a>. Some of us will be at <a href=https://2017.icml.cc/Conferences/2017/>ICML in Sydney</a> and <a href=https://ijcai-17.org/>IJCAI in Melbourne</a>, come say hi! 
+
+* 2017-02 Andrei and Lexing are delighted that <a href=https://arxiv.org/abs/1602.06033>Expecting to be HIP</a> is accepted into WWW 2017 in Perth and <a href=https://arxiv.org/abs/1703.01012>Online Popularity under Promotion</a> is accepted into ICWSM 2017 in Montreal.
+
+* 2016-12 Photos for group outings are posted, at [National Cherry Festival and Wombeyan Caves](/post/activites_cave_and_cherry/).
+
 * 2016-06 Lexing and Andrei presented at the [AOFSR Trust and Influence Program annual review](https://community.apan.org/wg/afosr/w/researchareas/16810.2016-trust-and-influence-program-review/) in Washington DC. 
 
 * 2016-04 Group activity: [We climbed Mt Kosciuszko](/post/kosciuszko/) - the top of Australia!
