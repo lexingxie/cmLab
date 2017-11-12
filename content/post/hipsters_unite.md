@@ -13,7 +13,7 @@ tags:
 
 ##### posted by _Lexing Xie_ <br />
 
-<img src="/img/expecting_to_be_HIP/hipsters.png" height="180"><br>
+<img src="/img/expecting_to_be_HIP/hipsters_all.png" height="167"><br>
 
 <!--more-->
 
@@ -28,8 +28,9 @@ Our imagination started when we finally named the model for describing popularit
 After choosing a mascot, the natural next step is to get t-shirts printed. In the photos above:
 
 * Left: Marian-Andrei and Lexing grinning at the WWW 2017 conference in Perth. 
-* Middle: HIPsters group shot, at Data61
-* Right: Marian-Andrei and Alban, on the gist of being HIP
+* Middle-left: HIPsters group shot, at Data61
+* Middle-right: Marian-Andrei and Alban, on the gist of being HIP
+* Right: Scott getting the hang of the HIP uniform, at ICWSM 2017 conference in Montréal.
 
 
 ### HIPster roll

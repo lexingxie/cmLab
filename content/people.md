@@ -142,7 +142,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/minjeong-100.png' title='Minjeong' />
-            <big><big> <b><a href="https://berebere86.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/>
+            <big><big> <b><a href="https://shinminjeong.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/>
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -158,7 +158,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Rui Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/male_icon.png' title='Rui' />
+            <img src='/img/rui-zhang-100.png' title='Rui' />
             <big><big> <b>Rui Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
         </div>
         <div class="people-info">
