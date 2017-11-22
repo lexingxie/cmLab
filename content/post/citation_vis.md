@@ -1,4 +1,4 @@
-are the intellectual ---
+---
 date: "2016-08-18"
 title: "Visualizing Citation Patterns of Computer Science Conferences"
 description: "We plot the citation behavior over time for different subfields in computer science, using data from microsoft academic graph."
