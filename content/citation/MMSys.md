@@ -1,7 +1,7 @@
 ---
 title: "MMSys - ACM SIGMM Conference on Multimedia Systems (2011-2015)"
 description: "Citation pattern stats and plots for this conference."
-date: "2017-11-21 21:16:40.687979"
+date: "2000-01-01"
 categories:
   - "data"
   - "visualization"
