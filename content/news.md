@@ -28,6 +28,8 @@ tags:
 
 ### News archive
 
+*  2017-12 Congratulations to Sam Toyer and Quyu Kong for being awarded [2017 ANU University Medals](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic excellence!
+
 * 2017-11 We are awarded a project by the <a href=https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/181>ARC discovery scheme</a> to promote "Fairness in Online Attention".
 
 * 2017-10 Lexing won the <a href=http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio>Chris Wallace Award for Outstanding Research</a>.
