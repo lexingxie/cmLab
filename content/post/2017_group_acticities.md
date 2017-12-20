@@ -57,8 +57,8 @@ On 8 December, we drove to Yarralumla Bay on the beautiful Lake Burley Griffin f
 
 As the end of today's activity, we drove to city and had a dinner at Asian Noodles House. With noodles, rice and snack, we reviewed and concludedour achievements in 2017, and hoped for another year of great work in 2018!
 
-<img style="float: left;" src="/img/2017_groups_activities/kayak_1.jpg" height=220  hspace=5>| <img style="float: left;" src="/img/2017_groups_activities/kayak_2.jpg" height=220  hspace=5> | <img style="float: left;" src="/img/2017_groups_activities/kayak_3.jpg" height=220  hspace=5>
---- | --- | ---
+<img style="float: left;" src="/img/2017_groups_activities/kayak_1.jpg" height=200  hspace=5>| <img style="float: left;" src="/img/2017_groups_activities/kayak_2.jpg" height=200  hspace=5> |<img style="float: left;" src="/img/2017_groups_activities/kayak_4.jpg" height=200  hspace=5> 
+--- | --- | --- 
 
 
 <br />
