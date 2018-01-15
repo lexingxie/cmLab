@@ -20,6 +20,8 @@ There are two computing servers (i.e. `arco` and `braun`) in our group, basic in
   - Storage: See [Shared Storage](#Shared-Storage) 
   - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
 
+*Access to `arco` `braun`* is managed by CECS LDAP. That is to say, email helpdesk@cecs and cc-Lexing, request to be added to the "cmlab" linux group.
+
 ## Disk space
 
 There are a few types of storage space available:
@@ -41,7 +43,7 @@ There are a few types of storage space available:
 
 ## Code hosting and release
 
-We use github, bitbucket, or ANU gitlab. 
+We use github, bitbucket, or ANU gitlab for code development and ongoing projects. 
 
 For better publicity and visibility, we will release all our public code via an organisation github account, [cmlab](https://github.com/computationalmedia).
 
@@ -75,10 +77,8 @@ If you want to access computational resources of CECS from your network outside 
 
 After connecting to VPN, arco/braun are accessible by IP from your laptop, but not with hostname, i.e. with `braun` or `arco`. If you want to access from hostname, keep them in your `/etc/hosts` file.
 
-## Misc
-
-### Nectar and NCI
-If your computing requirements are beyond the capabilities of both `arco` and `braun`, you may consider using [NCI](http://nci.org.au/) or [NECTAR](https://nectar.org.au/).
+## Nectar and NCI
+[NCI](http://nci.org.au/) or [NECTAR](https://nectar.org.au/) are local high-performance computing and cloud computing services that are available to group members. They are especially handy when your computing requirements grows beyond the capabilities of both `arco` and `braun`. 
 
 * NCI is a high-performance computing cluster, we have cpu hour quota (typically tens of thousands per quarter) for data- and cpu- intensive parrallel jobs. 
   You can register as a new user of NCI by following instructions [here](http://nci.org.au/access/user-registration/register-new-user/) using your ANU email address and connect it with project **v89**. There is also [a nice user guide](https://opus.nci.org.au/display/Help/Raijin+User+Guide). 
@@ -86,6 +86,9 @@ If your computing requirements are beyond the capabilities of both `arco` and `b
 * NECTAR research cloud hosts virtual machines.  
   We have an allocation of several dozen VMs, there's usually a few free at any given time. These are for long-running jobs, or jobs needing dedicated environment. You can first login with your ANU credentials at https://dashboard.rc.nectar.org.au/auth/login/?next=/, then ask to be added to the group project. 
   If the resource requirement is small enough, then just use a test instance -- 2CPU VM, every user gets that automatically for free.
+
+
+## Misc
 
 ### Helpful shortcuts for fast accessing arco/braun
 1. Passwordless ssh: Generate ssh key (if it doesn't exists inside your `~/.ssh/`) using command `ssh-keygen -t rsa` and copy the content of `~/.ssh/id_rsa.pub` to file `~/.ssh/authorized_keys` of braun/arco. Then you will be able to ssh without password.
