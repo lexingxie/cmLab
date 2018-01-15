@@ -1,6 +1,8 @@
 
 
 
+This repo hosts source code for the ANU Computational Media Lab website http://cm.cecs.anu.edu.au/. 
+
 This site is created from the site example in the Hugo source code. 
 
 ### Building and updating the site
