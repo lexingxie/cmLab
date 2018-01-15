@@ -1,7 +1,7 @@
 
 
 
-This repo hosts source code for the ANU Computational Media Lab website http://cm.cecs.anu.edu.au/. 
+This repo hosts source code for the* ANU Computational Media Lab* website http://cm.cecs.anu.edu.au/. 
 
 This site is created from the site example in the Hugo source code. 
 
@@ -11,7 +11,7 @@ This site is created from the site example in the Hugo source code.
 
 2. Navigate to the website source section of the repository, i.e. './cmLab/'
 
-3. *Local Preview* type "hugo server watch" .. make sure there's no complaints, and then view under (usually) http://localhost:1313
+3. *Local Preview* type "hugo server" .. make sure there's no complaints, and then view under (usually) http://localhost:1313 . Changes to the local site dir are usually "watched", i.e. automatically recompiled and browser content refreshed. 
 
 Note: 
 
