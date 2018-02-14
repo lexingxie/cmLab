@@ -51,3 +51,14 @@ img {
 .content > h4 {
     font-weight: 500;
 }
+
+/* make figures look prettier */
+figure {
+    margin: 15px;
+}
+
+figure figcaption {
+    margin-top: 15px;
+    color: #666;
+    font-size: 0.9em;
+}
