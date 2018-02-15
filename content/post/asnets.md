@@ -42,20 +42,20 @@ tags:
 <figure class="asn-fig asn-left" style="max-width: 200px;">
     <img src="/img/asnets/mit-blockbot.jpg">
     <figcaption>
-      Fig.1: A block-stacking robot.
+      Fig.1: A robot stacking blocks.
     </figcaption>
 </figure>
 
 <!-- I'm using 's' breaks to delineate sentences. -->
-Planning algorithms are used to solve control problems in fields ranging from
-robotics to logistics.
-<!-- s -->
-Broadly speaking, planning algorithms try to find series of actions which enable
-an intelligent system to achieve its goals.
+Planning algorithms try to find series of actions which enable an intelligent
+agent to achieve some goal.
 <!-- s -->
 For instance, a planner might recommend a sequence of stops to make and packages
 to load or unload in order for an automated package delivery robot to complete
 its delivery route.
+<!-- s -->
+Such algorithms are used everywhere from manufacturing to robotics to power
+distribution.
 <!-- s -->
 In a [recent paper at AAAI '18](https://arxiv.org/abs/1709.04271), we showed how
 to use deep learning techniques from vision and natural language processing to
@@ -65,21 +65,6 @@ training on a few simple examples.
 <!-- this annotation truncates the post so that only part of it is shown -->
 <!-- on homepage: -->
 <!--more-->
-
-<!--
-What I want to say:
-0) [DONE] What planning is (& why it matters), what our rough contribution is
-   (ML for planning).
-1) [DONE] What deep learning is. Include connections with the group's other
-   work.
-2) [DONE] What planning is. Remember to set the scene with actions,
-   propositions, etc.
-3) What we've done: DL for planning to solve very large problems.
-4) Diffference w/ AlphaGo and other decision-making methods that use NNs. Can
-   use this as a vehicle to discuss generalisation abilities of ASNets.
-4) Results.
-5) Future work/summary.
--->
 
 <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
 ### Deep learning and planning
@@ -102,7 +87,7 @@ Despite its success in other areas, deep learning still has not seen wide
 application to automated planning.
 <!-- s -->
 We posit that this is due to a lack of network architectures for efficient,
-generalisable learning.
+generalisable learning in a planning context.
 
 There are many kinds of automated planning, but we focus on discrete
 probabilistic planning.
@@ -182,11 +167,15 @@ same mistakes over and over again.
       neural networks.
       <!-- s -->
       Each filter in each layer of a convolutional neural network performs the
-      same learnt operation (e.g. "detect edges") to each image location in the
+      same learnt operation to each image location in the
       feature map supplied as input.
       <!-- s -->
+      For instance, there might be a single filter in the first layer which is
+      responsible for detecting vertical edges everywhere in the image.
+      <!-- s -->
       This allows the network to build up a more expressive representation with
-      each successive layer.
+      each successive layer&mdash;first edges, then corners, then textures, then
+      object parts, and so on.
       <!-- s -->
       ASNets are similar, but rather than applying local operations at each
       location in an image, they apply relationally local operations
@@ -256,12 +245,12 @@ without having to re-train at all.
 <!-- s -->
 In other words, we can obtain a <em>generalised policy</em>: a mapping from
 states to appropriate actions which can be applied to any problem in a domain.
-<!-- s -->
+
 While there has been a great deal of past work on solving decision-making
 problems with neural
 networks&mdash;[AlphaGo](https://deepmind.com/research/alphago/) being one
 prominent example&mdash;most existing approaches are not able to generalise in
-this way.
+the same way as ASNets.
 <!-- s -->
 For instance, AlphaGo would not be able to adapt from a 13x13 Go board (as used
 to train humans) to a (standard) 19x19 one without retraining.
@@ -290,8 +279,8 @@ the heuristic search planner.
 <!-- s -->
 After the ASNet is trained, we can simply evaluate it on the large problem.
 <!-- s -->
-Fig.3 shows the outcome of this approach on three challenging planning
-domains.
+Fig.3 shows the outcome of this approach on three planning domains which are
+challenging for traditional planners.
 <!-- s -->
 After spending somewhere between a few minutes and a couple of hours training,
 our system is able to rapidly solve all tested problems in quick succession.
@@ -313,7 +302,7 @@ problems within our 2.5 hour cutoff.
     to train on a set of between 3 and 25 small problems, <em>plus</em> the time
     taken to evaluate on a problem of a given size.
     <!-- s -->
-    The baselines do not need time to learn, so the remaining lines in the plot
+    The baselines do not need to learn, so the remaining lines in the plot
     show only evaluation time for the baselines.
   </figcaption>
 </figure>
