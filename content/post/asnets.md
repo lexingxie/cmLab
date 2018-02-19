@@ -37,7 +37,7 @@ tags:
   }
 </style>
 
-##### posted by _Sam Toyer_ <br />
+##### posted by _Sylvie Thiébaux_ and _Sam Toyer_ <br />
 
 <figure class="asn-fig asn-left" style="max-width: 200px;">
     <img src="/img/asnets/mit-blockbot.jpg">
