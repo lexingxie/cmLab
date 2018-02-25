@@ -1,7 +1,7 @@
 ---
 title: "Quick Planning with Action Schema Networks"
 description: "How tricks from computer vision and deep learning can be used to accelerate planning algorithms"
-date: "2018-02-07"
+date: "2018-02-26"
 draft: false
 categories:
   - "reseach"
@@ -37,7 +37,7 @@ tags:
   }
 </style>
 
-##### posted by _Sylvie Thiébaux_ and _Sam Toyer_ <br />
+##### posted by _Sam Toyer_ and _Sylvie Thiébaux_ <br />
 
 <figure class="asn-fig asn-left" style="max-width: 200px;">
     <img src="/img/asnets/mit-blockbot.jpg">
@@ -50,14 +50,16 @@ tags:
 Planning algorithms try to find series of actions which enable an intelligent
 agent to achieve some goal.
 <!-- s -->
+<!-- this sentence is very complicated, omitting it seem to make the overview short+sweet?
 For instance, a planner might recommend a sequence of stops to make and packages
 to load or unload in order for an automated package delivery robot to complete
 its delivery route.
+-->
 <!-- s -->
 Such algorithms are used everywhere from manufacturing to robotics to power
 distribution.
 <!-- s -->
-In a [recent paper at AAAI '18](https://arxiv.org/abs/1709.04271), we showed how
+In our [recent paper at AAAI '18](https://arxiv.org/abs/1709.04271), we showed how
 to use deep learning techniques from vision and natural language processing to
 teach a planning system to solve entire classes of sophisticated problems by
 training on a few simple examples.
@@ -79,7 +81,7 @@ many layers (deep neural nets) to learn patterns in data.
 For tasks where neural networks excel, there’s often a specific kind of network
 architecture which enables high performance.
 <!-- s -->
-For instance, the image captioning work linked above uses a mixture of
+For instance, recent image captioning work uses 
 convolutional neural networks for visual processing and recurrent neural
 networks for text generation.
 <!-- s -->
@@ -95,8 +97,8 @@ probabilistic planning.
 A probabilistic planner views each state of its environment as a truth
 assignment to a set of propositions (or binary variables).
 <!-- s -->
-For instance, a simple robot which uses a gripper to stack blocks on top of one
-another might use several propositions:
+Figure 1 shows a simple robot which uses a gripper to stack blocks on top of one
+another. This robot might use several propositions:
 <!-- s -->
 <ul>
   <li>
@@ -122,7 +124,7 @@ another might use several propositions:
 <!-- s -->
 The planner also has access to actions which can move the environment from state-to-state.
 <!-- s -->
-In our running blocks world example, it might have actions of the form "pick
+In our running _blocks world_ example, it might have actions of the form "pick
 block A up from block B and hold it in the gripper".
 <!-- s -->
 These actions may have stochastic outcomes (hence the <em>probabilistic</em> in
@@ -193,9 +195,9 @@ This new neural net architecture is designed to learn to solve any problem of a
 given planning domain, from the specification the "rules" of this domain, and
 examples of plans for small problems in this domain.
 <!-- s -->
-So for instance, we can give ASNets a description of the blocks world puzzle,
-give it some example of plans for small blocks world problems (problems with 4-7
-blocks).
+For instance, we can give ASNets a description of the blocks world puzzle,
+give it some example of plans for small blocks world problems, e.g. those with 4-7
+blocks.
 <!-- s -->
 It will then learn to solve any blocks world problem, even with very large
 numbers of blocks.
@@ -208,26 +210,28 @@ automatically constructed using the structure of the problem.
 <!-- s -->
 The ASNet consists of alternating layers of action layers and proposition
 layers.
-<!-- s -->
-Each action layer consists of an action module for each action in the
+<!-- s: LX: I find long paragraphs difficult to follow in a blog -->
+
+* Each action layer consists of an action module for each action in the
 corresponding problem; in intermediate layers, these action modules are like
 single-layer neural nets that take feature vectors from proposition modules as
 input and produce new feature vectors as output.
 <!-- s -->
-Likewise, each proposition layer consists of a proposition module corresponding
+* Each proposition layer consists of a proposition module corresponding
 to each proposition in the original problem; again, each proposition module
 takes action module feature vectors as input and produces a single feature
 vector as output.
 <!-- s -->
-The first layer is always an action layer in which action modules receive
+* The first layer is always an action layer in which action modules receive
 proposition truth values describing the current state, while the last layer is
 always an action layer in which action modules produce quantities representing
 the network's confidence that each action is helpful.
-<!-- s -->
-We share weights between action modules for similar actions and between
+<!-- s LX: Sam to check the following -->
+* Within the same layer, weights are shared between action modules for similar actions and between
 proposition modules for similar propositions, which reduces the number of
 parameters that need to be learned.
 <!-- s -->
+
 We detail this full construction in [our
 paper](https://arxiv.org/pdf/1709.04271.pdf).
 
@@ -267,7 +271,7 @@ areas.
 <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
 ### Quick planning and more
 
-As noted above, we can use ASNets for rapid planning on large planning problems.
+We can use ASNets for rapid planning on large planning problems.
 <!-- s -->
 We train the ASNet to choose good actions on a collection of small,
 related problems from the same domain as a single large one.
@@ -307,16 +311,19 @@ problems within our 2.5 hour cutoff.
   </figcaption>
 </figure>
 
+<!-- LX: the two uses of "generalised" and "general" seem vague to me -->
 Although we have only closely examined the use of ASNets for generalised
-policies, we believe that ASNets could provide a more general bridge between the
-worlds of planning and deep learning.
+policies, we believe that future generations of ASNets would connect deep learning methods
+to planning problems in more ways.
+<!-- provide a more general bridge between the
+worlds of planning and deep learning. -->
 <!-- s -->
 For instance, it may be possible to use ASNets to learn generalised heuristics
 and ranking functions.
 <!-- s -->
 We could also consider combining ASNets with traditional search; for example, by
 using an ASNet as the rollout policy in
-[UCT](http://mcts.ai/pubs/mcts-survey-master.pdf).
+[UCT](http://mcts.ai/pubs/mcts-survey-master.pdf) (or _Upper Confidence Bound_ in [Monte Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)).
 <!-- s -->
 Finally, we note that ASNets are not closely tied to the particular planning
 formalism that we have considered; indeed, it could be possible to apply them to
