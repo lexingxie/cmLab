@@ -97,8 +97,11 @@ probabilistic planning.
 A probabilistic planner views each state of its environment as a truth
 assignment to a set of propositions (or binary variables).
 <!-- s -->
-Figure 1 shows a simple robot which uses a gripper to stack blocks on top of one
-another. This robot might use several propositions:
+In keeping with an AI tradition that stretches back to
+[SHRDLU](https://hci.stanford.edu/winograd/shrdlu/), we'll start by considering
+how to control a simple block-stacking robot like that in Figure 1.
+<!-- s -->
+Such a robot might use several propositions:
 <!-- s -->
 <ul>
   <li>
@@ -323,7 +326,7 @@ and ranking functions.
 <!-- s -->
 We could also consider combining ASNets with traditional search; for example, by
 using an ASNet as the rollout policy in
-[UCT](http://mcts.ai/pubs/mcts-survey-master.pdf) (or _Upper Confidence Bound_ in [Monte Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)).
+[Monte Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search).
 <!-- s -->
 Finally, we note that ASNets are not closely tied to the particular planning
 formalism that we have considered; indeed, it could be possible to apply them to
@@ -332,9 +335,12 @@ with little modification.
 <!-- s -->
 We leave all these promising avenues for future work.
 
-To find out more about ASNets, check out our [paper](https://arxiv.org/pdf/1709.04271.pdf),
-[code](https://github.com/qxcv/asnets/) or [AAAI oral
-slides](https://github.com/qxcv/asnets/blob/master/slides.pdf), or the [ANU News article "New intelligent system learns from simple problems to solve complex ones"](http:/www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
+To find out more about ASNets, check out our
+[paper](https://arxiv.org/pdf/1709.04271.pdf),
+[code](https://github.com/qxcv/asnets/),
+[AAAI oral slides](https://github.com/qxcv/asnets/blob/master/slides.pdf),
+or the [ANU News article "New intelligent system learns from simple problems to solve complex ones"](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
+
 ### Resources
 
 [Sam Toyer](http://qxcv.net/),
