@@ -10,6 +10,8 @@ tags:
 
 ### Media coverage 
 
+* 2017-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
+
 * 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia] (https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
 <img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
@@ -27,6 +29,8 @@ tags:
 * 2012-11 ANU Reporter published a story about our work on picture tags. Our college posted a news brief about the microblog event magazine at ACM Multimedia 2012.
 
 ### News archive
+
+* 2018-02 2018 is off to an exciting start!  Sam presented [Action Schema Networks](/post/asnets) at AAAI'18, Andrei will present [SIR-Hawkes](https://arxiv.org/abs/1711.01679) at WWW'18, Alex will talk about *SemStyle*, a model for unsupervised style transfer in image captions at CVPR'18.
 
 *  2017-12 Congratulations to Sam Toyer and Quyu Kong for being awarded [2017 ANU University Medals](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic excellence!
 
