@@ -334,7 +334,7 @@ We leave all these promising avenues for future work.
 
 To find out more about ASNets, check out our [paper](https://arxiv.org/pdf/1709.04271.pdf),
 [code](https://github.com/qxcv/asnets/) or [AAAI oral
-slides](https://github.com/qxcv/asnets/blob/master/slides.pdf).
+slides](https://github.com/qxcv/asnets/blob/master/slides.pdf), or the [ANU News article "New intelligent system learns from simple problems to solve complex ones"](http:/www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
 ### Resources
 
 [Sam Toyer](http://qxcv.net/),
