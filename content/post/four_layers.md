@@ -2,7 +2,7 @@
 title: "The Layered Cake Structure of a Paper"
 description: "The craft of paper writing can be mastered using recipes."
 date: "2018-03-25"
-draft: true
+draft: false
 categories:
   - "advice"
   - "misc"
