@@ -33,7 +33,7 @@ Penning it down may help aspiring researchers master the craft of technical stor
 <!-- s -->
 This is a repackaging of technical writing tips (aka _open secret_) that are practiced often, but in my opinion, can be publicized more. 
 <!-- s -->
-Good writing advice exists in abundance. See [this recent one](http://approximatelycorrect.com/2018/01/29/heuristics-technical-scientific-writing-machine-learning-perspective/) by Zack Lipton, or [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453) or [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) or [this](http://asegrp.blogspot.com.au/2011/06/coping-with-issues-of-sloppiness-and.html).  
+Good writing advice exists in abundance. See [this recent one](http://approximatelycorrect.com/2018/01/29/heuristics-technical-scientific-writing-machine-learning-perspective/) by [Zack Lipton](http://zacklipton.com/), or [this one](https://clairelegoues.com/2016/08/23/things-i-keep-repeating-about-writing/) by [Claire Le Goues](https://clairelegoues.com/), or [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453) or [this](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) or [this](http://asegrp.blogspot.com.au/2011/06/coping-with-issues-of-sloppiness-and.html).  
 
 ### 1. Section and subsection titles
 
