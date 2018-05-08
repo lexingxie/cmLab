@@ -153,7 +153,24 @@ We are a diverse group in terms of research interests, background, technical ski
     </div>
 </div>
 
-<!-- fourth row -->
+<!-- 4th row -->
+<div class="row">
+    <!-- Quyu Kong -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qykong-100.jpg' title='' />
+            <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Analysing information diffusions in a large scale social network.
+            <br>
+            <b>Before the ANU:</b> Zhejiang University
+        </div>
+    </div>
+</div>
+
+<!-- Honours + MS student row -->
 <div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
@@ -168,20 +185,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
-    <!-- Quyu Kong -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/qykong-100.jpg' title='' />
-            <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Analysing information diffusions in a large scale social network.
-            <br>
-            <b>Before the ANU:</b> Zhejiang University
-        </div>
-    </div>
-     <!-- Yifei Zhang -->
+    <!-- Yifei Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/yifei-100.jpg' title='' />
@@ -194,12 +198,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Zhengzhou University
         </div>
     </div>
-    
-</div>
-
-<!-- fifth-->
-<div class="row">
-<!-- Liyao Tang -->
+    <!-- Liyao Tang -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/Liyao-100.png' title='liyao' />
@@ -217,6 +216,9 @@ We are a diverse group in terms of research interests, background, technical ski
 <hr>
 #### Current and recent collaborators
 
+* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science 
+* [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
+* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning 
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
@@ -264,7 +266,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Thesis:</b>
                 A Unified Approach to Collaborative Filtering via Linear Models and Beyond
             <br>
-            <b>Currently:</b> TabCorp, Sydney
+            <b>Currently:</b> Twitter Inc
         </div>
     </div>
 
@@ -282,7 +284,20 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
 </div>
+
+<!-- Honours + MS student Alumni -->
 <div class="row">    
+    <!-- Sam Toyer -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='https://www.qxcv.net/files/head-shot-small.png' title='Sam' />
+            <big><big> <a href=https://www.qxcv.net/><b>Sam Toyer</b></a> </big></big> <br/><br/> Honours, ANU CS, 2017
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: <a href=https://github.com/qxcv/asnets>Generalized Policies for Probabilistic Planning with Deep Learning</a> (2017 ANU University Medal)<br />
+            <b>Currently</b>: PhD Student, UC Berkeley
+        </div>
+    </div>
     <!-- Yicong Du -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -305,6 +320,10 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently</b>: Software Engineer, Google
         </div>
     </div>
+
+</div>    
+
+<div class="row">    
     <!-- Yanxiang Wang -->
     <div class="col-md-4">
         <div class="people-profile">
