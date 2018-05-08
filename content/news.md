@@ -1,6 +1,6 @@
 ---
-title: "Media and News"
-description: "An archive of what others and ourselves think are news-worthy."
+title: "Recognitions, Media and News"
+description: "What others and ourselves think are note-worthy and news-worthy."
 date: "2016-01-02"
 categories:
   - "misc"
@@ -8,11 +8,17 @@ tags:
   - "cm"
 ---
 
+### Honours and recognitions 
+
+* January 2018, Lexing Xie received [The Chris Wallace Award for Outstanding Research](http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio) from The Computing Research and Education Association of Australasia (CORE).
+* December 2017, Honours students Sam Toyer and Quyu Kong were honored with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
+* 2016-2017 Lexing Xie was named [IEEE Circuits and Systems Society Distinguished Lecturer](http://ieee-cas.org/past-dlp-lectures). 
+
 ### Media coverage 
 
-* 2017-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
+* 2018-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
 
-* 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia] (https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
+* 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia](https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
 <img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
 
