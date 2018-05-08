@@ -12,6 +12,7 @@ tags:
 
 * January 2018, Lexing Xie received [The Chris Wallace Award for Outstanding Research](http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio) from The Computing Research and Education Association of Australasia (CORE).
 * December 2017, Honours students Sam Toyer and Quyu Kong were honored with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
+* September 2017, Minjeong Shin won the 2017 Woman in Data Science Award by Data to Decisions CRC. 
 * 2016-2017 Lexing Xie was named [IEEE Circuits and Systems Society Distinguished Lecturer](http://ieee-cas.org/past-dlp-lectures). 
 
 ### Media coverage 
