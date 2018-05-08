@@ -35,7 +35,7 @@
     url_Code = {https://github.com/computationalmedia/rnn-mas}
 }
 
-@incollection{Rizoiu:2017:HPE:3122865.3122874,
+@incollection{Rizoiu2018HPE,
  author = {Rizoiu, Marian-Andrei and Lee, Young and Mishra, Swapnil and Xie, Lexing},
  title = {Hawkes Processes for Events in Social Media},
  booktitle = {Frontiers of Multimedia Research},
@@ -51,17 +51,19 @@
  url_Code= {https://github.com/s-mishra/featuredriven-hawkes},
  doi = {10.1145/3122865.3122874},
  acmid = {3122874},
- publisher = {Association for Computing Machinery and Morgan \&\#38; Claypool},
+ publisher = {Association for Computing Machinery and Morgan \& Claypool},
  address = {New York, NY, USA},
 } 
 
 @inproceedings{rizoiu2018sir,
-  title={SIR-Hawkes: on the Relationship Between Epidemic Models and Hawkes Point Processes},
+  title={{SIR-Hawkes}: Linking Epidemic Models and {Hawkes} Processes to Model Diffusions in Finite Populations},
   author={Rizoiu, Marian-Andrei and Mishra, Swapnil and Kong, Quyu and Carman, Mark and Xie, Lexing},
   address = {Lyon, France},
-  booktitle = {WWW 2018: The 2018 Web Conference},
+  booktitle = {Proceedings of the 2018 World Wide Web Conference},
+  series = {WWW '18},
   year={2018},
   abstract = {Among the statistical tools for online information diffusion modeling, both epidemic models and Hawkes point processes are popular choices. The former originate from epidemiology, and consider information as a viral contagion which spreads into a population of online users. The latter have roots in geophysics and finance, view individual actions as discrete events in continuous time, and modulate the rate of events according to the self-exciting nature of event sequences. Here, we establish a novel connection between these two frameworks. Namely, the rate of events in an extended Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model after marginalizing out recovery events -- which are unobserved in a Hawkes process. This result paves the way to apply tools developed for SIR to Hawkes, and vice versa. It also leads to HawkesN, a generalization of the Hawkes model which accounts for a finite population size. Finally, we derive the distribution of cascade sizes for HawkesN, inspired by methods in stochastic SIR. Such distributions provide nuanced explanations to the general unpredictability of popularity: the distribution for diffusion cascade sizes tends to have two modes, one corresponding to large cascade sizes and another one around zero.},
+  doi = {10.1145/3178876.3186108},
   url_Abstract = {https://arxiv.org/abs/1711.01679},
   url_Paper = {https://arxiv.org/pdf/1711.01679.pdf},
   url_Code = {https://github.com/computationalmedia/sir-hawkes}
@@ -71,9 +73,11 @@
   title={Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos},
   author={Kong, Quyu and Rizoiu, Marian-Andrei and Wu, Siqi and Xie, Lexing},
   address = {Lyon, France},
-  booktitle = {WWW 2018 Companion: The 2018 Web Conference Demos},
+  booktitle = {Companion Proceedings of the The Web Conference 2018 - Demos},
+  series = {WWW '18},
   year={2018},
   abstract = {What makes content go viral? Which videos become popular and why others don't? Such questions have elicited significant attention from both researchers and industry, particularly in the context of online media. A range of models have been recently proposed to explain and predict popularity; however, there is a short supply of practical tools, accessible for regular users, that leverage these theoretical results. Hipie -- an interactive visualization system -- is created to fill this gap, by enabling users to reason about the virality and the popularity of online videos. It retrieves the metadata and the past popularity series of Youtube videos, it employs the Hawkes Intensity Process, a state-of-the-art online popularity model for explaining and predicting video popularity, and it presents videos comparatively in a series of interactive plots. This system will help both content consumers and content producers in a range of data-driven inquiries, such as to comparatively analyze videos and channels, to explain and to predict future popularity, to identify viral videos, and to estimate responses to online promotion. },
+  doi = {10.1145/3184558.3186972},
   url_Abstract = {https://arxiv.org/abs/1801.04117},
   url_Paper = {https://arxiv.org/pdf/1801.04117.pdf},
   url_Code = {https://github.com/computationalmedia/hipie}
@@ -89,6 +93,19 @@
   url_Abstract={https://arxiv.org/abs/1709.04271},
   url_Paper = {https://arxiv.org/pdf/1709.04271},
   url_Code = {https://github.com/qxcv/asnets}
+}
+
+@inproceedings{zhao2018analyzing,
+  title={Analyzing and Predicting Emoji Usages in Social Media},
+  author={Zhao, Peijun and Jia, Jia and An, Yongsheng and Liang, Jie and Xie, Lexing and Luo, Jiebo},
+  booktitle={Companion of the The Web Conference 2018 on The Web Conference 2018 -- Cognitive Computing Track},
+  pages={327--334},
+  year={2018},
+  organization={International World Wide Web Conferences Steering Committee}, 
+  abstract={Emojis can be regarded as a language for graphical expression of emotions, and have been widely used in social media. They can express more delicate feelings beyond textual information and improve the effectiveness of computer-mediated communication. Recent advances in machine learning make it possible to automatic compose text messages with emojis. However, the usages of emojis can be complicated and subtle so that analyzing and predicting emojis is a challenging problem. In this paper, we first construct a benchmark dataset of emojis with tweets and systematically investigate emoji usages in terms of tweet content, tweet structure and user demographics. Inspired by the investigation results, we further propose a multitask multimodality gated recurrent unit (mmGRU) model to predict the categories and positions of emojis. The model leverages not only multimodality information such as text, image and user demographics, but also the strong correlations between emoji categories and their positions. Our experimental results show that the proposed method can significantly improve the accuracy for predicting emojis for tweets (+9.0% in F1-value for category and +4.6% in F1-value for position). Based on the experimental results, we further conduct a series of case studies to unveil how emojis are used in social media.}, 
+  url = {https://doi.org/10.1145/3184558.3186344},
+  doi = {10.1145/3184558.3186344},
+  url_Paper = {http://cm.cecs.anu.edu.au/documents/zhao-emoji-2018.pdf},
 }
 
 @inproceedings{Jin2017hcomp,
@@ -178,7 +195,6 @@
     abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.},
     author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
     booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
-    author = {Swapnil Mishra and Marian-Andrei Rizoiu and Xie, Lexing},
     series = {CIKM '16},
     address = {Indianapolis, IN, USA},
     doi = {10.1145/2983323.2983812},
