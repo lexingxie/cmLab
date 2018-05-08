@@ -222,6 +222,7 @@ We are a diverse group in terms of research interests, background, technical ski
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science 
 * [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
 * Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
@@ -247,7 +248,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/anila-100.png' title='Anila' />
-            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016
+            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
         </div>
         <div class="people-info">
             <b>Thesis:</b>
@@ -260,7 +261,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/ssedhain-100.png' title='Suvash' />
-            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA
+            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
         </div>
         <div class="people-info">
             <b>Thesis:</b>
@@ -291,7 +292,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='https://www.qxcv.net/files/head-shot-small.png' title='Sam' />
-            <big><big> <a href=https://www.qxcv.net/><b>Sam Toyer</b></a> </big></big> <br/><br/> Honours, ANU CS, 2017
+            <big><big> <a href=https://www.qxcv.net/><b>Sam Toyer</b></a> </big></big> <br/><br/> Honours, ANU CS, 2017 (co-advised with Sylvie Thiebaux)
         </div>
         <div class="people-info">
             <b>Thesis</b>: <a href=https://github.com/qxcv/asnets>Generalized Policies for Probabilistic Planning with Deep Learning</a> (2017 ANU University Medal)<br />
