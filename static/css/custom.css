@@ -62,3 +62,7 @@ figure figcaption {
     color: #666;
     font-size: 0.9em;
 }
+
+.label-default {
+    line-height: 25px;
+}
