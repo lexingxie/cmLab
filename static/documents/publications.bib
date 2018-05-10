@@ -1,3 +1,17 @@
+@inproceedings{Rizoiu2018a,
+    abstract = {Serious concerns have been raised about the role of `socialbots' in manipulating public opinion and influencing the outcome of elections by retweeting partisan content to increase its reach. Here we analyze the role and influence of socialbots on Twitter by determining how they contribute to retweet diffusions. We collect a large dataset of tweets during the 1st U.S. presidential debate in 2016 and we analyze its 1.5 million users from three perspectives: user influence, political behavior (partisanship and engagement) and botness. First, we define a measure of user influence based on the user's active contributions to information diffusions, i.e. their tweets and retweets. Given that Twitter does not expose the retweet structure -- it associates all retweets with the original tweet -- we model the latent diffusion structure using only tweet time and user features, and we implement a scalable novel approach to estimate influence over all possible unfoldings. Next, we use partisan hashtag analysis to quantify user political polarization and engagement. Finally, we use the BotOrNot API to measure user botness (the likelihood of being a bot). We build a two-dimensional "polarization map" that allows for a nuanced analysis of the interplay between botness, partisanship and influence. We find that not only are socialbots more active on Twitter -- starting more retweet cascades and retweeting more -- but they are 2.5 times more influential than humans, and more politically engaged. Moreover, pro-Republican bots are both more influential and more politically engaged than their pro-Democrat counterparts. However we caution against blanket statements that software designed to appear human dominates politics-related activity on Twitter. Firstly, it is known that accounts controlled by teams of humans (e.g. organizational accounts) are often identified as bots. Secondly, we find that many highly influential Twitter users are in fact pro-Democrat and that most pro-Republican users are mid-influential and likely to be human (low botness).},
+    address = {Stanford, CA, USA},
+    author = {Rizoiu, Marian-Andrei and Graham, Timothy and Zhang, Rui and Zhang, Yifei and Ackland, Robert and Xie, Lexing},
+    booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
+    title = {{{\#}DebateNight: The Role and Influence of Socialbots on Twitter During the 1st 2016 U.S. Presidential Debate}},
+    url = {https://arxiv.org/abs/1802.09808},
+    year = {2018},
+    url_Abstract = {https://arxiv.org/abs/1802.09808},
+    url_Paper = {https://arxiv.org/pdf/1802.09808.pdf},
+    url_Code = {https://github.com/computationalmedia/cascade-influence},
+    url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf}
+}
+
 
 @inproceedings{mathews2018semstyle,
   title={{SemStyle}:  Learning to Generate Stylised Image Captions using Unaligned Text},
@@ -36,23 +50,23 @@
 }
 
 @incollection{Rizoiu2018HPE,
- author = {Rizoiu, Marian-Andrei and Lee, Young and Mishra, Swapnil and Xie, Lexing},
- title = {Hawkes Processes for Events in Social Media},
- booktitle = {Frontiers of Multimedia Research},
- editor = {Chang, Shih-Fu},
- year = {2018},
- isbn = {978-1-97000-107-5},
- pages = {191--218},
- numpages = {28},
- abstract = {This chapter provides an accessible introduction for point processes, and especially Hawkes processes, for modeling discrete, inter-dependent events over continuous time. We start by reviewing the definitions and the key concepts in point processes. We then introduce the Hawkes process, its event intensity function, as well as schemes for event simulation and parameter estimation. We also describe a practical example drawn from social media data - we show how to model retweet cascades using a Hawkes self-exciting process. We presents a design of the memory kernel, and results on estimating parameters and predicting popularity. The code and sample event data are available as an online appendix.},
- url = {https://doi.org/10.1145/3122865.3122874},
- url_Abstract = {https://arxiv.org/abs/1708.06401},
- url_Paper = {https://arxiv.org/pdf/1708.06401.pdf},
- url_Code= {https://github.com/s-mishra/featuredriven-hawkes},
- doi = {10.1145/3122865.3122874},
- acmid = {3122874},
- publisher = {Association for Computing Machinery and Morgan \& Claypool},
- address = {New York, NY, USA},
+    author = {Rizoiu, Marian-Andrei and Lee, Young and Mishra, Swapnil and Xie, Lexing},
+    title = {Hawkes Processes for Events in Social Media},
+    booktitle = {Frontiers of Multimedia Research},
+    editor = {Chang, Shih-Fu},
+    year = {2018},
+    isbn = {978-1-97000-107-5},
+    pages = {191--218},
+    numpages = {28},
+    abstract = {This chapter provides an accessible introduction for point processes, and especially Hawkes processes, for modeling discrete, inter-dependent events over continuous time. We start by reviewing the definitions and the key concepts in point processes. We then introduce the Hawkes process, its event intensity function, as well as schemes for event simulation and parameter estimation. We also describe a practical example drawn from social media data - we show how to model retweet cascades using a Hawkes self-exciting process. We presents a design of the memory kernel, and results on estimating parameters and predicting popularity. The code and sample event data are available as an online appendix.},
+    url = {https://doi.org/10.1145/3122865.3122874},
+    url_Abstract = {https://arxiv.org/abs/1708.06401},
+    url_Paper = {https://arxiv.org/pdf/1708.06401.pdf},
+    url_Code= {https://github.com/s-mishra/featuredriven-hawkes},
+    doi = {10.1145/3122865.3122874},
+    acmid = {3122874},
+    publisher = {Association for Computing Machinery and Morgan \& Claypool},
+    address = {New York, NY, USA},
 } 
 
 @inproceedings{rizoiu2018sir,
@@ -64,9 +78,13 @@
   year={2018},
   abstract = {Among the statistical tools for online information diffusion modeling, both epidemic models and Hawkes point processes are popular choices. The former originate from epidemiology, and consider information as a viral contagion which spreads into a population of online users. The latter have roots in geophysics and finance, view individual actions as discrete events in continuous time, and modulate the rate of events according to the self-exciting nature of event sequences. Here, we establish a novel connection between these two frameworks. Namely, the rate of events in an extended Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model after marginalizing out recovery events -- which are unobserved in a Hawkes process. This result paves the way to apply tools developed for SIR to Hawkes, and vice versa. It also leads to HawkesN, a generalization of the Hawkes model which accounts for a finite population size. Finally, we derive the distribution of cascade sizes for HawkesN, inspired by methods in stochastic SIR. Such distributions provide nuanced explanations to the general unpredictability of popularity: the distribution for diffusion cascade sizes tends to have two modes, one corresponding to large cascade sizes and another one around zero.},
   doi = {10.1145/3178876.3186108},
+  eprint = {1711.01679},
+  isbn = {9781450356398},
+  pages = {419--428},
   url_Abstract = {https://arxiv.org/abs/1711.01679},
   url_Paper = {https://arxiv.org/pdf/1711.01679.pdf},
-  url_Code = {https://github.com/computationalmedia/sir-hawkes}
+  url_Code = {https://github.com/computationalmedia/sir-hawkes},
+  url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_WWW-2018_slides.pdf}
 }
 
 @inproceedings{kong2018will,
