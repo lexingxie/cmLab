@@ -86,7 +86,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/smishra-100.png' title='Swapnil' />
-            <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
+            <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -146,7 +146,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                multimedia knowledge graphs, interactive ranking systems. 
+                multimedia knowledge graphs, interactive ranking systems.
             <br>
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
@@ -216,13 +216,13 @@ We are a diverse group in terms of research interests, background, technical ski
 <hr>
 #### Current and recent collaborators
 
-* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science 
+* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science
 * [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
-* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning 
+* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
-* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science 
+* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
 * [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
 * Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
@@ -254,7 +254,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Thesis:</b>
                 Ontology Ranking: Finding the Right Ontologies on the Web
             <br>
-            <b>Currently:</b> CSIRO, Canberra 
+            <b>Currently:</b> CSIRO, Canberra
        </div>
     </div>
     <!-- Suvash Sedhain -->
