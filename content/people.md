@@ -41,7 +41,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/dongwoo-100.png' title='Dongwoo' />
-            <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
+            <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
         </div>
         <div class="people-info">
             <b>Projects:</b>
