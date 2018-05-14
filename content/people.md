@@ -163,7 +163,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Analysing information diffusions in a large scale social network.
+                Information Diffusion Modeling with Theoretical Models
             <br>
             <b>Before the ANU:</b> Zhejiang University
         </div>
@@ -209,6 +209,19 @@ We are a diverse group in terms of research interests, background, technical ski
                 Profiling Geographical Features from Satellite Images
             <br>
             <b>Before the ANU:</b> Beijing Institute of Technology
+        </div>
+    </div>
+    <!-- Shidi Li -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                HIP++, multivariance-HIP
+            <br>
+            <b>Before the ANU:</b> Zhejiang University of Technology
         </div>
     </div>
 </div>
