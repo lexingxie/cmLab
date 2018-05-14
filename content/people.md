@@ -168,6 +168,19 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Mathspace
         </div>
     </div>
+    <!-- Qiongkai Xu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qiongkai-100.jpg' title='' />
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural Language Generation, Graph Analysis
+            <br>
+            <b>Before the ANU:</b> Shanghai Jiaotong University
+        </div>
+    </div>
     <!-- Quyu Kong -->
     <div class="col-md-4">
         <div class="people-profile">
