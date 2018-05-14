@@ -155,6 +155,32 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <!-- 4th row -->
 <div class="row">
+    <!-- Alasdair Tran -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alasdair-100.jpg' title='' />
+            <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural language processing, multimedia knowledge graphs
+            <br>
+            <b>Before the ANU:</b> Mathspace
+        </div>
+    </div>
+    <!-- Qiongkai Xu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qiongkai-100.jpg' title='' />
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural Language Generation, Graph Analysis
+            <br>
+            <b>Before the ANU:</b> Shanghai Jiaotong University
+        </div>
+    </div>
     <!-- Quyu Kong -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -163,7 +189,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Analysing information diffusions in a large scale social network.
+                Information Diffusion Modeling with Theoretical Models
             <br>
             <b>Before the ANU:</b> Zhejiang University
         </div>
@@ -171,6 +197,7 @@ We are a diverse group in terms of research interests, background, technical ski
 </div>
 
 <!-- Honours + MS student row -->
+<!-- First row -->
 <div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
@@ -209,6 +236,22 @@ We are a diverse group in terms of research interests, background, technical ski
                 Profiling Geographical Features from Satellite Images
             <br>
             <b>Before the ANU:</b> Beijing Institute of Technology
+        </div>
+    </div>
+</div>
+<!-- Second row -->
+<div class="row">
+    <!-- Shidi Li -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                HIP++, multivariance-HIP
+            <br>
+            <b>Before the ANU:</b> Zhejiang University of Technology
         </div>
     </div>
 </div>
