@@ -155,6 +155,19 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <!-- 4th row -->
 <div class="row">
+    <!-- Alasdair Tran -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alasdair-100.jpg' title='' />
+            <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural language processing, multimedia knowledge graphs
+            <br>
+            <b>Before the ANU:</b> Mathspace
+        </div>
+    </div>
     <!-- Quyu Kong -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -171,6 +184,7 @@ We are a diverse group in terms of research interests, background, technical ski
 </div>
 
 <!-- Honours + MS student row -->
+<!-- First row -->
 <div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
@@ -211,6 +225,9 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Beijing Institute of Technology
         </div>
     </div>
+</div>
+<!-- Second row -->
+<div class="row">
     <!-- Shidi Li -->
     <div class="col-md-4">
         <div class="people-profile">
