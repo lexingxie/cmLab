@@ -1,13 +1,13 @@
 
 
 
-This repo hosts source code for the* ANU Computational Media Lab* website http://cm.cecs.anu.edu.au/. 
+This repo hosts source code for the *ANU Computational Media Lab* website http://cm.cecs.anu.edu.au/. 
 
 This site is created from the site example in the Hugo source code. 
 
 ### Building and updating the site
 
-1. [Install Hugo](http://gohugo.io/overview/installing) in a way that best suits your environment and comfort level --- I recommend downloading the binary from [here](https://github.com/spf13/hugo/releases), unzip, and placing the executable (renamed to 'hugo') somewhere in your PATH.
+1. [Install Hugo (Currently Built with v0.41)](http://gohugo.io/overview/installing) in a way that best suits your environment and comfort level --- I recommend downloading the binary from [here](https://github.com/spf13/hugo/releases), unzip, and placing the executable (renamed to 'hugo') somewhere in your PATH.
 
 2. Navigate to the website source section of the repository, i.e. './cmLab/'
 
