@@ -4,7 +4,7 @@ description: "How tricks from computer vision and deep learning can be used to a
 date: "2018-02-26"
 draft: false
 categories:
-  - "reseach"
+  - "research"
   - "paper"
   - "code"
 tags:
