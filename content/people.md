@@ -41,7 +41,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/dongwoo-100.png' title='Dongwoo' />
-            <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
+            <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -86,7 +86,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/smishra-100.png' title='Swapnil' />
-            <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
+            <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -146,7 +146,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                multimedia knowledge graphs, interactive ranking systems. 
+                multimedia knowledge graphs, interactive ranking systems.
             <br>
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
@@ -155,6 +155,32 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <!-- 4th row -->
 <div class="row">
+    <!-- Alasdair Tran -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alasdair-100.jpg' title='' />
+            <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural language processing, multimedia knowledge graphs
+            <br>
+            <b>Before the ANU:</b> Mathspace
+        </div>
+    </div>
+    <!-- Qiongkai Xu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qiongkai-100.jpg' title='' />
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural Language Generation, Graph Analysis
+            <br>
+            <b>Before the ANU:</b> Shanghai Jiaotong University
+        </div>
+    </div>
     <!-- Quyu Kong -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -163,7 +189,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Analysing information diffusions in a large scale social network.
+                Information Diffusion Modeling with Theoretical Models
             <br>
             <b>Before the ANU:</b> Zhejiang University
         </div>
@@ -171,6 +197,7 @@ We are a diverse group in terms of research interests, background, technical ski
 </div>
 
 <!-- Honours + MS student row -->
+<!-- First row -->
 <div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
@@ -212,17 +239,33 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
 </div>
+<!-- Second row -->
+<div class="row">
+    <!-- Shidi Li -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                HIP++, multivariance-HIP
+            <br>
+            <b>Before the ANU:</b> Zhejiang University of Technology
+        </div>
+    </div>
+</div>
 
 <hr>
 #### Current and recent collaborators
 
-* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science 
+* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science
 * [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
-* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning 
+* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
-* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science 
+* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
 * [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
 * Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
@@ -254,7 +297,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Thesis:</b>
                 Ontology Ranking: Finding the Right Ontologies on the Web
             <br>
-            <b>Currently:</b> CSIRO, Canberra 
+            <b>Currently:</b> CSIRO, Canberra
        </div>
     </div>
     <!-- Suvash Sedhain -->
