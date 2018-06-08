@@ -40,23 +40,22 @@ To learn this two part model, we require two separate training corpora. The firs
 
 #### What was the main finding of the research?
 
-It is encouraging to see that one can separately distill content and articulate style using state of the art machine learning approaches. 
+It is encouraging that one can separately distill content and articulate style with current machine learning approaches. We are pleased to see that the model has learned to pick more versatile words for expressing the same meaning. The breakthrough for human-like style generation comes from connecting the semantic gist of a sentence (i.e. the content words) to a powerful language generator that learns the word sequence patterns in the given style. 
 
 
 #### Did anything surprise you in the research?
 
-being romantic goes beyond one sentence 
+Being romantic goes beyond one sentence! Initially we planned to write _romantic_ captions, it soon dawned on us (upon seeing the first batch of results) that being romantic relates not just to how each sentence is said, but more to the storyline and theme of the entire novel. The outcome from our system was legitimately story-like, but a dozen or so words in a sentence was not sufficient to justify it being romantic. What the language model did learn, however, was to use more past tense, definite articles, and adopting a first person view in the narrative, all of which are typical of story-telling in novels.
 
 #### What does this research tell us about the language abilities of AI?
 
-there's lots of potential, and open questions
-representing style in general, writing coherent paragraphs
+Machine has gotten a lot better in analyzing and generating natural language -- we share the excitement that they could be a lot of help to people for their daily tasks. We would think, that machine-learning would help the literarily challenged to compose succinct and stylish messages, or even write engaging press-releases for our research (replacing me as a writer)!
 
-#### What's next
+Many open questions remain in this area, with room for many theses by aspiring PhD students and young researchers. One such challenge is to endow the machine to be informed by commonsense and encyclopedic knowledge of the world when it writes. A related challenge is for machines to compose beyond a sentence -- writing coherent paragraphs and holding intellectual charged conversations. 
 
-[Alex](http://users.cecs.anu.edu.au/~u4534172/) recently submitted his PhD thesis, and are moving on to the next stage of his career. 
+#### What's next?
 
-The lab will continue the quest to make 
+[Alex](http://users.cecs.anu.edu.au/~u4534172/) recently submitted his PhD thesis, and are moving on to the next stage of his career! The lab will continue the quest to make connections among image, language and knowledge on the social web. 
 
 ### Resources
 
