@@ -2,7 +2,7 @@
 title: "SemStyle: Learning to Caption Images like Romantic Novels"
 description: "A new machine learning system that styles your caption like master story-tellers do."
 date: "2018-06-10"
-draft: true
+draft: false
 categories:
   - "research"
   - "paper"
@@ -11,7 +11,14 @@ tags:
   - "naturallanguage"
 ---
 
-(one catchy picture here)
+##### posted by _Lexing Xie_ and _Alex Mathews_ <br />
+
+<figure class="asn-fig asn-left" style="max-width: 550px;">
+    <img src="/img/semstyle/3results.png">
+    <figcaption>
+      Fig.1: Decriptive (blue) and story-like (dark red) image captions created by the SemStyle system. The story-like captions in example (a) is written as a sequence of actions, rather than a static scene description; (b) introduces a new adjective and uses a poetic sentence structure. Styled caption (c) is my favorite failure case -- it violates commonsense but triggers readers' imagination!
+    </figcaption>
+</figure>
 
 <!-- this annotation truncates the post so that only part of it is shown -->
 <!-- on homepage: -->
@@ -28,6 +35,13 @@ The first is being able to compose caption in any linguistic style -- these styl
 
 
 #### What was the methodology you used?
+
+<figure class="asn-fig asn-left" style="max-width: 720px;">
+    <img src="/img/semstyle/model.png">
+    <figcaption>
+      Fig.2: The SemStyle model has two components. The green component learns to distill an image into a small list of content terms. The blue component learns to write a sentence from this term list, adding function words, adjectives, and is trained to mimic a particular style. 
+    </figcaption>
+</figure>
 
 <!-- talk about model, MT models for content and style -->
 After more than a year of searching and trying different designs, we finally settled on two machine learning components that specialise in their respective tasks. The first components distills an image into a small set of content words (such as `train`, `sit`, `platform`), and the second component articulates a sentence in the given style from the set of content words (such as `I stopped short when I saw the train sitting at the station`). 
