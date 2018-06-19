@@ -45,7 +45,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science  
+                Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science
             <br>
             <b>Before the ANU:</b> KAIST
         </div>
@@ -212,35 +212,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
-    <!-- Yifei Zhang -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/yifei-100.jpg' title='' />
-            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Quantifing user influence in retweet cascade.
-            <br>
-            <b>Before the ANU:</b> Zhengzhou University
-        </div>
-    </div>
-    <!-- Liyao Tang -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/Liyao-100.png' title='liyao' />
-            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honour Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Profiling Geographical Features from Satellite Images
-            <br>
-            <b>Before the ANU:</b> Beijing Institute of Technology
-        </div>
-    </div>
-</div>
-<!-- Second row -->
-<div class="row">
     <!-- Shidi Li -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -330,7 +301,29 @@ We are a diverse group in terms of research interests, background, technical ski
 </div>
 
 <!-- Honours + MS student Alumni -->
-<div class="row">    
+<div class="row">
+    <!-- Yifei Zhang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/yifei-100.jpg' title='' />
+            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
+            <b>Currently</b>: Developer at JD finance
+        </div>
+    </div>
+    <!-- Liyao Tang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/Liyao-100.png' title='liyao' />
+            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honours Student, ANU Computer Science, 2018
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Road Extraction from Time Series Satellite Images <br />
+            <b>Currently</b>: Developer at Baidu
+        </div>
+    </div>
     <!-- Sam Toyer -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -340,6 +333,21 @@ We are a diverse group in terms of research interests, background, technical ski
         <div class="people-info">
             <b>Thesis</b>: <a href=https://github.com/qxcv/asnets>Generalized Policies for Probabilistic Planning with Deep Learning</a> (2017 ANU University Medal)<br />
             <b>Currently</b>: PhD Student, UC Berkeley
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <!-- Yanxiang Wang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/people/yanxiang.jpg' title='yangxiang' />
+            <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
+            <b>Currently</b>: Developer at Lonely Planet, StartMyGig
         </div>
     </div>
     <!-- Yicong Du -->
@@ -362,21 +370,6 @@ We are a diverse group in terms of research interests, background, technical ski
         <div class="people-info">
             <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
             <b>Currently</b>: Software Engineer, Google
-        </div>
-    </div>
-
-</div>    
-
-<div class="row">    
-    <!-- Yanxiang Wang -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/people/yanxiang.jpg' title='yangxiang' />
-            <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
-        </div>
-        <div class="people-info">
-            <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
-            <b>Currently</b>: Developer at Lonely Planet, StartMyGig
         </div>
     </div>
 </div>
