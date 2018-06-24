@@ -17,7 +17,9 @@ tags:
 
 ### Media coverage
 
-* 2018-06 ANU College of Engineering and Computer Science featured our work on [SemStyle - Learning to Caption Images like Romantic Novels](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
+<img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
+
+* 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
 
 * 2018-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
 
@@ -39,7 +41,7 @@ tags:
 
 ### News archive
 
-* 2018-06 We will present four papers at two conferences this month. At CVPR’18, Alex will discuss [SemStyle](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story/), a model for unsupervised style transfer in image captions. At ICWSM'18, Andrei will present [#DebateNight](https://arxiv.org/abs/1802.09808/); Swapnil will introduce [RNN-MAS](https://arxiv.org/abs/1804.02101/) for predicting popularity with tweets and shares; Siqi will share his insights on which YouTube vidoes are [more engaging and why](https://arxiv.org/abs/1709.02541/).
+* 2018-06 We will present four papers at two conferences this month. At CVPR’18, Alex will discuss [SemStyle](/post/semstyle), a model for unsupervised style transfer in image captions. At ICWSM'18, Andrei will present [#DebateNight](https://arxiv.org/abs/1802.09808/); Swapnil will introduce [RNN-MAS](https://arxiv.org/abs/1804.02101/) for predicting popularity with tweets and shares; Siqi will share his insights on [which YouTube vidoes are more engaging and why](https://arxiv.org/abs/1709.02541/).
 
 * 2018-02 2018 is off to an exciting start!  Sam presented [Action Schema Networks](/post/asnets) at AAAI'18, Andrei will present [SIR-Hawkes](https://arxiv.org/abs/1711.01679) at WWW'18.
 
