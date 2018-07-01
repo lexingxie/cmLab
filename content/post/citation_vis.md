@@ -13,7 +13,7 @@ tags:
   - "citations"
 ---
 
-##### *posted by* Lexing Xieare the intellectual 
+##### *posted by* Lexing Xie
 
 <a href=/citation/NIPS><img width=150 src="/img/citation/NIPS/NIPS_mini_graph.png"></a>
 <a href=/citation/PLDI><img width=150 src="/img/citation/PLDI/PLDI_mini_graph.png"></a>
