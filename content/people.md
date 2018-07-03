@@ -196,22 +196,26 @@ We are a diverse group in terms of research interests, background, technical ski
     </div>
 </div>
 
-<!-- Honours + MS student row -->
-<!-- First row -->
+<!-- 5th row -->
 <div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/rui-zhang-100.png' title='Rui' />
-            <big><big> <a href=https://ruizhang2016.github.io/><b>Rui Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science;
+            <big><big> <a href=https://ruizhang2016.github.io/><b>Rui Zhang</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                popularity in social media, stochastic processes, <i>deep</i> learning.
+                Non-parametric Bayesian Estimation of Hawkes Triggering Kernels
             <br>
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
+</div>
+
+<!-- Honours + MS student row -->
+<!-- First row -->
+<div class="row">
     <!-- Shidi Li -->
     <div class="col-md-4">
         <div class="people-profile">
