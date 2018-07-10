@@ -1,3 +1,37 @@
+@InProceedings{pmlr-v80-kim18c,
+      title =    {Self-Bounded Prediction Suffix Tree via Approximate String Matching},
+      author =     {Kim, Dongwoo and Walder, Christian},
+      booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+      pages =      {2664--2672},
+      year =     {2018},
+      editor =     {Dy, Jennifer and Krause, Andreas},
+      volume =   {80},
+      series =     {Proceedings of Machine Learning Research},
+      address =      {Stockholmsmässan, Stockholm Sweden},
+      month =      {10--15 Jul},
+      publisher =    {PMLR},
+      pdf =    {http://proceedings.mlr.press/v80/kim18c/kim18c.pdf},
+      url =      {http://proceedings.mlr.press/v80/kim18c.html},
+      abstract =   {Prediction suffix trees (PST) provide an effective tool for sequence modelling and prediction. Current prediction techniques for PSTs rely on exact matching between the suffix of the current sequence and the previously observed sequence. We present a provably correct algorithm for learning a PST with approximate suffix matching by relaxing the exact matching condition. We then present a self-bounded enhancement of our algorithm where the depth of suffix tree grows automatically in response to the model performance on a training sequence. Through experiments on synthetic datasets as well as three real-world datasets, we show that the approximate matching PST results in better predictive performance than the other variants of PST.}
+}
+
+@InProceedings{pmlr-v80-walder18a,
+  title =    {Neural Dynamic Programming for Musical Self Similarity},
+  author =     {Walder, Christian and Kim, Dongwoo},
+  booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+  pages =      {5092--5100},
+  year =     {2018},
+  editor =     {Dy, Jennifer and Krause, Andreas},
+  volume =   {80},
+  series =     {Proceedings of Machine Learning Research},
+  address =      {Stockholmsmässan, Stockholm Sweden},
+  month =      {10--15 Jul},
+  publisher =    {PMLR},
+  pdf =    {http://proceedings.mlr.press/v80/walder18a/walder18a.pdf},
+  url =      {http://proceedings.mlr.press/v80/walder18a.html},
+  abstract =   {We present a neural sequence model designed specifically for symbolic music. The model is based on a learned edit distance mechanism which generalises a classic recursion from computer science, leading to a neural dynamic program. Repeated motifs are detected by learning the transformations between them. We represent the arising computational dependencies using a novel data structure, the edit tree; this perspective suggests natural approximations which afford the scaling up of our otherwise cubic time algorithm. We demonstrate our model on real and synthetic data; in all cases it out-performs a strong stacked long short-term memory benchmark.}
+}
+
 @inproceedings{Rizoiu2018a,
     abstract = {Serious concerns have been raised about the role of `socialbots' in manipulating public opinion and influencing the outcome of elections by retweeting partisan content to increase its reach. Here we analyze the role and influence of socialbots on Twitter by determining how they contribute to retweet diffusions. We collect a large dataset of tweets during the 1st U.S. presidential debate in 2016 and we analyze its 1.5 million users from three perspectives: user influence, political behavior (partisanship and engagement) and botness. First, we define a measure of user influence based on the user's active contributions to information diffusions, i.e. their tweets and retweets. Given that Twitter does not expose the retweet structure -- it associates all retweets with the original tweet -- we model the latent diffusion structure using only tweet time and user features, and we implement a scalable novel approach to estimate influence over all possible unfoldings. Next, we use partisan hashtag analysis to quantify user political polarization and engagement. Finally, we use the BotOrNot API to measure user botness (the likelihood of being a bot). We build a two-dimensional "polarization map" that allows for a nuanced analysis of the interplay between botness, partisanship and influence. We find that not only are socialbots more active on Twitter -- starting more retweet cascades and retweeting more -- but they are 2.5 times more influential than humans, and more politically engaged. Moreover, pro-Republican bots are both more influential and more politically engaged than their pro-Democrat counterparts. However we caution against blanket statements that software designed to appear human dominates politics-related activity on Twitter. Firstly, it is known that accounts controlled by teams of humans (e.g. organizational accounts) are often identified as bots. Secondly, we find that many highly influential Twitter users are in fact pro-Democrat and that most pro-Republican users are mid-influential and likely to be human (low botness).},
     address = {Stanford, CA, USA},
