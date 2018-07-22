@@ -116,13 +116,13 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/siqi-100.png' title='Siqi'  />
-            <big><big> <b>Siqi Wu</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+			<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                social media popularity prediction
+                measuring and modeling social behavior on web context
             <br>
-            <b>Before the ANU:</b> The University of Melbourne
+            <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
         </div>
     </div>
     <!-- Umanga Bista -->
