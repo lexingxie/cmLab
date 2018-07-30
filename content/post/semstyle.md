@@ -8,7 +8,8 @@ categories:
   - "paper"
 tags:
   - "deeplearning"
-  - "naturallanguage"
+  - "language"
+  - "vision"
 ---
 
 ##### posted by _Lexing Xie_ and _Alex Mathews_ <br />
