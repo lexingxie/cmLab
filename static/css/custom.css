@@ -1,5 +1,6 @@
 body {
-    margin-top: 75px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+    margin-top: 75px;
+    /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
 footer {
@@ -7,7 +8,8 @@ footer {
 }
 
 img {
-    max-width: 100%; /* for responsive image size */
+    max-width: 100%;
+    /* for responsive image size */
 }
 
 .page-header {
@@ -15,7 +17,7 @@ img {
     font-weight: bold;
 }
 
-.li-menu > li {
+.li-menu>li {
     margin-bottom: 8px;
 }
 
@@ -28,7 +30,8 @@ img {
     font-size: 12px;
     height: 115px;
 }
-.people-profile > img {
+
+.people-profile>img {
     width: 100px;
     border-radius: 10px;
     background-color: #e6e6e6;
@@ -45,14 +48,16 @@ img {
 .content {
     padding: 5px;
 }
-.content > h1,
-.content > h2,
-.content > h3,
-.content > h4 {
+
+.content>h1,
+.content>h2,
+.content>h3,
+.content>h4 {
     font-weight: 500;
 }
 
 /* make figures look prettier */
+
 figure {
     margin: 15px;
 }
@@ -65,4 +70,84 @@ figure figcaption {
 
 .label-default {
     line-height: 25px;
+}
+
+.research-block {
+    padding: 10px;
+}
+
+.research-block:hover .changeToAbsolute {
+    box-shadow: 2px 2px 18px #494e58;
+    padding: 5px;
+}
+
+@media (min-width: 970px) {
+    .research-block:hover .showOnHover {
+        display: inherit;
+    }
+    .research-block:hover .changeToAbsolute {
+        position: absolute;
+    }
+    .research-block {
+        height: 150px;
+    }
+}
+
+.changeToAbsolute {
+    z-index: 999;
+    background-color: white;
+}
+
+.margin-clear {
+    margin: 0px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.showOnHover {
+    display: none;
+}
+
+/* from bootstrap 4.1.3 */
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }
