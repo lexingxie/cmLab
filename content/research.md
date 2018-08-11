@@ -14,7 +14,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
 
 ----------
 ## ML for social media
-
+<!--ML for social media part first row-->
 </br>
 <div class='row'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
@@ -25,7 +25,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7 research-content-text'>
         <strong>The role and influence of socialbots on Twitter</strong>
         </br>
-        Papers: <a href='https://arxiv.org/abs/1802.09808' target='_blank'>ICWSM'18</a>
+        Papers: <a href='https://arxiv.org/pdf/1802.09808.pdf' target='_blank'>ICWSM'18</a>
       </div>
     </div>
   </div>
@@ -37,19 +37,19 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7'>
       <strong> Measuring and predicting engagement in online videos</strong>
         </br>
-        Papers: <a href='https://arxiv.org/abs/1709.02541' target='_blank'>ICWSM'18</a>
+        Papers: <a href='https://arxiv.org/pdf/1709.02541.pdf' target='_blank'>ICWSM'18</a>
       </div>
     </div>
   </div>
 </div>
-
+<!--ML for social media part show more button-->
 <div class='row'>
   <div class='col-md-4'></div>
   <a style='width:30%;' class="btn hook1 in btn-secondary col-md-5 col-lg-3" data-toggle="collapse" href=".hook1" aria-expanded="false">
     Show more projects
   </a>
 </div>
-
+<!--ML for social media part second row-->
 <div class='row collapse hook1'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
     <div class='row changeToAbsolute margin-clear'>
@@ -59,7 +59,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7'>
         <strong>Linking epidemic models and Hawkes Processes</strong>
         </br>
-        Papers: <a href='https://arxiv.org/abs/1711.01679' target='_blank'>WWW'18</a>
+        Papers: <a href='https://arxiv.org/pdf/1711.01679.pdf' target='_blank'>WWW'18</a>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7'>
       <strong> Understanding popularity in social media</strong>
         </br>
-        Papers: <a href='https://arxiv.org/abs/1804.02101' target='_blank'>ICWSM'18</a>, <a href='http://arxiv.org/abs/1703.01012' target='_blank'>ICWSM'17</a>, <a href='http://arxiv.org/abs/1602.06033' target='_blank'>WWW'17</a>, <a href='https://arxiv.org/abs/1608.04862' target='_blank'>CIKM'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf' target='_blank'>ICWSM'15</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf' target='_blank'>ACM MM'14</a>
+        Papers: <a href='https://arxiv.org/pdf/1804.02101.pdf' target='_blank'>ICWSM'18</a>, <a href='https://arxiv.org/pdf/1703.01012.pdf' target='_blank'>ICWSM'17</a>, <a href='https://arxiv.org/pdf/1602.06033.pdf' target='_blank'>WWW'17</a>, <a href='https://arxiv.org/pdf/1608.04862.pdf' target='_blank'>CIKM'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/icwsm15-phase.pdf' target='_blank'>ICWSM'15</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/acmmm14.pdf' target='_blank'>ACM MM'14</a>
         </br>
         <div class='showOnHover'>
           Posts:
@@ -85,7 +85,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
     </div>
   </div>
 </div>
-
+<!--ML for social media part third row-->
 <div class='row collapse hook1'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
     <div class='row changeToAbsolute margin-clear'>
@@ -108,7 +108,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
     </div>
   </div>
 </div>
-
+<!--ML for social media part hide projects button-->
 </br>
 <div class='row'>
   <div class='col-md-4'></div>
@@ -119,7 +119,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
 
 ----------
 ## Image + Language
-
+<!--MImage + Language part first row-->
 </br>
 <div class='row'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
@@ -130,7 +130,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7 research-content-text'>
         <strong>Generating Stylized Descriptions of Images</strong>
         </br>
-        Papers: <a href='https://arxiv.org/abs/1805.07030' target='_blank'>CVPR'18</a>, <a href='http://arxiv.org/pdf/1510.01431.pdf' target='_blank'>AAAI'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/wacv2015.pdf' target='_blank'>WACV'15</a>, <a href='http://users.cecs.anu.edu.au/~u4534172/papers/ACM_MM15_naming.pdf' target='_blank'>MM Workshop'15</a>
+        Papers: <a href='https://arxiv.org/pdf/1805.07030.pdf' target='_blank'>CVPR'18</a>, <a href='http://arxiv.org/pdf/1510.01431.pdf' target='_blank'>AAAI'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/wacv2015.pdf' target='_blank'>WACV'15</a>, <a href='http://users.cecs.anu.edu.au/~u4534172/papers/ACM_MM15_naming.pdf' target='_blank'>MM Workshop'15</a>
         </br>
         <div class='showOnHover'>
           Posts:
@@ -142,23 +142,11 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       </div>
     </div>
   </div>
-  <!-- <div class='research-block col-md-6 margin-clear col-sm-12'>
-    <div class='row changeToAbsolute margin-clear'>
-      <div class='col-md-4'>
-        <img style="float:left;" src="/img/proj_icons/engagement.png">
-      </div>
-      <div class='col-md-7'>
-      <strong> Measuring and predicting engagement in online videos</strong>
-        </br>
-        Papers: <a href='https://arxiv.org/abs/1709.02541' target='_blank'>ICWSM'18</a>
-      </div>
-    </div>
-  </div> -->
 </div>
 
 ----------
 ## Other projects
-
+<!--Other projects part first row-->
 </br>
 <div class='row'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
@@ -201,14 +189,14 @@ Our research is broadly concerned with automated undertanding of rich media, esp
     </div>
   </div>
 </div>
-
+<!--Other projects part show more button-->
 <div class='row'>
   <div class='col-md-4'></div>
   <a style='width:30%;' class="btn hook3 in btn-secondary col-md-5 col-lg-3" data-toggle="collapse" href=".hook3" aria-expanded="false">
     Show more projects
   </a>
 </div>
-
+<!--Other projects part second row-->
 <div class='row collapse hook3'>
   <div class='research-block col-md-6 margin-clear col-sm-12'>
     <div class='row changeToAbsolute margin-clear'>
@@ -218,12 +206,12 @@ Our research is broadly concerned with automated undertanding of rich media, esp
       <div class='col-md-7'>
         <strong>Picturing Everyday Knowledge in Multimedia</strong>
         </br>
-        Papers: <a href='http://arxiv.org/abs/1608.05921' target='_blank'>CIKM'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/mm2013-xie.pdf' target='_blank'>ACM MM'13</a>
+        Papers: <a href='https://arxiv.org/pdf/1608.05921.pdf' target='_blank'>CIKM'16</a>, <a href='http://users.cecs.anu.edu.au/~xlx/papers/mm2013-xie.pdf' target='_blank'>ACM MM'13</a>
       </div>
     </div>
   </div>
 </div>
-
+<!--Other projects part hide projects button-->
 </br>
 <div class='row'>
   <div class='col-md-4'></div>
@@ -254,7 +242,7 @@ We propose visual memes, or frequently reposted short video segments, for tracki
 * Remix probability does not correlate well with traiditional popularity metrics such as view count.
 * Influence analysis on visual remix overtime can reveal content importance and user roles.
 
-Paper: [ACM MM'11](http://users.cecs.anu.edu.au/~xlx/papers/acmmm11-meme.pdf), [TMM'13](http://arxiv.org/abs/1210.0623)
+Paper: [ACM MM'11](http://users.cecs.anu.edu.au/~xlx/papers/acmmm11-meme.pdf), [TMM'13](https://arxiv.org/pdf/1210.0623.pdf)
 
 #### Macroscopic patterns in online news discussions
 <img style="float:left;" src="/img/proj_icons/event_bowtie.png" width="160" hspace="15" vspace="10">
