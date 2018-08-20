@@ -5,7 +5,7 @@ Be considerate to others who share the same computing environment.
 
 ## Basics
 
-There are two computing servers (i.e. `arco` and `braun`) in our group, basic information about them are:
+There are three computing servers (i.e. `dijkstra`, `cray` and `braun`) in our group, basic information about them are:
 
 - `dijkstra` (deploying 2018-08)
 - `cray` (deployed 2018-08)
