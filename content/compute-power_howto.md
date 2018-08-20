@@ -7,16 +7,23 @@ Be considerate to others who share the same computing environment.
 
 There are two computing servers (i.e. `arco` and `braun`) in our group, basic information about them are:
 
-- `arco`
-  - CPU: 2 x [Intel Xeon CPU E5-2630 0 @ 2.30GHz](http://ark.intel.com/products/64593/Intel-Xeon-Processor-E5-2630-15M-Cache-2_30-GHz-7_20-GTs-Intel-QPI), 2 x 6 cores with Hyper-Threading
-  - GPU: 2 x [NVIDIA Tesla K40c](https://www.nvidia.com/content/PDF/kepler/Tesla-K40-Active-Board-Spec-BD-06949-001_v03.pdf), 2 x 12 GB GDDR5 on-board memory
-  - RAM: 64 GB
-  - Storage: See [Shared Storage](#Shared-Storage) 
-  - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
+- `dijkstra` (deploying 2018-08)
+- `cray` (deployed 2018-08)
+  - CPU: 2 Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz, 2x10 cores with Hyper-Threading (appears as 40 cores on htop)
+  - GPU: 2 x [NVIDIA Tesla K40c](https://www.nvidia.com/content/PDF/kepler/Tesla-K40-Active-Board-Spec-BD-06949-001_v03.pdf) (old GPU from arco) 
+  - RAM: ?? (128 GB)
+  
 - `braun`
   - CPU: 2 [Intel Xeon CPU E5-2630 v2 @ 2.60GHz](http://ark.intel.com/products/75790/Intel-Xeon-Processor-E5-2630-v2-15M-Cache-2_60-GHz), 2x6 cores with Hyper-Threading
   - GPU: 2 x [NVIDIA Tesla K40c](https://www.nvidia.com/content/PDF/kepler/Tesla-K40-Active-Board-Spec-BD-06949-001_v03.pdf) + [NVIDIA Quadro K600](http://www.nvidia.com/content/pdf/data-sheet/nv-ds-quadro-k600-us.pdf), 2 x 12 GB GDDR5 (K40c) + 1 GB DDR3 (K600) on-board memory
   - RAM: 128 GB
+  - Storage: See [Shared Storage](#Shared-Storage) 
+  - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
+
+- `arco`(died in 2018-07)
+  - CPU: 2 x [Intel Xeon CPU E5-2630 0 @ 2.30GHz](http://ark.intel.com/products/64593/Intel-Xeon-Processor-E5-2630-15M-Cache-2_30-GHz-7_20-GTs-Intel-QPI), 2 x 6 cores with Hyper-Threading
+  - GPU: 2 x [NVIDIA Tesla K40c](https://www.nvidia.com/content/PDF/kepler/Tesla-K40-Active-Board-Spec-BD-06949-001_v03.pdf), 2 x 12 GB GDDR5 on-board memory
+  - RAM: 64 GB
   - Storage: See [Shared Storage](#Shared-Storage) 
   - OS: [Ubuntu LTS](https://wiki.ubuntu.com/LTS) 
 
