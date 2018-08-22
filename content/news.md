@@ -10,6 +10,7 @@ tags:
 
 ### Honours and recognitions
 
+* August 2018, Siqi Wu became one of four recipients in Australia for the [2018 Google PhD Fellowship](https://australia.googleblog.com/2018/07/announcing-2018-phd-fellowships-to.html).
 * January 2018, Lexing Xie received [The Chris Wallace Award for Outstanding Research](http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio) from The Computing Research and Education Association of Australasia (CORE).
 * December 2017, Honours students Sam Toyer and Quyu Kong were honored with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
 * September 2017, Minjeong Shin won the 2017 Woman in Data Science Award by Data to Decisions CRC.
@@ -19,6 +20,8 @@ tags:
 
 <img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
 
+* 2018-08 ANU College of Engineering and Computer Science featured our Google PhD Fellowship recipient Siqi Wu and his work on [Understanding Human Behavior in Online Videos](https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship).
+
 * 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
 
 * 2018-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
@@ -27,7 +30,7 @@ tags:
 
 <img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
 
-* 2016-03 Andrei is featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
+* 2016-03 Andrei was featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
 
 * 2016-03 Microsoft Academic Graph [featured](http://research.microsoft.com/en-us/projects/mag/) our analysis of the citation patterns of the WSDM conference.
 
