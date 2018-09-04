@@ -62,7 +62,7 @@ Let us know if you are unsure where to come to.
 * Our emails addresses are ``firstname dot lastname at anu dot edu dot au``
 * Lexing's office phone number is +61 (0)2 6125 1646
 
-<!--* [Here](http://www.timeanddate.com/worldclock/city.html?n=57) is the current local time in Canberra -->
+<!--*  [Here](http://www.timeanddate.com/worldclock/city.html?n=57) is the current local time in Canberra -->
 
 <!--* <a href="http://time.is/Canberra" id="time_is_link" rel="nofollow">Current local time in Canberra:</a>-->
 <!--<span id="Canberra_z60b" style="font-size:36px"></span>-->
