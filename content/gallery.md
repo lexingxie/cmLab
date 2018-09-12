@@ -1,7 +1,7 @@
 ---
 title: "Gallery"
 description: "Image gallery of computational media lab"
-date: "2018-09-12"
+date: "2016-09-12"
 categories:
   - "gallery"
 tags:
