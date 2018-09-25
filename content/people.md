@@ -71,7 +71,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Alexander Mathews -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/alex-100.jpg' title='Alex' />
+            <img src='/img/alex-100.png' title='Alex' />
             <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
         </div>
         <div class="people-info">
@@ -232,7 +232,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Alexander Soen -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/alex-s-100.png' title='Alexander' />
+            <img src='/img/alex-s-100.jpg' title='Alexander' />
             <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
         </div>
         <div class="people-info">
