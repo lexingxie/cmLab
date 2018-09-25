@@ -229,6 +229,32 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Zhejiang University of Technology
         </div>
     </div>
+    <!-- Alexander Soen -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alex-s-100.png' title='Alexander' />
+            <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Influencemap, Paper Embedding
+            <br>
+            <b>Before the ANU:</b> N/A
+        </div>
+    </div>
+    <!-- Ben Readshaw -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/ben-readshaw-100.png' title='Ben' />
+            <big><big> <b>Ben Readshaw</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Influencemap
+            <br>
+            <b>Before the ANU:</b> N/A
+        </div>
+    </div>
 </div>
 
 <hr>
