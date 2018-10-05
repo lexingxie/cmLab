@@ -40,7 +40,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Dongwoo Kim -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/people/dongwoo-100.png' title='Dongwoo' />
+            <img src='/img/people/dongwoo.png' title='Dongwoo' />
             <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
         </div>
         <div class="people-info">
@@ -141,7 +141,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Minjeong Shin -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/people/minjeong-100.png' title='Minjeong' />
+            <img src='/img/people/minjeong.jpg' title='Minjeong' />
             <big><big> <b><a href="https://shinminjeong.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/>
         </div>
         <div class="people-info">
