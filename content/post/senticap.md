@@ -7,6 +7,7 @@ categories:
   - "research"
   - "paper"
   - "data"
+  - "code"
 tags:
   - "deeplearning"
   - "vision"
@@ -43,3 +44,6 @@ _SentiCap: Generating Image Descriptions with Sentiments_, by Alex Mathews, Lexi
 * Example results: sentences with [positive sentiment](http://users.cecs.anu.edu.au/~u4534172/senticap_results_pos.html) and [negative sentiment](http://users.cecs.anu.edu.au/~u4534172/senticap_results_neg.html). 
 * The SentiCap dataset collected from Amazon mTurk is [here](http://users.cecs.anu.edu.au/~u4534172/data/Senticap/senticap_dataset.zip). 
 * The list of Adjective Noun Pairs (ANPs) is <a href="http://users.cecs.anu.edu.au/~u4534172/data/Senticap/anp_list.txt">here</a>
+* The original code is [here](https://users.cecs.anu.edu.au/~u4534172/data/senticap_code.zip).  It uses theano without neural network libraries (because at the time this was the best option).
+* All training/test data and pre-trained models are made available [here](https://users.cecs.anu.edu.au/~u4534172/data/senticap_data_models.zip). 
+To use, one will need to unzip both into the same directory and then follow the README to train/test the model. CNN fc7 features are read from disk -- they are included with the data -- so to use a new set of images, please extract features using your favorite CNN (code to do this is not included).

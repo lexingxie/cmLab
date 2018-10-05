@@ -1,3 +1,200 @@
+@InProceedings{pmlr-v80-kim18c,
+      title =    {Self-Bounded Prediction Suffix Tree via Approximate String Matching},
+      author =     {Kim, Dongwoo and Walder, Christian},
+      booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+      pages =      {2664--2672},
+      year =     {2018},
+      editor =     {Dy, Jennifer and Krause, Andreas},
+      volume =   {80},
+      series =     {Proceedings of Machine Learning Research},
+      address =      {Stockholmsmässan, Stockholm Sweden},
+      month =      {10--15 Jul},
+      publisher =    {PMLR},
+      pdf =    {http://proceedings.mlr.press/v80/kim18c/kim18c.pdf},
+      url =      {http://proceedings.mlr.press/v80/kim18c.html},
+      abstract =   {Prediction suffix trees (PST) provide an effective tool for sequence modelling and prediction. Current prediction techniques for PSTs rely on exact matching between the suffix of the current sequence and the previously observed sequence. We present a provably correct algorithm for learning a PST with approximate suffix matching by relaxing the exact matching condition. We then present a self-bounded enhancement of our algorithm where the depth of suffix tree grows automatically in response to the model performance on a training sequence. Through experiments on synthetic datasets as well as three real-world datasets, we show that the approximate matching PST results in better predictive performance than the other variants of PST.}
+}
+
+@InProceedings{pmlr-v80-walder18a,
+  title =    {Neural Dynamic Programming for Musical Self Similarity},
+  author =     {Walder, Christian and Kim, Dongwoo},
+  booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+  pages =      {5092--5100},
+  year =     {2018},
+  editor =     {Dy, Jennifer and Krause, Andreas},
+  volume =   {80},
+  series =     {Proceedings of Machine Learning Research},
+  address =      {Stockholmsmässan, Stockholm Sweden},
+  month =      {10--15 Jul},
+  publisher =    {PMLR},
+  pdf =    {http://proceedings.mlr.press/v80/walder18a/walder18a.pdf},
+  url =      {http://proceedings.mlr.press/v80/walder18a.html},
+  abstract =   {We present a neural sequence model designed specifically for symbolic music. The model is based on a learned edit distance mechanism which generalises a classic recursion from computer science, leading to a neural dynamic program. Repeated motifs are detected by learning the transformations between them. We represent the arising computational dependencies using a novel data structure, the edit tree; this perspective suggests natural approximations which afford the scaling up of our otherwise cubic time algorithm. We demonstrate our model on real and synthetic data; in all cases it out-performs a strong stacked long short-term memory benchmark.}
+}
+
+@inproceedings{Rizoiu2018a,
+    abstract = {Serious concerns have been raised about the role of `socialbots' in manipulating public opinion and influencing the outcome of elections by retweeting partisan content to increase its reach. Here we analyze the role and influence of socialbots on Twitter by determining how they contribute to retweet diffusions. We collect a large dataset of tweets during the 1st U.S. presidential debate in 2016 and we analyze its 1.5 million users from three perspectives: user influence, political behavior (partisanship and engagement) and botness. First, we define a measure of user influence based on the user's active contributions to information diffusions, i.e. their tweets and retweets. Given that Twitter does not expose the retweet structure -- it associates all retweets with the original tweet -- we model the latent diffusion structure using only tweet time and user features, and we implement a scalable novel approach to estimate influence over all possible unfoldings. Next, we use partisan hashtag analysis to quantify user political polarization and engagement. Finally, we use the BotOrNot API to measure user botness (the likelihood of being a bot). We build a two-dimensional "polarization map" that allows for a nuanced analysis of the interplay between botness, partisanship and influence. We find that not only are socialbots more active on Twitter -- starting more retweet cascades and retweeting more -- but they are 2.5 times more influential than humans, and more politically engaged. Moreover, pro-Republican bots are both more influential and more politically engaged than their pro-Democrat counterparts. However we caution against blanket statements that software designed to appear human dominates politics-related activity on Twitter. Firstly, it is known that accounts controlled by teams of humans (e.g. organizational accounts) are often identified as bots. Secondly, we find that many highly influential Twitter users are in fact pro-Democrat and that most pro-Republican users are mid-influential and likely to be human (low botness).},
+    address = {Stanford, CA, USA},
+    author = {Rizoiu, Marian-Andrei and Graham, Timothy and Zhang, Rui and Zhang, Yifei and Ackland, Robert and Xie, Lexing},
+    booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
+    title = {{{\#}DebateNight: The Role and Influence of Socialbots on Twitter During the 1st 2016 U.S. Presidential Debate}},
+    year = {2018},
+    url_Abstract = {https://arxiv.org/abs/1802.09808},
+    url_Paper = {https://arxiv.org/pdf/1802.09808.pdf},
+    url_Code = {https://github.com/computationalmedia/cascade-influence},
+    url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf}
+}
+
+
+@inproceedings{mathews2018semstyle,
+  title={{SemStyle}:  Learning to Generate Stylised Image Captions using Unaligned Text},
+  author={Mathews, Alexander and Xie, Lexing and He, Xuming},
+  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  url_Abstract={https://arxiv.org/abs/1805.07030},
+  url_Paper={https://arxiv.org/pdf/1805.07030},
+  url_Code = {https://github.com/computationalmedia/semstyle},
+  address = {Salt Lake City, USA},
+  year={2018},
+  abstract={Linguistic style is an essential part of written communication, with the power to affect both clarity and attractiveness. With recent advances in vision and language, we can start to tackle the problem of generating image captions that are both visually grounded and appropriately styled. Existing approaches either require styled training captions aligned to images or generate captions with low relevance. We develop a model that learns to generate visually relevant styled captions from a large corpus of styled text without aligned images. The core idea of this model, called SemStyle, is to separate semantics and style. One key component is a novel and concise semantic term representation generated using natural language processing techniques and frame semantics. In addition, we develop a unified language model that decodes sentences with diverse word choices and syntax for different styles. Evaluations, both automatic and manual, show captions from SemStyle preserve image semantics, are descriptive, and are style shifted. More broadly, this work provides possibilities to learn richer image descriptions from the plethora of linguistic data available on the web.},
+}
+
+@inproceedings{wu2018beyond,
+    address = {Stanford, CA, USA},
+    author = {Wu, Siqi and Rizoiu, Marian-Andrei and Xie, Lexing},
+    booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
+    title = {{Beyond Views: Measuring and Predicting Engagement in Online Videos}},
+    year = {2018},
+    abstract = {The share of videos in the internet traffic has been growing, therefore understanding how videos capture attention on a global scale is also of growing importance. Most current research focus on modeling the number of views, but we argue that video engagement, or time spent watching is a more appropriate measure for resource allocation problems in attention, networking, and promotion activities. In this paper, we present a first large-scale measurement of video-level aggregate engagement from publicly available data streams, on a collection of 5.3 million YouTube videos published over two months in 2016. We study a set of metrics including time and the average percentage of a video watched. We define a new metric, relative engagement, that is calibrated against video properties and strongly correlate with recognized notions of quality. Moreover, we find that engagement measures of a video are stable over time, thus separating the concerns for modeling engagement and those for popularity -- the latter is known to be unstable over time and driven by external promotions. We also find engagement metrics predictable from a cold-start setup, having most of its variance explained by video context, topics and channel information -- R2=0.77. Our observations imply several prospective uses of engagement metrics -- choosing engaging topics for video production, or promoting engaging videos in recommender systems.},
+    url_Abstract = {https://arxiv.org/abs/1709.02541},
+    url_Paper = {https://arxiv.org/pdf/1709.02541.pdf},
+    url_Code = {https://github.com/avalanchesiqi/youtube-engagement}
+    url_Slides = {https://avalanchesiqi.github.io/files/icwsm2018slides.pdf}
+}
+
+@inproceedings{Mishra2018rnn-mas,
+    address = {Stanford, CA, USA},
+    author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
+    booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
+    pages = {1--10},
+    title = {{Modeling Popularity in Asynchronous Social Media Streams with Recurrent Neural Networks}},
+    year = {2018},
+    abstract = {Understanding and predicting the popularity of online items is an important open problem in social media analysis. Considerable progress has been made recently in data-driven predictions, and in linking popularity to external promotions. However, the existing methods typically focus on a single source of external influence, whereas for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g. microblogs or traditional media coverage. Here, we propose RNN-MAS, a recurrent neural network for modeling asynchronous streams. It is a sequence generator that connects multiple streams of different granularity via joint inference. We show RNN-MAS not only to outperform the current state-of-the-art Youtube popularity prediction system by 17%, but also to capture complex dynamics, such as seasonal trends of unseen influence. We define two new metrics: promotion score quantifies the gain in popularity from one unit of promotion for a Youtube video; the loudness level captures the effects of a particular user tweeting about the video. We use the loudness level to compare the effects of a video being promoted by a single highly-followed user (in the top 1% most followed users) against being promoted by a group of mid-followed users. We find that results depend on the type of content being promoted: superusers are more successful in promoting Howto and Gaming videos, whereas the cohort of regular users are more influential for Activism videos. This work provides more accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns.},
+    url_Abstract = {https://arxiv.org/abs/1804.02101},
+    url_Paper = {https://arxiv.org/pdf/1804.02101.pdf},
+    url_Code = {https://github.com/computationalmedia/rnn-mas}
+}
+
+@incollection{Rizoiu2018HPE,
+    author = {Rizoiu, Marian-Andrei and Lee, Young and Mishra, Swapnil and Xie, Lexing},
+    title = {Hawkes Processes for Events in Social Media},
+    booktitle = {Frontiers of Multimedia Research},
+    editor = {Chang, Shih-Fu},
+    year = {2018},
+    isbn = {978-1-97000-107-5},
+    pages = {191--218},
+    numpages = {28},
+    abstract = {This chapter provides an accessible introduction for point processes, and especially Hawkes processes, for modeling discrete, inter-dependent events over continuous time. We start by reviewing the definitions and the key concepts in point processes. We then introduce the Hawkes process, its event intensity function, as well as schemes for event simulation and parameter estimation. We also describe a practical example drawn from social media data - we show how to model retweet cascades using a Hawkes self-exciting process. We presents a design of the memory kernel, and results on estimating parameters and predicting popularity. The code and sample event data are available as an online appendix.},
+    url = {https://doi.org/10.1145/3122865.3122874},
+    url_Abstract = {https://arxiv.org/abs/1708.06401},
+    url_Paper = {https://arxiv.org/pdf/1708.06401.pdf},
+    url_Code= {https://github.com/s-mishra/featuredriven-hawkes},
+    doi = {10.1145/3122865.3122874},
+    acmid = {3122874},
+    publisher = {Association for Computing Machinery and Morgan \& Claypool},
+    address = {New York, NY, USA}
+} 
+
+@inproceedings{rizoiu2018sir,
+  title={{SIR-Hawkes}: Linking Epidemic Models and {Hawkes} Processes to Model Diffusions in Finite Populations},
+  author={Rizoiu, Marian-Andrei and Mishra, Swapnil and Kong, Quyu and Carman, Mark and Xie, Lexing},
+  address = {Lyon, France},
+  booktitle = {Proceedings of the 2018 World Wide Web Conference},
+  series = {WWW '18},
+  year={2018},
+  abstract = {Among the statistical tools for online information diffusion modeling, both epidemic models and Hawkes point processes are popular choices. The former originate from epidemiology, and consider information as a viral contagion which spreads into a population of online users. The latter have roots in geophysics and finance, view individual actions as discrete events in continuous time, and modulate the rate of events according to the self-exciting nature of event sequences. Here, we establish a novel connection between these two frameworks. Namely, the rate of events in an extended Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model after marginalizing out recovery events -- which are unobserved in a Hawkes process. This result paves the way to apply tools developed for SIR to Hawkes, and vice versa. It also leads to HawkesN, a generalization of the Hawkes model which accounts for a finite population size. Finally, we derive the distribution of cascade sizes for HawkesN, inspired by methods in stochastic SIR. Such distributions provide nuanced explanations to the general unpredictability of popularity: the distribution for diffusion cascade sizes tends to have two modes, one corresponding to large cascade sizes and another one around zero.},
+  doi = {10.1145/3178876.3186108},
+  eprint = {1711.01679},
+  isbn = {9781450356398},
+  pages = {419--428},
+  url_Abstract = {https://arxiv.org/abs/1711.01679},
+  url_Paper = {https://arxiv.org/pdf/1711.01679.pdf},
+  url_Code = {https://github.com/computationalmedia/sir-hawkes},
+  url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_WWW-2018_slides.pdf}
+}
+
+@inproceedings{kong2018will,
+  title={Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos},
+  author={Kong, Quyu and Rizoiu, Marian-Andrei and Wu, Siqi and Xie, Lexing},
+  address = {Lyon, France},
+  booktitle = {Companion Proceedings of the The Web Conference 2018 - Demos},
+  series = {WWW '18},
+  year={2018},
+  abstract = {What makes content go viral? Which videos become popular and why others don't? Such questions have elicited significant attention from both researchers and industry, particularly in the context of online media. A range of models have been recently proposed to explain and predict popularity; however, there is a short supply of practical tools, accessible for regular users, that leverage these theoretical results. Hipie -- an interactive visualization system -- is created to fill this gap, by enabling users to reason about the virality and the popularity of online videos. It retrieves the metadata and the past popularity series of Youtube videos, it employs the Hawkes Intensity Process, a state-of-the-art online popularity model for explaining and predicting video popularity, and it presents videos comparatively in a series of interactive plots. This system will help both content consumers and content producers in a range of data-driven inquiries, such as to comparatively analyze videos and channels, to explain and to predict future popularity, to identify viral videos, and to estimate responses to online promotion. },
+  doi = {10.1145/3184558.3186972},
+  url_Abstract = {https://arxiv.org/abs/1801.04117},
+  url_Paper = {https://arxiv.org/pdf/1801.04117.pdf},
+  url_Code = {https://github.com/computationalmedia/hipie}
+}
+
+@inproceedings{toyer2018action,
+  title={Action Schema Networks: Generalised Policies with Deep Learning},
+  author={Toyer, Sam and Trevizan, Felipe and Thi{\'e}baux, Sylvie and Xie, Lexing},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2018},
+  address = {New Orleans, USA},
+  abstract = {In this paper, we introduce the Action Schema Network (ASNet): a neural network architecture for learning generalised policies for probabilistic planning problems. By mimicking the relational structure of planning problems, ASNets are able to adopt a weight-sharing scheme which allows the network to be applied to any problem from a given planning domain. This allows the cost of training the network to be amortised over all problems in that domain. Further, we propose a training method which balances exploration and supervised training on small problems to produce a policy which remains robust when evaluated on larger problems. In experiments, we show that ASNet's learning capability allows it to significantly outperform traditional non-learning planners in several challenging domains.},
+  url_Abstract={https://arxiv.org/abs/1709.04271},
+  url_Paper = {https://arxiv.org/pdf/1709.04271},
+  url_Code = {https://github.com/qxcv/asnets}
+}
+
+@inproceedings{zhao2018analyzing,
+  title={Analyzing and Predicting Emoji Usages in Social Media},
+  author={Zhao, Peijun and Jia, Jia and An, Yongsheng and Liang, Jie and Xie, Lexing and Luo, Jiebo},
+  booktitle={Companion of the The Web Conference 2018 on The Web Conference 2018 -- Cognitive Computing Track},
+  pages={327--334},
+  year={2018},
+  organization={International World Wide Web Conferences Steering Committee}, 
+  abstract={Emojis can be regarded as a language for graphical expression of emotions, and have been widely used in social media. They can express more delicate feelings beyond textual information and improve the effectiveness of computer-mediated communication. Recent advances in machine learning make it possible to automatic compose text messages with emojis. However, the usages of emojis can be complicated and subtle so that analyzing and predicting emojis is a challenging problem. In this paper, we first construct a benchmark dataset of emojis with tweets and systematically investigate emoji usages in terms of tweet content, tweet structure and user demographics. Inspired by the investigation results, we further propose a multitask multimodality gated recurrent unit (mmGRU) model to predict the categories and positions of emojis. The model leverages not only multimodality information such as text, image and user demographics, but also the strong correlations between emoji categories and their positions. Our experimental results show that the proposed method can significantly improve the accuracy for predicting emojis for tweets (+9.0% in F1-value for category and +4.6% in F1-value for position). Based on the experimental results, we further conduct a series of case studies to unveil how emojis are used in social media.}, 
+  url = {https://doi.org/10.1145/3184558.3186344},
+  doi = {10.1145/3184558.3186344},
+  url_Paper = {http://cm.cecs.anu.edu.au/documents/zhao-emoji-2018.pdf},
+}
+
+@inproceedings{Jin2017hcomp,
+    address = {Quebec, Canada},
+    author = {Yuan Jin and Mark Carman and Dongwoo Kim and Lexing Xie},
+    booktitle = {The AAAI Conference on Human Computation and Crowdsourcing (HCOMP)},
+    title = {Leveraging Side Information to Improve Crowd-sourcing},
+    year = {2017},
+    abstract = {We investigate the possibility of leveraging side information for improving quality control over crowd-sourced data. We extend the GLAD model, which governs the probability of correct labeling through a logistic function in which worker expertise counteracts item difficulty, by systematically encod- ing different types of side information, including worker in- formation drawn from demographics and personality traits, item information drawn from item genres and content, and contextual information drawn from worker responses and la- beling sessions. Modeling side information allows for better estimation of worker expertise and item difficulty in sparse data situations and accounts for worker biases, leading to bet- ter prediction of posterior true label probabilities. We demon- strate the efficacy of the proposed framework with overall improvements in both the true label prediction and the un- seen worker response prediction based on different combina- tions of the various types of side information across three new crowd-sourcing datasets. In addition, we show the framework exhibits potential of identifying salient side information fea- tures for predicting the correctness of responses without the need of knowing any true label information.},
+    url_Paper = {https://aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/view/15940/15265},
+}
+
+@inproceedings{chen2017recsys,
+    address = {Como, Italy},
+    author = {Dawei Chen and Dongwoo Kim and Lexing Xie and Minjeong Shin and Aditya Krishna Menon and Cheng Soon Ong and Iman Avazpour and John Grundy},
+    booktitle = {The ACM Recommender Systems conference (RecSys) Demo},
+    title = {PathRec: Visual Analysis of Travel Route Recommendations},
+    year = {2017},
+    doi = {10.1145/3109859.3109983},
+    isbn = {978-1-4503-4652-8/17/08},
+    abstract = {We present an interactive visualisation tool for recommending travel trajectories. This system is based on new machine learning formulations and algorithms for the sequence recommendation problem. The system starts from a map-based overview, taking an interactive query as starting point. It then breaks down contributions from different geographical and user behavior features, and those from individual points-of-interest versus pairs of consecutive points on a route. The system also supports detailed quantitative interrogation by comparing a large number of features for multiple points. Effective trajectory visualisations can potentially benefit a large cohort of online map users and assist their decision-making. More broadly, the design of this system can inform visualisations of other structured prediction tasks, such as for sequences or trees.},
+    url_Paper = {http://cm.cecs.anu.edu.au/documents/chen_recsys2017_demo.pdf},
+}
+
+@inproceedings{chen2017citrec,
+    address = {Como, Italy},
+    author = {Aditya Krishna Menon and Dawei Chen and Lexing Xie and Cheng Soon Ong},
+    booktitle = {International Workshop on Recommender Systems for Citizens (CitRec)},
+    title = {Revisiting revisits in trajectory recommendation},
+    year = {2017},
+    doi = {10.1145/3127325.3127326},
+    isbn = {978-1-4503-5370-0/17/08},
+    abstract = {Trajectory recommendation is the problem of recommending a sequence of places in a city for a tourist to visit. It is strongly desirable for the recommended sequence to avoid loops, as tourists typically would not wish to revisit the same location. Given some learned model that scores sequences, how can we then find the highest-scoring sequence that is loop-free? This paper studies this problem, with three contributions. First, we detail three distinct approaches to the problem -- graph-based heuristics, integer linear programming, and list extensions of the Viterbi algorithm -- and qualitatively summarise their strengths and weaknesses. Second, we explicate how two ostensibly different approaches to the list Viterbi algorithm are in fact fundamentally identical. Third, we conduct experiments on real-world trajectory recommendation datasets to identify the tradeoffs imposed by each of the three approaches. Overall, our results indicate that a greedy graph-based heuristic offer excellent performance and runtime, leading us to recommend its use for removing loops at prediction time.},
+    url_Paper = {http://cm.cecs.anu.edu.au/documents/chen_citrec2017_workshop.pdf},
+}
+
 @inproceedings{Rizoiu2017HIP,
     address = {Perth, Australia},
     author = {Rizoiu, Marian-Andrei and Xie, Lexing and Sanner, Scott and Cebrian, Manuel and Yu, Honglin and {Van Hentenryck}, Pascal},
@@ -48,18 +245,17 @@
 
 @inproceedings{Mishra2016,
     title = {{Feature Driven and Point Process Approaches for Popularity Prediction}},
-    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.},
     author = {Mishra, Swapnil and Rizoiu, Marian-Andrei and Xie, Lexing},
     booktitle = {Proceedings of the 25th ACM International Conference on Information and Knowledge Management},
-    author = {Swapnil Mishra and Marian-Andrei Rizoiu and Xie, Lexing},
     series = {CIKM '16},
     address = {Indianapolis, IN, USA},
     doi = {10.1145/2983323.2983812},
     keywords = {social media; self-exciting point process; information diffusion; cascade prediction},
     year = {2016},
+    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and generative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self-exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predictive layer for popularity prediction using a collection of cascade history. To our surprise, Hawkes process with a predictive overlay outperform recent feature-driven and generative approaches on existing tweet data [44] and a new public benchmark on news tweets. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity prediction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.},
     url_Abstract={https://arxiv.org/abs/1608.04862},
-    url_Paper = {https://arxiv.org/pdf/1608.04862},
-    url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/}
+    url_Paper = {https://arxiv.org/pdf/1608.04862.pdf},
+    url_Presentation_Page = {http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/},
     url_Slides = {http://cm.cecs.anu.edu.au/documents/smishra_cikm16_presentation.pdf}
 }
 
@@ -164,6 +360,15 @@
   year={2016},
   publisher={IEEE},
   url_Abstract={http://ieeexplore.ieee.org/abstract/document/7457275/}
+}
+
+@phdthesis{yu2015understanding,
+  author = {Yu, Honglin},
+  title = {Understanding the Popularity Evolution of Online Media: A Case Study on YouTube Videos},
+  school = {Research School of Computer Science, The Australian National University},
+  year = {2015},
+  month = {8},
+  url_Paper = {https://openresearch-repository.anu.edu.au/bitstream/1885/100568/1/Yu%20Thesis%202015.pdf}
 }
 
 @inproceedings{sedhain2015autorec,

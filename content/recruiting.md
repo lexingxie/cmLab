@@ -37,7 +37,9 @@ A:
 *You start graduate school with a vision of ''my dissertation: the movie'' and you end graduate school with ''my dissertation: the pretty good short story.''*
 -- Anne Rogers to the New York Times, quoting David Touretzky. See http://query.nytimes.com/gst/fullpage.html?res=9B00E7DC1631F934A35753C1A9619C8B63
 
-You should be aware of some of these research career advice https://github.com/lexingxie/awesome-phd
+You should be aware of some of these research career advice https://github.com/lexingxie/awesome-phd. 
+
+Also take a look at posts on this website on life in the lab http://cm.cecs.anu.edu.au/categories/misc/ .
 
 
 **Q: I'm an PhD/MS/undergradudate student and is interested in doing a postdoc / PhD.**
@@ -50,7 +52,7 @@ A: There are two ways to engage with us and try out research:
 
 (1) The annual [summer research scholar program](https://cecs.anu.edu.au/study/summer-programs), applications due in August, research internship last between November and Feb. Similar programs are available through Data61, CSIRO and other local R&D organizations, their application timelines are similar, the process may be slightly different. 
 
-(2) Several ANU CS courses are solely/mainly about a project, such as [COMP4560](http://programsandcourses.anu.edu.au/course/comp4560), [COMP8755](https://programsandcourses.anu.edu.au/course/COMP8755) and a few others. 
+(2) Several ANU CS courses are solely/mainly focusing on a project, such as [COMP4560](http://programsandcourses.anu.edu.au/course/comp4560), [COMP8755](https://programsandcourses.anu.edu.au/course/COMP8755) and a few others. 
 
 * If you are a current ANU student, you can apply for both (1) and (2). 
 * If you are a current student in another university in Australia or New Zealand, you can apply for (1). 

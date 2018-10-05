@@ -6,6 +6,8 @@ draft: false
 categories:
   - "research"
   - "paper"
+  - "data"
+  - "code"
 tags:
   - "stochastic process"
   - "popularity"

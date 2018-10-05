@@ -41,11 +41,11 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/dongwoo-100.png' title='Dongwoo' />
-            <a target="_blank" href="http://arongdari.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
+            <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science  
+                Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science
             <br>
             <b>Before the ANU:</b> KAIST
         </div>
@@ -86,7 +86,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/smishra-100.png' title='Swapnil' />
-            <big><big> <b>Swapnil Mishra</b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> ORG @ Data61(NICTA)
+            <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -116,13 +116,13 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/siqi-100.png' title='Siqi'  />
-            <big><big> <b>Siqi Wu</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
+			<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                social media popularity prediction
+                measuring and modeling social behavior on web context
             <br>
-            <b>Before the ANU:</b> The University of Melbourne
+            <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
         </div>
     </div>
     <!-- Umanga Bista -->
@@ -146,24 +146,37 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                multimedia knowledge graphs, interactive ranking systems. 
+                multimedia knowledge graphs, interactive ranking systems.
             <br>
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
     </div>
 </div>
 
-<!-- fourth row -->
+<!-- 4th row -->
 <div class="row">
-    <!-- Rui Zhang -->
+    <!-- Alasdair Tran -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/male_icon.png' title='Rui' />
-            <big><big> <b>Rui Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+            <img src='/img/alasdair-100.jpg' title='' />
+            <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                popularity in social media, stochastic processes, <i>deep</i> learning.
+                Natural language processing, multimedia knowledge graphs
+            <br>
+            <b>Before the ANU:</b> Mathspace
+        </div>
+    </div>
+    <!-- Qiongkai Xu -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qiongkai-100.jpg' title='' />
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Natural Language Generation, Graph Analysis
             <br>
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
@@ -172,44 +185,74 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/qykong-100.jpg' title='' />
-            <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+            <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Analysing information diffusions in a large scale social network.
+                Information Diffusion Modeling with Theoretical Models
             <br>
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
-     <!-- Yifei Zhang -->
-    <div class="col-md-4">
-        <div class="people-profile">
-            <img src='/img/yifei-100.jpg' title='' />
-            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                Quantifing user influence in retweet cascade.
-            <br>
-            <b>Before the ANU:</b> Zhengzhou University
-        </div>
-    </div>
-    
 </div>
 
-<!-- fifth-->
+<!-- 5th row -->
 <div class="row">
-<!-- Liyao Tang -->
+    <!-- Rui Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/Liyao-100.png' title='liyao' />
-            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honour Student, ANU Computer Science;
+            <img src='/img/rui-zhang-100.png' title='Rui' />
+            <big><big> <a href=https://ruizhang2016.github.io/><b>Rui Zhang</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Profiling Geographical Features from Satellite Images
+                Non-parametric Bayesian Estimation of Hawkes Triggering Kernels
             <br>
-            <b>Before the ANU:</b> Beijing Institute of Technology
+            <b>Before the ANU:</b> Shanghai Jiaotong University
+        </div>
+    </div>
+</div>
+
+<!-- Honours + MS student row -->
+<!-- First row -->
+<div class="row">
+    <!-- Shidi Li -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                HIP++, multivariance-HIP
+            <br>
+            <b>Before the ANU:</b> Zhejiang University of Technology
+        </div>
+    </div>
+    <!-- Alexander Soen -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/alex-s-100.jpg' title='Alexander' />
+            <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Influencemap, Paper Embedding
+            <br>
+            <b>Before the ANU:</b> N/A
+        </div>
+    </div>
+    <!-- Ben Readshaw -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/ben-readshaw-100.png' title='Ben' />
+            <big><big> <b>Ben Readshaw</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Influencemap
+            <br>
+            <b>Before the ANU:</b> N/A
         </div>
     </div>
 </div>
@@ -217,9 +260,13 @@ We are a diverse group in terms of research interests, background, technical ski
 <hr>
 #### Current and recent collaborators
 
+* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science
+* [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
+* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
 * [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
 * [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
 * Young Lee, Data61, CSIRO
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
@@ -245,26 +292,26 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/anila-100.png' title='Anila' />
-            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016
+            <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
         </div>
         <div class="people-info">
             <b>Thesis:</b>
                 Ontology Ranking: Finding the Right Ontologies on the Web
             <br>
-            <b>Currently:</b> CSIRO, Canberra 
+            <b>Currently:</b> CSIRO, Canberra
        </div>
     </div>
     <!-- Suvash Sedhain -->
     <div class="col-md-4">
         <div class="people-profile">
             <img src='/img/ssedhain-100.png' title='Suvash' />
-            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA
+            <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
         </div>
         <div class="people-info">
             <b>Thesis:</b>
                 A Unified Approach to Collaborative Filtering via Linear Models and Beyond
             <br>
-            <b>Currently:</b> TabCorp, Sydney
+            <b>Currently:</b> Twitter Inc
         </div>
     </div>
 
@@ -281,17 +328,47 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
-    <!-- Qianyu Zhang -->
+</div>
+
+<!-- Honours + MS student Alumni -->
+<div class="row">
+    <!-- Yifei Zhang -->
     <div class="col-md-4">
         <div class="people-profile">
-            <img src='/img/qianyu-100.png' title='Qianyu' />
-            <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014
+            <img src='/img/yifei-100.jpg' title='' />
+            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
         </div>
         <div class="people-info">
-            <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
-            <b>Currently</b>: Software Engineer, Google
+            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
+            <b>Currently</b>: Developer at JD finance
         </div>
     </div>
+    <!-- Liyao Tang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/Liyao-100.png' title='liyao' />
+            <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honours Student, ANU Computer Science, 2018
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Road Extraction from Time Series Satellite Images <br />
+            <b>Currently</b>: Developer at Baidu
+        </div>
+    </div>
+    <!-- Sam Toyer -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='https://www.qxcv.net/files/head-shot-small.png' title='Sam' />
+            <big><big> <a href=https://www.qxcv.net/><b>Sam Toyer</b></a> </big></big> <br/><br/> Honours, ANU CS, 2017 (co-advised with Sylvie Thiebaux)
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: <a href=https://github.com/qxcv/asnets>Generalized Policies for Probabilistic Planning with Deep Learning</a> (2017 ANU University Medal)<br />
+            <b>Currently</b>: PhD Student, UC Berkeley
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
     <!-- Yanxiang Wang -->
     <div class="col-md-4">
         <div class="people-profile">
@@ -301,6 +378,28 @@ We are a diverse group in terms of research interests, background, technical ski
         <div class="people-info">
             <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
             <b>Currently</b>: Developer at Lonely Planet, StartMyGig
+        </div>
+    </div>
+    <!-- Yicong Du -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/yicong_200.png' title='Yicong' />
+            <big><big> <a href=https://www.linkedin.com/in/yicong-du-a50b98122/><b>Yicong Du</b></a> </big></big> <br/><br/> Honours, ANU Engineering, 2017
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Learning Mixtures of Phylogenetic Trees<br />
+            <b>Currently</b>: MS student, Carnegie Mellon University
+        </div>
+    </div>
+    <!-- Qianyu Zhang -->
+    <div class="col-md-4">
+        <div class="people-profile">
+            <img src='/img/qianyu-100.png' title='Qianyu' />
+            <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
+            <b>Currently</b>: Software Engineer, Google
         </div>
     </div>
 </div>
