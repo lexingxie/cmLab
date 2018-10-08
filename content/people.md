@@ -320,7 +320,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <img src='/img/people/ssedhain-100.png' title='Suvash' />
             <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
         </div>
-        <div class="people-info">
+        <div class="people-info" style='margin-top:10px'>
             <b>Thesis:</b>
                 A Unified Approach to Collaborative Filtering via Linear Models and Beyond
             <br>
