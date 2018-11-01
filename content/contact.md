@@ -12,9 +12,9 @@ tags:
 
 ### Visiting us
 
-Our group has regular activities in two locations.<br><br>
-
 <div class="row">
+Level 3, Building 145, Science Rd, ANU, Canberra<br>
+<br />
     <div class="col-md-6">
       <iframe
         width="100%"
@@ -23,36 +23,16 @@ Our group has regular activities in two locations.<br><br>
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        src="https://maps.google.com/maps?q=-35.275190,149.119370&hl=es;z=14&amp;output=embed"
-      >
+        src="https://maps.google.com/maps?q=-35.275190,149.119370&hl=es;z=14&amp;output=embed" >
       </iframe>
-      <br>
-      Building 145, North Rd, ANU, Canberra<br>
-      <br />
-    </div>
-    <div class="col-md-6">
-      <iframe
-        width="100%"
-        height="350"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://maps.google.com/maps?q=ANU%20Computer%20Science%20and%20Information%20Technology%20Building&hl=es;z=14&amp;output=embed"
-      >
-      </iframe>
-      <br>
-      Data61, North Road Australian National University, Acton ACT 2601<br>
+
     </div>
 </div>
-
-<br>
-Let us know if you are unsure where to come to.
 
 
 ### Mailing address
 
-* Building 145, North Rd<br>
+* Building 145 - Hanna Neumann, Science Rd<br>
   College of Engineering and Computer Science<br>
   [The Australian National University](http://anu.edu.au)<br>
   Canberra, ACT 2601, Australia
@@ -72,4 +52,3 @@ Let us know if you are unsure where to come to.
 <!--</script>-->
 * Current [local time in Canberra](http://www.timeanddate.com/worldclock/australia/canberra):
 <iframe src="http://free.timeanddate.com/clock/i6aoc2gg/n57/fs18/bo2/tt0/tw1/tm1/th2/ta1/tb2" frameborder="0" width="360" height="25"></iframe>
-
