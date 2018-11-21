@@ -172,3 +172,7 @@ figure figcaption {
 .show>.btn-secondary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }
+
+.marginTop {
+    margin-top: 50px;
+}
