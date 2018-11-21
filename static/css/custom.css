@@ -44,6 +44,7 @@ img {
 
 .people-profile {
     font-size: 12px;
+    min-height: 105px;
 }
 
 .people-profile>img {
@@ -57,7 +58,7 @@ img {
 
 .people-info {
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .content {
