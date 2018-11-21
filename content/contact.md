@@ -23,7 +23,7 @@ Our group has regular activities in two locations.<br><br>
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        src="https://maps.google.com/maps?q=-35.275190,149.119370&hl=es;z=14&amp;output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.158439784927!2d149.11995321586673!3d-35.27718680095042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fafe037138a553c!2sJoint+Computer+Science+and+Mathematical+Sciences+Institute%2C+Australian+National+University!5e0!3m2!1sen!2sau!4v1542780102963"
       >
       </iframe>
       <br>
@@ -38,7 +38,7 @@ Our group has regular activities in two locations.<br><br>
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        src="https://maps.google.com/maps?q=ANU%20Computer%20Science%20and%20Information%20Technology%20Building&hl=es;z=14&amp;output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628.5963911707543!2d149.1187229083277!3d-35.276332855380254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164d4228bd70ab%3A0x2cb10a2c88b28955!2sCSIRO+-+Data+61-+Acton+Site!5e0!3m2!1sen!2sau!4v1542780224129"
       >
       </iframe>
       <br>
