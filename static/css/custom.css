@@ -12,6 +12,12 @@ img {
     /* for responsive image size */
 }
 
+.navbar {
+    font-weight: 500;
+    height: 55px;
+    padding-top: 5px;
+}
+
 .page-header {
     margin-top: 20px;
     font-weight: bold;
@@ -21,6 +27,16 @@ img {
     margin-bottom: 8px;
 }
 
+.update-time {
+    vertical-align: top;
+    display: inline-block;
+    width: 8%;
+}
+.update-content {
+    display: inline-block;
+    width: 90%;
+}
+
 .panel-title {
     font-weight: 600;
     color: #337ab7;
@@ -28,7 +44,6 @@ img {
 
 .people-profile {
     font-size: 12px;
-    height: 115px;
 }
 
 .people-profile>img {
@@ -69,7 +84,12 @@ figure figcaption {
 }
 
 .label-default {
-    line-height: 25px;
+    background-color: transparent;
+    padding: 0;
+    /* line-height: 25px; */
+}
+.label-default::before {
+    content: "#"
 }
 
 .research-block {
