@@ -20,6 +20,8 @@ tags:
 
 <img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
 
+* 2018-09: We've got the attention of the media! Both the <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9">Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a> wrote about our findings concerning the bot influence in the 2016 US Elections.
+
 * 2018-08 ANU College of Engineering and Computer Science featured our Google PhD Fellowship recipient Siqi Wu and his work on [Understanding Human Behavior in Online Videos](https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship).
 
 * 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
