@@ -68,7 +68,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/alex-100.png' title='Alex' />
-            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> Research Fellow, ANU Computer Science
         </div>
         <div class="people-info">
             <b>Projects:</b>
