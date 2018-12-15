@@ -43,7 +43,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
   </div>
 </div>
 <!--ML for social media part show more button-->
-<div class='row'>
+<div class='row marginTop'>
   <div class='col-md-4'></div>
   <a style='width:30%;' class="btn hook1 in btn-secondary col-md-5 col-lg-3" data-toggle="collapse" href=".hook1" aria-expanded="false">
     Show more projects
@@ -110,7 +110,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
 </div>
 <!--ML for social media part hide projects button-->
 </br>
-<div class='row'>
+<div class='row marginTop'>
   <div class='col-md-4'></div>
   <a style='width:20%;' class="btn btn-secondary hook1 collapse col-md-4 col-lg-3" data-toggle="collapse" href=".hook1" aria-expanded="false">
     Hide projects
@@ -190,7 +190,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
   </div>
 </div>
 <!--Other projects part show more button-->
-<div class='row'>
+<div class='row marginTop'>
   <div class='col-md-4'></div>
   <a style='width:30%;' class="btn hook3 in btn-secondary col-md-5 col-lg-3" data-toggle="collapse" href=".hook3" aria-expanded="false">
     Show more projects
@@ -213,7 +213,7 @@ Our research is broadly concerned with automated undertanding of rich media, esp
 </div>
 <!--Other projects part hide projects button-->
 </br>
-<div class='row'>
+<div class='row marginTop'>
   <div class='col-md-4'></div>
   <a style='width:20%;' class="btn btn-secondary hook3 collapse col-md-4 col-lg-3" data-toggle="collapse" href=".hook3" aria-expanded="false">
     Hide projects

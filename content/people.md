@@ -18,7 +18,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- first row -->
 <div class="row">
     <!-- Lexing Xie -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/lexing-100.jpg' title='Lexing' />
             <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
@@ -38,7 +38,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Dongwoo Kim -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/dongwoo.png' title='Dongwoo' />
             <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
@@ -51,10 +51,10 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Marian-Andrei Rizoiu -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/andrei-100.png' title='Andrei' />
-            <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science <br/>Data61
+            <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science, Data61
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -64,15 +64,11 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> University Lumière, Lyon.
         </div>
     </div>
-</div>
-
-<!-- second row -->
-<div class="row">
     <!-- Alexander Mathews -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/alex-100.png' title='Alex' />
-            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> PhD Student, ANU Computer Science  <br/> machine learning, NICTA
+            <big><big> <b><a href="http://users.cecs.anu.edu.au/~u4534172/index.html">Alexander Mathews</a></b> </big></big> <br/> Research Fellow, ANU Computer Science
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -82,8 +78,12 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> The University of Western Australia
         </div>
     </div>
+</div>
+
+<!-- second row -->
+<div class="row">
     <!-- Swapnil Mishra -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/smishra-100.png' title='Swapnil' />
             <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
@@ -96,7 +96,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Dawei Chen -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/dawei-100.png' title='Dawei' />
             <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
@@ -108,12 +108,8 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> ICT, CAS
         </div>
     </div>
-</div>
-
-<!-- third row -->
-<div class="row">
     <!-- Siqi Wu -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/siqi-100.png' title='Siqi'  />
 			<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
@@ -126,7 +122,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Umanga Bista -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/umanga-100.png' title='Umanga' />
             <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> Machine Learning
@@ -138,8 +134,13 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
+</div>
+
+<!-- third row -->
+<div class="row">
+
     <!-- Minjeong Shin -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/minjeong.jpg' title='Minjeong' />
             <big><big> <b><a href="https://shinminjeong.github.io/">Minjeong Shin</a></b> </big></big> <br/><br/> Research Engineer, ANU Computer Science;  <br/>
@@ -151,12 +152,8 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
     </div>
-</div>
-
-<!-- 4th row -->
-<div class="row">
     <!-- Alasdair Tran -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/alasdair-100.jpg' title='' />
             <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
@@ -169,7 +166,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Qiongkai Xu -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/qiongkai-100.jpg' title='' />
             <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
@@ -182,7 +179,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Quyu Kong -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/qykong-100.jpg' title='' />
             <big><big> <b>Quyu Kong</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
@@ -199,7 +196,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- 5th row -->
 <div class="row">
     <!-- Rui Zhang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/rui-zhang-100.png' title='Rui' />
             <big><big> <a href=https://ruizhang2016.github.io/><b>Rui Zhang</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
@@ -212,7 +209,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
      <!-- Mengyan Zhang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/mengyan.jpg' title='mengyan' />
             <big><big> <b>Mengyan Zhang</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
@@ -230,7 +227,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- First row -->
 <div class="row">
     <!-- Shidi Li -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/shidi-li-100.png' title='Shidi' />
             <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
@@ -243,7 +240,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Alexander Soen -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/alex-s-100.jpg' title='Alexander' />
             <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
@@ -256,7 +253,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Ben Readshaw -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/ben-readshaw-100.png' title='Ben' />
             <big><big> <b>Ben Readshaw</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
@@ -292,7 +289,7 @@ We are a diverse group in terms of research interests, background, technical ski
 #### Alumni
 <div class="row">
     <!-- Aditya Mogadala -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/rsz_adi.jpg' title='' />
             <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
@@ -302,7 +299,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Anila Sahar Butt -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/anila-100.png' title='Anila' />
             <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
@@ -315,7 +312,7 @@ We are a diverse group in terms of research interests, background, technical ski
        </div>
     </div>
     <!-- Suvash Sedhain -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/ssedhain-100.png' title='Suvash' />
             <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
@@ -327,11 +324,8 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently:</b> Twitter Inc
         </div>
     </div>
-
-</div>
-<div class="row">
     <!-- Honglin Yu -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/honglin-100.png' title='Honglin' />
             <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
@@ -342,11 +336,9 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
 </div>
-
-<!-- Honours + MS student Alumni -->
 <div class="row">
     <!-- Yifei Zhang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yifei-100.jpg' title='' />
             <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
@@ -357,7 +349,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Liyao Tang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/Liyao-100.png' title='liyao' />
             <big><big> <b>Liyao Tang</b> </big></big> <br/><br/> Honours Student, ANU Computer Science, 2018
@@ -368,7 +360,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Sam Toyer -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='https://www.qxcv.net/files/head-shot-small.png' title='Sam' />
             <big><big> <a href=https://www.qxcv.net/><b>Sam Toyer</b></a> </big></big> <br/><br/> Honours, ANU CS, 2017 (co-advised with Sylvie Thiebaux)
@@ -378,12 +370,8 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently</b>: PhD Student, UC Berkeley
         </div>
     </div>
-
-</div>
-
-<div class="row">
     <!-- Yanxiang Wang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yanxiang.jpg' title='yangxiang' />
             <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
@@ -393,8 +381,10 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Currently</b>: Developer at Lonely Planet, StartMyGig
         </div>
     </div>
+</div>
+<div class="row">
     <!-- Yicong Du -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yicong_200.png' title='Yicong' />
             <big><big> <a href=https://www.linkedin.com/in/yicong-du-a50b98122/><b>Yicong Du</b></a> </big></big> <br/><br/> Honours, ANU Engineering, 2017
@@ -405,7 +395,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
     </div>
     <!-- Qianyu Zhang -->
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/qianyu-100.png' title='Qianyu' />
             <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Qianyu Zhang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014

@@ -12,6 +12,12 @@ img {
     /* for responsive image size */
 }
 
+.navbar {
+    font-weight: 500;
+    height: 55px;
+    padding-top: 5px;
+}
+
 .page-header {
     margin-top: 20px;
     font-weight: bold;
@@ -21,6 +27,16 @@ img {
     margin-bottom: 8px;
 }
 
+.update-time {
+    vertical-align: top;
+    display: inline-block;
+    width: 8%;
+}
+.update-content {
+    display: inline-block;
+    width: 90%;
+}
+
 .panel-title {
     font-weight: 600;
     color: #337ab7;
@@ -28,7 +44,7 @@ img {
 
 .people-profile {
     font-size: 12px;
-    height: 115px;
+    min-height: 105px;
 }
 
 .people-profile>img {
@@ -42,7 +58,7 @@ img {
 
 .people-info {
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .content {
@@ -69,7 +85,12 @@ figure figcaption {
 }
 
 .label-default {
-    line-height: 25px;
+    background-color: transparent;
+    padding: 0;
+    /* line-height: 25px; */
+}
+.label-default::before {
+    content: "#"
 }
 
 .research-block {
@@ -150,4 +171,8 @@ figure figcaption {
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-secondary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.marginTop {
+    margin-top: 50px;
 }

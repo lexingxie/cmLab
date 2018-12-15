@@ -7,17 +7,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+
+                <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                    <div style="margin: -12px -15px; height: inherit;">
+                        <img style='height: 100%;' src='/img/cmlab-logo.png'></img>
+                        {{ .Site.Title }}
+                    </div>
+                </a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="pull-right collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav text-uppercase">
-                    <li><a href="/">home</a></li>
                     <li><a href="/people/">people</a></li>
                     <li><a href="/publications/">publications</a></li>
                     <li><a href="/gallery/">gallery</a></li>
                     <li><a href="/research/">research</a></li>
-                    <li><a href="/categories/data">data</a></li>
-                    <li><a href="/categories/code">code</a></li>
+                    <li><a href="/post">blog</a></li>
                     <li><a href="/news/">news</a></li>
                     <li><a href="/contact/">contact</a></li>
                     <!--
