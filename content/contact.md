@@ -52,7 +52,7 @@ Let us know if you are unsure where to come to.
 
 ### Mailing address
 
-* Building 145, North Rd<br>
+* Building 145, Science Rd<br>
   College of Engineering and Computer Science<br>
   [The Australian National University](http://anu.edu.au)<br>
   Canberra, ACT 2601, Australia
@@ -72,4 +72,3 @@ Let us know if you are unsure where to come to.
 <!--</script>-->
 * Current [local time in Canberra](http://www.timeanddate.com/worldclock/australia/canberra):
 <iframe src="http://free.timeanddate.com/clock/i6aoc2gg/n57/fs18/bo2/tt0/tw1/tm1/th2/ta1/tb2" frameborder="0" width="360" height="25"></iframe>
-

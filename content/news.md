@@ -20,13 +20,19 @@ tags:
 
 <img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
 
-* 2018-09 We've got the attention of the media! Both the <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9">Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a> wrote about our findings concerning the bot influence in the 2016 US Elections.
+* 2018-09 Our work on twitter bot influence in the 2016 election debate is covered by [The Sydney Morning Herald](https://www.smh.com.au/national/twitter-bots-more-influential-than-people-in-us-election-research-20180913-p503jw.html), <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9">Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a>.
 
 * 2018-08 ANU College of Engineering and Computer Science featured our Google PhD Fellowship recipient Siqi Wu and his work on [Understanding Human Behavior in Online Videos](https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship).
 
 * 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
 
 * 2018-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
+
+* 2017-10 Lexing won the <a target="_blank" href=http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio>Chris Wallace Award for Outstanding Research</a> in Australia.
+
+* 2017-10 Minjeong won the 2017 Woman in Data Science Award. <a href=/img/minjeong_award_small.png>See her on stage</a> at <a target="_blank" href=http://www.d2dcrc.com.au/>D2D CRC</a> conference.
+
+* 2017-02 Andrei and Lexing are delighted that <a target="_blank" href=https://arxiv.org/abs/1602.06033>Expecting to be HIP</a> is accepted into WWW 2017 in Perth and <a target="_blank" href=https://arxiv.org/abs/1703.01012>Online Popularity under Promotion</a> is accepted into ICWSM 2017 in Montreal.
 
 * 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia](https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
@@ -46,13 +52,15 @@ tags:
 
 ### News archive
 
+* 2019-01 Our work on Comparative Summarisation as Classification is written up by [TechXplore](https://techxplore.com/news/2018-12-approach-document-classification.html).
+
 * 2018-06 We will present four papers at two conferences this month. At CVPR’18, Alex will discuss [SemStyle](/post/semstyle), a model for unsupervised style transfer in image captions. At ICWSM'18, Andrei will present [#DebateNight](https://arxiv.org/abs/1802.09808/); Swapnil will introduce [RNN-MAS](https://arxiv.org/abs/1804.02101/) for predicting popularity with tweets and shares; Siqi will share his insights on [which YouTube vidoes are more engaging and why](https://arxiv.org/abs/1709.02541/).
 
 * 2018-02 2018 is off to an exciting start!  Sam presented [Action Schema Networks](/post/asnets) at AAAI'18, Andrei will present [SIR-Hawkes](https://arxiv.org/abs/1711.01679) at WWW'18.
 
 *  2017-12 Congratulations to Sam Toyer and Quyu Kong for being awarded [2017 ANU University Medals](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic excellence!
 
-* 2017-11 We are awarded a project by the <a href=https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/181>ARC discovery scheme</a> to promote "Fairness in Online Attention".
+* 2017-11 We are awarded a project by the <a href=https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/181>ARC discovery scheme</a> to "Promote Fairness in Online Attention".
 
 * 2017-10 Lexing won the <a href=http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio>Chris Wallace Award for Outstanding Research</a>.
 
@@ -119,4 +127,3 @@ tags:
 * 2012-11  We won the <a href="http://www.acmmm12.org/awards/">"multimodal award"</a> for ACM Multimedia Grand Challenge Solutions. Congratulations Peng, Zhiyu and Hao from Tsinghua.
 
 * 2012-10  An AOARD project just started, look forward to an exciting exploration into social media.
-
