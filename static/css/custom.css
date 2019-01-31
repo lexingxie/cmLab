@@ -17,6 +17,9 @@ img {
     height: 55px;
     padding-top: 5px;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #333333;
+}
 
 .page-header {
     margin-top: 20px;
