@@ -24,15 +24,13 @@ We are a diverse group in terms of research interests, background, technical ski
             <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
             <big><big> <b>Lexing Xie</b> </big></big></a>
             <br/>
-            associate professor, ANU computer science; <br/> machine learning and optimization, NICTA
+            professor, ANU computer science; <br/>
             <a href=https://twitter.com/lexing>@lexing</a>
         </div>
         <div class="people-info">
-            <b>Projects:</b>
-            predicting popularity on social media;
-            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/visualmemes.html"> visual memes on YouTube</a>;
-            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/proj/tagnet">a network of picture tags</a>;
-            <a target="_blank" href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/view/4595">mapping the macrosopic structure of the event web</a>.
+            <b>Interests:</b>
+            popularity on social media; stochastic point processes;
+            language models for style; visualising evolving graphs
             <br>
             <b>Before the ANU:</b> IBM T J Watson Research Center
         </div>
@@ -41,7 +39,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/dongwoo.png' title='Dongwoo' />
-            <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Research Fellow, ANU Computer Science <br/> machine learning, NICTA
+            <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Lecturer, ANU Computer Science <br/>
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -54,10 +52,10 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/andrei-100.png' title='Andrei' />
-            <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/> Research Fellow, ANU Computer Science, Data61
+            <a target="_blank" href="http://rizoiu.eu"> <big><big> <b>Marian-Andrei Rizoiu</b> </big></big></a> <br/>University Technology Sydney; Adjunct Fellow, ANU Computer Science; Data61
         </div>
         <div class="people-info">
-            <b>Projects:</b>
+            <b>Projects:</b>g
                 predicting popularity on social media;
                 <a target="_blank" href="https://www.nicta.com.au/category/research/optimisation/projects/human-dynamics/">Humany Dynamics</a>
             <br>
@@ -270,18 +268,18 @@ We are a diverse group in terms of research interests, background, technical ski
 <hr>
 #### Current and recent collaborators
 
-* [Tim Graham](https://cecs.anu.edu.au/people/timothy-graham), ANU Social Sciences and Computer Science
+* [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
 * [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
 * [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
 * [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
-* [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Data61, CSIRO
+* [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
 * [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
 * [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
 * [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
-* Young Lee, Data61, CSIRO
+* Young Lee, Harvard; previously NUS, Data61
 * [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
 * Xuming He, Shanghai Tech
-* [Manuel Cebrian][manuel], Data61, CSIRO
+* [Manuel Cebrian][manuel], MIT; previously Data61
 * [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 
 
@@ -341,7 +339,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yifei-100.jpg' title='' />
-            <big><big> <b>Yifei Zhang</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
+            <big><big> <a target="_blank" href=https://www.linkedin.com/in/yifei-zhang-16a404105/><b>Yifei Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
         </div>
         <div class="people-info">
             <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
@@ -378,7 +376,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
-            <b>Currently</b>: Developer at Lonely Planet, StartMyGig
+            <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
         </div>
     </div>
 </div>
@@ -391,7 +389,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Thesis</b>: Learning Mixtures of Phylogenetic Trees<br />
-            <b>Currently</b>: MS student, Carnegie Mellon University
+            <b>Currently</b>: Facebook; previously Carnegie Mellon University
         </div>
     </div>
     <!-- Qianyu Zhang -->
@@ -402,7 +400,7 @@ We are a diverse group in terms of research interests, background, technical ski
         </div>
         <div class="people-info">
             <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
-            <b>Currently</b>: Software Engineer, Google
+            <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
         </div>
     </div>
 </div>
