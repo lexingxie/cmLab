@@ -80,6 +80,19 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <!-- second row -->
 <div class="row">
+   <!-- Jooyoung Lee -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/JooLee.jpg' title='Joo' />
+            <big><big> <b>Jooyoung Lee</b> </big></big><br></br> Lecturer, ANU Computer Science  
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Data Mining, Social Media Analysis, Computational Social Science
+            <br>
+            <b>Before the ANU:</b> Innopolis University, Russia
+        </div>
+    </div>
     <!-- Swapnil Mishra -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -119,11 +132,17 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
         </div>
     </div>
-    <!-- Umanga Bista -->
+</div>
+
+<!-- third row -->
+<div class="row">
+
+ <!-- Umanga Bista -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/umanga-100.png' title='Umanga' />
-            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> Machine Learning
+            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science; 
+Machine Learning
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -132,11 +151,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
-</div>
-
-<!-- third row -->
-<div class="row">
-
     <!-- Minjeong Shin -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -176,11 +190,15 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
+</div>
+
+<!-- 5th row -->
+<div class="row">
     <!-- Quyu Kong -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/qykong-100.jpg' title='' />
-            <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+            <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, A$
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -189,10 +207,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
-</div>
-
-<!-- 5th row -->
-<div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
