@@ -198,7 +198,7 @@ Machine Learning
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/qykong-100.jpg' title='' />
-            <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, A$
+            <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
