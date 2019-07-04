@@ -1,3 +1,47 @@
+@inproceedings{bista2019comp,
+  author    = {Umanga, Bista and
+               Alexander, Patrick Mathews and
+               Minjeong, Shin and
+               Aditya, Krishna Menon and
+               Lexing, Xie},
+  title     = {Comparative Document Summarisation via Classification},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2019},
+  address = {Honolulu, USA},
+  abstract = {This paper considers extractive summarisation in a comparative setting: given two or more document groups (e.g., separated by publication time), the goal is to select a small number of documents that are representative of each group, and also maximally distinguishable from other groups. We formulate a set of new objective functions for this problem that connect recent literature on document summarisation, interpretable machine learning, and data subset selection. In particular, by casting the problem as a binary classification amongst different groups, we derive objectives based on the notion of maximum mean discrepancy, as well as a simple yet effective gradient-based optimisation strategy. Our new formulation allows scalable evaluations of comparative summarisation as a classification task, both automatically and via crowd-sourcing. To this end, we evaluate comparative summarisation methods on a newly curated collection of controversial news topics over 13 months. We observe that gradient-based optimisation outperforms discrete and baseline approaches in 15 out of 24 different automatic evaluation settings. In crowd-sourced evaluations, summaries from gradient optimisation elicit 7% more accurate classification from human workers than discrete optimisation. Our result contrasts with recent literature on submodular data subset selection that favours discrete optimisation. We posit that our formulation of comparative summarisation will prove useful in a diverse range of use cases such as comparing content sources, authors, related topics, or distinct view points.},
+  url_Abstract={http://arxiv.org/abs/1812.02171},
+  url_Paper = {http://arxiv.org/abs/1812.02171},
+  url_Code = {https://github.com/computationalmedia/compsumm}
+}
+
+@inproceedings{bista2019compdc,
+    address = {Melbourne, VIC, Australia},
+    author = {Bista, Umanga},
+    booktitle = {ACM International Conference on Web Search and Data Mining (WSDM '19), Doctoral Consortium},
+    title = {Comparative summarisation of rich media collections},
+    year = {2019},
+    abstract = {The goal of this thesis is to develop techniques for comparative summarisation of multimodal document collections. Comparative summarisation is extractive summarisation in comparative settings, where documents form two or more groups, e.g. articles on the same topic but from different sources. Comparative summarisa- tion involves, not only, selecting representative and diverse sam- ples within groups, but also samples that highlight commonalities and differences between the groups. We posit that comparative summarisation is a fruitful problem for diverse use cases, such as comparing content over time, authors, or distinct view points. We formulate the problem of comparative summarisation by reducing it to binary classification problem and define objectives to incorpo- rate representativeness, diversity and comparativeness. We design new automatic and crowd-sourced evaluation protocols for sum- marisation evaluation that scales much better than the evaluations requiring manually created ground truth summaries. We show the efficacy of the approach in a newly curated datasets of controver- sial news topics. We plan to develop new collection comparison methods for multimodal document collections.},
+    url_Paper = {http://www.bistaumanga.com.np/files/compsumm_wsdm_dc.pdf}
+}
+@inproceedings{mishra2019bridging,
+ author = {Mishra, Swapnil},
+ title = {Bridging Models for Popularity Prediction on Social Media},
+ booktitle = {Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '19},
+ year = {2019},
+ isbn = {978-1-4503-5940-5},
+ location = {Melbourne VIC, Australia},
+ abstract = {Understanding and predicting the popularity of online items is an important open problem in social media analysis. Most of the recent work on popularity prediction is either based on learning a variety of features from full network data or using generative processes to model the event time data. We identify two gaps in the current state of the art prediction models. The first is the unexplored connection and comparison between the two aforementioned approaches. In our work, we bridge gap between feature-driven and generative models by modelling social cascade with a marked Hawkes self-exciting point process. We then learn a predictive layer on top for popularity prediction using a collection of cascade history. Secondly, the existing methods typically focus on a single source of external influence, whereas for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g. microblogs or traditional media coverage. We propose a recurrent neural network based model for asynchronous streams that connects multiple streams of different granularity via joint inference. We further design two new measures, one to explain the viral potential of videos, the other to uncover latent influences including seasonal trends. This work provides accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns.},
+ pages = {810--811},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/3289600.3291598},
+ doi = {10.1145/3289600.3291598},
+ acmid = {3291598},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {hawkes processes, information diffusion, recurrent neural networks},
+ url_Paper = {https://dl.acm.org/ft_gateway.cfm?id=3291598&ftid=2038013&dwn=1&CFID=108404766&CFTOKEN=bb5b0fef428247e0-52916DAC-902E-2E17-B7813EFE4C960CE8}
+}
 @inproceedings{shin2019kgdiff,
     address = {Melbourne, VIC, Australia},
     author = {Shin, Minjeong and Kim, Dongwoo and Lee, Jae Hee and Bista, Umanga and Xie, Lexing},
@@ -247,6 +291,15 @@
     year = {2017},
     abstract = {We investigate the possibility of leveraging side information for improving quality control over crowd-sourced data. We extend the GLAD model, which governs the probability of correct labeling through a logistic function in which worker expertise counteracts item difficulty, by systematically encod- ing different types of side information, including worker in- formation drawn from demographics and personality traits, item information drawn from item genres and content, and contextual information drawn from worker responses and la- beling sessions. Modeling side information allows for better estimation of worker expertise and item difficulty in sparse data situations and accounts for worker biases, leading to bet- ter prediction of posterior true label probabilities. We demon- strate the efficacy of the proposed framework with overall improvements in both the true label prediction and the un- seen worker response prediction based on different combina- tions of the various types of side information across three new crowd-sourcing datasets. In addition, we show the framework exhibits potential of identifying salient side information fea- tures for predicting the correctness of responses without the need of knowing any true label information.},
     url_Paper = {https://aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/view/15940/15265},
+}
+
+@inproceedings{chen2017structrec,
+    author = {Dawei Chen and Lexing Xie and Aditya Krishna Menon and Cheng Soon Ong},
+    booktitle = {Arxiv preprint},
+    title = {Structured Recommendation},
+    year = {2017},
+    abstract = {Current recommender systems largely focus on static, unstructured content. In many scenarios, we would like to recommend content that has structure, such as a trajectory of points-of-interests in a city, or a playlist of songs. Dubbed Structured Recommendation, this problem differs from the typical structured prediction problem in that there are multiple correct answers for a given input. Motivated by trajectory recommendation, we focus on sequential structures but in contrast to classical Viterbi decoding we require that valid predictions are sequences with no repeated elements. We propose an approach to sequence recommendation based on the structured support vector machine. For prediction, we modify the inference procedure to avoid predicting loops in the sequence. For training, we modify the objective function to account for the existence of multiple ground truths for a given input. We also modify the loss-augmented inference procedure to exclude the known ground truths. Experiments on real-world trajectory recommendation datasets show the benefits of our approach over existing, non-structured recommendation approaches.},
+    url_Paper = {https://arxiv.org/pdf/1706.09067},
 }
 
 @inproceedings{chen2017recsys,
