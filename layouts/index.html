@@ -3,22 +3,53 @@
 {{ partial "navbar.html" . }}
 <div class="container">
 
+    <div class="row" style="padding-bottom: 25px">
+      <div class="col-md-12">
+        <!-- <h2 class="page-header">
+            Welcome!
+        </h2> -->
+
+        <p>
+        The Computational Media Lab at the <a href=http://www.anu.edu.au/>ANU</a> focus on computational problems for understanding online media and their interactions with and among humans.
+        We develop core methods in machine learning and optimization, and use them to formulate and solve problems in multimedia understanding and online behavior analysis.
+        </p>
+
+        <p>
+        You may be interested in sampling the recent blog posts below, look at our <a href=/research>research summary</a>, <a href=/publications>publications</a>, <a href=/post>all past posts</a>, or navigate by categories and tags. <br />
+        </p>
+        <hr>
+
+        <!-- Recent updates -->
+        <h4><b>Recent updates</b></h4>
+        <ul class="list-unstyled li-menu">
+            <li><span class="update-time">2019-01</span>
+              <span class="update-content">Umanga will present <a href=https://techxplore.com/news/2018-12-approach-document-classification.html>Comparative Summarisation of News Collections</a> at AAAI'19, Minjeong, Siqi, Quyu, Umanga and Swpanil will present at the demo and doctoral symposium programs at WSDM 2019.
+              </span></li>
+            <li><span class="update-time">2019-01</span>
+              <span class="update-content">Congratuations + best wishes to folks starting new positions in 2019:
+                Marian-Anrei is now <a href=https://www.uts.edu.au/staff/marian-andrei.rizoiu>at UTS</a>, Dongwoo started as a lecturer at ANU,
+                Tim is now <a href=https://staff.qut.edu.au/staff/timothy.graham>at QUT Digital Media and Communication</a>.
+                We will miss you and hope to continue to work with you in various capacity.
+              </span></li>
+            <li><span class="update-time">2018-08</span>
+              <span class="update-content"> Siqi Wu is awarded the <a href=https://australia.googleblog.com/2018/07/announcing-2018-phd-fellowships-to.html>2018 Google PhD fellowship</a>, his work is described by <a href=https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship>CECS News</a>.
+                </span></li>
+            <li><span class="update-time">2018-06</span>
+                <span class="update-content">We present four papers at two conferences this month. At CVPR’18, Alex will discuss <a target="_blank" href=http://cm.cecs.anu.edu.au/post/semstyle>SemStyle</a>, a model for unsupervised style transfer in image captions. At ICWSM'18, Andrei will present <a target="_blank" href=https://arxiv.org/abs/1802.09808/>#DebateNight</a>; Swapnil will introduce <a target="_blank" href=https://arxiv.org/abs/1804.02101/>RNN-MAS</a> for predicting popularity with tweets and shares; Siqi will share his insights on which YouTube vidoes are <a target="_blank" href=https://arxiv.org/abs/1709.02541/>more engaging and why</a>.
+                </span></li>
+            <li><span class="update-time">2018-02</span>
+                <span class="update-content">Sam presented <a href=/post/asnets>Action Schema Networks</a> at AAAI'18, Andrei will present <a target="_blank" href=https://arxiv.org/abs/1711.01679>SIR-Hawkes</a> at WWW'18.
+                </span></li>
+            <li><span class="update-time">2017-12</span>
+                <span class="update-content">Congratulations to Sam Toyer and Quyu Kong for being awarded <a target="_blank" href=http://www.anu.edu.au/students/program-administration/prizes/university-medal>2017 ANU University Medals</a> for exceptional academic excellence!
+                </span></li>
+        </ul>
+        See <a href=news>here</a> for archived news items.
+      </div>
+    </div>
+
     <div class="row">
         <div class="col-md-9">
-            <h2 class="page-header">
-                Welcome!
-            </h2>
-
-            <p>
-            The Computational Media Lab at the <a href=http://www.anu.edu.au/>ANU</a> focus on computational problems for understanding online media and their interactions with and among humans.
-            We develop core methods in machine learning and optimization, and use them to formulate and solve problems in multimedia understanding and online behavior analysis.
-            </p>
-
-            <p>
-            You may be interested in sampling the recent blog posts below, look at our <a href=/research>research summary</a>, <a href=/publications>publications</a>, <a href=/post>all past posts</a>, or navigate by categories and tags. <br />
-            </p>
-            <hr>
-
             <!-- Blog Summary -->
             {{ range first 12 .Data.Pages}}
                 {{ .Render "summary" }}
@@ -35,11 +66,10 @@
     <div class="row">
         <div class="col-md-9">
             <h3>Thanks</h3>
-            Our work has been supported by <a href=https://www.nicta.com.au/>NICTA/Data61</a>, <a href=http://www.arc.gov.au/>The Australian Research Coucil</a>, <a href=https://twitter.com/AFOSR>AFOSR - Airforce Office of Scientific Research</a>, <a href=http://www.industry.gov.au/Pages/default.aspx>Australia Deparment of Industry, Innovation and Science</a>, <a href=http://www.d2dcrc.com.au>Data to Decision CRC</a>. 
+            Our work has been supported by <a href=https://www.nicta.com.au/>NICTA/Data61</a>, <a href=http://www.arc.gov.au/>The Australian Research Coucil</a>, <a href=https://twitter.com/AFOSR>AFOSR - Airforce Office of Scientific Research</a>, <a href=http://www.industry.gov.au/Pages/default.aspx>Australia Deparment of Industry, Innovation and Science</a>, <a href=http://www.d2dcrc.com.au>Data to Decision CRC</a>.
         </div>
     </div>
 
 {{ partial "footer.copyright.html" . }}
 </div>
 {{ partial "footer.html" . }}
-

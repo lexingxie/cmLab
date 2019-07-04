@@ -36,9 +36,9 @@ The motivation, method, and implications are explained below. Detailed plots are
 
 ### Why is this worth looking at
 
-* **Where are the intellectual influences of a conference coming from, and going to?** If you have been publishing in, and going to conference(s) for a while, or if you are about to enter a community formed researchers around a conference, you may wonder what this community's intellectual heirtage is.
+* **Where are the intellectual influences of a conference coming from, and going to?** If you have been publishing in, and going to conference(s) for a while, or if you are about to enter a community formed researchers around a conference, you may wonder what this community's intellectual heritage is.
 * **How many papers are remembered in the collective memory of the academic community? for how long?** Or, as a heated post-conference beer conversation has it: are 80% of the papers forgotten in 2 years? Spoiler alert: no, for most conferences we looked at; but about 20% tend not be cited at all. 
-* **Do citation bahaviors change over the years?** Spoiler alert: yes they do, particularly right after 2005 or 2006, and we could probably name it the 'scholar search effect'. 
+* **Do citation behaviors change over the years?** Spoiler alert: yes they do, particularly right after 2005 or 2006, and we could probably name it the 'scholar search effect'. 
 
 These are the motivating questions that started this study. An aha-moment came when I saw the dataset that can answer them.  
 

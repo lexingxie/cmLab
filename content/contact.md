@@ -16,31 +16,49 @@ Our group has regular activities in two locations.<br><br>
 
 <div class="row">
     <div class="col-md-6">
-        <a href="http://maps.google.com/maps?q=RSISE+Building,+Acton,+Australian+Capital+Territory,+Australia&hl=en&sll=37.0625,-95.677068&sspn=61.799062,83.144531&oq=RSISE+building,+&hq=RSISE+Building,&hnear=Acton+Australian+Capital+Territory,+Australia&t=m&z=17">
-        <img src="/img/map.png" height=350></a><br>
-        Building 115, North Rd, ANU, Canberra<br>
+      <iframe
+        width="100%"
+        height="350"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.158439784927!2d149.11995321586673!3d-35.27718680095042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fafe037138a553c!2sJoint+Computer+Science+and+Mathematical+Sciences+Institute%2C+Australian+National+University!5e0!3m2!1sen!2sau!4v1542780102963"
+      >
+      </iframe>
+      <br>
+      Building 145, North Rd, ANU, Canberra<br>
+      <br />
     </div>
     <div class="col-md-6">
-        <a href="https://www.google.com.au/maps/place/NICTA+Canberra+Research+Laboratory,+7+London+Circuit,+Canberra+ACT+2601/@-35.2817859,149.122834,17z/data=!3m1!4b1!4m2!3m1!1s0x6b164d4228bd70ab:0x2cb10a2c88b28955">
-        <img src="/img/map_nicta.png" height=350></a><br>
-        NICTA Canberra Research lab,<br>
-        7 London Circuit, Tower A, Level 2<br>
+      <iframe
+        width="100%"
+        height="350"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628.5963911707543!2d149.1187229083277!3d-35.276332855380254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164d4228bd70ab%3A0x2cb10a2c88b28955!2sCSIRO+-+Data+61-+Acton+Site!5e0!3m2!1sen!2sau!4v1542780224129"
+      >
+      </iframe>
+      <br>
+      Data61, North Road Australian National University, Acton ACT 2601<br>
     </div>
 </div>
 
 <br>
-Let us know if you are unsure where to come to. 
+Let us know if you are unsure where to come to.
 
 
 ### Mailing address
 
-* Building 115, North Rd<br>
+* Building 145, Science Rd<br>
   College of Engineering and Computer Science<br>
   [The Australian National University](http://anu.edu.au)<br>
   Canberra, ACT 2601, Australia
 
-### Getting in touch 
-		
+### Getting in touch
+
 * Our emails addresses are ``firstname dot lastname at anu dot edu dot au``
 * Lexing's office phone number is +61 (0)2 6125 1646
 
@@ -53,4 +71,4 @@ Let us know if you are unsure where to come to.
 <!--time_is_widget.init({Canberra_z60b:{}});-->
 <!--</script>-->
 * Current [local time in Canberra](http://www.timeanddate.com/worldclock/australia/canberra):
-<div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;"><noscript><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(255, 255, 255);"><a style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);" href="http://localtimes.info/Oceania/Australia/Australian_Capital_Territory/Canberra/"><img src="http://localtimes.info/images/countries/au.png"="" border=0="" style="border:0;margin:0;padding:0"=""> Canberra</a></div></noscript><script src="http://localtimes.info/clock.php?continent=Oceania&country=Australia&province=Australian Capital Territory&city=Canberra&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=200&ham=0&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000" type="text/javascript"></script></div>
+<iframe src="http://free.timeanddate.com/clock/i6aoc2gg/n57/fs18/bo2/tt0/tw1/tm1/th2/ta1/tb2" frameborder="0" width="360" height="25"></iframe>
