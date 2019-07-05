@@ -82,29 +82,66 @@ Take, for example, steam engines took on new energy in the 1950s when nuclear po
 On the other hand, electric engines started in 1928, but it wasn't until the 2000s that they became widely available to the average driver.
 
 **What might this mean for machine intelligence?**
+<!-- s -->
+Algorithms are the _engines_ that power machine intelligence.
+<!-- s -->
+Over the last few decades, many new algorithms are being invented and perfected for performance and speed.
+<!-- s -->
+The development of new algorithms will continue by the growing community of machine intelligence researchers.
+<!-- s -->
+We should expect a constant stream of incremental improvements for the currently most popular algorithm paradigm - neural networks, as well as occasional disruptive changes.
+<!-- s -->
+Take, for example, [electric cars](https://en.wikipedia.org/wiki/Electric_car) went from experimental to mass-market in the last decade, and [solar car](https://en.wikipedia.org/wiki/Solar_car) product was only recently [shown to public](https://www.engadget.com/2019/07/04/lightyear-one-solar-car-goodwood/).
+<!-- s -->
+For cars, multiple engine types, namely steam, electric, and internal combustion, coexisted for a long time.
+<!-- s -->
+The same holds for machine intelligence algorithms -- not every machine learning problem needs a deep neural network, generalised linear models, boosting and ensemble classifiers, kernel machines, and others will continue to play their roles in a variety of scenarios.
+<!-- s -->
+What this implies is that students of machine learning should aim to build a broad foundation of different mathematical tools and decision-making paradigms, to be able to adapt and propel to the technolgy shifts in the future.
 
-ML algorithms as engines -- they are powerful and can be dangerous
+<!-- s -->
+Our other observation is that whole-system prototypes and engines are developed simultaneously.
+<!-- s -->
+Internet companies have been practicing building large online systems driven by machine intelligence algorithms for the past two decades or so.
+<!-- s -->
+Each large company has its home-brew machine learning systems and peripheral components.
+<!-- s -->
+As we now know many negative aspects including bias and unfair effects on their users have only recently been noticed.
+<!-- s -->
+Much of these systems and practices are so application specific that do not directly translate to other problem domains.
+<!-- s -->
+Cars has evolved for more than a decade (1885 to 1913) from being a niche product (Benz Motowagen) to a mass market (Ford Model T).
+<!-- s -->
+The technical community are working hard on comomon components and reusable systems, one may wonder what the "Model T" equivalent of machine learning looks like?
 
-System and core component are developed simultaneously
-
-Niche cars to mass market cars
-
-Multiple engine types coexisted for a long time.
 
 #### 2. Legislation
 
-An automobile is a many sophisticated parts working together, for mechanical efficiency, safety, and passenger comfort.
+An automobile consist of a many sophisticated parts working together, for mechanical efficiency, safety, and passenger comfort.
 <!-- s -->
+But every complex machine can fail, sometimes due to [faulty parts](https://www.toyota.com.au/news/toyota-australia-ahead-of-schedule-takata-airbag-recall-expansion), sometimes due to humans who are inside or outside the car.
+<!-- s -->
+The history of car accidents and mishaps is as long as the history of the car itself.
+<!-- s -->
+The [first fatal accident](https://en.wikipedia.org/wiki/Mary_Ward_(scientist)) happened in 1869 when a passenger was thrown out a experimental steam car.
+<!-- s -->
+The year 1896 saw the [first pedestrian fatality](https://en.wikipedia.org/wiki/Death_of_Bridget_Driscoll) in London when the car was traveling at 4 miles per hour.
+<!-- s -->
+Legislations on the behaviours of cars and humans in and around them developed after these unfortunate events and the need to integrate automobile to society.
+<!-- the above sentence is lame -->
 
 <figure class="asn-fig asn-left" style="max-width: 800px;">
     <img src="/img/AI_cars/legislation.png">
     <figcaption>
-      Fig. 3: Timeline of development of automotive legislation.
+      Fig. 3: Timeline of development of automotive legislation<sup>5</sup>.
     </figcaption>
 </figure>
 
+
 One notable aspect of the legislation is the speed limit.
 <!-- s -->
+
+seatbelts?
 
 **Compared to machine intelligence**
 
@@ -114,10 +151,11 @@ quantify damage and develop protocols for liability
 
 To develop: protocol for driver's license
 
+responsive vs proactive
 
 #### 3. Peripheral components and eras of evolution
 
-it is estimated that over 100,000 patents created the modern automobile and motorcycle
+it is estimated that over 100,000 patents created the modern automobile and motorcycle<sup>8</sup>
 <!-- s -->
 
 <figure class="asn-fig asn-left" style="max-width: 800px;">
@@ -144,21 +182,12 @@ popular mechanics, fix-your-own-car2
 given time, AI applications may evolved into sedan, hatchback, SUV, 4-wheel drives, pickup, vans, buses, road trains ...
 
 **Putting it together**,
-put a plug for HMI
+when one think of a car these days, the first reaction isn't complex or dangerous.
+MI rely on algorithms, they are powerful and can be dangerous
 
-practice makes perfect.
-Even for experienced writers, bugs at these four layers creep up at different iterations of paper writing. The only way to combat such sloppiness is to proof read -- with the criteria that a paper should
-_compile_<sup>1</sup> at all four logical levels.
+AI seem scary because a lot of the surrounding factor are unkonwn (a priori)
 
-They are the back-bone of the paper.
-<!-- s -->
-If one collects all the section and subsection titles in a paper, they should make logical sense.
-<!-- s -->
-Instead of section titles that simply say `Method` or `Model`, say a hypothetical cake-making paper may have the following sections:
-```
-Sec 3 Making puff pastry
-Sec 4 Assembling the mille-feuille
-```
+put another plug for HMI
 
 ---------
 <sup>1</sup> This article is based on part of my talk given at the "AI, Politics and Security" workshop between ANU and [LeverhulmeCFI](http://lcfi.ac.uk/) in March 2019.
