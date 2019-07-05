@@ -7,7 +7,11 @@ Be considerate to others who share the same computing environment.
 
 There are three computing servers (i.e. `dijkstra`, `cray` and `braun`) in our group, basic information about them are:
 
-- `dijkstra` (deploying 2018-08)
+- `dijkstra` (deployed 2018-08)
+  - CPU: ?? (same as cray)
+  - GPU: 2 x [NVIDIA Titan ?]
+  - RAM: ?? (128 GB)
+
 - `cray` (deployed 2018-08)
   - CPU: 2 Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz, 2x10 cores with Hyper-Threading (appears as 40 cores on htop)
   - GPU: 2 x [NVIDIA Tesla K40c](https://www.nvidia.com/content/PDF/kepler/Tesla-K40-Active-Board-Spec-BD-06949-001_v03.pdf) (old GPU from arco) 
@@ -97,7 +101,7 @@ After connecting to VPN, arco/braun are accessible by IP from your laptop, but n
 
 ## Misc
 
-### Helpful shortcuts for fast accessing arco/braun
+### Helpful shortcuts for fast accessing arco/braun/cray/dijkstra
 1. Passwordless ssh: Generate ssh key (if it doesn't exists inside your `~/.ssh/`) using command `ssh-keygen -t rsa` and copy the content of `~/.ssh/id_rsa.pub` to file `~/.ssh/authorized_keys` of braun/arco. Then you will be able to ssh without password.
 2. ssh without username: Normally, when you ssh, you use command `ssh u1234567@braun`, but if you want to fast ssh with just `ssh braun` (without username), put these in your `~/.ssh/config`:
 ```
@@ -128,5 +132,6 @@ http://wisdomthroughknowledge.blogspot.com.au/2012/07/accessing-ipython-notebook
 
 * use "ps aux | grep ssh” to find and kill zombie ssh sessions
 
+### Hints for RStudio users 
 
-
+TBD
