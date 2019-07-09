@@ -40,7 +40,7 @@ The Chinese saying has it that one can use history as a mirror<sup>3</sup>, we h
 In particular, this piece pays tribute to the recently launched ANU [Humanising Machine Intelligence](https://hmi.anu.edu.au/) (HMI) project。
 <!-- s -->
 Both because the idea for writing it originated from a workshop organised by HMI colleagues<sup>1</sup>,
-also because our goal is to engage readers in shaping the goals and approaches to humanising machine intelligence (MI) through a familiar machine.
+also because this post aims to engage readers in shaping the goals and approaches to humanising machine intelligence (MI) through a familiar machine.
 <!-- s -->
 
 #### 1. Core components and systems
@@ -137,60 +137,108 @@ Legislations on the behaviours of cars and humans in and around them developed a
     </figcaption>
 </figure>
 
-
-One notable aspect of the legislation is the speed limit.
+One notable aspect of the legislations is the speed limit.
+<!-- s -->
+The Locomotives on Highways Act 1861 introduced the first speed limit of 10 mph on open roads, or 5mph in inhabited areas.
+<!-- s -->
+The second edition [The Locomotive Act 1865](https://en.wikipedia.org/wiki/Locomotive_Acts#The_Locomotive_Act_1865_(Red_Flag_Act)) reduced this limit to a draconian 4mph (2mph in towns), and required that a man carrying a red flag to walk in front of the vehicle hauling multiple wagons.
+<!-- s -->
+This restriction essentially eliminated the advantage of cars over horse-drawn carriages,
+and was a result of powerful lobbying by those with interests in railways and horse-drawn vehicles.
+<!-- s -->
+[The Locomotives on Highways Act 1896](https://en.wikipedia.org/wiki/Locomotives_on_Highways_Act_1896) relaxed the speed limit to 14 mph, set in comparison to 'furious driving' of horse carriages.
+<!-- s -->
+This event has been celebrated by motor enthusiasts with the [London to Brighton Run](https://en.wikipedia.org/wiki/London_to_Brighton_Veteran_Car_Run) to this day.
+<!-- s -->
+Eight years later, the [Motor Car Act 1903](https://en.wikipedia.org/wiki/Motor_Car_Act_1903) raised the speed limit to 20 mph, and introduced the crime of reckless driving with associated penalties.
+<!-- s -->
+In [1930](https://en.wikipedia.org/wiki/Road_Traffic_Act_1930), the speed limit was controversially removed.
+<!-- s -->
+The documented reason was that it was difficulty to enforce.
+<!-- s -->
+Four years later, in the face of a record number of road casualties (7,343 deaths and 231,603 injuries), [Road Traffic Act 1934](https://en.wikipedia.org/wiki/Road_Traffic_Act_1934) reintroduced a 30mph speed limit in built-up areas - a limit which is similar to those in use today.
 <!-- s -->
 
-seatbelts?
+Key measures of safety and liability was also developed in the same era, including car registration, classification of motor vehicles, driver licensing, driving test, requirement for insurance, driving offences, and others.
 
-**Compared to machine intelligence**
+**What might this mean for machine intelligence?**
+The automotive industry is heavily regulated.
+<!-- s -->
+Regulations cover how different components are designed, what safety features are included, and the overall performance of any given vehicle, such as noise and emission levels.
+<!-- s -->
+In addition, there are independent agencies who provide vehicles safety ratings and extensive consumer surveys on user ratings.  
+<!-- s -->
+As recent incidents show, the regulation of machine intelligence systems is in its very early stages, if existing at all.
+<!-- s -->
+One main part of existing regulation is around data protection and access restrictions.
+<!-- s -->
+But they are far from sufficient, when hidden attributes such as race and gender [can be inferred even if not explicitly collected](https://news.cornell.edu/stories/2019/01/study-ai-may-mask-racial-disparities-credit-lending).
+<!-- s
+Another salient difference is the scale of influence of a machine intelligence system - which can affect thousands of people e.g. in a banking application, or all internet users, e.g. in online search. Compared to automobile safety, which each individual failure affects the driver, passenger, and people in their immediate physical surroundings.
+-->
 
-auto-industry regulation, safety ratings.
+In addition to regulating the components and processes of the machine (cars), we also need regulations for people and behaviours around the machine. Such as drivers' license, penalties for reckless driving, and protocols for insurance and liability in general.
+<!-- s -->
+In machine intelligence, should practitioners hold a license (a university-level course in the subject, a graduate degree, or something else), and be subjected to continuous monitoring (such as eye sight and cognitive abilities for driving a car)? Who should be liable for mishaps resulting from the machine intelligence system -- the practitioner, the company employing them, or the producer of the original algorithm?
 
-quantify damage and develop protocols for liability
+<!-- s -->
+There is considerable urgency for machine intelligence researchers, practitioners and society at large to understand the safety, moral and ethical implications of MI systems. Starting from requiring more transparency behind the effect of algorithms behind blackbox models in different companies, and devising standards and protocols for liability. The hope that this will happen more proactively, rather than reactively -- such as reacting to record number of accidents in the case of Road Traffic Act 1934.
 
-To develop: protocol for driver's license
-
-responsive vs proactive
 
 #### 3. Peripheral components and eras of evolution
 
-it is estimated that over 100,000 patents created the modern automobile and motorcycle<sup>8</sup>
+It is estimated that over 100,000 patents created the modern automobile and motorcycle<sup>8</sup>.
 <!-- s -->
+Besides the chassis and [powertrain](https://en.wikipedia.org/wiki/Powertrain) that can be considered as the skeleton and muscular system of the car, many other components make the rest of the machine practical, comfortable and even enjoyable to drive (and ride).
+<!-- s -->
+Figure 4 lays out a timeline of the [five eras of invention](https://en.wikipedia.org/wiki/History_of_the_automobile#Eras_of_invention), and a non-exhaustive list of common components.
 
 <figure class="asn-fig asn-left" style="max-width: 800px;">
     <img src="/img/AI_cars/otherthings.png">
     <figcaption>
-      Fig. 4: Timeline of automobile styles and example list of auto components.
+      Fig. 4: Timeline of automobile styles and example list of various components in a vehicle.
     </figcaption>
 </figure>
 
+**What might this mean for machine intelligence?**
+There are direct analogies from some of these parts to those in a machine intelligence system.
+<!-- s -->
+The notion of a dashboard is now commonplace in deployed machine learning systems<sup>9</sup>,
+the importance of which is underscored by well-publicized cases of drift and failure over time in non-mission critical systems<sup>10</sup>.
+<!-- s -->
+Other analogies may be still open for imagination, such as the counter-part of headlights, Antilock Breaking System (ABS), and others?
+
+On the adoption and use of automobiles, the machine went from hobbist or requiring specialised knowledge to operate (chauffeurs) to being a skill that a large fraction of the population has.
+<!-- s -->
+In the understanding and maintenance of automobiles, on one hand the reliability improved so much that a driver no longer need to be prepared to stop on the road, pop the hood open, and supply crucial liquids (water, oil, fluid).
+<!-- s -->
+On the other hand, the contents of popular mechanics and fix-your-own-car videos has proliferated, that people can learn to fix many small problems via self-education.
+<!-- s -->
+One may ask, what will it take for machine learning to be both care-free and accessible for novices and enthusiasts alike?
+
+Finally, one may ask what machine intelligence applications may evolved into, analogous to the diverse style and function landscape of automobiles, e.g., 4-wheel drives, sedans, convertibles, SUVs, pickups, vans, buses, or even [road trains](https://en.wikipedia.org/wiki/Road_train)?
+
+
+#### Parting thoughts
+
+When one think of a car these days, the first reaction usually isn't that it is complex or dangerous.
+<!-- s -->
+This is despite the fact that automobiles brought dramatic changes in how we travel, how we live, how our cities and rural landscape look like in the past century or so.
+
+The recent development on AI and machine intelligence may seem scary because much of their effects and implications are unknown.
+<!-- s -->
+One may think that in the early 20th century, people may have approached cars with the same level of apprehension.
+<!-- s -->
+The not-so-short history on how humans _humanised_ cars may offer a few fruitful thoughts on how we should humanise machine intelligence.
+<!-- s -->
+This is a timely subject that needs curious inquiries, in-depth thinking and lively debates from students, the public, policy makers and researchers all alike.
+
 <!--
-In 1870 Siegfried Marcus built the first gasoline powered combustion engine, which he placed on a pushcart, building four progressively more sophisticated combustion-engine cars over a 10-to-15-year span that influenced later cars. Marcus created the two-cycle combustion engine.[citation needed] The car's second incarnation in 1880 introduced a four-cycle, gasoline-powered engine, an ingenious carburetor design and magneto ignition. He created an additional two models further refining his design with steering, a clutch and a brake.
+end with another plug for HMI
 -->
-Siegfried
-<!-- s -->
-If one collects all the section and subsection titles in a paper, they should make logical sense.
-<!-- s -->
-
-**Compared to machine intelligence**
-
-whether it requires specialised knowledge to operate (from chauffeurs to everyone drives)
-
-popular mechanics, fix-your-own-car2
-
-given time, AI applications may evolved into sedan, hatchback, SUV, 4-wheel drives, pickup, vans, buses, road trains ...
-
-**Putting it together**,
-when one think of a car these days, the first reaction isn't complex or dangerous.
-MI rely on algorithms, they are powerful and can be dangerous
-
-AI seem scary because a lot of the surrounding factor are unkonwn (a priori)
-
-put another plug for HMI
-
 ---------
-<sup>1</sup> This article is based on part of my talk given at the "AI, Politics and Security" workshop between ANU and [LeverhulmeCFI](http://lcfi.ac.uk/) in March 2019.
+<small>
+<sup>1</sup> This article is based on part of my talk given at the "AI, Politics and Security" workshop jointly held by [ANU Bell School](http://bellschool.anu.edu.au/) and [LeverhulmeCFI](http://lcfi.ac.uk/) in March 2019.
 
 <sup>2</sup> All car-related knowledge in this post comes from Wikipedia, a big thank you to Wikipedians for their curation of such knowledge. Any mis-interpretations are mine. https://en.wikipedia.org/wiki/Car, https://en.wikipedia.org/wiki/History_of_the_automobile
 
@@ -204,4 +252,9 @@ put another plug for HMI
 
 <sup>7</sup> How many parts is each car made of?, Toyota Children's Question Room, retrieved July 2019 https://www.toyota.co.jp/en/kids/faq/d/01/04/
 
-<sup>8</sup> Jerina, Nataša G. (May 2014). "Turin Charter ratified by FIVA". TICCIH. Retrieved July 2019.
+<sup>8</sup> Jerina, Nataša G. (May 2014). "Turin Charter ratified by FIVA". TICCIH. http://ticcih.org/turin-charter-ratified-by-fiva-federation-internationale-des-vehicules-anciens/, Retrieved July 2019.
+
+<sup>9</sup> Google Cloud Machine Learning Engine description, https://cloud.google.com/ml-engine/, Retrieved July 2019.
+
+<sup>10</sup> Lazer, D., Kennedy, R., King, G., & Vespignani, A. (2014). The parable of Google Flu: traps in big data analysis. Science, 343(6176), 1203-1205.
+</small>
