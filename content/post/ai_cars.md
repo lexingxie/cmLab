@@ -1,5 +1,5 @@
 ---
-title: "AI as ''Cars''? A Historic Analogy"
+title: "AI as Cars - an Historical Analogy"
 description: "Three timelines in developing and adopting cars may shed light on what humanity would do with machine intelligence."
 date: "2019-07-10"
 draft: false
@@ -12,7 +12,7 @@ tags:
 ---
 
 
-##### posted by _Lexing Xie_<br /><p />
+##### posted by _Lexing Xie_, with edits from [_Mario Günther_](https://www.mario-guenther.com/)<br /><p />
 
 <img style="float: left;"
 	src="/img/AI_cars/overview.png" Hspace="5" Vspace="10"><p />
@@ -28,7 +28,7 @@ In this article, we draw a seemingly remote analogy between AI and cars.
 While separated by the software/hardware boundary, AI and cars are complex machinery that have been under rapid development for half a century or more, and is now (or will be) an integral part of our daily lives.
 <!-- s -->
 We review the development of cars since the 18th century as three concurrently evolving timelines<sup>2</sup> including the core technology, the legislation (and the needs driving it), and peripheral components.
-<!-- s -->
+<!-- s -->jkj
 The goal of the historical narrative is to highlight several similarities in the development of cars and AI,
 including the excitement of how new technology shape our world and the fear of its danger and negative effects.
 <!-- s -->
