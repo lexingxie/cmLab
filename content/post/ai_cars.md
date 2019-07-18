@@ -1,5 +1,5 @@
 ---
-title: "AI as Cars - an Historical Analogy"
+title: "AI and Cars - an Historical Analogy"
 description: "Three timelines in developing and adopting cars may shed light on what humanity would do with machine intelligence."
 date: "2019-07-17"
 draft: false
