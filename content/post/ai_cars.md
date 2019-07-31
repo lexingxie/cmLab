@@ -12,12 +12,12 @@ tags:
 ---
 
 
-##### Posted by _Lexing Xie_. Thanks to [_Mario Günther_](https://www.mario-guenther.com/) for many suggestions.<br /><p />
+##### Posted by _Lexing Xie_. Thanks to [_Mario Günther_](https://www.mario-guenther.com/), [_Ignacio Ojea Quintana_](http://www.ignacioojea.net/), _[Swapnil Mishra](https://s-mishra.github.io/)_ and _[Atoosa Kasirzadeh](http://kasirzadeh.org/)_ for constructive suggestions.<br /><p />
 
 <img style="float: left;"
 	src="/img/AI_cars/overview.png" Hspace="5" Vspace="10"><p />
   <small>
-    Fig. 1<sup>4</sup>: Overview of three concurrently evolving timelines in the development of cars. Top (green) - key events in engine and early system developments. Middle (red) - key events in car and road-safety related legislations. Bottom (blue) - rough separation of eras in car styling. Key events selected from Wikipedia narratives on [cars](https://en.wikipedia.org/wiki/Car) and [history of the automobile](https://en.wikipedia.org/wiki/History_of_the_automobile)<sup>2</sup>. See article for discussion. For readability, time scales are not uniform.
+    Fig. 1: Overview of three concurrently evolving timelines in the development of cars<sup>2</sup>. Top (green) - key events in engine and early system developments. Middle (red) - key events in car and road-safety related legislations. Bottom (blue) - rough separation of eras in car styling. Key events selected from Wikipedia narratives on [cars](https://en.wikipedia.org/wiki/Car) and [history of the automobile](https://en.wikipedia.org/wiki/History_of_the_automobile)<sup>3</sup>. See article for discussion. For readability, time scales are not uniform.
   </small>
 
 <!--more-->
@@ -25,14 +25,14 @@ In the past few years, Artificial Intelligence (AI) entered everyday conversatio
 <!-- s -->
 In this article, we draw a seemingly remote analogy between AI and cars.
 <!-- s -->
-While separated by the software/hardware boundary, AI and cars are complex machinery that have been under rapid development for half a century or more, and is now (or will be) an integral part of our daily lives.
+While separated by the software/hardware boundary, AI and cars are complex machinery that have been under rapid development for half a century or more, and are now (or will be) an integral part of our daily lives.
 <!-- s -->
-We review the development of cars since the 18th century as three concurrently evolving timelines<sup>2</sup> including the core technology, the legislation (and the needs driving it), and peripheral components.
+We review the development of cars since the 18th century as three concurrently evolving timelines including the core technology, the legislation (and the needs driving it), and peripheral components, as illustrated in Figure 1.
 <!-- s -->
-The goal of the historical narrative is to highlight several similarities in the development of cars and AI,
+The goal of the historical narrative is to highlight several similarities in the history of cars and recent developments in AI,
 including the excitement of how new technology shapes our world and the fear of its danger and negative effects.
 <!-- s -->
-The Chinese saying has it that one can use history as a mirror<sup>3</sup>, we hope this analogy will help the community reflect the path for AI and shape what may happen.
+The Chinese saying has it that one can use history as a mirror<sup>4</sup>, we hope this analogy will help the community reflect the path for AI and shape what may happen.
 <!-- s -->
 
 <!--
@@ -97,6 +97,8 @@ The development of new algorithms will continue by the growing community of Mach
 <!-- s -->
 We should expect a constant stream of incremental improvements for the currently most popular algorithm paradigm - such as neural networks, as well as occasional disruptive changes.
 <!-- s -->
+We liken the different types of algorithms (such as neural networks or decisions trees) to the different technologies that power a car.
+<!-- s -->
 For example, [electric cars](https://en.wikipedia.org/wiki/Electric_car) went from experimental to mass-market in the last decade, and [solar car](https://en.wikipedia.org/wiki/Solar_car) product was only recently [shown to public](https://www.engadget.com/2019/07/04/lightyear-one-solar-car-goodwood/). One may ask if another algorithm may replace neural networks soon?
 <!-- s -->
 The coexistence of multiple core technologies also holds for Machine Intelligence algorithms -- not every machine learning problem needs a deep neural network -- generalised linear models, boosting and ensemble classifiers, kernel machines, and others will continue to play their roles in a variety of scenarios.
@@ -129,7 +131,7 @@ The [first fatal accident](https://en.wikipedia.org/wiki/Mary_Ward_(scientist)) 
 <!-- s -->
 The year 1896 saw the [first pedestrian fatality](https://en.wikipedia.org/wiki/Death_of_Bridget_Driscoll) in London when the car was traveling at 4 miles per hour.
 <!-- s -->
-Legislations on the behaviours of cars and humans developed thereafter.  
+Legislations on the behaviours of cars and humans developed thereafter, with key events summarised in Figure 3.
 <!-- the need to integrate automobile to society.
  the above sentence is lame -->
 
@@ -198,7 +200,7 @@ There is considerable urgency for Machine Intelligence researchers, practitioner
 <!-- s -->
 There is hope that this will happen more proactively than the Road Traffic Act of 1934.
 <!-- s -->
-Let's do better than merely reacting to record number of accidents!
+Let's do better than merely reacting to a record number of accidents!
 
 
 #### 3. Peripheral components and eras of evolution
@@ -234,7 +236,6 @@ One may ask, what will it take for machine learning to be both accessible for no
 
 Finally, one may ask what Machine Intelligence applications may evolved into, analogous to the diverse styles and functions of automobiles, e.g., 4-wheel drives, convertibles, SUVs, trucks, vans, buses, or even [road trains](https://en.wikipedia.org/wiki/Road_train)?
 
-
 #### Parting thoughts
 
 When one thinks of a car these days, the first reaction usually isn't that it is complex or dangerous.
@@ -254,15 +255,39 @@ One place for such thinking and debate is the [HMI project](https://hmi.anu.edu.
 <!--
 end with another plug for HMI
 -->
+
+#### Epilogue: where does the analogy stop?
+
+There are several limitations to the analogy here.
+<!-- s -->
+The first is whether cars will (and should) play the current role in our transportation systems.
+<!-- s -->
+There are well-argued recent cases against private cars in media outlets<sup>11</sup> and film<sup>12</sup>
+for a range of reasons from reducing accidents from human errors, to saving time and improving urban traffic,
+to reducing pollutants and greenhouse gas.
+<!-- s -->
+There are many social, technological and environmental reasons to believe imminent changes await in our use of cars -- AI is one of them.
+
+A second one is the distinction between designers/builders, drivers, and passengers of cars, and the analogous roles in Machine Intelligence.
+<!-- s -->
+AI is at a stage where designers and builders of new technical components makes headlines<sup>13</sup>, and the roles of drivers and passengers are not yet clear.
+<!-- s -->
+One may ask whether users of voice assistants or online recommendation systems are drivers or passengers,
+especially how much users should understand the role of data sources in delivering the services at hand, and how much the AI engine should explain to the users.
+<!-- s
+One may also ask if such understandings are necessarily more nuanced than understanding fuel being the power source of a car, and that it can be controlled by gas pedals and brakes.
+ -->
+
 ---------
 <small>
 <sup>1</sup> This article is based on part of my talk given at the "AI, Politics and Security" workshop jointly held by [ANU Bell School](http://bellschool.anu.edu.au/) and [LeverhulmeCFI](http://lcfi.ac.uk/) in March 2019.
 
-<sup>2</sup> All car-related knowledge in this post comes from Wikipedia, a big thank you to Wikipedians for their curation of such knowledge. Any mis-interpretations are mine. https://en.wikipedia.org/wiki/Car, https://en.wikipedia.org/wiki/History_of_the_automobile
+<sup>2</sup> We are grateful for the free clipart for cars http://clipart-library.com/cartoon-car-images-free.html
 
-<sup>3</sup> There is a long tradition of making the analogy of history and mirror in Chinese official culture, for example the name of a grand history book, Zi Zhi Tong Jian (资治通鉴), https://www.theepochtimes.com/grand-book-of-history-a-mirror-for-chinese-emperors_1346839.html.
+<sup>3</sup> All car-related knowledge in this post comes from Wikipedia, a big thank you to Wikipedians for their curation of such knowledge. Any mis-interpretations are mine. https://en.wikipedia.org/wiki/Car, https://en.wikipedia.org/wiki/History_of_the_automobile
 
-<sup>4</sup> We are grateful for the free clipart for cars http://clipart-library.com/cartoon-car-images-free.html
+<sup>4</sup> There is a long tradition of making the analogy of history and mirror in Chinese official culture (a common phrase being 以史为鉴). For example, the name of a grand history book, Zi Zhi Tong Jian (资治通鉴) refers to mirrors explicitly https://www.theepochtimes.com/grand-book-of-history-a-mirror-for-chinese-emperors_1346839.html.
+
 
 <sup>5</sup> Wikipedia pages on UK Locomotive Acts, https://en.wikipedia.org/wiki/Locomotive_Acts, https://en.wikipedia.org/wiki/Locomotives_on_Highways_Act_1896, https://en.wikipedia.org/wiki/Motor_Car_Act_1903, https://en.wikipedia.org/wiki/Road_Traffic_Act_1930, https://en.wikipedia.org/wiki/Road_Traffic_Act_1934
 
@@ -275,4 +300,10 @@ end with another plug for HMI
 <sup>9</sup> Google Cloud Machine Learning Engine description, https://cloud.google.com/ml-engine/, Retrieved July 2019.
 
 <sup>10</sup> Lazer, D., Kennedy, R., King, G., & Vespignani, A. (2014). The parable of Google Flu: traps in big data analysis. Science, 343(6176), 1203-1205.
+
+<sup>11</sup> Nathan Heller, Was the Automotive Era a Terrible Mistake? 22 July 2019 https://www.newyorker.com/magazine/2019/07/29/was-the-automotive-era-a-terrible-mistake
+
+<sup>12</sup> 2040, directed by Damon Gameau, https://www.madmanfilms.com.au/2040film/
+
+<sup>13</sup> 2018 ACM A.M. Turing Award Laureates, https://awards.acm.org/about/2018-turing
 </small>
