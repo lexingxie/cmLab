@@ -1,5 +1,5 @@
 ---
-title: "AI and Cars - an Historical Analogy"
+title: "AI and Cars - a Historical Analogy"
 description: "Three timelines in developing and adopting cars may shed light on what humanity would do with machine intelligence."
 date: "2019-07-17"
 draft: false
@@ -12,7 +12,7 @@ tags:
 ---
 
 
-##### Posted by _Lexing Xie_. Thanks to [_Mario Günther_](https://www.mario-guenther.com/), [_Ignacio Ojea Quintana_](http://www.ignacioojea.net/), _[Swapnil Mishra](https://s-mishra.github.io/)_ and _[Atoosa Kasirzadeh](http://kasirzadeh.org/)_ for constructive suggestions.<br /><p />
+##### Posted by _Lexing Xie_. Thanks to [_Mario Günther_](https://www.mario-guenther.com/), [_Ignacio Ojea Quintana_](http://www.ignacioojea.net/), _[Swapnil Mishra](https://s-mishra.github.io/)_ and _[Atoosa Kasirzadeh](http://kasirzadeh.org/)_ for many great suggestions.<br /><p />
 
 <img style="float: left;"
 	src="/img/AI_cars/overview.png" Hspace="5" Vspace="10"><p />
@@ -263,17 +263,16 @@ There are several limitations to the analogy here.
 The first is whether cars will (and should) play the current role in our transportation systems.
 <!-- s -->
 There are well-argued recent cases against private cars in media outlets<sup>11</sup> and film<sup>12</sup>
-for a range of reasons from reducing accidents from human errors, to saving time and improving urban traffic,
-to reducing pollutants and greenhouse gas.
+for a range of reasons from reducing accidents due to human errors, to saving time and improving urban traffic,
+to reducing pollution and greenhouse gas.
 <!-- s -->
-There are many social, technological and environmental reasons to believe imminent changes await in our use of cars -- AI is one of them.
+There are many social, technological and environmental reasons to believe imminent changes await in our use of cars -- AI itself is one of them.
 
 A second one is the distinction between designers/builders, drivers, and passengers of cars, and the analogous roles in Machine Intelligence.
 <!-- s -->
-AI is at a stage where designers and builders of new technical components makes headlines<sup>13</sup>, and the roles of drivers and passengers are not yet clear.
+AI is at a stage where designers and builders of new technical components make headlines<sup>13</sup>, and the roles of drivers and passengers are important but not not yet clear.
 <!-- s -->
-One may ask whether users of voice assistants or online recommendation systems are drivers or passengers,
-especially how much users should understand the role of data sources in delivering the services at hand, and how much the AI engine should explain to the users.
+For example, are users of voice assistants or online recommendation systems drivers or passengers, how much users should understand the role of data sources in delivering the services at hand, and how much the AI engine should explain to the users.
 <!-- s
 One may also ask if such understandings are necessarily more nuanced than understanding fuel being the power source of a car, and that it can be controlled by gas pedals and brakes.
  -->
