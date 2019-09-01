@@ -20,7 +20,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Lexing Xie -->
     <div class="col-md-3">
         <div class="people-profile">
-            <img src='/img/people/lexing-100.jpg' title='Lexing' />
+            <img src='/img/people/lexing2019-100.png' title='Lexing' />
             <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
             <big><big> <b>Lexing Xie</b> </big></big></a>
             <br/>
@@ -141,7 +141,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/umanga-100.png' title='Umanga' />
-            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science; 
+            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
 Machine Learning
         </div>
         <div class="people-info">
