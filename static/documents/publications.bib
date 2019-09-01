@@ -1,3 +1,24 @@
+@inproceedings{shin2019influence,
+  title={Influence Flowers of Academic Entities},
+  author={Shin, Minjeong and Soen, Alexander and Readshaw, Benjamin T and Blackburn, Stephen M and Whitelaw, Mitchell and Xie, Lexing},
+  booktitle={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+  year={2019},
+  url_Paper = {https://arxiv.org/abs/1907.12748},
+  url_Code = {http://influencemap.ml/vast19}
+}
+
+@inproceedings{wu2019estimating,
+    address = {Austin, TX, USA},
+    author = {Wu, Siqi and Rizoiu, Marian-Andrei and Xie, Lexing},
+    booktitle = {ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '19)},
+    title = {Estimating Attention Flow in Online Video Networks},
+    year = {2019},
+    abstract = {Online videos have shown tremendous increase in Internet traffic. Most video hosting sites implement recommender systems, which connect the videos into a directed network and conceptually act as a source of pathways for users to navigate. At present, little is known about how human attention is allocated over such large-scale networks, and about the impacts of the recommender systems. In this paper, we first construct the Vevo network -- a YouTube video network with 60,740 music videos interconnected by the recommendation links, and we collect their associated viewing dynamics. This results in a total of 310 million views every day over a period of 9 weeks. Next, we present large-scale measurements that connect the structure of the recommendation network and the video attention dynamics. We use the bow-tie structure to characterize the Vevo network and we find that its core component (23.1% of the videos), which occupies most of the attention (82.6% of the views), is made out of videos that are mainly recommended among themselves. This is indicative of the links between video recommendation and the inequality of attention allocation. Finally, we address the task of estimating the attention flow in the video recommendation network. We propose a model that accounts for the network effects for predicting video popularity, and we show it consistently outperforms the baselines. This model also identifies a group of artists gaining attention because of the recommendation network. Altogether, our observations and our models provide a new set of tools to better understand the impacts of recommender systems on collective social attention.},
+    url_Abstract = {https://arxiv.org/abs/1908.07123},
+    url_Paper = {http://cm.cecs.anu.edu.au/documents/wu_cscw2019_network.pdf},
+    url_Code = {https://github.com/avalanchesiqi/networked-popularity}
+}
+
 @inproceedings{zhang2019efficient,
   author    = {Rui Zhang and
                Christian Walder and
@@ -72,7 +93,7 @@
  doi = {10.1145/3289600.3291598},
  acmid = {3291598},
  publisher = {ACM},
- address = {New York, NY, USA},
+ address = {Melbourne, VIC, Australia},
  keywords = {hawkes processes, information diffusion, recurrent neural networks},
  url_Paper = {https://dl.acm.org/ft_gateway.cfm?id=3291598&ftid=2038013&dwn=1&CFID=108404766&CFTOKEN=bb5b0fef428247e0-52916DAC-902E-2E17-B7813EFE4C960CE8}
 }
@@ -90,7 +111,7 @@
     address = {Melbourne, VIC, Australia},
     author = {Wu, Siqi},
     booktitle = {ACM International Conference on Web Search and Data Mining (WSDM '19), Doctoral Consortium},
-    title = {{How is Attention Allocated? Data-driven Studies of Popularity and Engagement in Online Videos}},
+    title = {How is Attention Allocated? Data-driven Studies of Popularity and Engagement in Online Videos},
     year = {2019},
     abstract = {The share of videos on Internet traffic has been growing, e.g., people are now spending a billion hours watching YouTube videos every day. Therefore, understanding how videos capture attention on a global scale is also of growing importance for both research and practice. In online platforms, people can interact with videos in different ways -- there are behaviors of active participation (watching, commenting, and sharing) and that of passive consumption (viewing). In this paper, we take a data-driven approach to studying how human attention is allocated in online videos with respect to both active and passive behaviors. We first investigate the active interaction behaviors by proposing a novel metric to represent the aggregate user engagement on YouTube videos. We show this metric is correlated with video quality, stable over lifetime, and predictable before video's upload. Next, we extend the line of work on modelling video view counts by disentangling the effects of two dominant traffic sources -- related videos and YouTube search. Findings from this work can help content producers to create engaging videos and hosting platforms to optimize advertising strategies, recommender systems, and many more applications.},
     url_Paper = {http://cm.cecs.anu.edu.au/documents/wu_wsdm2019_dc.pdf}
@@ -218,7 +239,7 @@
     address = {Stanford, CA, USA},
     author = {Wu, Siqi and Rizoiu, Marian-Andrei and Xie, Lexing},
     booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
-    title = {{Beyond Views: Measuring and Predicting Engagement in Online Videos}},
+    title = {Beyond Views: Measuring and Predicting Engagement in Online Videos},
     year = {2018},
     abstract = {The share of videos in the internet traffic has been growing, therefore understanding how videos capture attention on a global scale is also of growing importance. Most current research focus on modeling the number of views, but we argue that video engagement, or time spent watching is a more appropriate measure for resource allocation problems in attention, networking, and promotion activities. In this paper, we present a first large-scale measurement of video-level aggregate engagement from publicly available data streams, on a collection of 5.3 million YouTube videos published over two months in 2016. We study a set of metrics including time and the average percentage of a video watched. We define a new metric, relative engagement, that is calibrated against video properties and strongly correlate with recognized notions of quality. Moreover, we find that engagement measures of a video are stable over time, thus separating the concerns for modeling engagement and those for popularity -- the latter is known to be unstable over time and driven by external promotions. We also find engagement metrics predictable from a cold-start setup, having most of its variance explained by video context, topics and channel information -- R2=0.77. Our observations imply several prospective uses of engagement metrics -- choosing engaging topics for video production, or promoting engaging videos in recommender systems.},
     url_Abstract = {https://arxiv.org/abs/1709.02541},
