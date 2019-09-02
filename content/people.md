@@ -106,19 +106,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
         </div>
     </div>
-    <!-- Dawei Chen -->
-    <div class="col-md-3">
-        <div class="people-profile">
-            <img src='/img/people/dawei-100.png' title='Dawei' />
-            <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                recommender system with active learning
-            <br>
-            <b>Before the ANU:</b> ICT, CAS
-        </div>
-    </div>
     <!-- Siqi Wu -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -336,6 +323,17 @@ Machine Learning
     </div>
 </div>
 <div class="row">
+    <!-- Dawei Chen -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/dawei-100.png' title='Dawei' />
+            <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD, ANU Computer Science, 2019;  <br/> machine learning, NICTA/Data61 (co-advised with Cheng Soon Ong and Aditya Menon)
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Recommending Structured Objects: Paths and Sets <br/>
+            <b>Currently</b>: Research Engineer, ANU College of Engineering and Computer Science
+        </div>
+    </div>
     <!-- Shidi Li -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -369,6 +367,8 @@ Machine Learning
             <b>Currently</b>: Developer at Baidu
         </div>
     </div>
+</div>
+<div class="row">
     <!-- Sam Toyer -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -380,8 +380,6 @@ Machine Learning
             <b>Currently</b>: PhD Student, UC Berkeley
         </div>
     </div>
-</div>
-<div class="row">
     <!-- Yanxiang Wang -->
     <div class="col-md-3">
         <div class="people-profile">
