@@ -238,19 +238,6 @@ Machine Learning
 <!-- Honours + MS student row -->
 <!-- First row -->
 <div class="row">
-    <!-- Shidi Li -->
-    <div class="col-md-3">
-        <div class="people-profile">
-            <img src='/img/people/shidi-li-100.png' title='Shidi' />
-            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                HIP++, multivariance-HIP
-            <br>
-            <b>Before the ANU:</b> Zhejiang University of Technology
-        </div>
-    </div>
     <!-- Alexander Soen -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -349,6 +336,17 @@ Machine Learning
     </div>
 </div>
 <div class="row">
+    <!-- Shidi Li -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2019
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: A hipper approach to interval-censored Hawkes process<br />
+            <b>Currently</b>: PhD in Computer Vision at ANU
+        </div>
+    </div>
     <!-- Yifei Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -357,7 +355,7 @@ Machine Learning
         </div>
         <div class="people-info">
             <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
-            <b>Currently</b>: Developer at JD finance
+            <b>Currently</b>: Developer at Alibaba
         </div>
     </div>
     <!-- Liyao Tang -->
@@ -382,6 +380,8 @@ Machine Learning
             <b>Currently</b>: PhD Student, UC Berkeley
         </div>
     </div>
+</div>
+<div class="row">
     <!-- Yanxiang Wang -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -393,8 +393,6 @@ Machine Learning
             <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
         </div>
     </div>
-</div>
-<div class="row">
     <!-- Yicong Du -->
     <div class="col-md-3">
         <div class="people-profile">
