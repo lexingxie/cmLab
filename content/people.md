@@ -119,12 +119,7 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
         </div>
     </div>
-</div>
-
-<!-- third row -->
-<div class="row">
-
- <!-- Umanga Bista -->
+    <!-- Umanga Bista -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/umanga-100.png' title='Umanga' />
@@ -138,6 +133,10 @@ Machine Learning
             <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
+</div>
+
+<!-- third row -->
+<div class="row">
     <!-- Minjeong Shin -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -177,10 +176,6 @@ Machine Learning
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
-</div>
-
-<!-- 5th row -->
-<div class="row">
     <!-- Quyu Kong -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -194,6 +189,10 @@ Machine Learning
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
+</div>
+
+<!-- 5th row -->
+<div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
