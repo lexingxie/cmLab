@@ -219,6 +219,19 @@ Machine Learning
             <b>Before the ANU:</b> Shandong University
         </div>
     </div>
+    <!-- Yuli LIU -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/yuli.jpg' title='yuli' />
+            <big><big> <b>Yuli LIU</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                User Behavior Analysis; Spam Detection
+            <br>
+            <b>Before the ANU:</b> Tsinghua University
+        </div>
+    </div>
 </div>
 
 <!-- Honours + MS student row -->
