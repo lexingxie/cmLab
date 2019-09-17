@@ -329,7 +329,7 @@ Machine Learning
             <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
         </div>
         <div class="people-info">
-            <b>Dissertation</b>: Understanding the Popularity Evolution of Online Media - A Case Study on YouTube Videos <br />
+            <b>Thesis</b>: <a href=/documents/yu_dissertation.pdf> Understanding the Popularity Evolution of Online Media: A Case Study on YouTube Videos <br />
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
