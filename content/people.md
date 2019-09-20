@@ -20,7 +20,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <!-- Lexing Xie -->
     <div class="col-md-3">
         <div class="people-profile">
-            <img src='/img/people/lexing-100.jpg' title='Lexing' />
+            <img src='/img/people/lexing2019-100.png' title='Lexing' />
             <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx">
             <big><big> <b>Lexing Xie</b> </big></big></a>
             <br/>
@@ -106,19 +106,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
         </div>
     </div>
-    <!-- Dawei Chen -->
-    <div class="col-md-3">
-        <div class="people-profile">
-            <img src='/img/people/dawei-100.png' title='Dawei' />
-            <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;  <br/> machine learning, NICTA
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                recommender system with active learning
-            <br>
-            <b>Before the ANU:</b> ICT, CAS
-        </div>
-    </div>
     <!-- Siqi Wu -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -132,16 +119,11 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
         </div>
     </div>
-</div>
-
-<!-- third row -->
-<div class="row">
-
- <!-- Umanga Bista -->
+    <!-- Umanga Bista -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/umanga-100.png' title='Umanga' />
-            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science; 
+            <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
 Machine Learning
         </div>
         <div class="people-info">
@@ -151,6 +133,10 @@ Machine Learning
             <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
+</div>
+
+<!-- third row -->
+<div class="row">
     <!-- Minjeong Shin -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -190,10 +176,6 @@ Machine Learning
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
-</div>
-
-<!-- 5th row -->
-<div class="row">
     <!-- Quyu Kong -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -207,6 +189,10 @@ Machine Learning
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
+</div>
+
+<!-- 5th row -->
+<div class="row">
     <!-- Rui Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -233,24 +219,24 @@ Machine Learning
             <b>Before the ANU:</b> Shandong University
         </div>
     </div>
+    <!-- Yuli Liu -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/yuli.jpg' title='yuli' />
+            <big><big> <b>Yuli Liu</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                User Behavior Analysis; Spam Detection
+            <br>
+            <b>Before the ANU:</b> Tsinghua University
+        </div>
+    </div>
 </div>
 
 <!-- Honours + MS student row -->
 <!-- First row -->
 <div class="row">
-    <!-- Shidi Li -->
-    <div class="col-md-3">
-        <div class="people-profile">
-            <img src='/img/people/shidi-li-100.png' title='Shidi' />
-            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science;
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                HIP++, multivariance-HIP
-            <br>
-            <b>Before the ANU:</b> Zhejiang University of Technology
-        </div>
-    </div>
     <!-- Alexander Soen -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -343,12 +329,34 @@ Machine Learning
             <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
         </div>
         <div class="people-info">
-            <b>Dissertation</b>: Understanding the Popularity Evolution of Online Media - A Case Study on YouTube Videos <br />
+            <b>Thesis</b>: <a href=/documents/yu_dissertation.pdf> Understanding the Popularity Evolution of Online Media: A Case Study on YouTube Videos </a> <br />
             <b>Currently</b>: Research Fellow, ANU College of Business and Economics
         </div>
     </div>
 </div>
 <div class="row">
+    <!-- Dawei Chen -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/dawei-100.png' title='Dawei' />
+            <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD, ANU Computer Science, 2019;  <br/> machine learning, NICTA/Data61 (co-advised with Cheng Soon Ong and Aditya Menon)
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: Recommending Structured Objects: Paths and Sets <br/>
+            <b>Currently</b>: Research Engineer, ANU College of Engineering and Computer Science
+        </div>
+    </div>
+    <!-- Shidi Li -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/shidi-li-100.png' title='Shidi' />
+            <big><big> <b>Shidi Li</b> </big></big> <br/><br/> MS Student, ANU Computer Science, 2019
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: A hipper approach to interval-censored Hawkes process<br />
+            <b>Currently</b>: PhD in Computer Vision at ANU
+        </div>
+    </div>
     <!-- Yifei Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -357,7 +365,7 @@ Machine Learning
         </div>
         <div class="people-info">
             <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
-            <b>Currently</b>: Developer at JD finance
+            <b>Currently</b>: Developer at Alibaba
         </div>
     </div>
     <!-- Liyao Tang -->
@@ -371,6 +379,8 @@ Machine Learning
             <b>Currently</b>: Developer at Baidu
         </div>
     </div>
+</div>
+<div class="row">
     <!-- Sam Toyer -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -393,8 +403,6 @@ Machine Learning
             <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
         </div>
     </div>
-</div>
-<div class="row">
     <!-- Yicong Du -->
     <div class="col-md-3">
         <div class="people-profile">
