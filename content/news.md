@@ -9,7 +9,7 @@ tags:
 ---
 
 ### Honours and recognitions
-
+* Sept 2019, Siqi Wu, Marian-Andrei Rizoiu and Lexing Xie recieved [Honourable Mention](https://programs.sigchi.org/CSCW/2019/awards) from [ACM CSCW](http://cscw.acm.org/2019/) for the paper "Estimating Attention Flow in Online Video Networks".
 * August 2018, Siqi Wu became one of four recipients in Australia for the [2018 Google PhD Fellowship](https://australia.googleblog.com/2018/07/announcing-2018-phd-fellowships-to.html).
 * January 2018, Lexing Xie received [The Chris Wallace Award for Outstanding Research](http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio) from The Computing Research and Education Association of Australasia (CORE).
 * December 2017, Honours students Sam Toyer and Quyu Kong were honored with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
@@ -18,13 +18,15 @@ tags:
 
 ### Media coverage
 
-<img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
-
+* 2019-06 Data to Decision CRC has concluded, we enjoyed working with them in the past three years! The [celebration video](https://youtu.be/AQIgE5qNh5s) has footage of our lab and our work. In addition there is a short [video](https://youtu.be/smfigVM_e9g) featuring Minjeong's work！
+<iframe width="560" height="315" src="https://www.youtube.com/embed/smfigVM_e9g" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * 2018-12 Our AAAI'19 work on Comparative Summarisation of News Collections is covered by [TechXplore](https://techxplore.com/news/2018-12-approach-document-classification.html).
 
-* 2018-09 Our work on twitter bot influence in the 2016 election debate is covered by [The Sydney Morning Herald](https://www.smh.com.au/national/twitter-bots-more-influential-than-people-in-us-election-research-20180913-p503jw.html), <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9">Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a>.
+* 2018-09 Our work on twitter bot influence in the 2016 election debate is covered by [The Sydney Morning Herald](https://www.smh.com.au/national/twitter-bots-more-influential-than-people-in-us-election-research-20180913-p503jw.html), <a target=_blank href=https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9>Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a>.
 
 * 2018-08 ANU College of Engineering and Computer Science featured our Google PhD Fellowship recipient Siqi Wu and his work on [Understanding Human Behavior in Online Videos](https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship).
+
+<img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
 
 * 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
 
