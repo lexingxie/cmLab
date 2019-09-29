@@ -32,7 +32,7 @@ We are a diverse group in terms of research interests, background, technical ski
             popularity on social media; stochastic point processes;
             language models for style; visualising evolving graphs
             <br>
-            <b>Before the ANU:</b> IBM T J Watson Research Center
+            <b>Before the ANU:</b> IBM T J Watson Research Center, Columbia U
         </div>
     </div>
     <!-- Dongwoo Kim -->
