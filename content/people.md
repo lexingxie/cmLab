@@ -342,7 +342,7 @@ Machine Learning
             <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD, ANU Computer Science, 2019;  <br/> machine learning, NICTA/Data61 (co-advised with Cheng Soon Ong and Aditya Menon)
         </div>
         <div class="people-info">
-            <b>Thesis</b>: Recommending Structured Objects: Paths and Sets <br/>
+            <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/165008>Recommending Structured Objects: Paths and Sets</a> <br/>
             <b>Currently</b>: Research Engineer, ANU College of Engineering and Computer Science
         </div>
     </div>
