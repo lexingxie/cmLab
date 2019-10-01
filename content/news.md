@@ -19,16 +19,14 @@ tags:
 ### Media coverage
 
 * 2019-06 Data to Decision CRC has concluded, we enjoyed working with them in the past three years! The [celebration video](https://youtu.be/AQIgE5qNh5s) has footage of our lab and our work. In addition there is a short [video](https://youtu.be/smfigVM_e9g) featuring Minjeong's work！
-<iframe width="560" height="315" src="https://www.youtube.com/embed/smfigVM_e9g" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="float:left;margin-top:10px;margin-right:25px;" width="280" height="160" src="https://www.youtube.com/embed/smfigVM_e9g" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * 2018-12 Our AAAI'19 work on Comparative Summarisation of News Collections is covered by [TechXplore](https://techxplore.com/news/2018-12-approach-document-classification.html).
 
 * 2018-09 Our work on twitter bot influence in the 2016 election debate is covered by [The Sydney Morning Herald](https://www.smh.com.au/national/twitter-bots-more-influential-than-people-in-us-election-research-20180913-p503jw.html), <a target=_blank href=https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9>Business Insider</a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election">ANU Reporter</a>.
 
 * 2018-08 ANU College of Engineering and Computer Science featured our Google PhD Fellowship recipient Siqi Wu and his work on [Understanding Human Behavior in Online Videos](https://cs.anu.edu.au/news/anu-student-awarded-google-phd-fellowship).
 
-<img style="float: right; margin-right: 30px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="360" Hspace="10" Vspace="5">
-
-* 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story).
+* 2018-06 ANU College of Engineering and Computer Science featured our work on stylistic image captions with [When Artificial Intelligence Tells a Story](https://cecs.anu.edu.au/news/when-artificial-intelligence-tells-story). <img style="float: right; margin-left: 10px;margin-top:10px;" src="https://cecs.anu.edu.au/sites/default/files/styles/acton_gallery_scale/public/images/alex-mathews-and-lexing-xie-with-photo-caption-research-880x440.jpg?itok=ghaJVBrI" width="280" Hspace="10" Vspace="5">
 
 * 2018-02 ANU News covered our work on [Action Schema Networks - a deep learning algorithm for quick planning](http://www.anu.edu.au/news/all-news/new-intelligent-system-learns-from-simple-problems-to-solve-complex-ones).
 
@@ -40,15 +38,13 @@ tags:
 
 * 2016-04 ANU College of Engineering and Computer Science featured our work [on wikipedia](https://cecs.anu.edu.au/news/anu-researcher-finds-privacy-hole-wikipedia) and being an [IEEE DL](https://cecs.anu.edu.au/news/anu-computer-scientist-named-distinguished-lecturer).
 
-<img style="float: left; margin-right: 30px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
+* 2016-03 Andrei was featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done! <img style="float: left; margin-right: 30px;margin-top:10px;" src="/img/wikipedia-privacy-concerns/hangout.png" width="400" Hspace="10" Vspace="5">
 
-* 2016-03 Andrei was featured at the March 2016 [Wikimedia Research Showcase](https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016) for his WSDM paper on "Evolution of Privacy Loss". Well done!
 
 * 2016-03 Microsoft Academic Graph [featured](http://research.microsoft.com/en-us/projects/mag/) our analysis of the citation patterns of the WSDM conference.
 
-<img style="float: left; margin-right: 30px;" src="/img/anu-reporter-team.jpg" width="200" Hspace="10" Vspace="5">
+* 2015-09 Measuring and predicting social media popularity, covered by [ANU Reporter](http://reporter.anu.edu.au/how-viral-video-star-born) and [NCI News](http://nci.org.au/2015/09/30/predicting-popularity). Photo by Stuart Hay. <img style="float: right; margin-left: 10px;margin-top:10px;" src="/img/anu-reporter-team.jpg" width="200" Hspace="10" Vspace="5">
 
-* 2015-09 Measuring and predicting social media popularity, covered by [ANU Reporter](http://reporter.anu.edu.au/how-viral-video-star-born) and [NCI News](http://nci.org.au/2015/09/30/predicting-popularity). Photo by Stuart Hay.
 
 * 2014-12 ANU News ["Getting emotional about image search"](http://www.anu.edu.au/news/all-news/getting-emotional-about-image-search) describes Qianyu Zhang's Honor thesis research.
 
