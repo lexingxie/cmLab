@@ -32,7 +32,7 @@ We are a diverse group in terms of research interests, background, technical ski
             popularity on social media; stochastic point processes;
             language models for style; visualising evolving graphs
             <br>
-            <b>Before the ANU:</b> IBM T J Watson Research Center
+            <b>Before the ANU:</b> IBM T J Watson Research Center, Columbia U
         </div>
     </div>
     <!-- Dongwoo Kim -->
@@ -93,19 +93,6 @@ We are a diverse group in terms of research interests, background, technical ski
             <b>Before the ANU:</b> Innopolis University, Russia
         </div>
     </div>
-    <!-- Swapnil Mishra -->
-    <div class="col-md-3">
-        <div class="people-profile">
-            <img src='/img/people/smishra-100.png' title='Swapnil' />
-            <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
-        </div>
-        <div class="people-info">
-            <b>Projects:</b>
-                popularity prediction in social media, topic modeling
-            <br>
-            <b>Before the ANU:</b> Maharashtra Institute of Technology, Pune, India
-        </div>
-    </div>
     <!-- Siqi Wu -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -133,10 +120,6 @@ Machine Learning
             <b>Before the ANU:</b> Logpoint Nepal | Institute of Engineering (Tribhuvan University, Nepal)
         </div>
     </div>
-</div>
-
-<!-- third row -->
-<div class="row">
     <!-- Minjeong Shin -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -150,6 +133,10 @@ Machine Learning
             <b>Before the ANU:</b> LG Electronics; KAIST
         </div>
     </div>
+</div>
+    
+<!-- third row -->
+<div class="row">
     <!-- Alasdair Tran -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -189,11 +176,7 @@ Machine Learning
             <b>Before the ANU:</b> Zhejiang University
         </div>
     </div>
-</div>
-
-<!-- 5th row -->
-<div class="row">
-    <!-- Rui Zhang -->
+     <!-- Rui Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/rui-zhang-100.png' title='Rui' />
@@ -206,6 +189,10 @@ Machine Learning
             <b>Before the ANU:</b> Shanghai Jiaotong University
         </div>
     </div>
+</div>
+
+<!-- 5th row -->
+<div class="row">
      <!-- Mengyan Zhang -->
     <div class="col-md-3">
         <div class="people-profile">
@@ -342,8 +329,19 @@ Machine Learning
             <big><big> <b>Dawei Chen</b> </big></big> <br/><br/> PhD, ANU Computer Science, 2019;  <br/> machine learning, NICTA/Data61 (co-advised with Cheng Soon Ong and Aditya Menon)
         </div>
         <div class="people-info">
-            <b>Thesis</b>: Recommending Structured Objects: Paths and Sets <br/>
+            <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/165008>Recommending Structured Objects: Paths and Sets</a> <br/>
             <b>Currently</b>: Research Engineer, ANU College of Engineering and Computer Science
+        </div>
+    </div>
+     <!-- Swapnil Mishra -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/smishra-100.png' title='Swapnil' />
+            <big><big> <b><a href="https://s-mishra.github.io/">Swapnil Mishra</a></b> </big></big> <br/><br/> PhD, ANU Computer Science, 2019;  <br/> machine learning, Data61/NICTA (co-advised with Marian-Andrei Rizoiu)
+        </div>
+        <div class="people-info">
+            <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/182586>Linking Models for Collective Attention in Social Media</a> <br/>
+            <b>Currently</b>: Research Associate, Imperial College London 
         </div>
     </div>
     <!-- Shidi Li -->
@@ -368,7 +366,9 @@ Machine Learning
             <b>Currently</b>: Developer at Alibaba
         </div>
     </div>
-    <!-- Liyao Tang -->
+</div>
+<div class="row">
+     <!-- Liyao Tang -->
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/Liyao-100.png' title='liyao' />
@@ -379,8 +379,6 @@ Machine Learning
             <b>Currently</b>: Developer at Baidu
         </div>
     </div>
-</div>
-<div class="row">
     <!-- Sam Toyer -->
     <div class="col-md-3">
         <div class="people-profile">
