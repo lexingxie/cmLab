@@ -1,5 +1,6 @@
 body {
     margin-top: 75px;
+    font-size: 16px;
     /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
@@ -12,10 +13,14 @@ img {
     /* for responsive image size */
 }
 
+.container {
+    width: 80%;
+}
 .navbar {
     font-weight: 500;
-    height: 55px;
-    padding-top: 5px;
+    font-size: 16px;
+    height: 65px;
+    padding-top: 10px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #333333;
@@ -46,7 +51,7 @@ img {
 }
 
 .people-profile {
-    font-size: 12px;
+    font-size: 14px;
     min-height: 105px;
 }
 
@@ -60,7 +65,7 @@ img {
 }
 
 .people-info {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 25px;
 }
 
@@ -187,21 +192,4 @@ figure figcaption {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-}
-
-.input-group {
-  width: 250px;
-}
-.input-group-addon {
-  color: black;
-  background-color: #ddd;
-  height:38px;
-  border-radius: 15px 0 0 15px;
-  border: 1px solid #ccc;
-}
-.input-group > input {
-  height:40px;
-  padding-left: 15px;
-  border-radius: 0 15px 15px 0;
-  border: 1px solid #ccc;
 }
