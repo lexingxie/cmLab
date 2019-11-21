@@ -1091,6 +1091,17 @@ function createWebPage(defaultTemplate) {
     });
 }
 
+function createMorePages() {
+  var list_items = document.getElementsByClassName('morepage');
+  for (var i = 0; i < list_items.length; i++) {
+    var id = String(list_items[i].children[0].outerText).replace(/:/g, "");
+    var abstract = String(list_items[i].children[1].outerText);
+    list_items[i].outerHTML = '<span class="morepage"><a class="badge" data-toggle="collapse" href="#'
+      +id+'" role="button">abstract</a><div class="collapse" id="'+id+'"><div class="div_abstract">'
+      +abstract+'</span></div></div></span></span>';
+  }
+}
+
 function loadExtras() {
     BibTeXSearcherClass = new BibTeXSearcher();
     $(".bibtex_author").each(function(i, obj) {
