@@ -82,10 +82,3 @@ https%3A%2F%2Fraw.githubusercontent.com%2Flexingxie%2FcmLab%2Fmaster%2Fstatic%2F
     </div>
   </div>
 </div>
-<script>
-document.addEventListener('readystatechange', event => {
-    if (event.target.readyState === "complete") {
-        createMorePages();
-    }
-});
-</script>

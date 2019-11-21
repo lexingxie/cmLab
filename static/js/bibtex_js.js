@@ -928,7 +928,7 @@ function bibtex_js_draw() {
         loadExtras();
         // Remove elements from html that are not needed to display
         $(".bibtex_structure").remove();
-    });
+    }).then(createMorePages);
 }
 
 /**
@@ -1094,8 +1094,8 @@ function createWebPage(defaultTemplate) {
 function createMorePages() {
   var list_items = document.getElementsByClassName('morepage');
   for (var i = 0; i < list_items.length; i++) {
-    var id = String(list_items[i].children[0].outerText).replace(/:/g, "");
-    var abstract = String(list_items[i].children[1].outerText);
+    var id = String(list_items[i].children[0].innerText).replace(/:/g, "");
+    var abstract = String(list_items[i].children[1].innerText);
     list_items[i].outerHTML = '<span class="morepage"><a class="badge" data-toggle="collapse" href="#'
       +id+'" role="button">abstract</a><div class="collapse" id="'+id+'"><div class="div_abstract">'
       +abstract+'</span></div></div></span></span>';
