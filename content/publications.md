@@ -71,8 +71,21 @@ https%3A%2F%2Fraw.githubusercontent.com%2Flexingxie%2FcmLab%2Fmaster%2Fstatic%2F
             <a class="url_slides" target="_blank">
               <i class="fa fa-newspaper-o"></i></a>
           </span>
+          <span class="if abstract" style="margin-left: 2px;">
+            <div class="morepage" >
+              <span class="bibtexkey"></span>
+              <span class="abstract noread"></span>
+            </div>
+          </span>
         </li>
       </ul>
     </div>
   </div>
 </div>
+<script>
+document.addEventListener('readystatechange', event => {
+    if (event.target.readyState === "complete") {
+        createMorePages();
+    }
+});
+</script>
