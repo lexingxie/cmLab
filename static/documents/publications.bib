@@ -1,74 +1,21 @@
 @phdthesis{Mishra:2019:Thesis,
- author = {Mishra, Swapnil},
- title = {Linking Models for Collective Attention in Social Media},
- year = {2019},
- publisher={The Australian National University},
- url={https://openresearch-repository.anu.edu.au/handle/1885/182586},
- url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/182586/1/Mishra%20thesis%202019.pdf},
- abstract={Social networks are ubiquitous in the modern world for propagating and acquiring information. Thus, understanding and predicting the popularity of online information is an important problem in social media analysis. Considerable progress has been made recently in data-driven predictions, and in linking popularity to various external factors. Most of the work on popularity prediction and understanding is either based on learning a variety of features from full network data or using generative processes to model the event time data. However, there exists no prior work that connects or compares models across different paradigms. Accordingly, this thesis focuses on developing and connecting models to predict and understand popularity across different paradigms and settings.
-
-To this aim, we first bridge gaps between feature-driven and generative models with the help of a hybrid model and a new performance benchmark. We model each social diffusion with a marked Hawkes self-exciting point process, and we estimate from data the content virality, memory decay, and user influence. Next, we learn a predictive layer for popularity prediction using a collection of cascade histories. We show the Hawkes process with a predictive overlay outperforms recent feature-driven and generative approaches on both existing tweets data and our new dataset. We also show that a feature-driven method based on a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks and that adding point process information to the feature set further improves predictions. A common benchmark dataset for popularity prediction helps us to utilize both feature-driven, and generative paradigms to better predict and understand online popularity. As the first proposed work that links models across feature-driven and generative models, our work has influenced subsequent works on online popularity since its publication in 2016.
-
-Secondly, we identify that the existing methods for popularity modeling and prediction typically focus on a single source of external influence. However, for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g., microblogs and traditional media coverage. Correspondingly, we propose RNN-MAS, a recurrent neural network for modeling asynchronous streams. It is a sequence generator that connects multiple streams of different granularity via joint inference. We show that RNN-MAS not only outperforms the current state-of-the-art YouTube popularity prediction system, but it also captures complex dynamics, such as the seasonal trends of unseen influence. Further, to increase the explainability and interpretability of our model, we propose two new metrics: the \emph{\promotionresponse} quantifies the gain in popularity from one unit of promotion for a YouTube video; the \emph{loudness level} captures the effects of a particular user tweeting about the video. We use the loudness level to compare the effects of a video being promoted by a single highly-followed user (in the top $1\%$ most followed users) against the same video being promoted by a group of mid-followed users. We show that results depend on the type of content being promoted:
-superusers are more successful in promoting Howto and Gaming videos, whereas the cohort of regular users is more influential for Activism videos.
-
-Additionally, we apply the RNN-MAS model to the problem of predicting the popularity of an item before being published. We train a single model for a group of videos to learn possible evolution dynamics of a given video from the historical data of the videos in the same group. A novel simulation strategy based on the proposed metrics enables us to simulate a representative promotion for the video, and predict the achieved popularity before it is published. Experiments on our large scale YouTube dataset show that our proposed method outperforms non-trivial baselines.
-
-
-By and large, this thesis proposes models for popularity modeling and prediction that are the first of their kind, and it links models across various paradigms and data availability. This work provides accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns. In addition to these contributions, this work may contribute to a more comprehensive understanding of popularity prediction and understanding models across different classes or types.}
+    author = {Mishra, Swapnil},
+    title = {Linking Models for Collective Attention in Social Media},
+    year = {2019},
+    publisher={The Australian National University},
+    url={https://openresearch-repository.anu.edu.au/handle/1885/182586},
+    url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/182586/1/Mishra%20thesis%202019.pdf},
+    abstract={Social networks are ubiquitous in the modern world for propagating and acquiring information. Thus, understanding and predicting the popularity of online information is an important problem in social media analysis. Considerable progress has been made recently in data-driven predictions, and in linking popularity to various external factors. Most of the work on popularity prediction and understanding is either based on learning a variety of features from full network data or using generative processes to model the event time data. However, there exists no prior work that connects or compares models across different paradigms. Accordingly, this thesis focuses on developing and connecting models to predict and understand popularity across different paradigms and settings. To this aim, we first bridge gaps between feature-driven and generative models with the help of a hybrid model and a new performance benchmark. We model each social diffusion with a marked Hawkes self-exciting point process, and we estimate from data the content virality, memory decay, and user influence. Next, we learn a predictive layer for popularity prediction using a collection of cascade histories. We show the Hawkes process with a predictive overlay outperforms recent feature-driven and generative approaches on both existing tweets data and our new dataset. We also show that a feature-driven method based on a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks and that adding point process information to the feature set further improves predictions. A common benchmark dataset for popularity prediction helps us to utilize both feature-driven, and generative paradigms to better predict and understand online popularity. As the first proposed work that links models across feature-driven and generative models, our work has influenced subsequent works on online popularity since its publication in 2016. Secondly, we identify that the existing methods for popularity modeling and prediction typically focus on a single source of external influence. However, for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g., microblogs and traditional media coverage. Correspondingly, we propose RNN-MAS, a recurrent neural network for modeling asynchronous streams. It is a sequence generator that connects multiple streams of different granularity via joint inference. We show that RNN-MAS not only outperforms the current state-of-the-art YouTube popularity prediction system, but it also captures complex dynamics, such as the seasonal trends of unseen influence. Further, to increase the explainability and interpretability of our model, we propose two new metrics: the \emph{\promotionresponse} quantifies the gain in popularity from one unit of promotion for a YouTube video; the \emph{loudness level} captures the effects of a particular user tweeting about the video. We use the loudness level to compare the effects of a video being promoted by a single highly-followed user (in the top $1\%$ most followed users) against the same video being promoted by a group of mid-followed users. We show that results depend on the type of content being promoted: superusers are more successful in promoting Howto and Gaming videos, whereas the cohort of regular users is more influential for Activism videos. Additionally, we apply the RNN-MAS model to the problem of predicting the popularity of an item before being published. We train a single model for a group of videos to learn possible evolution dynamics of a given video from the historical data of the videos in the same group. A novel simulation strategy based on the proposed metrics enables us to simulate a representative promotion for the video, and predict the achieved popularity before it is published. Experiments on our large scale YouTube dataset show that our proposed method outperforms non-trivial baselines. By and large, this thesis proposes models for popularity modeling and prediction that are the first of their kind, and it links models across various paradigms and data availability. This work provides accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns. In addition to these contributions, this work may contribute to a more comprehensive understanding of popularity prediction and understanding models across different classes or types.}
 }
-
-@Article{Kim2019,
-author={Kim, Dongwoo and Graham, Timothy and Wan, Zimin and Rizoiu, Marian-Andrei},
-title={Analysing user identity via time-sensitive semantic edit distance (t-SED): a case study of Russian trolls on Twitter},
-journal={Journal of Computational Social Science},
-year={2019},
-month={Jul},
-day={01},
-volume={2},
-number={2},
-pages={331--351},
-abstract={In the digital era, individuals are increasingly profiled and grouped based on the traces that they leave behind in online social networks such as Twitter and Facebook. In this paper, we develop and evaluate a novel text analysis approach for studying user identity and social roles by redefining identity as a sequence of timestamped items (e.g., tweet texts). We operationalise this idea by developing a novel text distance metric, the time-sensitive semantic edit distance (t-SED), which accounts for the temporal context across multiple traces. To evaluate this method, we undertake a case study of Russian online-troll activity within US political discourse. The novel metric allows us to classify the social roles of trolls based on their traces, in this case tweets, into one of the predefined categories left-leaning, right-leaning, and news feed. We show the effectiveness of the t-SED metric to measure the similarities between tweets while accounting for the temporal context, and we use novel data visualisation techniques and qualitative analysis to uncover new empirical insights into Russian troll activity that have not been identified in the previous work. In addition, we highlight a connection with the field of actor--network theory and the related hypotheses of Gabriel Tarde, and we discuss how social sequence analysis using t-SED may provide new avenues for tackling a longstanding problem in social theory: how to analyse society without separating reality into micro vs. macro-levels.},
-issn={2432-2725},
-doi={10.1007/s42001-019-00051-x},
-url={https://doi.org/10.1007/s42001-019-00051-x}
-}
-
-
 
 @phdthesis{Chen:2019:Thesis,
-  title={Recommending Structured Objects: Paths and Sets},
-  author={Chen, Dawei},
-  year={2019},
-  publisher={The Australian National University},
-  url={https://openresearch-repository.anu.edu.au/handle/1885/165008},
-  url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/165008/1/thesis_chen_20190812_signed.pdf},
-  abstract={Recommender systems have been widely adopted in industry to help people find the most appropriate items
-to purchase or consume from the increasingly large collection of available resources (e.g., books, songs and movies).
-Conventional recommendation techniques follow the approach of ``ranking all possible options and pick the top'',
-which can work effectively for single item recommendation but fall short when the item in question has internal structures.
-For example, a travel trajectory with a sequence of points-of-interest or a music playlist with a set of songs.
-Such structured objects pose critical challenges to recommender systems due to the intractability of ranking all possible
-candidates. This thesis study the problem of recommending structured objects, in particular, the recommendation of path
-(a sequence of unique elements) and set (a collection of distinct elements). We study the problem of recommending travel
-trajectories in a city, which is a typical instance of path recommendation. We propose methods that combine learning to
-rank and route planning techniques for efficient trajectory recommendation. Another contribution of this thesis is to
-develop the structured recommendation approach for path recommendation by substantially modifying the loss function,
-the learning and inference procedures of structured support vector machines. A novel application of path decoding techniques
-helps us achieve efficient learning and recommendation. Additionally, we investigate the problem of recommending a set of songs
-to form a playlist as an example of the set recommendation problem. We propose to jointly learn user representations by employing
-the multi-task learning paradigm, and a key result of equivalence between bipartite ranking and binary classification enables
-efficient learning of our set recommendation method. Extensive evaluations on real world datasets demonstrate the effectiveness
-of our proposed approaches for path and set recommendation.}
-}
-
-@inproceedings{shin2019influence,
-  title={Influence Flowers of Academic Entities},
-  author={Shin, Minjeong and Soen, Alexander and Readshaw, Benjamin T and Blackburn, Stephen M and Whitelaw, Mitchell and Xie, Lexing},
-  booktitle={IEEE Conference on Visual Analytics Science and Technology (VAST)},
-  year={2019},
-  url_Paper = {https://arxiv.org/abs/1907.12748},
-  url_Code = {http://influencemap.ml/vast19}
+    title={Recommending Structured Objects: Paths and Sets},
+    author={Chen, Dawei},
+    year={2019},
+    publisher={The Australian National University},
+    url={https://openresearch-repository.anu.edu.au/handle/1885/165008},
+    url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/165008/1/thesis_chen_20190812_signed.pdf},
+    abstract={Recommender systems have been widely adopted in industry to help people find the most appropriate items to purchase or consume from the increasingly large collection of available resources (e.g., books, songs and movies). Conventional recommendation techniques follow the approach of ``ranking all possible options and pick the top'', which can work effectively for single item recommendation but fall short when the item in question has internal structures. For example, a travel trajectory with a sequence of points-of-interest or a music playlist with a set of songs. Such structured objects pose critical challenges to recommender systems due to the intractability of ranking all possible candidates. This thesis study the problem of recommending structured objects, in particular, the recommendation of path (a sequence of unique elements) and set (a collection of distinct elements). We study the problem of recommending travel trajectories in a city, which is a typical instance of path recommendation. We propose methods that combine learning to rank and route planning techniques for efficient trajectory recommendation. Another contribution of this thesis is to develop the structured recommendation approach for path recommendation by substantially modifying the loss function, the learning and inference procedures of structured support vector machines. A novel application of path decoding techniques helps us achieve efficient learning and recommendation. Additionally, we investigate the problem of recommending a set of songs to form a playlist as an example of the set recommendation problem. We propose to jointly learn user representations by employing the multi-task learning paradigm, and a key result of equivalence between bipartite ranking and binary classification enables efficient learning of our set recommendation method. Extensive evaluations on real world datasets demonstrate the effectiveness of our proposed approaches for path and set recommendation.}
 }
 
 @inproceedings{wu2019estimating,
@@ -80,57 +27,76 @@ of our proposed approaches for path and set recommendation.}
     abstract = {Online videos have shown tremendous increase in Internet traffic. Most video hosting sites implement recommender systems, which connect the videos into a directed network and conceptually act as a source of pathways for users to navigate. At present, little is known about how human attention is allocated over such large-scale networks, and about the impacts of the recommender systems. In this paper, we first construct the Vevo network -- a YouTube video network with 60,740 music videos interconnected by the recommendation links, and we collect their associated viewing dynamics. This results in a total of 310 million views every day over a period of 9 weeks. Next, we present large-scale measurements that connect the structure of the recommendation network and the video attention dynamics. We use the bow-tie structure to characterize the Vevo network and we find that its core component (23.1% of the videos), which occupies most of the attention (82.6% of the views), is made out of videos that are mainly recommended among themselves. This is indicative of the links between video recommendation and the inequality of attention allocation. Finally, we address the task of estimating the attention flow in the video recommendation network. We propose a model that accounts for the network effects for predicting video popularity, and we show it consistently outperforms the baselines. This model also identifies a group of artists gaining attention because of the recommendation network. Altogether, our observations and our models provide a new set of tools to better understand the impacts of recommender systems on collective social attention.},
     url_Abstract = {https://arxiv.org/abs/1908.07123},
     url_Paper = {http://cm.cecs.anu.edu.au/documents/wu_cscw2019_network.pdf},
-    url_Code = {https://github.com/avalanchesiqi/networked-popularity}
+    url_Data = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TORICY},
+    url_Code = {https://github.com/avalanchesiqi/networked-popularity},
+    url_Slides = {http://users.cecs.anu.edu.au/~siqi.wu/files/cscw2019slides.pdf},
+    url_Blog = {https://medium.com/acm-cscw/how-does-the-network-of-youtube-music-videos-drive-attention-42130144b59b}
+}
+
+@inproceedings{shin2019influence,
+    title={Influence Flowers of Academic Entities},
+    author={Shin, Minjeong and Soen, Alexander and Readshaw, Benjamin T and Blackburn, Stephen M and Whitelaw, Mitchell and Xie, Lexing},
+    booktitle={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+    year={2019},
+    url_Paper = {https://arxiv.org/abs/1907.12748},
+    url_Code = {http://influencemap.ml/vast19}
 }
 
 @inproceedings{zhang2019efficient,
-  author    = {Rui Zhang and
-               Christian Walder and
-               Marian-Andrei Rizoiu and
-               Lexing Xie},
-  title     = {Efﬁcient Non-parametric Bayesian Hawkes Processes},
-  booktitle={The 28th International Joint Conference on Artificial Intelligence (IJCAI-19)},
-  year={2019},
-  address = {Macau, China},
-  abstract = {In this paper, we develop an efﬁcient non-parametric Bayesian estimation of the kernel function of Hawkes processes. The non-parametric Bayesian approach is important because it provides ﬂexible Hawkes kernels and quantiﬁes their uncertainty. Our method is based on the cluster representation of Hawkes processes. Utilizing the stationarity of the Hawkes process, we efﬁciently sample random branching structures and thus, we split the Hawkes process into clusters of Poisson processes. We derive two algorithms — a block Gibbs sampler and a maximum a posteriori estimator based on expectation maximization — and we show that our methods have a linear time complexity, both theoretically and empirically. On synthetic data, we show our methods to be able to infer ﬂexible Hawkes triggering kernels. On two large scale Twitter diffusion datasets, we show that our methods outperform the current state-of-the-art in goodness-of-ﬁt and that the time complexity is linear in the size of the dataset. We also observe that on diffusions related to online videos, the learned kernels reﬂect the perceived longevity for different content types such as music or pets videos.},
-  url_Paper = {https://arxiv.org/abs/1810.03730},
-  url_Code = {https://github.com/RuiZhang2016/Efficient-Nonparametric-Bayesian-Hawkes-Processes}
+    author    = {Rui Zhang and Christian Walder and Marian-Andrei Rizoiu and Lexing Xie},
+    title     = {Efﬁcient Non-parametric Bayesian Hawkes Processes},
+    booktitle={The 28th International Joint Conference on Artificial Intelligence (IJCAI-19)},
+    year={2019},
+    address = {Macau, China},
+    abstract = {In this paper, we develop an efﬁcient non-parametric Bayesian estimation of the kernel function of Hawkes processes. The non-parametric Bayesian approach is important because it provides ﬂexible Hawkes kernels and quantiﬁes their uncertainty. Our method is based on the cluster representation of Hawkes processes. Utilizing the stationarity of the Hawkes process, we efﬁciently sample random branching structures and thus, we split the Hawkes process into clusters of Poisson processes. We derive two algorithms — a block Gibbs sampler and a maximum a posteriori estimator based on expectation maximization — and we show that our methods have a linear time complexity, both theoretically and empirically. On synthetic data, we show our methods to be able to infer ﬂexible Hawkes triggering kernels. On two large scale Twitter diffusion datasets, we show that our methods outperform the current state-of-the-art in goodness-of-ﬁt and that the time complexity is linear in the size of the dataset. We also observe that on diffusions related to online videos, the learned kernels reﬂect the perceived longevity for different content types such as music or pets videos.},
+    url_Paper = {https://arxiv.org/abs/1810.03730},
+    url_Code = {https://github.com/RuiZhang2016/Efficient-Nonparametric-Bayesian-Hawkes-Processes}
+}
+
+@Article{Kim2019,
+    author={Kim, Dongwoo and Graham, Timothy and Wan, Zimin and Rizoiu, Marian-Andrei},
+    title={Analysing user identity via time-sensitive semantic edit distance (t-SED): a case study of Russian trolls on Twitter},
+    journal={Journal of Computational Social Science},
+    year={2019},
+    month={Jul},
+    day={01},
+    volume={2},
+    number={2},
+    pages={331--351},
+    abstract={In the digital era, individuals are increasingly profiled and grouped based on the traces that they leave behind in online social networks such as Twitter and Facebook. In this paper, we develop and evaluate a novel text analysis approach for studying user identity and social roles by redefining identity as a sequence of timestamped items (e.g., tweet texts). We operationalise this idea by developing a novel text distance metric, the time-sensitive semantic edit distance (t-SED), which accounts for the temporal context across multiple traces. To evaluate this method, we undertake a case study of Russian online-troll activity within US political discourse. The novel metric allows us to classify the social roles of trolls based on their traces, in this case tweets, into one of the predefined categories left-leaning, right-leaning, and news feed. We show the effectiveness of the t-SED metric to measure the similarities between tweets while accounting for the temporal context, and we use novel data visualisation techniques and qualitative analysis to uncover new empirical insights into Russian troll activity that have not been identified in the previous work. In addition, we highlight a connection with the field of actor--network theory and the related hypotheses of Gabriel Tarde, and we discuss how social sequence analysis using t-SED may provide new avenues for tackling a longstanding problem in social theory: how to analyse society without separating reality into micro vs. macro-levels.},
+    issn={2432-2725},
+    doi={10.1007/s42001-019-00051-x},
+    url={https://doi.org/10.1007/s42001-019-00051-x}
 }
 
 @article{Berger:2019:GRC:3342113.3332803,
-   author = {Berger, Emery and Blackburn, Stephen M. and Brodley, Carla and Jagadish, H. V. and McKinley, Kathryn S. and Nascimento, Mario A. and Shin, Minjeong and Wang, Kuansan and Xie, Lexing},
-   title = {GOTO Rankings Considered Helpful},
-   journal = {Commun. ACM},
-   issue_date = {July 2019},
-   volume = {62},
-   number = {7},
-   month = jun,
-   year = {2019},
-   issn = {0001-0782},
-   pages = {29--30},
-   numpages = {2},
-   url = {http://doi.acm.org/10.1145/3332803},
-   doi = {10.1145/3332803},
-   acmid = {3332803},
-   publisher = {ACM},
-   address = {New York, NY, USA},
-   url_Paper = {https://cacm.acm.org/magazines/2019/7/237709-goto-rankings-considered-helpful/fulltext},
+    author = {Berger, Emery and Blackburn, Stephen M. and Brodley, Carla and Jagadish, H. V. and McKinley, Kathryn S. and Nascimento, Mario A. and Shin, Minjeong and Wang, Kuansan and Xie, Lexing},
+    title = {GOTO Rankings Considered Helpful},
+    journal = {Commun. ACM},
+    issue_date = {July 2019},
+    volume = {62},
+    number = {7},
+    month = jun,
+    year = {2019},
+    issn = {0001-0782},
+    pages = {29--30},
+    numpages = {2},
+    url = {http://doi.acm.org/10.1145/3332803},
+    doi = {10.1145/3332803},
+    acmid = {3332803},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    url_Paper = {https://cacm.acm.org/magazines/2019/7/237709-goto-rankings-considered-helpful/fulltext},
 }
 
-@inproceedings{bista2019comp,
-  author    = {Umanga Bista and
-               Alexander Patrick Mathews and
-               Minjeong Shin and
-               Aditya Krishna Menon and
-               Lexing Xie},
-  title     = {Comparative Document Summarisation via Classification},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2019},
-  address = {Honolulu, USA},
-  abstract = {This paper considers extractive summarisation in a comparative setting: given two or more document groups (e.g., separated by publication time), the goal is to select a small number of documents that are representative of each group, and also maximally distinguishable from other groups. We formulate a set of new objective functions for this problem that connect recent literature on document summarisation, interpretable machine learning, and data subset selection. In particular, by casting the problem as a binary classification amongst different groups, we derive objectives based on the notion of maximum mean discrepancy, as well as a simple yet effective gradient-based optimisation strategy. Our new formulation allows scalable evaluations of comparative summarisation as a classification task, both automatically and via crowd-sourcing. To this end, we evaluate comparative summarisation methods on a newly curated collection of controversial news topics over 13 months. We observe that gradient-based optimisation outperforms discrete and baseline approaches in 15 out of 24 different automatic evaluation settings. In crowd-sourced evaluations, summaries from gradient optimisation elicit 7% more accurate classification from human workers than discrete optimisation. Our result contrasts with recent literature on submodular data subset selection that favours discrete optimisation. We posit that our formulation of comparative summarisation will prove useful in a diverse range of use cases such as comparing content sources, authors, related topics, or distinct view points.},
-  url_Abstract={http://arxiv.org/abs/1812.02171},
-  url_Paper = {http://arxiv.org/abs/1812.02171},
-  url_Code = {https://github.com/computationalmedia/compsumm}
+@inproceedings{shin2019kgdiff,
+    address = {Melbourne, VIC, Australia},
+    author = {Shin, Minjeong and Kim, Dongwoo and Lee, Jae Hee and Bista, Umanga and Xie, Lexing},
+    booktitle = {ACM International Conference on Web Search and Data Mining (WSDM '19), Demo},
+    title = {{Visualizing Graph Differences from Social Media Streams}},
+    year = {2019},
+    abstract = {We propose KGdiff, a new interactive visualization tool for social media content focusing on entities and relationships. The core component is a layout algorithm that highlights the differences between two graphs. We apply this algorithm on knowledge graphs consisting of named entities and their relations extracted from text streams over different time periods. The visualization system provides additional information such as the volume and frequency ranking of entities and allows users to select which parts of the graph to visualize interactively. On Twitter and news article collections, KGdiff allows users to compare different data subsets. Results of such comparisons often reveal topical or geographical changes in a discussion. More broadly, graph differences are useful for a wide range of relational data comparison tasks, such as comparing social interaction graphs, identifying changes in user behavior, or discovering differences in graphs from distinct sources, geography, or political stance.},
+    url_Paper = {http://cm.cecs.anu.edu.au/documents/shin_wsdm2019_demo.pdf}
 }
 
 @inproceedings{bista2019compdc,
@@ -142,33 +108,25 @@ of our proposed approaches for path and set recommendation.}
     abstract = {The goal of this thesis is to develop techniques for comparative summarisation of multimodal document collections. Comparative summarisation is extractive summarisation in comparative settings, where documents form two or more groups, e.g. articles on the same topic but from different sources. Comparative summarisa- tion involves, not only, selecting representative and diverse sam- ples within groups, but also samples that highlight commonalities and differences between the groups. We posit that comparative summarisation is a fruitful problem for diverse use cases, such as comparing content over time, authors, or distinct view points. We formulate the problem of comparative summarisation by reducing it to binary classification problem and define objectives to incorpo- rate representativeness, diversity and comparativeness. We design new automatic and crowd-sourced evaluation protocols for sum- marisation evaluation that scales much better than the evaluations requiring manually created ground truth summaries. We show the efficacy of the approach in a newly curated datasets of controver- sial news topics. We plan to develop new collection comparison methods for multimodal document collections.},
     url_Paper = {http://www.bistaumanga.com.np/files/compsumm_wsdm_dc.pdf}
 }
+
 @inproceedings{mishra2019bridging,
- author = {Mishra, Swapnil},
- title = {Bridging Models for Popularity Prediction on Social Media},
- booktitle = {Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining},
- series = {WSDM '19},
- year = {2019},
- isbn = {978-1-4503-5940-5},
- location = {Melbourne VIC, Australia},
- abstract = {Understanding and predicting the popularity of online items is an important open problem in social media analysis. Most of the recent work on popularity prediction is either based on learning a variety of features from full network data or using generative processes to model the event time data. We identify two gaps in the current state of the art prediction models. The first is the unexplored connection and comparison between the two aforementioned approaches. In our work, we bridge gap between feature-driven and generative models by modelling social cascade with a marked Hawkes self-exciting point process. We then learn a predictive layer on top for popularity prediction using a collection of cascade history. Secondly, the existing methods typically focus on a single source of external influence, whereas for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g. microblogs or traditional media coverage. We propose a recurrent neural network based model for asynchronous streams that connects multiple streams of different granularity via joint inference. We further design two new measures, one to explain the viral potential of videos, the other to uncover latent influences including seasonal trends. This work provides accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns.},
- pages = {810--811},
- numpages = {2},
- url = {http://doi.acm.org/10.1145/3289600.3291598},
- doi = {10.1145/3289600.3291598},
- acmid = {3291598},
- publisher = {ACM},
- address = {Melbourne, VIC, Australia},
- keywords = {hawkes processes, information diffusion, recurrent neural networks},
- url_Paper = {https://dl.acm.org/ft_gateway.cfm?id=3291598&ftid=2038013&dwn=1&CFID=108404766&CFTOKEN=bb5b0fef428247e0-52916DAC-902E-2E17-B7813EFE4C960CE8}
-}
-@inproceedings{shin2019kgdiff,
-    address = {Melbourne, VIC, Australia},
-    author = {Shin, Minjeong and Kim, Dongwoo and Lee, Jae Hee and Bista, Umanga and Xie, Lexing},
-    booktitle = {ACM International Conference on Web Search and Data Mining (WSDM '19), Demo},
-    title = {{Visualizing Graph Differences from Social Media Streams}},
+    author = {Mishra, Swapnil},
+    title = {Bridging Models for Popularity Prediction on Social Media},
+    booktitle = {Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining},
+    series = {WSDM '19},
     year = {2019},
-    abstract = {We propose KGdiff, a new interactive visualization tool for social media content focusing on entities and relationships. The core component is a layout algorithm that highlights the differences between two graphs. We apply this algorithm on knowledge graphs consisting of named entities and their relations extracted from text streams over different time periods. The visualization system provides additional information such as the volume and frequency ranking of entities and allows users to select which parts of the graph to visualize interactively. On Twitter and news article collections, KGdiff allows users to compare different data subsets. Results of such comparisons often reveal topical or geographical changes in a discussion. More broadly, graph differences are useful for a wide range of relational data comparison tasks, such as comparing social interaction graphs, identifying changes in user behavior, or discovering differences in graphs from distinct sources, geography, or political stance.},
-    url_Paper = {http://cm.cecs.anu.edu.au/documents/shin_wsdm2019_demo.pdf}
+    isbn = {978-1-4503-5940-5},
+    location = {Melbourne VIC, Australia},
+    abstract = {Understanding and predicting the popularity of online items is an important open problem in social media analysis. Most of the recent work on popularity prediction is either based on learning a variety of features from full network data or using generative processes to model the event time data. We identify two gaps in the current state of the art prediction models. The first is the unexplored connection and comparison between the two aforementioned approaches. In our work, we bridge gap between feature-driven and generative models by modelling social cascade with a marked Hawkes self-exciting point process. We then learn a predictive layer on top for popularity prediction using a collection of cascade history. Secondly, the existing methods typically focus on a single source of external influence, whereas for many types of online content such as YouTube videos or news articles, attention is driven by multiple heterogeneous sources simultaneously - e.g. microblogs or traditional media coverage. We propose a recurrent neural network based model for asynchronous streams that connects multiple streams of different granularity via joint inference. We further design two new measures, one to explain the viral potential of videos, the other to uncover latent influences including seasonal trends. This work provides accurate and explainable popularity predictions, as well as computational tools for content producers and marketers to allocate resources for promotion campaigns.},
+    pages = {810--811},
+    numpages = {2},
+    url = {http://doi.acm.org/10.1145/3289600.3291598},
+    doi = {10.1145/3289600.3291598},
+    acmid = {3291598},
+    publisher = {ACM},
+    address = {Melbourne, VIC, Australia},
+    keywords = {hawkes processes, information diffusion, recurrent neural networks},
+    url_Paper = {https://dl.acm.org/ft_gateway.cfm?id=3291598&ftid=2038013&dwn=1&CFID=108404766&CFTOKEN=bb5b0fef428247e0-52916DAC-902E-2E17-B7813EFE4C960CE8}
 }
 
 @inproceedings{wu2019attention,
@@ -191,86 +149,72 @@ of our proposed approaches for path and set recommendation.}
     url_Paper = {http://cm.cecs.anu.edu.au/documents/kong_wsdm2019_dc.pdf}
 }
 
+@inproceedings{bista2019comp,
+    author    = {Umanga Bista and Alexander Patrick Mathews and Minjeong Shin and Aditya Krishna Menon and Lexing Xie},
+    title     = {Comparative Document Summarisation via Classification},
+    booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+    year={2019},
+    address = {Honolulu, USA},
+    abstract = {This paper considers extractive summarisation in a comparative setting: given two or more document groups (e.g., separated by publication time), the goal is to select a small number of documents that are representative of each group, and also maximally distinguishable from other groups. We formulate a set of new objective functions for this problem that connect recent literature on document summarisation, interpretable machine learning, and data subset selection. In particular, by casting the problem as a binary classification amongst different groups, we derive objectives based on the notion of maximum mean discrepancy, as well as a simple yet effective gradient-based optimisation strategy. Our new formulation allows scalable evaluations of comparative summarisation as a classification task, both automatically and via crowd-sourcing. To this end, we evaluate comparative summarisation methods on a newly curated collection of controversial news topics over 13 months. We observe that gradient-based optimisation outperforms discrete and baseline approaches in 15 out of 24 different automatic evaluation settings. In crowd-sourced evaluations, summaries from gradient optimisation elicit 7% more accurate classification from human workers than discrete optimisation. Our result contrasts with recent literature on submodular data subset selection that favours discrete optimisation. We posit that our formulation of comparative summarisation will prove useful in a diverse range of use cases such as comparing content sources, authors, related topics, or distinct view points.},
+    url_Abstract={http://arxiv.org/abs/1812.02171},
+    url_Paper = {http://arxiv.org/abs/1812.02171},
+    url_Code = {https://github.com/computationalmedia/compsumm}
+}
+
 @phdthesis{mathews2018automatic,
-  title={Automatic Image Captioning with Style},
-  author={Mathews, Alexander Patrick},
-  year={2018},
-  publisher={The Australian National University},
-  url={https://openresearch-repository.anu.edu.au/handle/1885/151929},
-  url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/151929/1/thesis_apm_01_11_18.pdf},
-  abstract={This thesis connects two core topics in machine learning, vision
- and language. The problem of choice is image caption generation:
- automatically constructing natural language descriptions of image
- content. Previous research into image caption generation has
- focused on generating purely descriptive captions; I focus on
- generating visually relevant captions with a distinct linguistic
- style. Captions with style have the potential to ease
- communication and add a new layer of personalisation. First, I consider naming variations in image captions, and
- propose a method for predicting context-dependent names that
- takes into account visual and linguistic information. This method
- makes use of a large-scale image caption dataset, which I also
- use to explore naming conventions and report naming conventions
- for hundreds of animal classes. Next I propose the SentiCap
- model, which relies on recent advances in artificial neural
- networks to generate visually relevant image captions with
- positive or negative sentiment. To balance descriptiveness and
- sentiment, the SentiCap model dynamically switches between two
- recurrent neural networks, one tuned for descriptive words and
- one for sentiment words. As the first published model for
- generating captions with sentiment, SentiCap has influenced a
- number of subsequent works. I then investigate the sub-task of
- modelling styled sentences without images. The specific task
- chosen is sentence simplification: rewriting news article
- sentences to make them easier to understand.
- For this task I design a neural sequence-to-sequence model that
- can work with limited training data, using novel adaptations for word copying
- and sharing word embeddings. Finally, I present SemStyle, a system for
- generating visually relevant image captions in the style of an arbitrary text corpus.
- A shared term space allows a neural network for vision and content planning to
- communicate with a network for styled language generation. SemStyle achieves
- competitive results in human and automatic evaluations of descriptiveness and
- style. As a whole, this thesis presents two complete systems for styled
- caption generation that are first of their kind and demonstrate,
- for the first time, that automatic style transfer for image
- captions is achievable. Contributions also include novel ideas
- for object naming and sentence simplification. This thesis opens
- up inquiries into highly personalised image captions; large scale
- visually grounded concept naming; and more generally, styled text
- generation with content control.}
+    title={Automatic Image Captioning with Style},
+    author={Mathews, Alexander Patrick},
+    year={2018},
+    publisher={The Australian National University},
+    url={https://openresearch-repository.anu.edu.au/handle/1885/151929},
+    url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/151929/1/thesis_apm_01_11_18.pdf},
+    abstract={This thesis connects two core topics in machine learning, vision and language. The problem of choice is image caption generation: automatically constructing natural language descriptions of image content. Previous research into image caption generation has focused on generating purely descriptive captions; I focus on generating visually relevant captions with a distinct linguistic style. Captions with style have the potential to ease communication and add a new layer of personalisation. First, I consider naming variations in image captions, and propose a method for predicting context-dependent names that takes into account visual and linguistic information. This method makes use of a large-scale image caption dataset, which I also use to explore naming conventions and report naming conventions for hundreds of animal classes. Next I propose the SentiCap model, which relies on recent advances in artificial neural networks to generate visually relevant image captions with positive or negative sentiment. To balance descriptiveness and sentiment, the SentiCap model dynamically switches between two recurrent neural networks, one tuned for descriptive words and one for sentiment words. As the first published model for generating captions with sentiment, SentiCap has influenced a number of subsequent works. I then investigate the sub-task of modelling styled sentences without images. The specific task chosen is sentence simplification: rewriting news article sentences to make them easier to understand. For this task I design a neural sequence-to-sequence model that can work with limited training data, using novel adaptations for word copying and sharing word embeddings. Finally, I present SemStyle, a system for generating visually relevant image captions in the style of an arbitrary text corpus. A shared term space allows a neural network for vision and content planning to communicate with a network for styled language generation. SemStyle achieves competitive results in human and automatic evaluations of descriptiveness and style. As a whole, this thesis presents two complete systems for styled caption generation that are first of their kind and demonstrate, for the first time, that automatic style transfer for image captions is achievable. Contributions also include novel ideas for object naming and sentence simplification. This thesis opens up inquiries into highly personalised image captions; large scale visually grounded concept naming; and more generally, styled text generation with content control.}
 }
 
 @InProceedings{pmlr-v80-kim18c,
-      title =    {Self-Bounded Prediction Suffix Tree via Approximate String Matching},
-      author =     {Kim, Dongwoo and Walder, Christian},
-      booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
-      pages =      {2664--2672},
-      year =     {2018},
-      editor =     {Dy, Jennifer and Krause, Andreas},
-      volume =   {80},
-      series =     {Proceedings of Machine Learning Research},
-      address =      {Stockholmsmässan, Stockholm Sweden},
-      month =      {10--15 Jul},
-      publisher =    {PMLR},
-      pdf =    {http://proceedings.mlr.press/v80/kim18c/kim18c.pdf},
-      url =      {http://proceedings.mlr.press/v80/kim18c.html},
-      abstract =   {Prediction suffix trees (PST) provide an effective tool for sequence modelling and prediction. Current prediction techniques for PSTs rely on exact matching between the suffix of the current sequence and the previously observed sequence. We present a provably correct algorithm for learning a PST with approximate suffix matching by relaxing the exact matching condition. We then present a self-bounded enhancement of our algorithm where the depth of suffix tree grows automatically in response to the model performance on a training sequence. Through experiments on synthetic datasets as well as three real-world datasets, we show that the approximate matching PST results in better predictive performance than the other variants of PST.}
+    title =    {Self-Bounded Prediction Suffix Tree via Approximate String Matching},
+    author =     {Kim, Dongwoo and Walder, Christian},
+    booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+    pages =      {2664--2672},
+    year =     {2018},
+    editor =     {Dy, Jennifer and Krause, Andreas},
+    volume =   {80},
+    series =     {Proceedings of Machine Learning Research},
+    address =      {Stockholmsmässan, Stockholm Sweden},
+    month =      {10--15 Jul},
+    publisher =    {PMLR},
+    pdf =    {http://proceedings.mlr.press/v80/kim18c/kim18c.pdf},
+    url =      {http://proceedings.mlr.press/v80/kim18c.html},
+    abstract =   {Prediction suffix trees (PST) provide an effective tool for sequence modelling and prediction. Current prediction techniques for PSTs rely on exact matching between the suffix of the current sequence and the previously observed sequence. We present a provably correct algorithm for learning a PST with approximate suffix matching by relaxing the exact matching condition. We then present a self-bounded enhancement of our algorithm where the depth of suffix tree grows automatically in response to the model performance on a training sequence. Through experiments on synthetic datasets as well as three real-world datasets, we show that the approximate matching PST results in better predictive performance than the other variants of PST.}
 }
 
 @InProceedings{pmlr-v80-walder18a,
-  title =    {Neural Dynamic Programming for Musical Self Similarity},
-  author =     {Walder, Christian and Kim, Dongwoo},
-  booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
-  pages =      {5092--5100},
-  year =     {2018},
-  editor =     {Dy, Jennifer and Krause, Andreas},
-  volume =   {80},
-  series =     {Proceedings of Machine Learning Research},
-  address =      {Stockholmsmässan, Stockholm Sweden},
-  month =      {10--15 Jul},
-  publisher =    {PMLR},
-  pdf =    {http://proceedings.mlr.press/v80/walder18a/walder18a.pdf},
-  url =      {http://proceedings.mlr.press/v80/walder18a.html},
-  abstract =   {We present a neural sequence model designed specifically for symbolic music. The model is based on a learned edit distance mechanism which generalises a classic recursion from computer science, leading to a neural dynamic program. Repeated motifs are detected by learning the transformations between them. We represent the arising computational dependencies using a novel data structure, the edit tree; this perspective suggests natural approximations which afford the scaling up of our otherwise cubic time algorithm. We demonstrate our model on real and synthetic data; in all cases it out-performs a strong stacked long short-term memory benchmark.}
+    title =    {Neural Dynamic Programming for Musical Self Similarity},
+    author =     {Walder, Christian and Kim, Dongwoo},
+    booktitle =    {Proceedings of the 35th International Conference on Machine Learning},
+    pages =      {5092--5100},
+    year =     {2018},
+    editor =     {Dy, Jennifer and Krause, Andreas},
+    volume =   {80},
+    series =     {Proceedings of Machine Learning Research},
+    address =      {Stockholmsmässan, Stockholm Sweden},
+    month =      {10--15 Jul},
+    publisher =    {PMLR},
+    pdf =    {http://proceedings.mlr.press/v80/walder18a/walder18a.pdf},
+    url =      {http://proceedings.mlr.press/v80/walder18a.html},
+    abstract =   {We present a neural sequence model designed specifically for symbolic music. The model is based on a learned edit distance mechanism which generalises a classic recursion from computer science, leading to a neural dynamic program. Repeated motifs are detected by learning the transformations between them. We represent the arising computational dependencies using a novel data structure, the edit tree; this perspective suggests natural approximations which afford the scaling up of our otherwise cubic time algorithm. We demonstrate our model on real and synthetic data; in all cases it out-performs a strong stacked long short-term memory benchmark.}
+}
+
+@inproceedings{mathews2018semstyle,
+  title={{SemStyle}:  Learning to Generate Stylised Image Captions using Unaligned Text},
+  author={Mathews, Alexander and Xie, Lexing and He, Xuming},
+  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  url_Abstract={https://arxiv.org/abs/1805.07030},
+  url_Paper={https://arxiv.org/pdf/1805.07030},
+  url_Code = {https://github.com/computationalmedia/semstyle},
+  address = {Salt Lake City, USA},
+  year={2018},
+  abstract={Linguistic style is an essential part of written communication, with the power to affect both clarity and attractiveness. With recent advances in vision and language, we can start to tackle the problem of generating image captions that are both visually grounded and appropriately styled. Existing approaches either require styled training captions aligned to images or generate captions with low relevance. We develop a model that learns to generate visually relevant styled captions from a large corpus of styled text without aligned images. The core idea of this model, called SemStyle, is to separate semantics and style. One key component is a novel and concise semantic term representation generated using natural language processing techniques and frame semantics. In addition, we develop a unified language model that decodes sentences with diverse word choices and syntax for different styles. Evaluations, both automatic and manual, show captions from SemStyle preserve image semantics, are descriptive, and are style shifted. More broadly, this work provides possibilities to learn richer image descriptions from the plethora of linguistic data available on the web.},
 }
 
 @inproceedings{Rizoiu2018a,
@@ -284,19 +228,6 @@ of our proposed approaches for path and set recommendation.}
     url_Paper = {https://arxiv.org/pdf/1802.09808.pdf},
     url_Code = {https://github.com/computationalmedia/cascade-influence},
     url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf}
-}
-
-
-@inproceedings{mathews2018semstyle,
-  title={{SemStyle}:  Learning to Generate Stylised Image Captions using Unaligned Text},
-  author={Mathews, Alexander and Xie, Lexing and He, Xuming},
-  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
-  url_Abstract={https://arxiv.org/abs/1805.07030},
-  url_Paper={https://arxiv.org/pdf/1805.07030},
-  url_Code = {https://github.com/computationalmedia/semstyle},
-  address = {Salt Lake City, USA},
-  year={2018},
-  abstract={Linguistic style is an essential part of written communication, with the power to affect both clarity and attractiveness. With recent advances in vision and language, we can start to tackle the problem of generating image captions that are both visually grounded and appropriately styled. Existing approaches either require styled training captions aligned to images or generate captions with low relevance. We develop a model that learns to generate visually relevant styled captions from a large corpus of styled text without aligned images. The core idea of this model, called SemStyle, is to separate semantics and style. One key component is a novel and concise semantic term representation generated using natural language processing techniques and frame semantics. In addition, we develop a unified language model that decodes sentences with diverse word choices and syntax for different styles. Evaluations, both automatic and manual, show captions from SemStyle preserve image semantics, are descriptive, and are style shifted. More broadly, this work provides possibilities to learn richer image descriptions from the plethora of linguistic data available on the web.},
 }
 
 @inproceedings{wu2018beyond,
@@ -346,35 +277,35 @@ of our proposed approaches for path and set recommendation.}
 }
 
 @inproceedings{rizoiu2018sir,
-  title={{SIR-Hawkes}: Linking Epidemic Models and {Hawkes} Processes to Model Diffusions in Finite Populations},
-  author={Rizoiu, Marian-Andrei and Mishra, Swapnil and Kong, Quyu and Carman, Mark and Xie, Lexing},
-  address = {Lyon, France},
-  booktitle = {Proceedings of the 2018 World Wide Web Conference},
-  series = {WWW '18},
-  year={2018},
-  abstract = {Among the statistical tools for online information diffusion modeling, both epidemic models and Hawkes point processes are popular choices. The former originate from epidemiology, and consider information as a viral contagion which spreads into a population of online users. The latter have roots in geophysics and finance, view individual actions as discrete events in continuous time, and modulate the rate of events according to the self-exciting nature of event sequences. Here, we establish a novel connection between these two frameworks. Namely, the rate of events in an extended Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model after marginalizing out recovery events -- which are unobserved in a Hawkes process. This result paves the way to apply tools developed for SIR to Hawkes, and vice versa. It also leads to HawkesN, a generalization of the Hawkes model which accounts for a finite population size. Finally, we derive the distribution of cascade sizes for HawkesN, inspired by methods in stochastic SIR. Such distributions provide nuanced explanations to the general unpredictability of popularity: the distribution for diffusion cascade sizes tends to have two modes, one corresponding to large cascade sizes and another one around zero.},
-  doi = {10.1145/3178876.3186108},
-  eprint = {1711.01679},
-  isbn = {9781450356398},
-  pages = {419--428},
-  url_Abstract = {https://arxiv.org/abs/1711.01679},
-  url_Paper = {https://arxiv.org/pdf/1711.01679.pdf},
-  url_Code = {https://github.com/computationalmedia/sir-hawkes},
-  url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_WWW-2018_slides.pdf}
+    title={{SIR-Hawkes}: Linking Epidemic Models and {Hawkes} Processes to Model Diffusions in Finite Populations},
+    author={Rizoiu, Marian-Andrei and Mishra, Swapnil and Kong, Quyu and Carman, Mark and Xie, Lexing},
+    address = {Lyon, France},
+    booktitle = {Proceedings of the 2018 World Wide Web Conference},
+    series = {WWW '18},
+    year={2018},
+    abstract = {Among the statistical tools for online information diffusion modeling, both epidemic models and Hawkes point processes are popular choices. The former originate from epidemiology, and consider information as a viral contagion which spreads into a population of online users. The latter have roots in geophysics and finance, view individual actions as discrete events in continuous time, and modulate the rate of events according to the self-exciting nature of event sequences. Here, we establish a novel connection between these two frameworks. Namely, the rate of events in an extended Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model after marginalizing out recovery events -- which are unobserved in a Hawkes process. This result paves the way to apply tools developed for SIR to Hawkes, and vice versa. It also leads to HawkesN, a generalization of the Hawkes model which accounts for a finite population size. Finally, we derive the distribution of cascade sizes for HawkesN, inspired by methods in stochastic SIR. Such distributions provide nuanced explanations to the general unpredictability of popularity: the distribution for diffusion cascade sizes tends to have two modes, one corresponding to large cascade sizes and another one around zero.},
+    doi = {10.1145/3178876.3186108},
+    eprint = {1711.01679},
+    isbn = {9781450356398},
+    pages = {419--428},
+    url_Abstract = {https://arxiv.org/abs/1711.01679},
+    url_Paper = {https://arxiv.org/pdf/1711.01679.pdf},
+    url_Code = {https://github.com/computationalmedia/sir-hawkes},
+    url_Slides = {http://www.rizoiu.eu/documents/research/presentations/RIZOIU_WWW-2018_slides.pdf}
 }
 
 @inproceedings{kong2018will,
-  title={Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos},
-  author={Kong, Quyu and Rizoiu, Marian-Andrei and Wu, Siqi and Xie, Lexing},
-  address = {Lyon, France},
-  booktitle = {Companion Proceedings of the The Web Conference 2018 - Demos},
-  series = {WWW '18},
-  year={2018},
-  abstract = {What makes content go viral? Which videos become popular and why others don't? Such questions have elicited significant attention from both researchers and industry, particularly in the context of online media. A range of models have been recently proposed to explain and predict popularity; however, there is a short supply of practical tools, accessible for regular users, that leverage these theoretical results. Hipie -- an interactive visualization system -- is created to fill this gap, by enabling users to reason about the virality and the popularity of online videos. It retrieves the metadata and the past popularity series of Youtube videos, it employs the Hawkes Intensity Process, a state-of-the-art online popularity model for explaining and predicting video popularity, and it presents videos comparatively in a series of interactive plots. This system will help both content consumers and content producers in a range of data-driven inquiries, such as to comparatively analyze videos and channels, to explain and to predict future popularity, to identify viral videos, and to estimate responses to online promotion. },
-  doi = {10.1145/3184558.3186972},
-  url_Abstract = {https://arxiv.org/abs/1801.04117},
-  url_Paper = {https://arxiv.org/pdf/1801.04117.pdf},
-  url_Code = {https://github.com/computationalmedia/hipie}
+    title={Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos},
+    author={Kong, Quyu and Rizoiu, Marian-Andrei and Wu, Siqi and Xie, Lexing},
+    address = {Lyon, France},
+    booktitle = {Companion Proceedings of the The Web Conference 2018 - Demos},
+    series = {WWW '18},
+    year={2018},
+    abstract = {What makes content go viral? Which videos become popular and why others don't? Such questions have elicited significant attention from both researchers and industry, particularly in the context of online media. A range of models have been recently proposed to explain and predict popularity; however, there is a short supply of practical tools, accessible for regular users, that leverage these theoretical results. Hipie -- an interactive visualization system -- is created to fill this gap, by enabling users to reason about the virality and the popularity of online videos. It retrieves the metadata and the past popularity series of Youtube videos, it employs the Hawkes Intensity Process, a state-of-the-art online popularity model for explaining and predicting video popularity, and it presents videos comparatively in a series of interactive plots. This system will help both content consumers and content producers in a range of data-driven inquiries, such as to comparatively analyze videos and channels, to explain and to predict future popularity, to identify viral videos, and to estimate responses to online promotion. },
+    doi = {10.1145/3184558.3186972},
+    url_Abstract = {https://arxiv.org/abs/1801.04117},
+    url_Paper = {https://arxiv.org/pdf/1801.04117.pdf},
+    url_Code = {https://github.com/computationalmedia/hipie}
 }
 
 @inproceedings{toyer2018action,
