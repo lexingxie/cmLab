@@ -147,7 +147,7 @@ Vancouver, Canada, 2019.
 </table>
 
 ```
-@misc{shin2019influence,
+@inproceedings{shin2019influence,
   title={Influence Flowers of Academic Entities},
   author={Minjeong Shin and Alexander Soen and Benjamin T. Readshaw and Stephen M. Blackburn and Mitchell Whitelaw and Lexing Xie},
   booktitle={IEEE Conference on Visual Analytics Science & Technology (VAST)}
