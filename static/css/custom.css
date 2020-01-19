@@ -179,3 +179,48 @@ figure figcaption {
 .marginTop {
     margin-top: 50px;
 }
+
+#year-title {
+    font-weight:bold;
+    background-color:#ddd;
+    padding: 10px 0px 10px 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.input-group {
+  width: 250px;
+}
+.input-group-addon {
+  color: black;
+  background-color: #ddd;
+  height:38px;
+  border-radius: 15px 0 0 15px;
+  border: 1px solid #ccc;
+}
+.input-group > input {
+  height:40px;
+  padding-left: 15px;
+  border-radius: 0 15px 15px 0;
+  border: 1px solid #ccc;
+}
+.div_abstract {
+  background-color: #eee;
+  border: 0.2px solid #ccc;
+  padding: 15px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+a.badge, a.badge:focus {
+  margin-top: -2px;
+  padding: 2px 5px;
+  background-color: #fff;
+  color: #008cba;
+  border: 1px solid #008cba;
+}
+a.badge:hover {
+  background-color: #008cba;
+  color: #fff;
+  border: 1px solid #008cba;
+}
