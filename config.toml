@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Computational Media Lab"
 canonifyurls = true
 disqusShortname = "computationalmedia"
+[markup]
+  defaultMarkdownHandler = "blackfriday"
