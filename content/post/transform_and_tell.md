@@ -18,8 +18,6 @@ tags:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lei1VOJbf40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-
-
 In our recent [paper](https://arxiv.org/abs/2004.08070) published in CVPR 2020,
 we propose an end-to-end model that can generate linguistically-rich captions
 for news images. We also build a [live demo](https://transform-and-tell.ml/)
@@ -31,8 +29,6 @@ where people can generate a caption for any New York Times article.
 
 #### **The Goal: Generating Interesting Captions**
 
-
-
 For many years, computers have been able to automatically generate a caption
 for an image. But these captions tended to be generic and uninteresting, like“a
 dog is barking” or “a man is sitting on a bench”. This makes us wonder, how can
@@ -43,8 +39,6 @@ lab has already done works that make image captions
 [romantic](http://cm.cecs.anu.edu.au/post/semstyle/), and this work is a
 continuation on a different dimension.
 
-
-
 In this new direction, we want to focus on the context. In real life, most
 images come with a story. When you take a photo of your kid on the smartphone,
 there is always a personal story behind it, like a birthday party or a picnic.
@@ -54,13 +48,10 @@ generation systems, this context is lost during the modelling process and these
 systems simply treat a photo as an isolated object, discarding important
 contextual information.
 
-
-
 This motivated us to solve the following task: Given a news article and an
 image, can we build a model that could attend over both the image and the
 article text, in order to generate a caption with interesting information that
 cannot simply be inferred from looking at the image alone.
-
 
 <br/>
 
@@ -69,10 +60,17 @@ cannot simply be inferred from looking at the image alone.
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/tell/model.jpg">
     <figcaption>
-    Figure 1: Left: Decoder with four transformer blocks; Right: Encoder for article, image, faces, and objects. The decoder takes as input embeddings of byte-pair tokens (blue circles at the bottom). For example, the input in the final time step, 14980, represents 'arsh' in 'Varshini') from the previous time step. The grey arrows show the convolutions in the final time step in each block. Colored arrows show attention to the four domains on the right: article text (green lines), image patches (yellow lines), faces (orange lines), and objects (blue lines). The final decoder outputs are byte-pair tokens, which are then combined to form whole words and punctuations.
+    Figure 1: Left: Decoder with four transformer blocks; Right: Encoder for
+    article, image, faces, and objects. The decoder takes as input embeddings of
+    byte-pair tokens (blue circles at the bottom). For example, the input in the
+    final time step, 14980, represents 'arsh' in 'Varshini') from the previous time
+    step. The grey arrows show the convolutions in the final time step in each
+    block. Colored arrows show attention to the four domains on the right: article
+    text (green lines), image patches (yellow lines), faces (orange lines), and
+    objects (blue lines). The final decoder outputs are byte-pair tokens, which are
+    then combined to form whole words and punctuations.
     </figcaption>
 </figure>
-
 
 Our paper is the first to propose an end-to-end system to generate a news image
 caption. The key advantage of an end-to-end model is its simplicity. All we
@@ -82,15 +80,11 @@ limited vocabulary size, and in order to generate rare names, it needed two
 stages: generating a template such as “PERSON is standing in LOCATION”; and
 then filling in the placeholders with actual names in the text.
 
-
-
 We want to skip this middle step of template generation, so we use a technique
 called Byte Pair Encoding, in which a word is broken down into many subparts.
 With this, when a model sees a rare word, it doesn’t ignore it like previous
 works. Instead it can generate any word (1.1 million unique words in our
 NYTimes 800K dataset) using only about 50,000 subwords.
-
-
 
 We also observe that in previous works, the captions tended to use simple
 language, like it was written by a school student instead of a professional
@@ -102,8 +96,6 @@ years, other researchers have used a new architecture called Transformers to
 achieve state-of-the-art results in many tasks such as language modelling and
 machine translation.
 
-
-
 Impressed by this progress, we adapted the transformer architecture to our
 image captioning task and showed that it can generate captions that are
 linguistically much richer than LSTMs. One key algorithmic component that
@@ -113,8 +105,6 @@ caption and any part of the contexts (which can be the article text, the image
 patches, or faces & objects in the image). This is done using functions that
 generalise the vector inner products.
 
-
-
 Finally, one feature that distinguishes new images from other types of images
 is that they heavily feature people. In particular, we found that in New York
 Times, about three-quarter of all images contain at least one face. This
@@ -123,13 +113,9 @@ detecting faces while other focuses on detecting objects. This addition
 improves the accuracy of the generated entity names, especially people’s names,
 in the captions.
 
-
-
 <br/>
 
 #### **Practical Implications**
-
-
 
 Getting a machine to think like humans has always been an important goal in
 Artificial Intelligence. We were able to take one step closer to this goal by
@@ -137,20 +123,25 @@ building a model that can incorporate real-world knowledge about names in
 existing text. The model can read a long piece of text and be able to know
 which parts are important to the image it wants to caption.
 
-
-
 Furthermore the generated captions can imitate the writing style of the New
 York Times. Human languages contain a lot of ambiguity and idiosyncrasies.
 Being able to build a model that can capture some of this linguistic richness
 is very impressive.
 
-
-
 <br/>
 
 #### **Further Research**
 
-
+<figure class="asn-fig asn-left" style="max-width: 750px;">
+    <img src="/img/tell/demo.jpg">
+    <figcaption>
+    Figure 2: A screenshot of our <a href="https://transform-and-tell.ml/">live demo</a>,
+    where users can generate image captions from any New York Times article.
+    Our model was trained on data before May 2019 and the figure shows
+    a generated caption on the topic of the coronavirus outbreak in Japan,
+    which was not part of our training data.
+    </figcaption>
+</figure>
 
 The model that we have so far can only attend to the current article. However
 when we look at a news article, we can easily connect the people and events
@@ -160,15 +151,11 @@ attend to other similar articles, or to a background knowledge source such as
 Wikipedia. This will give the model a richer context, allowing it to generate
 more interesting captions.
 
-
-
 We would also love to explore the reverse task, where instead of writing
 captions, the model would pick an appropriate image from a large database of
 images to illustrate a news article. Furthermore, the attention mechanism can
 even be used to choose where in the article the image should be placed. This
 would hopefully help content creators speed up the publishing process.
-
-
 
 Another future direction would be to take the transformer architecture that we
 already have and apply it to a different domain such as writing longer passages
@@ -177,8 +164,6 @@ particularly important in the current age due to the vast amount of data being
 generated everyday. One fun application would be to have the model attend to
 new arXiv papers and suggest interesting content for scientific news releases
 like this article being written!
-
-
 
 <br/>
 
