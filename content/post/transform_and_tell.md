@@ -139,7 +139,7 @@ is very impressive.
     where users can generate image captions from any New York Times article.
     Our model was trained on data before May 2019 and the figure shows
     a generated caption on the topic of the coronavirus outbreak in Japan,
-    which was not part of our training data.
+    which was not part of the training data.
     </figcaption>
 </figure>
 
