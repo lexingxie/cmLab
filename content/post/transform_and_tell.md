@@ -133,13 +133,13 @@ is very impressive.
 #### **Further Research**
 
 <figure class="asn-fig asn-left" style="max-width: 750px;">
-    <img src="/img/tell/demo.jpg">
+    <img src="/img/tell/demo.gif">
     <figcaption>
     Figure 2: A screenshot of our <a href="https://transform-and-tell.ml/">live demo</a>,
     where users can generate image captions from any New York Times article.
     Our model was trained on data before May 2019 and the figure shows
     a generated caption on the topic of the coronavirus outbreak in Japan,
-    which was not part of our training data.
+    which was not part of the training data.
     </figcaption>
 </figure>
 
