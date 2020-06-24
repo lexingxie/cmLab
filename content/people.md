@@ -362,7 +362,7 @@ Machine Learning
         </div>
         <div class="people-info">
             <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social Meida <br />
-            <b>Currently</b>: PhD Student at Chinese University of HongKong; previous Alibaba Group
+            <b>Currently</b>: PhD Student, Chinese University of HongKong; previous Alibaba Group
         </div>
     </div>
 </div>
