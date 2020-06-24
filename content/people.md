@@ -358,11 +358,11 @@ Machine Learning
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yifei-100.jpg' title='' />
-            <big><big> <a target="_blank" href=https://www.linkedin.com/in/yifei-zhang-16a404105/><b>Yifei Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
+            <big><big> <a target="_blank" href=http://yifeiacc.github.io/><b>Yifei Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
         </div>
         <div class="people-info">
-            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
-            <b>Currently</b>: Developer at Alibaba
+            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social Meida <br />
+            <b>Currently</b>: PhD Student, Chinese University of HongKong; previous Alibaba Group
         </div>
     </div>
 </div>
