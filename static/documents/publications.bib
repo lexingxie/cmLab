@@ -1,4 +1,4 @@
-@article{kong2020cikm,
+@InProceedings{kong2020cikm,
   author={Kong, Quyu and Rizoiu, Marian-Andrei and Xie, Lexing},
   title={Describing and Predicting Online Items with Reshare Cascades via Dual Mixture Self-exciting Processes},
   booktitle={ACM International Conference on Information and Knowledge Management (CIKM'20)},
@@ -9,7 +9,7 @@
   abstract = {It is well-known that online behavior is long-tailed, with most cascaded actions being short and a few being very long. A prominent drawback in generative models for online events is the inability to describe unpopular items well. This work addresses these shortcomings by proposing dual mixture self-exciting processes to jointly learn from groups of cascades. We first start from the observation that maximum likelihood estimates for content virality and influence decay are separable in a Hawkes process. Next, our proposed model, which leverages a Borel mixture model and a kernel mixture model, jointly models the unfolding of a heterogeneous set of cascades. When applied to cascades of the same online items, the model directly characterizes their spread dynamics and supplies interpretable quantities, such as content virality and content influence decay, as well as methods for predicting the final content popularities. On two retweet cascade datasets --- one relating to YouTube videos and the second relating to controversial news articles --- we show that our models capture the differences between online items at the granularity of items, publishers and categories. In particular, we are able to distinguish between far-right, conspiracy, controversial and reputable online news articles based on how they diffuse through social media, achieving an F1 score of 0.945. On holdout datasets, we show that the dual mixture model provides, for reshare diffusion cascades especially unpopular ones, better generalization performance and, for online items, accurate item popularity predictions.}
 }
 
-@article{bista2020supmmd,
+@InProceedings{bista2020supmmd,
   title={SupMMD: A Sentence Importance Model for Extractive Summarization using Maximum Mean Discrepancy},
   author={Bista, Umanga and Mathews, Alexander Patrick and Menon, Aditya Krishna and Xie, Lexing},
   booktitle={Empirical Methods in Natural Language Processing Findings (EMNLP Findings)},
@@ -269,6 +269,17 @@ url_Code = {https://github.com/computationalmedia/compsumm}
   url={https://openresearch-repository.anu.edu.au/handle/1885/151929},
   url_Paper={https://openresearch-repository.anu.edu.au/bitstream/1885/151929/1/thesis_apm_01_11_18.pdf},
   abstract={This thesis connects two core topics in machine learning, vision and language. The problem of choice is image caption generation: automatically constructing natural language descriptions of image content. Previous research into image caption generation has focused on generating purely descriptive captions; I focus on generating visually relevant captions with a distinct linguistic style. Captions with style have the potential to ease communication and add a new layer of personalisation. First, I consider naming variations in image captions, and propose a method for predicting context-dependent names that takes into account visual and linguistic information. This method makes use of a large-scale image caption dataset, which I also use to explore naming conventions and report naming conventions for hundreds of animal classes. Next I propose the SentiCap model, which relies on recent advances in artificial neural networks to generate visually relevant image captions with positive or negative sentiment. To balance descriptiveness and sentiment, the SentiCap model dynamically switches between two recurrent neural networks, one tuned for descriptive words and one for sentiment words. As the first published model for generating captions with sentiment, SentiCap has influenced a number of subsequent works. I then investigate the sub-task of modelling styled sentences without images. The specific task chosen is sentence simplification: rewriting news article sentences to make them easier to understand. For this task I design a neural sequence-to-sequence model that can work with limited training data, using novel adaptations for word copying and sharing word embeddings. Finally, I present SemStyle, a system for generating visually relevant image captions in the style of an arbitrary text corpus. A shared term space allows a neural network for vision and content planning to communicate with a network for styled language generation. SemStyle achieves competitive results in human and automatic evaluations of descriptiveness and style. As a whole, this thesis presents two complete systems for styled caption generation that are first of their kind and demonstrate, for the first time, that automatic style transfer for image captions is achievable. Contributions also include novel ideas for object naming and sentence simplification. This thesis opens up inquiries into highly personalised image captions; large scale visually grounded concept naming; and more generally, styled text generation with content control.}
+}
+
+@InProceedings{toyer2018action,
+  title={Action Schema Networks: Generalised Policies with Deep Learning},
+  author={Toyer, Sam and Trevizan, Felipe and Thi{\'e}baux, Sylvie and Xie, Lexing},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2018},
+  address = {New Orleans, USA}, 
+  url_Abstract={https://arxiv.org/abs/1709.04271},
+  url_Paper = {https://arxiv.org/pdf/1709.04271},
+  url_Code = {https://github.com/qxcv/asnets}
 }
 
 @InProceedings{pmlr-v80-kim18c,
