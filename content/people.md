@@ -84,7 +84,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/JooLee.jpg' title='Joo' />
-            <big><big> <b>Jooyoung Lee</b> </big></big><br></br> Lecturer, ANU Computer Science  
+            <big><big> <b>Jooyoung Lee</b> </big></big><br></br> Lecturer, ANU Computer Science
         </div>
         <div class="people-info">
             <b>Projects:</b>
@@ -134,18 +134,18 @@ Machine Learning
         </div>
     </div>
 </div>
-    
+
 <!-- third row -->
 <div class="row">
     <!-- Alasdair Tran -->
     <div class="col-md-3">
         <div class="people-profile">
-            <img src='/img/people/alasdair-100.jpg' title='' />
+            <img src='/img/people/alasdair.jpg' title='' />
             <big><big> <b>Alasdair Tran</b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
         </div>
         <div class="people-info">
             <b>Projects:</b>
-                Natural language processing, multimedia knowledge graphs
+                Natural language understanding, graph neural networks, and computer vision.
             <br>
             <b>Before the ANU:</b> Mathspace
         </div>
@@ -255,20 +255,19 @@ Machine Learning
 <hr>
 #### Current and recent collaborators
 
-* [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
-* [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
-* [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
-* [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
-* [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
-* [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
-* [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
-* [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
-* Young Lee, Harvard; previously NUS, Data61
-* [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
-* Xuming He, Shanghai Tech
-* [Manuel Cebrian][manuel], MIT; previously Data61
-* [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-
+- [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
+- [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
+- [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
+- [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
+- [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
+- [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+- [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
+- [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
+- Young Lee, Harvard; previously NUS, Data61
+- [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
+- Xuming He, Shanghai Tech
+- [Manuel Cebrian][manuel], MIT; previously Data61
+- [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
 
 <hr>
 #### Alumni
@@ -341,7 +340,7 @@ Machine Learning
         </div>
         <div class="people-info">
             <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/182586>Linking Models for Collective Attention in Social Media</a> <br/>
-            <b>Currently</b>: Research Associate, Imperial College London 
+            <b>Currently</b>: Research Associate, Imperial College London
         </div>
     </div>
     <!-- Shidi Li -->
@@ -359,11 +358,11 @@ Machine Learning
     <div class="col-md-3">
         <div class="people-profile">
             <img src='/img/people/yifei-100.jpg' title='' />
-            <big><big> <a target="_blank" href=https://www.linkedin.com/in/yifei-zhang-16a404105/><b>Yifei Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
+            <big><big> <a target="_blank" href=http://yifeiacc.github.io/><b>Yifei Zhang</b></a> </big></big> <br/><br/> MS Student, ANU Computer Science, 2018
         </div>
         <div class="people-info">
-            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social meida <br />
-            <b>Currently</b>: Developer at Alibaba
+            <b>Thesis</b>: The Bot Among Us: Disrupting Truth and Reason Through Online Social Meida <br />
+            <b>Currently</b>: PhD Student, Chinese University of HongKong; previous Alibaba Group
         </div>
     </div>
 </div>
@@ -425,6 +424,4 @@ Machine Learning
     </div>
 </div>
 
-
-
-[manuel]:http://web.media.mit.edu/~cebrian
+[manuel]: http://web.media.mit.edu/~cebrian

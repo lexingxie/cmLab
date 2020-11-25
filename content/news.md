@@ -18,6 +18,8 @@ tags:
 
 ### Media coverage
 
+* 2020-05 Our CVPR 2020 work on news image captioning is covered by [TechXplore](https://techxplore.com/news/2020-05-context-aware-captions-news-images.html).
+
 * 2019-06 Data to Decision CRC has concluded, we enjoyed working with them in the past three years! The [celebration video](https://youtu.be/AQIgE5qNh5s) has footage of our lab and our work. In addition there is a short [video](https://youtu.be/smfigVM_e9g) featuring Minjeong's work！
 <iframe style="float:left;margin-top:10px;margin-right:25px;" width="280" height="160" src="https://www.youtube.com/embed/smfigVM_e9g" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * 2018-12 Our AAAI'19 work on Comparative Summarisation of News Collections is covered by [TechXplore](https://techxplore.com/news/2018-12-approach-document-classification.html).
