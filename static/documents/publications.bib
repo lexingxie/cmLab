@@ -1,3 +1,13 @@
+@InProceedings{zhang2020neurips,
+  author={Zhang, Rui and Walder, Christian J. and Bonilla, Edwin V. and Rizoiu, Marian-Andrei and Xie, Lexing},
+  title={Quantile Propagation for Wasserstein-Approximate Gaussian Processes},
+  booktitle={34th Conference on Neural Information Processing Systems (NeurIPS 2020)},
+  year={2020},
+  url_Paper = {https://arxiv.org/pdf/1912.10200.pdf},
+  url_Code = {https://github.com/RuiZhang2016/Quantile-Propagation-for-Wasserstein-Approximate-Gaussian-Processes},
+  abstract = {Approximate inference techniques are the cornerstone of probabilistic methods based on Gaussian process priors. Despite this, most work approximately optimizes standard divergence measures such as the Kullback-Leibler (KL) divergence, which lack the basic desiderata for the task at hand, while chiefly offering merely technical convenience. We develop a new approximate inference method for Gaussian process models which overcomes the technical challenges arising from abandoning these convenient divergences. Our method---dubbed Quantile Propagation (QP)---is similar to expectation propagation (EP) but minimizes the L2 Wasserstein distance (WD) instead of the KL divergence. The WD exhibits all the required properties of a distance metric, while respecting the geometry of the underlying sample space. We show that QP matches quantile functions rather than moments as in EP and has the same mean update but a smaller variance update than EP, thereby alleviating EP's tendency to over-estimate posterior variances. Crucially, despite the significant complexity of dealing with the WD, QP has the same favorable locality property as EP, and thereby admits an efficient algorithm. Experiments on classification and Poisson regression show that QP outperforms both EP and variational Bayes.}
+}
+
 @InProceedings{kong2020cikm,
   author={Kong, Quyu and Rizoiu, Marian-Andrei and Xie, Lexing},
   title={Describing and Predicting Online Items with Reshare Cascades via Dual Mixture Self-exciting Processes},
