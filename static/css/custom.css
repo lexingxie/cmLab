@@ -224,3 +224,7 @@ a.badge:hover {
   color: #fff;
   border: 1px solid #008cba;
 }
+
+.if {
+    display: none;
+}
