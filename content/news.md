@@ -9,10 +9,11 @@ tags:
 ---
 
 ### Honours and recognitions
-* Sept 2019, Siqi Wu, Marian-Andrei Rizoiu and Lexing Xie recieved [Honourable Mention](https://programs.sigchi.org/CSCW/2019/awards) from [ACM CSCW](http://cscw.acm.org/2019/) for the paper "Estimating Attention Flow in Online Video Networks".
+* June 2021, Siqi Wu received Honourable Mention for his 2021 paper "Cross-Partisan Discussions on YouTube: Conservatives Talk to Liberals but Liberals Don't Talk to Conservatives" with Paul Resnick of University of Michigan.
+* Sept 2019, Siqi Wu, Marian-Andrei Rizoiu and Lexing Xie received [Honourable Mention](https://programs.sigchi.org/CSCW/2019/awards) from [ACM CSCW](http://cscw.acm.org/2019/) for the paper "Estimating Attention Flow in Online Video Networks".
 * August 2018, Siqi Wu became one of four recipients in Australia for the [2018 Google PhD Fellowship](https://australia.googleblog.com/2018/07/announcing-2018-phd-fellowships-to.html).
 * January 2018, Lexing Xie received [The Chris Wallace Award for Outstanding Research](http://www.core.edu.au/the-chris-wallace-award-for-outstanding-research-contributio) from The Computing Research and Education Association of Australasia (CORE).
-* December 2017, Honours students Sam Toyer and Quyu Kong were honored with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
+* December 2017, Honours students Sam Toyer and Quyu Kong were honoured with [ANU University Medal](http://www.anu.edu.au/students/program-administration/prizes/university-medal) for exceptional academic and research achievement.
 * September 2017, Minjeong Shin won the 2017 Woman in Data Science Award by Data to Decisions CRC.
 * 2016-2017 Lexing Xie was named [IEEE Circuits and Systems Society Distinguished Lecturer](http://ieee-cas.org/past-dlp-lectures).
 
@@ -53,6 +54,12 @@ tags:
 * 2012-11 ANU Reporter published a story about our work on picture tags. Our college posted a news brief about the microblog event magazine at ACM Multimedia 2012.
 
 ### News archive
+
+* 2021-06 Lexing gave an invited talk at the <a href=https://fvc-workshop.github.io/>CVPR FVC workshop</a> on <a href="https://www.youtube.com/watch?v=RXHIWLTwdbo">"Captioning Images with Knowledge and Style"</a>, the video is <a href="https://www.youtube.com/watch?v=RXHIWLTwdbo">here</a>.
+
+* 2021-04 Check out our paper at TheWebConf 2021 <a href="https://arxiv.org/abs/2102.07289.pdf">Radflow: A Recurrent, Aggregated, and Decomposable Model for Networks of Time Series</a>. You can browse and search in the networks of time series for Vevo music videos and Wikipedia traffic at <a href="https://attentionflow.ml/#/overview/basic">AttentionFlow.ml</a>.
+
+* 2020-05 Check out our <a href="http://cvpr2020.thecvf.com/">CVPR 2020</a> paper <a href="https://arxiv.org/abs/2004.08070">Transform and Tell: Entity-Aware News Image Captioning</a>. You can now create your own linguistically rich image caption from any New York Times article with our <a href="https://transform-and-tell.ml/">live demo</a>.
 
 * 2019-08 Upcoming papers: Minjeong will present [Influence Flowers](https://arxiv.org/abs/1907.12748) at VIS/VAST 2019,
   and Siqi will present measurements and estimation of [Online Video Networks](https://arxiv.org/abs/1908.07123) at CSCW 2019.
