@@ -55,6 +55,9 @@ tags:
 
 ### News archive
 
+* 2021-07 Lexing gave talks at on the measurement and machine learning for popularity (viral videos, how and why), at KAIST (<a href=https://ds.ibs.re.kr/event/2021-07-13/>info</a>), Monash University,
+and ANU AI+ML seminar series (<a href=https://youtu.be/Dc9UfGmFrXs>video</a>).
+
 * 2021-06 Lexing gave an invited talk at the <a href=https://fvc-workshop.github.io/>CVPR FVC workshop</a> on <a href="https://www.youtube.com/watch?v=RXHIWLTwdbo">"Captioning Images with Knowledge and Style"</a>, the video is <a href="https://www.youtube.com/watch?v=RXHIWLTwdbo">here</a>.
 
 * 2021-04 Check out our paper at TheWebConf 2021 <a href="https://arxiv.org/abs/2102.07289.pdf">Radflow: A Recurrent, Aggregated, and Decomposable Model for Networks of Time Series</a>. You can browse and search in the networks of time series for Vevo music videos and Wikipedia traffic at <a href="https://attentionflow.ml/#/overview/basic">AttentionFlow.ml</a>.
