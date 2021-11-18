@@ -219,6 +219,19 @@ Machine Learning
             <b>Before the ANU:</b> Tsinghua University
         </div>
     </div>
+        <!-- Josh Nguyen -->
+    <div class="col-md-3">
+        <div class="people-profile">
+            <img src='/img/people/josh.jpg' title='josh' />
+            <big><big> <a href=https://joshnguyen.net/><b>Josh Nguyen</b></a> </big></big> <br/><br/> MPhil, ANU Computer Science;
+        </div>
+        <div class="people-info">
+            <b>Projects:</b>
+                Online moral dilemmas
+            <br>
+            <b>Before the ANU:</b> The University of Melbourne
+        </div>
+    </div>
 </div>
 
 <!-- Honours + MS student row -->
