@@ -1,7 +1,7 @@
 ---
 title: "Teaching and Outreach"
 description: "We have been creating and teaching a few courses at ANU Computer Science. We also speak to the broader audience in a variety of occasions."
-date: "2010-01-02"
+date: "2022-01-02"
 categories:
   - "edu"
   - "courses"
@@ -16,13 +16,20 @@ tags:
 
 Our lab is in charge of designing and teaching several courses in the ANU Computer Science cirriculumn.
 
+* **COMP4650/8600 Statistical Machine Learning**
+
+    This course provides a broad but thorough intermediate level study of the methods and practices of statistical machine learning, emphasising the mathematical, statistical, and computational aspects. Students will learn how to implement efficient machine learning algorithms on a computer based on principled mathematical foundations. Topics covered will include Bayesian inference and maximum likelihood modelling; regression, classification, density estimation, clustering, principal and independent component analysis; parametric, semi-parametric, and non-parametric models; basis functions, neural networks, kernel methods, and graphical models; deterministic and stochastic optimisation; overfitting, regularisation, and validation.
+
+    See [2022 course info](/sml2022) and [2021 info](https://machlearn.gitlab.io/sml2021/).
+
+
 * **COMP4880/8880 Computational Methods for Network Science**
 
     This course covers the essentials of using computational approaches to pose and answer network science research problems.
     In particular, it covers a selected set of network algorithms in depth. These include random graph models, homophily and friendship paradox, influence and contagion in networks, and network resilience. Furthermore, it also teaches students about the ethics of doing data-driven network science research. 
     The course equips the students with in-depth knowledge and hands-on experience in working with network data to study social, biological and cognitive processes. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field.
 
-    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019).
+    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019). Next offering: 2022 semester 2.
 
 * **COMP4650/6490 Document Analysis (2015 --)**
 
