@@ -265,3 +265,16 @@ a.badge:hover {
 .if {
     display: none;
 }
+
+/* for the sliding video carousel on the homepage */
+.slick-prev:before {
+  color: #333333 !important;
+}
+
+.slick-next:before {
+  color: #333333 !important;
+}
+
+.slick-slide {
+  margin-right:3px !important;
+}
