@@ -1,7 +1,7 @@
 ---
 title: "Teaching and Outreach"
 description: "We have been creating and teaching a few courses at ANU Computer Science. We also speak to the broader audience in a variety of occasions."
-date: "2022-01-02"
+date: "2000-01-02"
 categories:
   - "edu"
   - "courses"
@@ -29,13 +29,15 @@ Our lab is in charge of designing and teaching several courses in the ANU Comput
     In particular, it covers a selected set of network algorithms in depth. These include random graph models, homophily and friendship paradox, influence and contagion in networks, and network resilience. Furthermore, it also teaches students about the ethics of doing data-driven network science research. 
     The course equips the students with in-depth knowledge and hands-on experience in working with network data to study social, biological and cognitive processes. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field.
 
-    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019). Next offering: 2022 semester 2.
+    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019). Next offering: 2022 semester 2, details TBA.
 
 * **COMP4650/6490 Document Analysis (2015 --)**
 
     This course considers the "document" and its various genres as a fundamental object for business, government and community, such as web pages, social media feeds, news items, and PDF brochures. The goal is to introduce concepts and hands-on tools for automated understanding of large amounts of text.  For this, the course covers four broad areas: (A) information retrieval, (B) natural language processing, (C) machine learning for documents, and (D) relevant tools for the web. Tasks include content collection and extraction, formal and informal natural language processing, information extraction, information retrieval, classification and analysis. Fundamental probabilistic techniques for performing these tasks, and some common software systems will be covered, though no area will be covered in great depth.
 
     See [2018 course schedule](https://docs.google.com/spreadsheets/d/1SBTNjjYW-iOoiCrcUu5FQdQts865N3lEk-irN9izl9Y/edit?usp=sharing) and [2018 course information sheet](https://docs.google.com/document/d/10ASsG6656A8f9YaoT8wKI9J3Msrz1fGXi0OHuHhcETM/edit?usp=sharing).
+
+    In 2021 this course is re-freshed and ran by Alex Mathews, see [course schedule](https://anu365-my.sharepoint.com/:b:/g/personal/u4983843_anu_edu_au/EXyo23YuVBpFsOsFdHqgPN4B9LFdsYA1png-sIpMpgQc9g?e=hNqHYj) and [info sheet](https://anu365-my.sharepoint.com/:b:/g/personal/u4983843_anu_edu_au/ERU7UZmqMRtJo_HRzGapZdcBReFzroMmLxpTmFf51cPoNA?e=ZLHG2u).
 
 * **COMP1030 The Art of Computing (2015 -- 2017)**
 
