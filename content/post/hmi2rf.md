@@ -10,13 +10,13 @@ tags:
   - "cm"
 ---
 
-Join us at ANU Computer Science and the [HMI](https://hmi.anu.edu.au/) project!
+Join us at ANU CS and the [HMI](https://hmi.anu.edu.au/) project, to develop theory, algorithms and systems for online collective behaviour and human-AI joint decision making.
 
 <!--more-->
 
 Position highlights
 
-* Outstanding opportunity to work in the Humanising Machine Intelligence Project (https://hmi.anu.edu.au/).
+* Outstanding opportunity to work in the ANU Humanising Machine Intelligence Project (https://hmi.anu.edu.au/).
 * Develop theory, algorithms and applications for collective behaviour and human-AI joint decision making.
 * Work on socio-technical problems that spans the collective team expertise in Computer Science, Philosophy, Social and Political Sciences and Law.
 
@@ -26,5 +26,8 @@ The HMI is a major cross-disciplinary project at the ANU, uniting a team of comp
 
 Applications are particularly invited from researchers with a wide range of technical backgrounds, including but not limited to machine learning, optimisation and operations research, HCI, computational social choice and game theory, decision theory, information theory, and reinforcement learning. Though these positions will be housed in the School of Computing, we strongly encourage anyone who meets the selection criteria to apply.
 
+These positions also include a component of teaching and education programs in computer science.
+
 To apply, see https://jobs.anu.edu.au/en/job/544634/research-fellow
+
 Contact: Lexing Xie <lexing.xie@anu.edu.au> HMI Project Lead, and Professor of Computer Science
