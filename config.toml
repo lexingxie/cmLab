@@ -4,4 +4,7 @@ title = "Computational Media Lab"
 canonifyurls = true
 disqusShortname = "computationalmedia"
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
