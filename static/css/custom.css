@@ -82,9 +82,16 @@ img {
     color: #337ab7;
 }
 
+.people {
+    width: 24%;
+    display: inline-block;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
 .people-profile {
     font-size: 12px;
-    min-height: 105px;
+    min-height: 110px;
 }
 
 .people-profile>img {
