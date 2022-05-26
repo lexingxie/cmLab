@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-md-9">
             <!-- Blog Summary -->
-            {{ range first 12 .Data.Pages}}
+            {{ range first 12 (where .Site.RegularPages "Type" "post") }}
                 {{ .Render "summary" }}
             {{ end }}
 
