@@ -413,5 +413,15 @@ Machine Learning
        <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
    </div>
 </div>
+<div class="people">
+   <div class="people-profile">
+       <img src='/img/people/qianyu-100.png' title='Qianyu' />
+       <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Demo</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014
+   </div>
+   <div class="people-info">
+       <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
+       <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
+   </div>
+</div>
 
 [manuel]: http://web.media.mit.edu/~cebrian
