@@ -413,15 +413,16 @@ Machine Learning
        <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
    </div>
 </div>
+<!-- Phoenix Wu
 <div class="people">
    <div class="people-profile">
-       <img src='/img/people/qianyu-100.png' title='Qianyu' />
-       <big><big> <a href=http://www.linkedin.com/in/qianyuz><b>Demo</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2014
+       <img src='Profile.png' title='Phoenix' />
+       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
    </div>
    <div class="people-info">
-       <b>Thesis</b>: Image Annotation with High Level Words using Generalized Attributes <br />
-       <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
+       <b>Thesis</b>: Just here to help out:) <br />
+       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
    </div>
-</div>
+</div> -->
 
 [manuel]: http://web.media.mit.edu/~cebrian
