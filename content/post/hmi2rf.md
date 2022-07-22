@@ -2,7 +2,7 @@
 ---
 title: "Research Fellow Positions with the Humanising Machine Intelligence Project "
 description: "2x2yr research fellow positions available, applications open until 7 April, 2022"
-date: "2022-03-16"
+date: "2010-03-16"
 categories:
   - "recruiting"
   - "hmi"
