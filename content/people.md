@@ -180,7 +180,6 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <hr>
 
-
 #### Alumni
 
 <!-- Siqi Wu -->
