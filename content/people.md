@@ -180,35 +180,6 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <hr>
 
-#### Current and recent collaborators
-
-- [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
-- [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
-- [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
-- [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
-- [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
-- [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
-- [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
-- [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
-- Young Lee, Harvard; previously NUS, Data61
-- [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
-- Xuming He, Shanghai Tech
-- [Manuel Cebrian][manuel], MIT; previously Data61
-- [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-- Phoenix Wu, ANU advanced computing R&D
-<!-- Phoenix Wu
-<div class="people">
-   <div class="people-profile">
-       <img src='Profile.png' title='Phoenix' />
-       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
-   </div>
-   <div class="people-info">
-       <b>Thesis</b>: Just here to help out:) <br />
-       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
-   </div>
-</div> -->
-<hr>
-
 #### Alumni
 
 <!-- Siqi Wu -->
@@ -424,5 +395,34 @@ Machine Learning
        <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
    </div>
 </div>
+<!-- Phoenix Wu
+<div class="people">
+   <div class="people-profile">
+       <img src='Profile.png' title='Phoenix' />
+       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
+   </div>
+   <div class="people-info">
+       <b>Thesis</b>: Just here to help out:) <br />
+       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
+   </div>
+</div> -->
+
+#### Current and recent collaborators
+
+- [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
+- [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
+- [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
+- [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
+- [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
+- [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+- [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
+- [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
+- Young Lee, Harvard; previously NUS, Data61
+- [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
+- Xuming He, Shanghai Tech
+- [Manuel Cebrian][manuel], MIT; previously Data61
+- [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), Georgia Tech
+
+<hr>
 
 [manuel]: http://web.media.mit.edu/~cebrian
