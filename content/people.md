@@ -86,45 +86,6 @@ We are a diverse group in terms of research interests, background, technical ski
         <b>Before the ANU:</b> Mathspace
     </div>
 </div>
-<!-- Qiongkai Xu -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/qiongkai-100.jpg' title='' />
-        <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
-    </div>
-    <div class="people-info">
-        <b>Projects:</b>
-            Natural Language Generation, Graph Analysis
-        <br>
-        <b>Before the ANU:</b> Shanghai Jiaotong University
-    </div>
-</div>
-<!-- Quyu Kong -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/qykong-100.jpg' title='' />
-        <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
-    </div>
-    <div class="people-info">
-        <b>Projects:</b>
-            Information Diffusion Modeling with Theoretical Models
-        <br>
-        <b>Before the ANU:</b> Zhejiang University
-    </div>
-</div>
- <!-- Rui Zhang -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/rui-zhang-100.png' title='Rui' />
-        <big><big> <a href=https://ruizhang2016.github.io/><b>Rui Zhang</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
-    </div>
-    <div class="people-info">
-        <b>Projects:</b>
-            Non-parametric Bayesian Estimation of Hawkes Triggering Kernels
-        <br>
-        <b>Before the ANU:</b> Shanghai Jiaotong University
-    </div>
-</div>
 <!-- Mengyan Zhang -->
 <div class="people">
    <div class="people-profile">
@@ -177,16 +138,101 @@ We are a diverse group in terms of research interests, background, technical ski
         <b>Before the ANU:</b> N/A
     </div>
 </div>
+<!-- Lydia Lucchesi -->
+<div class="people"> 
+   <div class="people-profile">
+       <img src='http://static1.squarespace.com/static/5c105643ec4eb7d1a8c68c9c/5ec4d5eaecd69368eb3f2f90/5ecefb11f1cc2137b8151419/1594021872363/headshot_lydia.jpg?format=1500w' title='Lydia' />
+        <big><big> <b>Lydia Lucchesi</b> </big></big> <br/><br/> PhD Candidate, ANU Computer Science;
+   </div>
+   <div class="people-info">
+    <b>Projects:</b>
+            visualisation of data quality; co-developer of the Vizumap R package
+        <br>
+        <b>Before the ANU:</b> BA in statistics at the University of Missouri, USA; post-bachelor fellowship at the Institute for Health Metrics and Evaluation
+   </div>
+</div>
+<!-- Phoenix Wu -->
+<div class="people"> 
+   <div class="people-profile">
+       <img src='/img/people/Profile.png' title='Phoenix' />
+        <big><big> <b>Phoenix Wu</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+   </div>
+   <div class="people-info">
+    <b>Projects:</b>
+            cmLab
+        <br>
+        <b>Before the ANU:</b> N/A
+   </div>
+</div>
 
 <hr>
 
+<<<<<<< HEAD
+=======
+#### Current and recent collaborators
+
+- [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
+- [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
+- [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
+- [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
+- [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
+- [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
+- [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
+- [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
+- Young Lee, Harvard; previously NUS, Data61
+- [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
+- Xuming He, Shanghai Tech
+- [Manuel Cebrian][manuel], MIT; previously Data61
+- [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
+
+
+<hr>
+
+>>>>>>> 6f90ee0 (merge upstream)
 #### Alumni
 
+</div>
+<!-- Quyu Kong -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/qykong-100.jpg' title='Rui' />
+        <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science, 2022;
+    </div>
+    <div class="people-info">
+        <b>Thesis:</b> Linking Epidemic Models and Self-exciting Processes for Online and Offline Event Diffusions
+        <br>
+        <b>Currently:</b> Alibaba
+   </div>
+</div>
+<!-- Rui Zhang -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/rui-zhang-100.png' title='Rui' />
+        <big><big> <b><a href="https://ruizhang2016.github.io/">Rui Zhang</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science, 2022;
+    </div>
+    <div class="people-info">
+        <b>Thesis:</b> Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond
+        <br>
+        <b>Currently:</b> University of Melbourne
+   </div>
+</div>
+<!-- Qiongkai Xu -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/qiongkai-100.jpg' title='' />
+        <big><big> <b><a href="http://users.cecs.anu.edu.au/~u5790670/index.html">Qiongkai Xu</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science, 2022;
+    </div>
+    <div class="people-info">
+        <b>Thesis:</b>
+        <br>
+        <b>Currently:</b> Lingjun Investment
+   </div>
+</div>
 <!-- Siqi Wu -->
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/siqi-100.png' title='Siqi'  />
-	<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> PhD Student, ANU computer science; <br/> Data61(NICTA)
+	<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> UMichigan; <br/> Data61(NICTA)
     </div>
     <div class="people-info">
         <b>Projects:</b>
@@ -199,7 +245,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/umanga-100.png' title='Umanga' />
-        <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+        <big><big> <b><a href=https://twitter.com/bistaumanga>Umanga Bista</a></b> </big></big> <br/><br/> Oracle;
 Machine Learning
     </div>
     <div class="people-info">
@@ -213,7 +259,7 @@ Machine Learning
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/ben-readshaw-100.png' title='Ben' />
-        <big><big> <b>Ben Readshaw</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        <big><big> <b>Ben Readshaw</b> </big></big> <br/><br/> KPMG
     </div>
     <div class="people-info">
         <b>Projects:</b>
@@ -226,7 +272,7 @@ Machine Learning
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/dongwoo.png' title='Dongwoo' />
-        <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> Lecturer, ANU Computer Science <br/>
+        <a target="_blank" href="http://dongwookim-ml.github.io/"> <big><big> <b>Dongwoo Kim</b> </big></big></a> <br/><br/> POSTECH <br/>
     </div>
     <div class="people-info">
         <b>Projects:</b>
@@ -249,53 +295,6 @@ Machine Learning
         <b>Before the ANU:</b> University Lumière, Lyon.
     </div>
 </div>
-<!-- Aditya Mogadala -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/rsz_adi.jpg' title='' />
-        <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
-    </div>
-    <div class="people-info">
-        <b>Currently:</b> PhD student, AIFB @ KIT
-    </div>
-</div>
-<!-- Anila Sahar Butt -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/anila-100.png' title='Anila' />
-        <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
-    </div>
-    <div class="people-info">
-        <b>Thesis:</b>
-            Ontology Ranking: Finding the Right Ontologies on the Web
-        <br>
-        <b>Currently:</b> CSIRO, Canberra
-   </div>
-</div>
-<!-- Suvash Sedhain -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/ssedhain-100.png' title='Suvash' />
-        <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
-    </div>
-    <div class="people-info" style='margin-top:10px'>
-        <b>Thesis:</b>
-            A Unified Approach to Collaborative Filtering via Linear Models and Beyond
-        <br>
-        <b>Currently:</b> Twitter Inc
-    </div>
-</div>
-<!-- Honglin Yu -->
-<div class="people">
-    <div class="people-profile">
-        <img src='/img/people/honglin-100.png' title='Honglin' />
-        <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
-    </div>
-    <div class="people-info">
-        <b>Thesis</b>: <a href=/documents/yu_dissertation.pdf> Understanding the Popularity Evolution of Online Media: A Case Study on YouTube Videos </a> <br />
-        <b>Currently</b>: Research Fellow, ANU College of Business and Economics
-    </div>
-</div>
 <!-- Dawei Chen -->
 <div class="people">
     <div class="people-profile">
@@ -304,7 +303,7 @@ Machine Learning
     </div>
     <div class="people-info">
         <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/165008>Recommending Structured Objects: Paths and Sets</a> <br/>
-        <b>Currently</b>: Research Engineer, ANU College of Engineering and Computer Science
+        <b>Currently</b>: Research fellow, ANU College of Engineering and Computer Science
     </div>
 </div>
  <!-- Swapnil Mishra -->
@@ -315,7 +314,7 @@ Machine Learning
     </div>
     <div class="people-info">
         <b>Thesis</b>: <a href=https://openresearch-repository.anu.edu.au/handle/1885/182586>Linking Models for Collective Attention in Social Media</a> <br/>
-        <b>Currently</b>: Research Associate, Imperial College London
+        <b>Currently</b>: Research Associate, University of Copenhagen
     </div>
 </div>
 <!-- Shidi Li -->
@@ -362,16 +361,15 @@ Machine Learning
        <b>Currently</b>: PhD Student, UC Berkeley
    </div>
 </div>
-<!-- Yanxiang Wang -->
+<!-- Aditya Mogadala -->
 <div class="people">
-   <div class="people-profile">
-       <img src='/img/people/yanxiang.jpg' title='yangxiang' />
-       <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
-   </div>
-   <div class="people-info">
-       <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
-       <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
-   </div>
+    <div class="people-profile">
+        <img src='/img/people/rsz_adi.jpg' title='' />
+        <big><big> <b><a href="http://mogadala.com/">Aditya Mogadala</a></b> </big></big> <br/><br/> PhD student, visiting from <a href=http://www.aifb.kit.edu/web/Hauptseite/en>AIFB</a> of <a href=http://www.kit.edu/>KIT - Karlsruhe Institute of Technology</a> in 2017
+    </div>
+    <div class="people-info">
+        <b>Currently:</b> PhD student, AIFB @ Saarland U 
+    </div>
 </div>
 <!-- Yicong Du -->
 <div class="people">
@@ -384,6 +382,43 @@ Machine Learning
        <b>Currently</b>: Facebook; previously Carnegie Mellon University
    </div>
 </div>
+<!-- Anila Sahar Butt -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/anila-100.png' title='Anila' />
+        <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
+    </div>
+    <div class="people-info">
+        <b>Thesis:</b>
+            Ontology Ranking: Finding the Right Ontologies on the Web
+        <br>
+        <b>Currently:</b> CSIRO, Canberra
+   </div>
+</div>
+<!-- Suvash Sedhain -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/ssedhain-100.png' title='Suvash' />
+        <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
+    </div>
+    <div class="people-info" style='margin-top:10px'>
+        <b>Thesis:</b>
+            A Unified Approach to Collaborative Filtering via Linear Models and Beyond
+        <br>
+        <b>Currently:</b> Twitter Inc
+    </div>
+</div>
+<!-- Honglin Yu -->
+<div class="people">
+    <div class="people-profile">
+        <img src='/img/people/honglin-100.png' title='Honglin' />
+        <a target="_blank" href="http://yuhonglin.github.io"> <big><big> <b>Honglin Yu</b> </big></big></a> <br/><br/> PhD, ANU Computer Science, 2015
+    </div>
+    <div class="people-info">
+        <b>Thesis</b>: <a href=/documents/yu_dissertation.pdf> Understanding the Popularity Evolution of Online Media: A Case Study on YouTube Videos </a> <br />
+        <b>Currently</b>: Google
+    </div>
+</div>
 <!-- Qianyu Zhang -->
 <div class="people">
    <div class="people-profile">
@@ -395,16 +430,17 @@ Machine Learning
        <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
    </div>
 </div>
-<!-- Phoenix Wu
+<!-- Yanxiang Wang -->
 <div class="people">
    <div class="people-profile">
-       <img src='Profile.png' title='Phoenix' />
-       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
+       <img src='/img/people/yanxiang.jpg' title='yangxiang' />
+       <big><big> <a href=https://www.linkedin.com/in/yanxiangwang><b>Yanxiang Wang</b></a> </big></big> <br/><br/> Honours, ANU Computer Science, 2012
    </div>
    <div class="people-info">
-       <b>Thesis</b>: Just here to help out:) <br />
-       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
+       <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
+       <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
    </div>
+<<<<<<< HEAD
 </div> -->
 
 #### Current and recent collaborators
@@ -425,4 +461,8 @@ Machine Learning
 
 <hr>
 
+=======
+</div>
+    
+>>>>>>> 6f90ee0 (merge upstream)
 [manuel]: http://web.media.mit.edu/~cebrian
