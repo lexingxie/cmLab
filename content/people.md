@@ -195,7 +195,18 @@ We are a diverse group in terms of research interests, background, technical ski
 - Xuming He, Shanghai Tech
 - [Manuel Cebrian][manuel], MIT; previously Data61
 - [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-
+- Phoenix Wu, ANU advanced computing R&D
+<!-- Phoenix Wu
+<div class="people">
+   <div class="people-profile">
+       <img src='Profile.png' title='Phoenix' />
+       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
+   </div>
+   <div class="people-info">
+       <b>Thesis</b>: Just here to help out:) <br />
+       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
+   </div>
+</div> -->
 <hr>
 
 #### Alumni
@@ -413,16 +424,5 @@ Machine Learning
        <b>Currently</b>: Software Engineer, X the moonshot factory; previously Google
    </div>
 </div>
-<!-- Phoenix Wu
-<div class="people">
-   <div class="people-profile">
-       <img src='Profile.png' title='Phoenix' />
-       <big><big> <a href=https://www.linkedin.com/in/phoenix-wu-433180237/><b>Phoenix Wu</b></a> </big></big> <br/><br/> Student, ANU Computer Science, 2022
-   </div>
-   <div class="people-info">
-       <b>Thesis</b>: Just here to help out:) <br />
-       <b>Currently</b>: Student, Advanced Computing R&D (Honours)
-   </div>
-</div> -->
 
 [manuel]: http://web.media.mit.edu/~cebrian
