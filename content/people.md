@@ -141,7 +141,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- Lydia Lucchesi -->
 <div class="people"> 
    <div class="people-profile">
-       <img src='http://static1.squarespace.com/static/5c105643ec4eb7d1a8c68c9c/5ec4d5eaecd69368eb3f2f90/5ecefb11f1cc2137b8151419/1594021872363/headshot_lydia.jpg?format=1500w' title='Lydia' />
+       <img src='/img/people/headshot_lydia.jpg' title='Lydia' />
         <big><big> <b>Lydia Lucchesi</b> </big></big> <br/><br/> PhD Candidate, ANU Computer Science;
    </div>
    <div class="people-info">
@@ -149,6 +149,19 @@ We are a diverse group in terms of research interests, background, technical ski
             visualisation of data quality; co-developer of the Vizumap R package
         <br>
         <b>Before the ANU:</b> BA in statistics at the University of Missouri, USA; post-bachelor fellowship at the Institute for Health Metrics and Evaluation
+   </div>
+</div>
+<!-- Ziyu Chen -->
+<div class="people"> 
+   <div class="people-profile">
+       <img src='ziyu.png' title='Ziyu' />
+        <big><big> <a href=https://www.linkedin.com/in/chen-ziyu/><b>Ziyu Chen</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
+   </div>
+   <div class="people-info">
+    <b>Projects:</b>
+            AI ethics and NLP, working on encoding moral values into AI systems to assist ethical human-machine interaction in a diverse social context
+        <br>
+        <b>Before the ANU:</b> Double bachelor degree in IT and Banking and Finance at Monash University. Worked in Chatbot industry
    </div>
 </div>
 <!-- Phoenix Wu -->
@@ -159,7 +172,7 @@ We are a diverse group in terms of research interests, background, technical ski
    </div>
    <div class="people-info">
     <b>Projects:</b>
-            cmLab
+            Computational Media Lab
         <br>
         <b>Before the ANU:</b> N/A
    </div>
@@ -167,28 +180,6 @@ We are a diverse group in terms of research interests, background, technical ski
 
 <hr>
 
-<<<<<<< HEAD
-=======
-#### Current and recent collaborators
-
-- [Tim Graham](https://staff.qut.edu.au/staff/timothy.graham), Queensland University of Technology; ANU Social Sciences and Computer Science
-- [Sylvie Thiebaux](http://users.cecs.anu.edu.au/~thiebaux/), ANU CS, Planning and Optimisation
-- [Felipe Trevizan](https://felipe.trevizan.org/), ANU CS, Planning and Machine Learning
-- [Cheng Soon Ong](http://www.ong-home.my), Data61, CSIRO
-- [Aditya Menon](http://users.cecs.anu.edu.au/~akmenon/), Google Ressearch; previously Data61
-- [Rob Lanfear](http://www.robertlanfear.com/), ANU [Ecology, Evolution, and Genetics](http://biology.anu.edu.au/research/divisions/evolution-ecology-and-genetics)
-- [Armin Haller](http://www.armin-haller.com/), ANU Management and Computer Science
-- [Mark Carman](http://users.monash.edu.au/~mcarman/), Monash University
-- Young Lee, Harvard; previously NUS, Data61
-- [Scott Sanner](http://users.cecs.anu.edu.au/~ssanner), University of Toronto
-- Xuming He, Shanghai Tech
-- [Manuel Cebrian][manuel], MIT; previously Data61
-- [Pascal van Hentenryck](http://pascalvanhentenryck.engin.umich.edu), University of Michigan
-
-
-<hr>
-
->>>>>>> 6f90ee0 (merge upstream)
 #### Alumni
 
 </div>
@@ -440,7 +431,6 @@ Machine Learning
        <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
        <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
    </div>
-<<<<<<< HEAD
 </div> -->
 
 #### Current and recent collaborators
@@ -461,8 +451,4 @@ Machine Learning
 
 <hr>
 
-=======
-</div>
-    
->>>>>>> 6f90ee0 (merge upstream)
 [manuel]: http://web.media.mit.edu/~cebrian
