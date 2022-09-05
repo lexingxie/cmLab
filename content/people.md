@@ -154,7 +154,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- Ziyu Chen -->
 <div class="people"> 
    <div class="people-profile">
-       <img src='ziyu.png' title='Ziyu' />
+       <img src='/img/people/ziyu_photo.jpg' title='Ziyu' />
         <big><big> <a href=https://www.linkedin.com/in/chen-ziyu/><b>Ziyu Chen</b></a> </big></big> <br/><br/> PhD Student, ANU Computer Science;
    </div>
    <div class="people-info">
