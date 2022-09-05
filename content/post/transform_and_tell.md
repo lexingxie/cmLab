@@ -188,7 +188,7 @@ Seattle, 2020.
   <tr>
     <th>Code</th>
     <td style="padding-left: 3em;">
-      <a href="https://transform-and-tell.ml/">Project page </a>
+      <a href="https://transformandtell.cmlab.dev/">Project page </a>
       &nbsp;|&nbsp;
       <a href="https://github.com/alasdairtran/transform-and-tell">Github repository</a>
     </td>
