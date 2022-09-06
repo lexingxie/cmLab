@@ -190,11 +190,12 @@ We are a diverse group in terms of research interests, background, technical ski
         <big><big> <b><a href="https://qykong.github.io/">Quyu Kong</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science, 2022;
     </div>
     <div class="people-info">
-        <b>Thesis:</b> Linking Epidemic Models and Self-exciting Processes for Online and Offline Event Diffusions
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/165008> Linking Epidemic Models and Self-exciting Processes for Online and Offline Event Diffusions</a> 
         <br>
         <b>Currently:</b> Alibaba
    </div>
 </div>
+
 <!-- Rui Zhang -->
 <div class="people">
     <div class="people-profile">
@@ -202,9 +203,9 @@ We are a diverse group in terms of research interests, background, technical ski
         <big><big> <b><a href="https://ruizhang2016.github.io/">Rui Zhang</a></b> </big></big> <br/><br/> PhD Student, ANU Computer Science, 2022;
     </div>
     <div class="people-info">
-        <b>Thesis:</b> Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/261582>Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond </a> 
         <br>
-        <b>Currently:</b> University of Melbourne
+        <b>Currently:</b> Lingjun Investment
    </div>
 </div>
 <!-- Qiongkai Xu -->
@@ -216,7 +217,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="people-info">
         <b>Thesis:</b>
         <br>
-        <b>Currently:</b> Lingjun Investment
+        <b>Currently:</b> University of Melbourne
    </div>
 </div>
 <!-- Siqi Wu -->
@@ -380,8 +381,8 @@ Machine Learning
         <big><big> <b>Anila Sahar Butt</b> </big></big> <br/><br/> PhD, ANU Computer Science 2016 (co-advised with Armin Haller)
     </div>
     <div class="people-info">
-        <b>Thesis:</b>
-            Ontology Ranking: Finding the Right Ontologies on the Web
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/125224> 
+            Ontology Ranking: Finding the Right Ontologies on the Web </a>
         <br>
         <b>Currently:</b> CSIRO, Canberra
    </div>
@@ -393,8 +394,8 @@ Machine Learning
         <big><big> <b><a href="http://ssedhain.com">Suvash Sedhain</a></b> </big></big> <br/><br/> PhD, ANU Computer Science 2016;  <br/> machine learning, NICTA (co-advised with Scott Sanner and Aditya Menon)
     </div>
     <div class="people-info" style='margin-top:10px'>
-        <b>Thesis:</b>
-            A Unified Approach to Collaborative Filtering via Linear Models and Beyond
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/118270>
+            A Unified Approach to Collaborative Filtering via Linear Models and Beyond </a>
         <br>
         <b>Currently:</b> Twitter Inc
     </div>
