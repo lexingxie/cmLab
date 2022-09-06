@@ -204,7 +204,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="people-info">
         <b>Thesis:</b> Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond
         <br>
-        <b>Currently:</b> University of Melbourne
+        <b>Currently:</b> Lingjun Investment
    </div>
 </div>
 <!-- Qiongkai Xu -->
@@ -216,7 +216,7 @@ We are a diverse group in terms of research interests, background, technical ski
     <div class="people-info">
         <b>Thesis:</b>
         <br>
-        <b>Currently:</b> Lingjun Investment
+        <b>Currently:</b> University of Melbourne
    </div>
 </div>
 <!-- Siqi Wu -->
