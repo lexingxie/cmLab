@@ -224,14 +224,13 @@ We are a diverse group in terms of research interests, background, technical ski
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/siqi-100.png' title='Siqi'  />
-	<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> UMichigan; <br/> Data61(NICTA)
+	<big><big> <b><a href="https://avalanchesiqi.github.io/">Siqi Wu</a></b> </big></big> <br/><br/> PhD, ANU Computer Science, 2021 <br/>
     </div>
     <div class="people-info">
-        <b>Projects:</b>
-            measuring and modeling social behavior on web context
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/224512>Measuring Collective Attention in Online Content: Sampling, Engagement, and Network Effects </a>
         <br>
-        <b>Before the ANU:</b> MicroStrategy | The University of Melbourne
-    </div>
+        <b>Currently:</b> University of Michigan
+   </div>
 </div>
 <!-- Umanga Bista -->
 <div class="people">
