@@ -129,11 +129,11 @@ We are a diverse group in terms of research interests, background, technical ski
 <div class="people">
     <div class="people-profile">
         <img src='/img/people/alex-s-100.jpg' title='Alexander' />
-        <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> Undergraduate Student, ANU Computer Science;
+        <big><big> <b>Alexander Soen</b> </big></big> <br/><br/> PhD Candidate, ANU Computer Science;
     </div>
     <div class="people-info">
         <b>Projects:</b>
-            Influencemap, Paper Embedding
+            Algorithmic fairness; Boosting; Information Geometry; Privacy
         <br>
         <b>Before the ANU:</b> N/A
     </div>
