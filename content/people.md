@@ -177,6 +177,19 @@ We are a diverse group in terms of research interests, background, technical ski
         <b>Before the ANU:</b> N/A
    </div>
 </div>
+<!-- Haiqing Zhu -->
+<div class="people"> 
+   <div class="people-profile">
+       <img src='/img/people/pic hqz.jpg' title='Haiqing' />
+        <big><big> <b>Haiqing Zhu</b> </big></big> <br/><br/> ANU Computer Science;
+   </div>
+   <div class="people-info">
+    <b>Projects:</b>
+            Analysis of Online Attention Market
+        <br>
+        <b>Before the ANU:</b> N/A
+   </div>
+</div>
 
 <hr>
 
