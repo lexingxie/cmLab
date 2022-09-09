@@ -1,5 +1,5 @@
 ---
-title: "Expecting to be HIP (II) -- Could this video go viral?"
+title: " to be HIP (II) -- Could this video go viral?"
 description: "supplying the missing link between popularity and promotions"
 date: "2017-06-11"
 draft: false
@@ -97,7 +97,7 @@ When studying the fitted HIP parameters for this video, we observe that HIP deem
     <img src="/img/expecting_to_be_HIP/potentially_viral_video.png" width="300" Hspace="15" Vspace="10">
     <figcaption>Fig.3: A potentially viral video, which went viral.</figcaption>
 </figure>
-Potentially viral  are expected to be found in the top-right corner of the endo-exo map, the area in which lies videos most likely to respond best to external promotion.
+Potentially viral video are expected to be found in the top-right corner of the endo-exo map, the area in which lies videos most likely to respond best to external promotion.
 
 
 ### Try it yourself
