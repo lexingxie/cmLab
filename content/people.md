@@ -180,7 +180,7 @@ We are a diverse group in terms of research interests, background, technical ski
 <!-- Haiqing Zhu -->
 <div class="people"> 
    <div class="people-profile">
-       <img src='/img/people/pic hqz.jpg' title='Haiqing' />
+       <img src='/img/people/hqz.jpg' title='Haiqing' />
         <big><big> <b>Haiqing Zhu</b> </big></big> <br/><br/> ANU Computer Science;
    </div>
    <div class="people-info">
