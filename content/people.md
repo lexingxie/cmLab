@@ -444,7 +444,7 @@ Machine Learning
        <b>Thesis</b>: Social Event Detection with Interaction Graph Modeling <br />
        <b>Currently</b>: REA Group; previously Lonely Planet, StartMyGig
    </div>
-</div> -->
+</div>
 
 #### Current and recent collaborators
 
