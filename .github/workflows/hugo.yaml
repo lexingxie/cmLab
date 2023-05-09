@@ -36,7 +36,7 @@ jobs:
     steps:
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_0.100.0_Linux-ARM64.deb \
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
