@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://lexingxie.github.io/cmLab/"          
+            --baseURL "https://cmlab.dev"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
