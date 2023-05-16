@@ -1,3 +1,48 @@
+@inproceedings{tran2023factorized,
+  title={Factorized fourier neural operators},
+  author={Tran, Alasdair and Mathews, Alexander and Xie, Lexing and Ong, Cheng Soon},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023}, 
+  url_abstract = {https://openreview.net/forum?id=tmIiMPl4IPa},
+  url_paper = {https://arxiv.org/pdf/2111.13802},
+  url_code = {https://github.com/alasdairtran/fourierflow}, 
+  abstract  = {We propose the Factorized Fourier Neural Operator (F-FNO), a learning-based approach for simulating partial differential equations (PDEs). Starting from a recently proposed Fourier representation of flow fields, the F-FNO bridges the performance gap between pure machine learning approaches to that of the best numerical or hybrid solvers. This is achieved with new representations – separable spectral layers and improved residual connections – and a combination of training strategies such as the Markov assumption, Gaussian noise, and cosine learning rate decay. On several challenging benchmark PDEs on regular grids, structured meshes, and point clouds, the F-FNO can scale to deeper networks and outperform both the FNO and the geo-FNO, reducing the error by 83% on the Navier-Stokes problem, 31% on the elasticity problem, 57% on the airfoil flow problem, and 60% on the plastic forging problem. Compared to the state-of-the-art pseudo-spectral method, the F-FNO can take a step size that is an order of magnitude larger in time and achieve an order of magnitude speedup to produce the same solution quality.}
+}
+
+@inproceedings{Zhu2023Stability,
+  title={Stability and Efficiency of Personalised Cultural Markets},
+  author={Haiqing Zhu, Yun Kuen Cheung and Lexing Xie},
+  booktitle = {The Web Conference 2023},
+  year      = {2023},
+  url_abstract = {https://arxiv.org/abs/2302.06226},
+  url_paper = {https://arxiv.org/pdf/2302.06226.pdf},
+  abstract  = {This work is concerned with the dynamics of online cultural markets, namely, attention allocation of many users on a set of digital goods with infinite supply. Such dynamic is important in shaping processes and outcomes in society, from trending items in entertainment, collective knowledge creation, to election outcomes. The outcomes of online cultural markets are susceptible to intricate social influence dynamics, particularly so when the community comprises consumers with heterogeneous interests. This has made formal analysis of these markets improbable. In this paper, we remedy this by establishing robust connections between influence dynamics and optimization processes, in trial-offer markets where the consumer preferences are modelled by multinomial logit. Among other results, we show that the proportional-response-esque influence dynamic is equivalent to stochastic mirror descent on a convex objective function, thus leading to a stable and predictable outcome. When all consumers are homogeneous, the objective function has a natural interpretation as a weighted sum of efficiency and diversity of the culture market. In simulations driven by real-world preferences collected from a large-scale recommender system, we observe that ranking strategies aligned with the underlying heterogeneous preferences are more stable, and achieves higher efficiency and diversity. More broadly, we see this work as the first step in connecting computational methods for classical markets to the problem area of online attention and recommender systems. We hope this result paves the way to posing and answering a diverse set of research questions in this area.}
+}
+
+@inproceedings{Soen2022FairWF,
+  title={Fair Wrapping for Black-box Predictions},
+  author={Alexander Soen and Ibrahim M. Alabdulmohsin and Sanmi Koyejo and Y. Mansour and Nyalleng Moorosi and Richard Nock and Ke Sun and Lexing Xie},
+  booktitle = {36th Conference on Neural Information Processing Systems (NeurIPS 2022)},
+  year      = {2022},
+  url_paper = {https://arxiv.org/pdf/2201.12947.pdf},
+  url_abstract = {https://arxiv.org/abs/2201.12947},
+  abstract  = {We introduce a new family of techniques to post-process ("wrap") a black-box classifier in order to reduce its bias. Our technique builds on the recent analysis of improper loss functions whose optimization can correct any twist in prediction, unfairness being treated as a twist. In the post-processing, we learn a wrapper function which we define as an α-tree, which modifies the prediction. We provide two generic boosting algorithms to learn α-trees. We show that our modification has appealing properties in terms of composition of α-trees, generalization, interpretability, and KL divergence between modified and original predictions. We exemplify the use of our technique in three fairness notions: conditional value-at-risk, equality of opportunity, and statistical parity; and provide experiments on several readily available datasets.}
+}
+
+@article{JMLR:v23:21-0917,
+  author  = {Marian-Andrei Rizoiu and Alexander Soen and Shidi Li and Pio Calderon and Leanne J. Dong and Aditya Krishna Menon and Lexing Xie},
+  title   = {Interval-censored Hawkes processes},
+  journal = {Journal of Machine Learning Research},
+  year    = {2022},
+  volume  = {23},
+  number  = {338},
+  pages   = {1--84},
+  url_abstract    = {http://jmlr.org/papers/v23/21-0917.html},
+  url_paper = {https://arxiv.org/pdf/2104.07932}, 
+  abstract  = {Interval-censored data solely records the aggregated counts of events during specific time intervals -- such as the number of patients admitted to the hospital or the volume of vehicles passing traffic loop detectors -- and not the exact occurrence time of the events. It is currently not understood how to fit the Hawkes point processes to this kind of data. Its typical loss function (the point process log-likelihood) cannot be computed without exact event times. Furthermore, it does not have the independent increments property to use the Poisson likelihood. This work builds a novel point process, a set of tools, and approximations for fitting Hawkes processes within interval-censored data scenarios. First, we define the Mean Behavior Poisson process (MBPP), a novel Poisson process with a direct parameter correspondence to the popular self-exciting Hawkes process. We fit MBPP in the interval-censored setting using an interval-censored Poisson log-likelihood (IC-LL). We use the parameter equivalence to uncover the parameters of the associated Hawkes process. Second, we introduce two novel exogenous functions to distinguish the exogenous from the endogenous events. We propose the multi-impulse exogenous function -- for when the exogenous events are observed as event time -- and the latent homogeneous Poisson process exogenous function -- for when the exogenous events are presented as interval-censored volumes. Third, we provide several approximation methods to estimate the intensity and compensator function of MBPP when no analytical solution exists. Fourth and finally, we connect the interval-censored loss of MBPP to a broader class of Bregman divergence-based functions. Using the connection, we show that the popularity estimation algorithm Hawkes Intensity Process (HIP) is a particular case of the MBPP. We verify our models through empirical testing on synthetic data and real-world data. We find that our MBPP outperforms HIP on real-world datasets for the task of popularity prediction. This work makes it possible to efficiently fit the Hawkes process to interval-censored data.}
+}
+
+
 @inproceedings{Soen2022FairWF,
   title={Fair Wrapping for Black-box Predictions},
   author={Alexander Soen and Ibrahim M. Alabdulmohsin and Sanmi Koyejo and Y. Mansour and Nyalleng Moorosi and Richard Nock and Ke Sun and Lexing Xie},
@@ -1376,11 +1421,3 @@ series = {FAccT '22},
   url_paper = {http://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/view/1521/1832}
 }
 
-@inproceedings{Zhu2023Stability,
-  title={Stability and Efficiency of Personalised Cultural Markets},
-  author={Haiqing Zhu, Yun Kuen Cheung and Lexing Xie},
-  booktitle = {The Web Conference 2023},
-  year      = {2023},
-  url_paper = {https://arxiv.org/pdf/2302.06226.pdf},
-  abstract  = {This work is concerned with the dynamics of online cultural markets, namely, attention allocation of many users on a set of digital goods with infinite supply. Such dynamic is important in shaping processes and outcomes in society, from trending items in entertainment, collective knowledge creation, to election outcomes. The outcomes of online cultural markets are susceptible to intricate social influence dynamics, particularly so when the community comprises consumers with heterogeneous interests. This has made formal analysis of these markets improbable. In this paper, we remedy this by establishing robust connections between influence dynamics and optimization processes, in trial-offer markets where the consumer preferences are modelled by multinomial logit. Among other results, we show that the proportional-response-esque influence dynamic is equivalent to stochastic mirror descent on a convex objective function, thus leading to a stable and predictable outcome. When all consumers are homogeneous, the objective function has a natural interpretation as a weighted sum of efficiency and diversity of the culture market. In simulations driven by real-world preferences collected from a large-scale recommender system, we observe that ranking strategies aligned with the underlying heterogeneous preferences are more stable, and achieves higher efficiency and diversity. More broadly, we see this work as the first step in connecting computational methods for classical markets to the problem area of online attention and recommender systems. We hope this result paves the way to posing and answering a diverse set of research questions in this area.}
-}
