@@ -11,8 +11,8 @@ tags:
   - "moraldilemmas"
 ---
 
-##### Posted by _Lexing Xie_ and _Ziyu Chen_. <br /> 
-Thanks to Eric Byler for a [2022 profile article](https://comp.anu.edu.au/news/2022/07/01/algorithms-reveal-human-nature-100k-moral-dilemmas/) in college news! 
+##### Posted by _Lexing Xie_ and _Ziyu Chen_.
+Thanks to Eric Byler for a [2022 profile article](https://comp.anu.edu.au/news/2022/07/01/algorithms-reveal-human-nature-100k-moral-dilemmas/) in college news!  <br /> 
 <p />
 
 <br/>
@@ -24,14 +24,14 @@ This work is done with Josh Nguyen and Alasdair Tran, and ANU philosophers Colin
 
 <br/>
 
-#### **Question 1: what are in the 100,000 moral dilemmas? **
+#### **Question 1: what are in the 100,000 moral dilemmas?**
 
 The popular online community AITA crowd-sources moral deliberation one sticky situation at a time, they have accumulated 100,000+ dilemmas since 2013. 
 We ask: what are the types of issues people struggle with? 
 
 <br/>
 
-#### **Surprise 1: There are ~50 topics, and people percieve them in pairs. **
+#### **Surprise 1: There are ~50 topics, and people percieve them in pairs.**
 
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/AITA_treemap.png">
@@ -57,9 +57,19 @@ The realm of morality is far larger than philosophers ordinarily think it is.”
 
 <br/>
 
-#### **Question 2: How do we measure moral dimensions in lots and lots of written text? **
+#### **Question 2: How do we measure moral dimensions in lots and lots of written text?**
 
+Studying moral content online is a topic area with growing interest. 
+Many online discussions have a tendency to reflect aspects of morality, and
+researchers thus far have aimed to study how and to what
+extent moral dimensions vary throughout this vast domain. 
+<br/>
 
+At the scale of AITA for example (100,000+ posts with up to a few hundred words each), manual inspection is obviously out of the question, so what shall we do? 
+<br/>
+
+One popular approach is to use a subjective lexicon, i.e. counting relevant words. Moral foundations theory is a taxonomy of intuitions widely used in data-driven analyses of online content, and there has been several lexicon built by different teams for it. A closer examination of three such lexicon gave us a surprise: 
+<!-- pioneered by [LIWC](https://www.liwc.app/) for -->
 
 <br/>
 
@@ -73,6 +83,25 @@ The realm of morality is far larger than philosophers ordinarily think it is.”
     </figcaption>
 </figure>
 
+<!-- but current computational tools to detect moral foundations suffer from the incompleteness and
+fragility of their lexicons and from poor generalization across
+data domains. -->
+In this work, we fine-tune a large language
+model to measure moral foundations in text based on datasets
+covering news media and long- and short-form online discussions. The resulting model, called Mformer, outperforms
+existing approaches on the same domains by 4–12% in AUC
+and further generalizes well to four commonly used moral
+text datasets, improving by up to 17% in AUC.
+
+Pretrained model and datasets are released publicly. We posit that
+Mformer will help the research community quantify moral dimensions for a range of tasks and data domains, and eventually contribute to the understanding of moral situations faced
+by humans and machines.
+
+#### **FAQ** (answers will be posted soon)
+
+* _Don't you want to build an AI that make moral judgements?_  In short, no. 
+* _What are some of the limitations of AITA?_
+* _Is Moral Foundations the De Facto tool then?_
 
 <br/>
 
