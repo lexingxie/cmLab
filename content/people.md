@@ -112,19 +112,6 @@ We are a diverse group in terms of research interests, background, technical ski
        <b>Before the ANU:</b> Tsinghua University
    </div>
 </div>
-<!-- Josh Nguyen -->
-<div class="people">
-   <div class="people-profile">
-       <img src='/img/people/josh.jpg' title='josh' />
-       <big><big> <a href=https://joshnguyen.net/><b>Josh Nguyen</b></a> </big></big> <br/><br/> MPhil, ANU Computer Science;
-   </div>
-   <div class="people-info">
-       <b>Projects:</b>
-           Online moral dilemmas
-       <br>
-       <b>Before the ANU:</b> The University of Melbourne
-   </div>
-</div>
 <!-- Alexander Soen -->
 <div class="people">
     <div class="people-profile">
@@ -195,6 +182,18 @@ We are a diverse group in terms of research interests, background, technical ski
 
 #### Alumni
 
+</div>
+<!-- Josh Nguyen -->
+<div class="people">
+   <div class="people-profile">
+        <img src='/img/people/josh.jpg' title='josh' />
+        <big><big> <a href=https://joshnguyen.net/><b>Josh Nguyen</b></a> </big></big> <br/><br/> MPhil, ANU Computer Science, 2024
+   </div>
+   <div class="people-info">
+        <b>Thesis:</b> <a href=https://openresearch-repository.anu.edu.au/handle/1885/316825>Data-Driven Understanding of Real-Life Moral Dilemmas via Topic Mapping and Moral Foundations</a>
+        <br>
+        <b>Currently:</b> PhD Student, University of Pennsylvania
+   </div>
 </div>
 <!-- Quyu Kong -->
 <div class="people">
