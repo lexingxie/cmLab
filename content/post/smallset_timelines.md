@@ -30,16 +30,16 @@ is limiting when it comes to replicating, interpreting, and utilising research o
 
 <br/>
 
-The two central contributions in [Lydia's 2024 PhD Thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf) are Smallset Timelines and smallsets. The Smallset Timeline is a static
+The two central contributions in [Lydia's 2024 PhD Thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf) are Smallset Timelines and the [smallsets](https://lydialucchesi.github.io/smallsets/) software. The Smallset Timeline is a static
 and compact visualisation, documenting the sequence of decisions in a preprocessing pipeline;
-it is composed of small data snapshots of different preprocessing steps. The smallsets software builds a Smallset Timeline from a user’s data preprocessing script, containing structured
-comments with snapshot instructions. Together, Smallset Timelines and smallsets are designed to support the production of accessible data preprocessing documentation. 
+it is composed of small data snapshots of different preprocessing steps. The [smallsets](https://lydialucchesi.github.io/smallsets/) R software builds a Smallset Timeline from a user’s data preprocessing script, containing structured
+comments with snapshot instructions. Together, they are designed to support the production of accessible data preprocessing documentation. 
 
 This post illustrates these contributions with four examples, along with an example notebook that produces them. 
 
 1. <a href="#EX1">Ebirds data in citizen science</a>
 1. <a href="#EX2">HMDA homeloan data, reflecting nuances in defining and reporting on race</a>
-1. <a href="#EX3">Examining fairness in income classification from American Community Survey</a>
+1. <a href="#EX3">The folktables dataset for machine learning, on fairness in income classification</a>
 1. <a href="#EX4">NASA software defect data</a>
 
 We will conclude this overview with <a href="#notebook">an example notebook</a> to illustrate the ease of using smallsets in exisitng data-preprocessing code, along with an <a href="#faq">FAQ</a>.
@@ -79,21 +79,36 @@ smallsets code for this figure are in <a href="#thesis">Lydia's Thesis</a> Appen
 
 #### **Example 2: HMDA Homeloan Data - Nuances in Defining and Processing Race**
 
+In 1975, the United States (U.S.) Congress
+passed the Home Mortgage Disclosure Act (HMDA), mandating that data about home lend-
+ing be made public. Since then, HMDA data have become a valuable resource to understand
+the lending market and audit lending bodies for discriminatory practices [McCoy, 2007].13 It
+is illegal in the U.S. to deny an applicant a home loan on the basis of race or color, national
+origin, religion, sex, familial status, or handicap [Fair Housing Act]. Auditing with the use of
+HMDA data, however, is not a straightforward task. Rather, it requires careful examination
+of the data and difficult decisions about how to best use it [Avery et al., 2007].
+
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/hmda_A.png">
+    <figcaption>
+    Smallset Timeline, created with the smallsets software, detailing the preprocessing decisions of researcher Alice in the home loan data case study discussed in \Cref{ssec:a_missing_data_dilemma}. The preprocessing script and \texttt{smallsets} code for this figure are in \Cref{sec:materials_for_figure_6_8}
+    </figcaption>
 </figure>
 
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/hmda_B.png">
+    <figcaption>
+    Smallset Timeline, created with the \texttt{smallsets} software, detailing the preprocessing decisions of researcher Bob in the home loan data case study discussed in \Cref{ssec:a_missing_data_dilemma}. The preprocessing script and \texttt{smallsets} code for this figure are in \Cref{sec:materials_for_figure_6_9}.
+    </figcaption>
 </figure>
 
 
 <h5 id="EX3"></h5>
 
-#### **Example 3: Examining Fairness in Income Classification**
+#### **Example 3: Examining Fairness of Income Classification in the folktables Dataset for Machine Learning**
 
 
-<figure class="asn-fig asn-left" style="max-width: 550px;">
+<figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/acs.png">
     <figcaption>
      Smallset Timeline of ACS California data preprocessed with the validity-median
@@ -102,7 +117,7 @@ code for this figure are in the code section <a href="#notebook">below</a>.
     </figcaption>
 </figure>
 
-<figure class="asn-fig asn-left" style="max-width: 550px;">
+<figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/fairness.png">
     <figcaption>
     The effect of four different preprocessing settings on data and prediction. Plot
@@ -118,6 +133,10 @@ In the early 2000s, the NASA Metrics Data Program (MDP) released 13 datasets for
 
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/gray_general.png">
+    <figcaption>
+    Smallset Timeline for MDP CM1 dataset preprocessed according to Gray et al.
+[2011]. Smallset selected using the _coverage_ algorithm.
+</figcaption>
 </figure>
 
 
@@ -125,11 +144,15 @@ In the early 2000s, the NASA Metrics Data Program (MDP) released 13 datasets for
 
 #### **Example notebook for the fairness example**
 
-<figure class="asn-fig asn-left" style="max-width: 550px;">
+the Jupyter Notebook _fairness analysis.ipynb_, for the scenario described in Example 3, in which smallsets is integrated into a folktables workflow. The
+second code cell contains a Python preprocessing function, documented with smallsets
+structured comments.
+
+<figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/notebook1.png">
 </figure>
 
-<figure class="asn-fig asn-left" style="max-width: 550px;">
+<figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/notebook2.png">
 </figure>
 
