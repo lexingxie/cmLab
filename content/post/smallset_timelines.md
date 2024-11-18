@@ -1,6 +1,6 @@
 ---
 title: "Smallset Timelines for Communicating Data Preprocessing Decisions"
-description: "Data preprocessing is messy and nuanced but full of consequential decisions, a cartoon strip can be generated for your preprocessing to help understanding and reproduction."
+description: "Data preprocessing is messy and nuanced but full of consequential decisions, a `preprocessing cartoon strip` can be generated to help illustrate these decisions."
 date: "2024-11-18"
 draft: false
 categories:
@@ -14,11 +14,12 @@ tags:
 ##### Posted by _Lexing Xie_ and _Lydia Lucchesi_.
 
 <br/>
-<figure class="asn-fig asn-left" style="max-width: 200px;">
-    <img src="https://github.com/lydialucchesi/smallsets/blob/main/man/figures/hex_sticker.png">
+<figure class="asn-fig asn-left" style="max-width: 165px;">
+    <img src="/img/smallset/hex_sticker.png">
 </figure>
-Smallset Timelines, and the associated [R package](https://cloud.r-project.org/web/packages/smallsets/index.html) [smallsets](https://lydialucchesi.github.io/smallsets/), faciliate visual documentation of data preprocessing. 
+Smallset Timelines, and the associated <a href="https://cloud.r-project.org/web/packages/smallsets/index.html">R package</a> <a href=https://lydialucchesi.github.io/smallsets/>smallsets</a>, faciliate visual documentation of data preprocessing. 
 
+<p>
 <!--more-->
 
 <br/>
@@ -47,8 +48,28 @@ We will conclude this overview with <a href="#notebook">an example notebook</a> 
 
 #### **Example 1: Ebirds Data in Citizen Science**
 
+We examine the eBird database, a citizen science program with millions of bird
+sightings from across the globe [Sullivan et al., 2009]. Citizen scientists upload their bird
+sightings, by completing an eBird checklist form. The form collects information about every bird observed during an observation period. As noted on the eBird website,7 to date the
+eBird data has been used in over 930 publications.
+
+Johnston et al. [2021] recommend a series of best practices for using citizen science data.
+These recommendations are based on an eBird case study that explored the effects of different
+data preparations on statistical inference. The authors found that the combination of using
+complete checklists only, spatial subsampling, effort filters,8 and effort covariates produced
+the strongest modelling result. As a supplement to the study, Strimas-Mackey et al. [2023]
+produced the guide “Best Practices for Using eBird Data,” which provides a step-by-step
+implementation of the study’s recommendations in the R programming language.
+
+
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/ebird.png">
+    <figcaption>
+    Smallset Timeline for the eBird preprocessing steps recommended in Strimas-
+Mackey et al. [2023] (see Section 6.2.1). Smallset selected with random sampling. Data
+are not printed in snapshots, as per the eBird terms of use. The preprocessing script and
+smallsets code for this figure are in <a href="#thesis">Lydia's Thesis</a> Appendix B.3.
+</figcaption>
 </figure>
 
 
@@ -93,6 +114,8 @@ a) shows dataset imbalance by gender. Plots b) and c) show group fairness measur
 
 #### **Example 4: A widely-used dataset of software defects**
 
+In the early 2000s, the NASA Metrics Data Program (MDP) released 13 datasets for software defect detection, which involves developing algorithms to predict bugs in source code.
+
 <figure class="asn-fig asn-left" style="max-width: 750px;">
     <img src="/img/smallset/gray_general.png">
 </figure>
@@ -114,6 +137,7 @@ a) shows dataset imbalance by gender. Plots b) and c) show group fairness measur
 
 #### **FAQ** (detailed answers coming soon, new questions most welcome)
 
+* _Is smallsets cutomizable?_ Yes, please see this detailed [user guide](https://lydialucchesi.github.io/smallsets/articles/smallsets.html).
 * _Will smallsets automate data-preprocessing?_  In short, no. 
 * _Is Python code supported?_ Yes, in ipython notebooks.
 * _Will smallsets support preprocessing code across different scripts?_ Not yet. 
@@ -124,5 +148,7 @@ a) shows dataset imbalance by gender. Plots b) and c) show group fairness measur
 #### **Resources**
 
 * [Smallset Timelines: A Visual Representation of Data Preprocessing Decisions](https://arxiv.org/abs/2206.04875), Lydia R. Lucchesi, Petra M. Kuhnert, Jenny L. Davis, and Lexing Xie, Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency, 2022
+
 <h5 id="thesis"></h5>
+
 * [Visualisation and Software to Communicate Data Preprocessing Decisions](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf), Lydia R. Lucchesi, PhD Thesis, The Australian National University, 2024
