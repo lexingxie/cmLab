@@ -29,7 +29,7 @@ Our lab is in charge of designing and teaching several courses in the ANU Comput
     In particular, it covers a selected set of network algorithms in depth. These include random graph models, homophily and friendship paradox, influence and contagion in networks, and network resilience. Furthermore, it also teaches students about the ethics of doing data-driven network science research. 
     The course equips the students with in-depth knowledge and hands-on experience in working with network data to study social, biological and cognitive processes. Graduates will be equipped with the technical, theoretical and conceptual skills and knowledge to start a budding career in this field.
 
-    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019). Next offering: 2023 or 2024, details TBA.
+    See [here for the 2019 Syllabus](http://bit.ly/netsci-schedule-2019), and [2024 syllabus](https://docs.google.com/spreadsheets/d/e/2PACX-1vTKhUgnhhb4XYFtGZleuxPiZ1ZYk3RnjzAuRYAACZ-DvRCPbYvBhJMD3cxWQdWVdk5qB6x7ZPNwzK0T/pubhtml?gid=440828989) Next offering: 2025, details TBA.
 
 * **COMP4650/6490 Document Analysis (2015 --)**
 
