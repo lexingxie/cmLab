@@ -1,6 +1,6 @@
 ---
 title: "AI for Climate, Safety and Environment"
-description: "We analysed the 7-year history of /r/AmITheAsshole, asked two questions and got two surprising answers."
+description: "We hosted a workshop to explore how AI can drive impactful solutions for climate resilience, environmental monitoring, public and industrial safety."
 date: "2025-08-05"
 draft: false
 categories:
@@ -29,15 +29,5 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 - Environmental Monitoring: applying machine learning for ecosystem counting and assessment based on non-traditional data sources.
 
-<br/>
-
 #### **📷 Photo Gallery**
 
-
-
-<br/>
-
-#### **Resources**
-
-* [Mapping Topics in 100,000 Real-life Moral Dilemmas](https://arxiv.org/abs/2203.16762), Tuan Dung Nguyen, Georgiana Lyall, Alasdair Tran, Minjeong Shin, Nicholas George Carroll, Colin Klein, and Lexing Xie, International AAAI Conference on Web and Social Media (ICWSM '22), 2022
-* [Measuring Moral Dimensions in Social Media with Mformer](https://arxiv.org/abs/2311.10219), Tuan Dung Nguyen, Ziyu Chen, Nicholas George Carroll, Alasdair Tran, Colin Klein, and Lexing Xie, International AAAI Conference on Web and Social Media (ICWSM '24), 2024
