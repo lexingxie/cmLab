@@ -4,11 +4,12 @@ description: "We hosted a workshop to explore how AI can drive impactful solutio
 date: "2025-08-05"
 draft: false
 categories:
-  - "research"
+  - "group-activity"
+  - "news"
 tags:
   - "AI4Good"
   - "workshop"
-  - "event"
+  - "activity"
 ---
 
 ##### Posted by _Yue Liu_.
