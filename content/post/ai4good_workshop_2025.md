@@ -12,7 +12,7 @@ tags:
   - "activity"
 ---
 
-##### Posted by _Yue Liu_.
+##### Posted by _Yue Liu_ and _Haojie Zhuang_.
 
 #### **Event Information**
 
@@ -32,9 +32,33 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 #### **Takeaways**
 
-- Not every task can be resolved by AI.
-- AI can be used to provide guidance or explore traditional methods.
--  
+- Identify target users and understand their goals, contexts, and constraints. Elicit user requirements and map them to the potential solution space. Ensure the AI system aligns with real user needs rather than abstract technical possibilities.
+
+- The effectiveness of AI models is strongly influenced by the source, quality, and representativeness of training data. Biases or gaps in data can lead to poor generalization or unintended outcomes.
+
+- Natural language is inherently ambiguous and context-dependent. Misinterpretations can arise between human users and LLMs due to differences in assumptions or knowledge.
+
+- AI is not always the best or necessary solution. For certain tasks, AI can support users by recommending or automating traditional approaches (e.g., rule-based methods). In some cases, simpler methods may be more efficient, interpretable, and trustworthy.
 
 #### **Photo Gallery**
+
+<img src="images/DSC04959.jpeg" width="200"/>
+<img src="images/DSC04968.jpeg" width="200"/>
+<img src="images/DSC04980.jpeg" width="200"/>
+<img src="images/DSC04990.jpeg" width="200"/>
+<img src="images/DSC05004.jpeg" width="200"/>
+<img src="images/DSC05009.jpeg" width="200"/>
+<img src="images/DSC05044.jpeg" width="200"/>
+<img src="images/DSC05049.jpeg" width="200"/>
+<img src="images/DSC05055.jpeg" width="200"/>
+<img src="images/DSC05063.jpeg" width="200"/>
+<img src="images/DSC05087.jpeg" width="200"/>
+<img src="images/DSC05088.jpeg" width="200"/>
+<img src="images/DSC05117.jpeg" width="200"/>
+<img src="images/DSC05130.jpeg" width="200"/>
+<img src="images/DSC05141.jpeg" width="200"/>
+<img src="images/DSC05172.jpeg" width="200"/>
+<img src="images/DSC05178.jpeg" width="200"/>
+<img src="images/DSC05181.jpeg" width="200"/>
+<img src="images/IMG_0068.jpeg" width="200"/>
 
