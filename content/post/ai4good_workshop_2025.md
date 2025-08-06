@@ -1,5 +1,5 @@
 ---
-title: "AI for Climate, Safety and Environment"
+title: "AI for Climate, Safety and Environment Workshop"
 description: "We hosted a workshop to explore how AI can drive impactful solutions for climate resilience, environmental monitoring, public and industrial safety."
 date: "2025-08-05"
 draft: false
@@ -45,7 +45,6 @@ The event spotlights AI’s transformative potential across three interlinked do
 #### **Photo Gallery**
 
 <img src="/img/ai4good/DSC04959.jpeg" width="750"/>
-<img src="/img/ai4good/IMG_0036.jpeg" width="750"/>
 <img src="/img/ai4good/DSC04968.jpeg" width="750"/>
 <img src="/img/ai4good/DSC04980.jpeg" width="750"/>
 <img src="/img/ai4good/DSC04990.jpeg" width="750"/>
@@ -63,6 +62,7 @@ The event spotlights AI’s transformative potential across three interlinked do
 <img src="/img/ai4good/DSC05172.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05178.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05181.jpeg" width="750"/>
+<img src="/img/ai4good/IMG_0036.jpg" width="750"/>
 <img src="/img/ai4good/IMG_0068.jpeg" width="750"/>
 
 
