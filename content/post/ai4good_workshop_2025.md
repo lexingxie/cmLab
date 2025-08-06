@@ -16,9 +16,9 @@ tags:
 
 #### **Event Information**
 
-[https://events.humanitix.com/ai4good-2025](https://events.humanitix.com/ai4good-2025)
-
 Hosted by the ANU Computational Media Lab in partnership with ANU’s Integrated AI Network and CSIRO’s Data61 Tech4HSE Research Program, this one‑day in‑person event brings together a distinguished group of researchers and practitioners to explore how artificial intelligence can address critical challenges in climate, environmental, and public and industrial safety.
+
+[https://events.humanitix.com/ai4good-2025](https://events.humanitix.com/ai4good-2025)
 
 #### **Themes & Focus**
 
@@ -30,7 +30,7 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 - Environmental Monitoring: applying machine learning for ecosystem counting and assessment based on non-traditional data sources.
 
-#### **Takeaways**
+#### **Key Takeaways**
 
 - AI are used in various domains including: remote sensing & environmental monitoring, regulation & policy analysis, multimodal to code translation, etc.
 
@@ -72,3 +72,7 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 
 Photo credit: _Ziyu Chen_
+
+#### **Acknowledgement**
+
+We thank all participants, speakers, and volunteers for their time, energy, and thoughtful contributions. We acknowledge and pay respect to the Ngunnawal and Ngambri people, the Traditional Custodians of the land on which this event was held.
