@@ -42,6 +42,7 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 #### **Photo Gallery**
 
+<img src="/img/ai4good/IMG_0036.jpeg" width="200"/>
 <img src="/img/ai4good/DSC04959.jpeg" width="200"/>
 <img src="/img/ai4good/DSC04968.jpeg" width="200"/>
 <img src="/img/ai4good/DSC04980.jpeg" width="200"/>
@@ -61,5 +62,6 @@ The event spotlights AI’s transformative potential across three interlinked do
 <img src="/img/ai4good/DSC05178.jpeg" width="200"/>
 <img src="/img/ai4good/DSC05181.jpeg" width="200"/>
 <img src="/img/ai4good/IMG_0068.jpeg" width="200"/>
+
 
 Photo credit: _Ziyu Chen_
