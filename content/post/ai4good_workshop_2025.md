@@ -32,6 +32,8 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 #### **Takeaways**
 
+- AI are used in various domains including: remote sensing & environmental monitoring, regulation & policy analysis, multimodal to code translation, etc.
+
 - Identify target users and understand their goals, contexts, and constraints. Elicit user requirements and map them to the potential solution space. Ensure the AI system aligns with real user needs rather than abstract technical possibilities.
 
 - The effectiveness of AI models is strongly influenced by the source, quality, and representativeness of training data. Biases or gaps in data can lead to poor generalization or unintended outcomes.
@@ -42,26 +44,26 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 #### **Photo Gallery**
 
-<img src="/img/ai4good/IMG_0036.jpeg" width="200"/>
-<img src="/img/ai4good/DSC04959.jpeg" width="200"/>
-<img src="/img/ai4good/DSC04968.jpeg" width="200"/>
-<img src="/img/ai4good/DSC04980.jpeg" width="200"/>
-<img src="/img/ai4good/DSC04990.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05004.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05009.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05044.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05049.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05055.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05063.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05087.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05088.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05117.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05130.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05141.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05172.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05178.jpeg" width="200"/>
-<img src="/img/ai4good/DSC05181.jpeg" width="200"/>
-<img src="/img/ai4good/IMG_0068.jpeg" width="200"/>
+<img src="/img/ai4good/DSC04959.jpeg" width="750"/>
+<img src="/img/ai4good/IMG_0036.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04968.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04980.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04990.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05004.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05009.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05044.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05049.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05055.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05063.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05087.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05088.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05117.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05130.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05141.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05172.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05178.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05181.jpeg" width="750"/>
+<img src="/img/ai4good/IMG_0068.jpeg" width="750"/>
 
 
 Photo credit: _Ziyu Chen_
