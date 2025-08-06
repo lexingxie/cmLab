@@ -42,23 +42,23 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 #### **Photo Gallery**
 
-<img src="images/DSC04959.jpeg" width="200"/>
-<img src="images/DSC04968.jpeg" width="200"/>
-<img src="images/DSC04980.jpeg" width="200"/>
-<img src="images/DSC04990.jpeg" width="200"/>
-<img src="images/DSC05004.jpeg" width="200"/>
-<img src="images/DSC05009.jpeg" width="200"/>
-<img src="images/DSC05044.jpeg" width="200"/>
-<img src="images/DSC05049.jpeg" width="200"/>
-<img src="images/DSC05055.jpeg" width="200"/>
-<img src="images/DSC05063.jpeg" width="200"/>
-<img src="images/DSC05087.jpeg" width="200"/>
-<img src="images/DSC05088.jpeg" width="200"/>
-<img src="images/DSC05117.jpeg" width="200"/>
-<img src="images/DSC05130.jpeg" width="200"/>
-<img src="images/DSC05141.jpeg" width="200"/>
-<img src="images/DSC05172.jpeg" width="200"/>
-<img src="images/DSC05178.jpeg" width="200"/>
-<img src="images/DSC05181.jpeg" width="200"/>
-<img src="images/IMG_0068.jpeg" width="200"/>
+<img src="/img/ai4good/DSC04959.jpeg" width="200"/>
+<img src="/img/ai4good/DSC04968.jpeg" width="200"/>
+<img src="/img/ai4good/DSC04980.jpeg" width="200"/>
+<img src="/img/ai4good/DSC04990.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05004.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05009.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05044.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05049.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05055.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05063.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05087.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05088.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05117.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05130.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05141.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05172.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05178.jpeg" width="200"/>
+<img src="/img/ai4good/DSC05181.jpeg" width="200"/>
+<img src="/img/ai4good/IMG_0068.jpeg" width="200"/>
 
