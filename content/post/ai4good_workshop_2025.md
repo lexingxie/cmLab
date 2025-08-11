@@ -18,7 +18,7 @@ tags:
 
 #### **Event Information**
 
-Hosted by the ANU Computational Media Lab in partnership with ANU’s Integrated AI Network, and CSIRO NSF Project and Data61 Tech4HSE Research Program, this one‑day in‑person event brings together a distinguished group of researchers and practitioners to explore how artificial intelligence can address critical challenges in climate, environmental, and public and industrial safety. Workshop Program: [https://events.humanitix.com/ai4good-2025](https://events.humanitix.com/ai4good-2025)
+Hosted by the ANU Computational Media Lab in partnership with ANU’s Integrated AI Network, CSIRO NSF Project and Data61 Tech4HSE Research Program, this one‑day in‑person event brings together a distinguished group of researchers and practitioners to explore how artificial intelligence can address critical challenges in climate, environmental, and public and industrial safety. Workshop Program: [https://events.humanitix.com/ai4good-2025](https://events.humanitix.com/ai4good-2025)
 
 <br/>
 <br/>
