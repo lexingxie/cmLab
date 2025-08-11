@@ -43,7 +43,7 @@ The event spotlights AI’s transformative potential across three interlinked do
 <br/>
 
 
-The Workshop was opened by Prof Tony Hosking, Director of School of Computing at the ANU. He emphasized that 
+The Workshop was opened by Prof Tony Hosking, Director of School of Computing at the ANU. He shared with the 50+ participants that all of the grand challenges posted by the Computing Research Association in 2025 are related to AI. 
 
 #### **Workshop Highlights**
 
