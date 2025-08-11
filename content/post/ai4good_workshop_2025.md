@@ -83,7 +83,7 @@ Following this, Professor Lexing Xie addressed the information gaps between clim
 <br/>
 <br/>
 
-The Junior Researcher Spotlight featured diverse projects: Dr Yue Liu and Xiuyuan Yuan presented comparative analyses of complex documents, with case studies on Work Health Safety Regulations and the UNFCCC. Dr Haojie Zhuang discussed LLM-based assessment of practitioners’ HSE competence via natural language interaction. Ziyu Chen explored AI for classifying moral and human values, while Karen Zhou (University of Chicago) demonstrated an AI tool to help voters make informed decisions. Dr Jieshan Chen (CSIRO’s Data61) examined defenses against deceptive interfaces, and Dr Yonghui Liu shared design and coding approaches for web development.
+The Junior Researcher Spotlight featured diverse projects: Dr Yue Liu and Xiuyuan Yuan presented comparative analyses of complex documents, with case studies on Work Health Safety Regulations and the United Nations Framework Convention on Climate Change. Dr Haojie Zhuang discussed LLM-based assessment of practitioners’ HSE competence via natural language interaction. Ziyu Chen explored AI for classifying moral and human values, while Karen Zhou (University of Chicago) demonstrated an AI tool to help voters make informed decisions. Dr Jieshan Chen (CSIRO’s Data61) examined defenses against deceptive interfaces, and Dr Yonghui Liu shared design and coding approaches for web development.
 
 <br/>
 <br/>
@@ -127,7 +127,6 @@ After a short break, participants joined breakout sessions. One group examined c
 
 In addition, the workshop was preceded by a pre-event on 4 August, featuring a panel discussion and roundtable mentorship. Senior researchers shared insights on research directions, career pathways, and personal growth. Students valued the opportunity for constructive feedback and one-on-one conversations, gaining inspiration from the experiences and guidance of established scholars.
 
-<br/>
 <br/>
 
 #### **Acknowledgement**
