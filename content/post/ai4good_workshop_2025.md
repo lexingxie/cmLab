@@ -26,6 +26,7 @@ Hosted by the ANU Computational Media Lab in partnership with ANU’s Integrated
 
 <img src="/img/ai4good/DSC04958.jpeg" width="750"/>
 <img src="/img/ai4good/DSC04959.jpeg" width="750"/>
+<br/>
 
 #### **Themes & Focus**
 
@@ -46,6 +47,8 @@ The event spotlights AI’s transformative potential across three interlinked do
 <img src="/img/ai4good/DSC04968.jpeg" width="750"/>
 <img src="/img/ai4good/DSC04971.jpeg" width="750"/>
 
+<br/>
+
 #### **Workshop Highlights**
 The AI for Climate, Safety, and Environment Workshop opened with a keynote by Professor Ingmar Weber from Saarland University, who explored how high-resolution satellite imagery can illuminate societal dynamics such as migration, gender inequality, poverty, and public health. His thought-provoking talk sparked audience discussions on novel applications — from estimating water depth to exploring data sources beyond social media.
 
@@ -57,6 +60,8 @@ The AI for Climate, Safety, and Environment Workshop opened with a keynote by Pr
 <img src="/img/ai4good/DSC05004.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05009.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05031.jpeg" width="750"/>
+
+<br/>
 
 Following this, Professor Lexing Xie addressed the information gaps between climate science, policy, and human decision-making. Professor Wenjie Zhang (UNSW) and Professor Jing Jiang showcased how LLM-based systems can support Health, Safety, and Environment (HSE) compliance assessment and training. Professor Liang Zheng demonstrated methods for translating multimodal data into code while preserving source characteristics, and Dr Xiwei Xu shared the commercialization pathway of CSIRO’s Tech4HSE project, highlighting collaboration between academia and industry.
 
@@ -74,6 +79,8 @@ Following this, Professor Lexing Xie addressed the information gaps between clim
 <img src="/img/ai4good/DSC05130.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05141.jpeg" width="750"/>
 
+<br/>
+
 The Junior Researcher Spotlight featured diverse projects: Dr Yue Liu and Xiuyuan Yuan presented comparative analyses of complex documents, with case studies on Work Health Safety Regulations and the UNFCCC. Dr Haojie Zhuang discussed LLM-based assessment of practitioners’ HSE competence via natural language interaction. Ziyu Chen explored AI for classifying moral and human values, while Karen Zhou (University of Chicago) demonstrated an AI tool to help voters make informed decisions. Dr Jieshan Chen (CSIRO’s Data61) examined defenses against deceptive interfaces, and Dr Yonghui Liu shared design and coding approaches for web development.
 
 <br/>
@@ -82,6 +89,8 @@ The Junior Researcher Spotlight featured diverse projects: Dr Yue Liu and Xiuyua
 <img src="/img/ai4good/DSC05160.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05172.jpeg" width="750"/>
 
+<br/>
+
 In the afternoon keynote, Professor Xuemei Bai (ANU Fenner School of Environment & Society) discussed how AI supports urban climate action and resilience. Her talk provided context for related junior researcher projects, including those by Dr Sombol Mokhles and Chenyi Du. Attendees were impressed by the breadth of AI applications across disciplines, from social science to environmental monitoring.
 
 <br/>
@@ -89,6 +98,8 @@ In the afternoon keynote, Professor Xuemei Bai (ANU Fenner School of Environment
 
 <img src="/img/ai4good/DSC05181.jpeg" width="750"/>
 <img src="/img/ai4good/DSC05178.jpeg" width="750"/>
+
+<br/>
 
 After a short break, participants joined breakout sessions. One group examined challenges faced in their domains, while the other discussed what AI can — and cannot — address. They later reconvened to share key takeaways:
 
@@ -106,6 +117,8 @@ After a short break, participants joined breakout sessions. One group examined c
 <br/>
 
 <img src="/img/ai4good/IMG_0036.jpg" width="750"/>
+
+<br/>
 
 In addition, the workshop was preceded by a pre-event on 4 August, featuring a panel discussion and roundtable mentorship. Senior researchers shared insights on research directions, career pathways, and personal growth. Students valued the opportunity for constructive feedback and one-on-one conversations, gaining inspiration from the experiences and guidance of established scholars.
 
