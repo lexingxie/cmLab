@@ -14,7 +14,7 @@ tags:
 
 ##### Posted by _Yue Liu_ and _Haojie Zhuang_.
 
-<img src="/img/ai4good/IMG_0068.jpeg" width="750"/>
+<img src="/img/ai4good/IMG_0068.jpg" width="750"/>
 
 #### **Event Information**
 
