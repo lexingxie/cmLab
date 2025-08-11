@@ -24,8 +24,8 @@ Hosted by the ANU Computational Media Lab in partnership with ANU’s Integrated
 <br/>
 <br/>
 
-<img src="/img/ai4good/DSC04958.jpeg" width="750"/>
-<img src="/img/ai4good/DSC04959.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04958.jpeg" width="600"/>
+<img src="/img/ai4good/DSC04959.jpeg" width="600"/>
 <br/>
 
 #### **Themes & Focus**
@@ -44,8 +44,8 @@ The event spotlights AI’s transformative potential across three interlinked do
 
 
 
-<img src="/img/ai4good/DSC04968.jpeg" width="750"/>
-<img src="/img/ai4good/DSC04971.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04968.jpeg" width="600"/>
+<img src="/img/ai4good/DSC04971.jpeg" width="600"/>
 
 <br/>
 
@@ -55,11 +55,11 @@ The AI for Climate, Safety, and Environment Workshop opened with a keynote by Pr
 <br/>
 <br/>
 
-<img src="/img/ai4good/DSC04980.jpeg" width="750"/>
-<img src="/img/ai4good/DSC04990.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05004.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05009.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05031.jpeg" width="750"/>
+<img src="/img/ai4good/DSC04980.jpeg" width="600"/>
+<img src="/img/ai4good/DSC04990.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05004.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05009.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05031.jpeg" width="600"/>
 
 <br/>
 
@@ -68,16 +68,16 @@ Following this, Professor Lexing Xie addressed the information gaps between clim
 <br/>
 <br/>
 
-<img src="/img/ai4good/DSC05041.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05044.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05049.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05055.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05063.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05087.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05088.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05117.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05130.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05141.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05041.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05044.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05049.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05055.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05063.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05087.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05088.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05117.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05130.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05141.jpeg" width="600"/>
 
 <br/>
 
@@ -86,8 +86,8 @@ The Junior Researcher Spotlight featured diverse projects: Dr Yue Liu and Xiuyua
 <br/>
 <br/>
 
-<img src="/img/ai4good/DSC05160.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05172.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05160.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05172.jpeg" width="600"/>
 
 <br/>
 
@@ -96,8 +96,8 @@ In the afternoon keynote, Professor Xuemei Bai (ANU Fenner School of Environment
 <br/>
 <br/>
 
-<img src="/img/ai4good/DSC05181.jpeg" width="750"/>
-<img src="/img/ai4good/DSC05178.jpeg" width="750"/>
+<img src="/img/ai4good/DSC05181.jpeg" width="600"/>
+<img src="/img/ai4good/DSC05178.jpeg" width="600"/>
 
 <br/>
 
@@ -116,7 +116,7 @@ After a short break, participants joined breakout sessions. One group examined c
 <br/>
 <br/>
 
-<img src="/img/ai4good/IMG_0036.jpg" width="750"/>
+<img src="/img/ai4good/IMG_0036.jpg" width="600"/>
 
 <br/>
 
