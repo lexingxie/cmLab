@@ -1,7 +1,7 @@
 ---
 title: "Lab Contact"
-description: "We are located at the CECS (College Engineering and Computer Science) precint on ANU Campus."
-date: "2014-09-02"
+description: "We are part of ANU College of Systems and Society, located at the Computing-Engineering precint on ANU Campus."
+date: "2025-08-02"
 categories:
   - "misc"
 tags:
@@ -12,10 +12,10 @@ tags:
 
 ### Visiting us
 
-Our group has regular activities in two locations.<br><br>
+Our group is located at the Hanna Neumann building on ANU campus. <br><br>
 
 <div class="row">
-    <div class="col-md-6">
+    
       <iframe
         width="100%"
         height="350"
@@ -27,23 +27,10 @@ Our group has regular activities in two locations.<br><br>
       >
       </iframe>
       <br>
-      Building 145, North Rd, ANU, Canberra<br>
+      Building 145, Science Rd, ANU, Canberra<br>
       <br />
-    </div>
-    <div class="col-md-6">
-      <iframe
-        width="100%"
-        height="350"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628.5963911707543!2d149.1187229083277!3d-35.276332855380254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b164d4228bd70ab%3A0x2cb10a2c88b28955!2sCSIRO+-+Data+61-+Acton+Site!5e0!3m2!1sen!2sau!4v1542780224129"
-      >
-      </iframe>
-      <br>
-      Data61, North Road Australian National University, Acton ACT 2601<br>
-    </div>
+    
+    
 </div>
 
 <br>
